@@ -44,7 +44,6 @@ Com a GPlan é possível criar agendas personalizadas com as seguintes caracter�
 10. Possibilidade de inclusão de aniversários de amigos, parentes e afins.
 
 
-
 ## Como usar o GPlan para criar sua agenda vaishnava personalizada para sua cidade?
 
 Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso das macros, e na planilha Índice:
@@ -95,9 +94,10 @@ Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso d
 
 ![GCal App](https://github.com/gopaladasa/GPlan/blob/master/gcalbox.png)
 
-Desenvolvido por Gopalapriya Das da ISKCON Bratislava, Eslováquia, o GCal (de "Gaurabda Calendário") é um completo programa de cálculo de calendário para Gaudiya Vaisnavas. Escolha a partir da base de dados com milhares de localidades, ou adicione sua próprio localidade! Calcule tithis e naksatras, e adicione eventos personalizados que você está interessado em observar. Descubra os horários de nascer e pôr do sol, e muito mais.
+Desenvolvido por [Gopalapriya Das](http://www.gopal.home.sk/gcal) da ISKCON Bratislava, Eslováquia, o GCal (de "Gaurabda Calendário") é um completo programa de cálculo de calendário para Gaudiya Vaisnavas. Escolha a partir da base de dados com milhares de localidades, ou adicione sua próprio localidade! Calcule tithis e naksatras, e adicione eventos personalizados que você está interessado em observar. Descubra os horários de nascer e pôr do sol, e muito mais.
 
 ![GCal open](https://github.com/gopaladasa/GPlan/blob/master/gcal-open.png)
+
 
 ### Por que um calendário vaishnava calculado especificamente para cada localidade?
 
@@ -108,4 +108,23 @@ No decorrer do tempo, alguns devotos vieram a entender que de acordo com o sastr
 Isto é um pouco difícil de entender à primeira vista. Devotos às vezes dizem: "Por quê nós não simplesmente observamos no mesmo dia que Mayapur o faz?" A resposta é, claro, que queremos observar no mesmo dia que Mayapur o faz. O único problema é que nós queremos saber qual dia é o mesmo dia que Mayapur, e precisamos de um programa de computador, ou ao menos um pandit (perito) em calendário com uma pequena biblioteca, para fazer os cálculos!
 
 O sistema de definir um determinado dia em Mayapur como sendo "10 de abril", e o dia que começa em Nova York 10 horas mais tarde como sendo também "10 de abril", é uma invenção europeia do século 19. Não há nenhuma razão astronômica em particular para Nova York não dever observar 10 de abril em um dia que começa 14 horas antes, ao invés de um que começa 10 horas depois de Mayapur. É simplesmente uma maneira convencional de fazer as coisas que era mais conveniente para os europeus. Mas o sistema védico é diferente. Um dia é definido pelo tithi ao nascer do sol. Assim, com a introdução do software de cálculo do calendário vaisnava, a ISKCON observa Ramanavami no Navami tithi em todo o mundo.   [Por Bhaktarupa Das em  [krishnadays.com](www.krishnadays.com)] 
+
+
+## Sobre a ISKCON
+
+A ISKCON - Sociedade Internacional para a Consciência de Krishna - é uma confederação mundial de vaishnavas fundada em Nova York em julho de 1966 por Sua Divina Graça Srila Prabhupada com os seguintes propósitos:
+
+1. Propagar sistematicamente o conhecimento espiritual entre a sociedade em geral e educar todas as pessoas nas técnicas da vida espiritual a fim de restabelecer o equilíbrio dos valores na vida e alcançar assim a verdadeira união e paz mundiais.
+
+2. Propagar a consciência de Krishna (Deus), como é revelada nas grandes escrituras da Índia, o Bhagavad-gita e o Srimad Bhagavatam.
+
+3. Unir os membros da sociedade uns dos outros e torná-los mais próximos de Krishna, a entidade primordial, desta forma desenvolvendo a idéia, entre os membros e a humanidade em geral, que cada alma é parte integrante da qualidade do Supremo (Krishna).
+
+4. Ensinar e encorajar o movimento de sankirtana, o canto congregacional do santo nome de Deus, como revelado nos ensinamentos do Senhor Sri Caitanya Mahaprabhu.
+
+5. Erigir, para os membros e para a sociedade em geral, um local sagrado de passatempos transcendentais dedicado à personalidade de Krishna.
+
+6. Manter os membros unidos com o propósito de ensinar um modo de vida mais simples e natural.
+
+7. Tendo em vista o cumprimento dos propósitos acima mencionados, publicar e distribuir periódicos, revistas, livros e outros escritos.
 
