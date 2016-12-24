@@ -86,7 +86,7 @@ Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel e na planilha Ín
 
 ## Exemplo de agenda impressa e pronta para usar
 
-
-
-
+![GPlan impressa e encadernada](https://github.com/gopaladasa/GPlan/blob/master/01gplan.jpg)
+![GPlan impressa e em uso](https://github.com/gopaladasa/GPlan/blob/master/02gplan.jpg)
+![GPlan agenda semanal](https://github.com/gopaladasa/GPlan/blob/master/03gplan.jpg)
 
