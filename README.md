@@ -93,8 +93,8 @@ Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso d
 
 ## O que é o Calendário Vaishnava GCal?
 
-![GCal App](https://github.com/gopaladasa/GPlan/blob/master/gcalbox.png)Desenvolvido por Gopalapriya Das da ISKCON Bratislava, Eslováquia, o GCal (de "Gaurabda Calendário") é um completo programa de cálculo de calendário para Gaudiya Vaisnavas. Escolha a partir da base de dados com milhares de localidades, ou adicione sua próprio localidade! Calcule tithis e naksatras, e adicione eventos personalizados que você está interessado em observar. Descubra os horários de nascer e pôr do sol, e muito mais.
-
+![GCal App](https://github.com/gopaladasa/GPlan/blob/master/gcalbox.png)
+Desenvolvido por Gopalapriya Das da ISKCON Bratislava, Eslováquia, o GCal (de "Gaurabda Calendário") é um completo programa de cálculo de calendário para Gaudiya Vaisnavas. Escolha a partir da base de dados com milhares de localidades, ou adicione sua próprio localidade! Calcule tithis e naksatras, e adicione eventos personalizados que você está interessado em observar. Descubra os horários de nascer e pôr do sol, e muito mais.
 ![GCal open](https://github.com/gopaladasa/GPlan/blob/master/gcal-open.png)
 
 ### Por que um calendário vaishnava calculado especificamente para cada localidade?
