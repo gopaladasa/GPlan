@@ -90,3 +90,20 @@ Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso d
 ![GPlan impressa e em uso](https://github.com/gopaladasa/GPlan/blob/master/02gplan.jpg)
 ![GPlan agenda semanal](https://github.com/gopaladasa/GPlan/blob/master/03gplan.jpg)
 
+
+## O que é o Calendário Vaishnava GCal?
+
+Desenvolvido por Gopalapriya Das da ISKCON Bratislava, Eslováquia, o GCal (de "Gaurabda Calendário") é um completo programa de cálculo de calendário para Gaudiya Vaisnavas. Escolha a partir da base de dados com milhares de localidades, ou adicione sua próprio localidade! Calcule tithis e naksatras, e adicione eventos personalizados que você está interessado em observar. Descubra os horários de nascer e pôr do sol, e muito mais.
+
+![GCal App](https://github.com/gopaladasa/GPlan/blob/master/gcalbox.png)
+
+### Por que um calendário vaishnava calculado especificamente para cada localidade?
+
+Durante a presença manifesta de Srila Prabhupada neste planeta não havia programa de computador para calcular o calendário vaisnava. O Gaudiya Panjika, um calendário no idioma bengali publicado pela Sri Caitanya Math em Mayapur, era o nosso padrão. Este livro era publicado a cada ano e disponível apenas a partir do dia de Gaura Purnima em Mayapur. Bhakticharu Maharaja obtinha uma cópia do calendário tão logo ele ficava disponível, e rapidamente traduzia as partes relevantes para o Inglês e enviava por correio para todo o mundo. Se esse pequeno livro bengali dissesse que nós deveríamos observar Ramanavami em 10 de abril, então todos os templos ao redor do mundo observavam Ramanavami em 10 de abril, e ninguém pensava nada sobre isso.
+
+No decorrer do tempo, alguns devotos vieram a entender que de acordo com o sastra, observâncias devem ser calculadas de acordo com a posição do sol e da lua ao nascer do sol no local. A pequena cartilha Gaudiya Panjika era concebida apenas para calcular as observâncias como elas haveriam de ser realizadas em Mayapur, e seguir Ramanavami no mesmo dia de acordo com o calendário ocidental significaria que alguns lugares observariam no Navami enquanto outros observariam no astami ou dasami. Com o advento dos computadores pessoais tornou-se possível fazer os cálculos para diferentes cidades ao redor do mundo, e Shyamasundara Prabhu tomou para si escrever tal programa [o antigo VCal 4.01 que rodava em modo DOS]. Eventualmente, o GBC aceitou os cálculos desse programa como o padrão para a observância de festivais na ISKCON.
+
+Isto é um pouco difícil de entender à primeira vista. Devotos às vezes dizem: "Por quê nós não simplesmente observamos no mesmo dia que Mayapur o faz?" A resposta é, claro, que queremos observar no mesmo dia que Mayapur o faz. O único problema é que nós queremos saber qual dia é o mesmo dia que Mayapur, e precisamos de um programa de computador, ou ao menos um pandit (perito) em calendário com uma pequena biblioteca, para fazer os cálculos!
+
+O sistema de definir um determinado dia em Mayapur como sendo "10 de abril", e o dia que começa em Nova York 10 horas mais tarde como sendo também "10 de abril", é uma invenção europeia do século 19. Não há nenhuma razão astronômica em particular para Nova York não dever observar 10 de abril em um dia que começa 14 horas antes, ao invés de um que começa 10 horas depois de Mayapur. É simplesmente uma maneira convencional de fazer as coisas que era mais conveniente para os europeus. Mas o sistema védico é diferente. Um dia é definido pelo tithi ao nascer do sol. Assim, com a introdução do software de cálculo do calendário vaisnava, a ISKCON observa Ramanavami no Navami tithi em todo o mundo.   [Por Bhaktarupa Das em  [krishnadays.com](www.krishnadays.com)] 
+
