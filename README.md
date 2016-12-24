@@ -1,4 +1,4 @@
-## Gaurabda Planner (GPlan)
+# Gaurabda Planner (GPlan)
 
 A Agenda Vaishnava Gaurabda Planner (GPlan) está ainda mais prática!
 
