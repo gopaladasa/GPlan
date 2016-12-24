@@ -48,7 +48,7 @@ Com a GPlan é possível criar agendas personalizadas com as seguintes caracter�
 
 Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso das macros, e na planilha Índice:
 
-![Abrindo a GPlan pela primeira vez](https://github.com/gopaladasa/GPlan/blob/master/gplan-open.png)
+![Abrindo a GPlan pela primeira vez](https://raw.githubusercontent.com/gopaladasa/GPlan/master/gplan-open.png)
 
 1. Selecione a liguagem desejada para sua agenda vaishnava GPlan.
    Por exemplo: Português
@@ -85,18 +85,18 @@ Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso d
 
 ## Exemplo de agenda impressa e pronta para usar
 
-![GPlan impressa e encadernada](https://github.com/gopaladasa/GPlan/blob/master/01gplan.jpg)
-![GPlan impressa e em uso](https://github.com/gopaladasa/GPlan/blob/master/02gplan.jpg)
-![GPlan agenda semanal](https://github.com/gopaladasa/GPlan/blob/master/03gplan.jpg)
+![GPlan impressa e encadernada](https://raw.githubusercontent.com/gopaladasa/GPlan/master/01gplan.jpg)
+![GPlan impressa e em uso](https://raw.githubusercontent.com/gopaladasa/GPlan/master/02gplan.jpg)
+![GPlan agenda semanal](https://raw.githubusercontent.com/gopaladasa/GPlan/master/03gplan.jpg)
 
 
 ## O que é o Calendário Vaishnava GCal?
 
-![GCal App](https://github.com/gopaladasa/GPlan/blob/master/gcalbox.png)
+![GCal App](https://raw.githubusercontent.com/gopaladasa/GPlan/master/gcalbox.png)
 
 Desenvolvido por [Gopalapriya Das](http://www.gopal.home.sk/gcal) da ISKCON Bratislava, Eslováquia, o GCal (de "Gaurabda Calendário") é um completo programa de cálculo de calendário para Gaudiya Vaisnavas. Escolha a partir da base de dados com milhares de localidades, ou adicione sua próprio localidade! Calcule tithis e naksatras, e adicione eventos personalizados que você está interessado em observar. Descubra os horários de nascer e pôr do sol, e muito mais.
 
-![GCal open](https://github.com/gopaladasa/GPlan/blob/master/gcal-open.png)
+![GCal open](https://raw.githubusercontent.com/gopaladasa/GPlan/master/gcal-open.png)
 
 
 ### Por que um calendário vaishnava calculado especificamente para cada localidade?
