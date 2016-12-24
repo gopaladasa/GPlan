@@ -47,7 +47,7 @@ Com a GPlan é possível criar agendas personalizadas com as seguintes caracter�
 
 ## Como usar o GPlan para criar sua agenda vaishnava personalizada para sua cidade?
 
-Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel e na planilha Índice:
+Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso das macros, e na planilha Índice:
 
 ![Abrindo a GPlan pela primeira vez](https://github.com/gopaladasa/GPlan/blob/master/gplan-open.png)
 
