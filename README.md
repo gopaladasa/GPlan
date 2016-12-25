@@ -113,9 +113,13 @@ O sistema de definir um determinado dia em Mayapur como sendo "10 de abril", e o
 ### GBC Vaisnava Calendar Committee
 
 Membros:
+
 Bhanu Swami < bhanu.swami (at) pamho.net >
+
 Gopalapriya Das < gopalapriya.bvs (at) pamho.net >
+
 Sadasivananda Das < sadasivananda.jps (at) pamho.net >
+
 Bhaktarupa Das < bhaktarupa.acbsp (at) pamho.net > [Convenor]
 
 
@@ -146,19 +150,19 @@ Alguns websites para referência:
 
 (inglês):
 
-    www.iskcon.org
+  www.iskcon.org
     
-    www.krishna.com
+  www.krishna.com
     
-    www.vedabase.com
+  www.vedabase.com
     
-    www.krishnadays.com
+  www.krishnadays.com
 
 
 (português)
 
-    pt.krishna.com
+  pt.krishna.com
     
-    www.bbt.org.br
+  www.bbt.org.br
     
     
