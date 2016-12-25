@@ -4,14 +4,14 @@ A Agenda Vaishnava Gaurabda Planner (GPlan) está ainda mais prática!
 
 ![GPlan weekly planner image](https://raw.githubusercontent.com/gopaladasa/GPlan/master/gplan17.png)
 
-Baixe [aqui](https://github.com/gopaladasa/GPlan/releases/latest) a última versão do gerador.
+**Baixe [aqui](https://github.com/gopaladasa/GPlan/releases/latest) a última versão do gerador.**
 
 
 Agenda Vaishnava GPlan é baseada no programa [GCal (Gaurabda Calendar)](http://www.krishnadays.com/eng/) da [ISKCON](http://www.iskcon.org/).
 
 Em 10 a 15 minutos você tem a Agenda pronta para imprimir.
 
-Assista ao [vídeo)](https://www.youtube.com/watch?v=rdbnSmjYFGg) e comprove (obs.: vídeo da versão 11.65 hospedado no Google Code - a versão mais recente está ainda mais simples e rápida).
+Assista ao [vídeo)](https://www.youtube.com/watch?v=rdbnSmjYFGg) e comprove (obs.: vídeo da versão anterior 11.65 hospedado no [Google Code](https://code.google.com/archive/p/gplan-gaurabda-planner/) - a versão mais recente está ainda mais simples e rápida).
 
 **O cálculo do Calendário é feito automaticamente pela GPlan!!! 
 Não precisa saber usar nem GCal nem Excel!**
@@ -110,6 +110,15 @@ Isto é um pouco difícil de entender à primeira vista. Devotos às vezes dizem
 O sistema de definir um determinado dia em Mayapur como sendo "10 de abril", e o dia que começa em Nova York 10 horas mais tarde como sendo também "10 de abril", é uma invenção europeia do século 19. Não há nenhuma razão astronômica em particular para Nova York não dever observar 10 de abril em um dia que começa 14 horas antes, ao invés de um que começa 10 horas depois de Mayapur. É simplesmente uma maneira convencional de fazer as coisas que era mais conveniente para os europeus. Mas o sistema védico é diferente. Um dia é definido pelo tithi ao nascer do sol. Assim, com a introdução do software de cálculo do calendário vaisnava, a ISKCON observa Ramanavami no Navami tithi em todo o mundo.   [Por Bhaktarupa Das em  [krishnadays.com](www.krishnadays.com)] 
 
 
+### GBC Vaisnava Calendar Committee
+
+Membros:
+Bhanu Swami <bhanu.swami (at) pamho.net> 
+Gopalapriya Das <gopalapriya.bvs (at) pamho.net>
+Sadasivananda Das <sadasivananda.jps (at) pamho.net>
+Bhaktarupa Das <bhaktarupa.acbsp (at) pamho.net> [Convenor]
+
+
 ## Sobre a ISKCON
 
 ![ISKCON](https://raw.githubusercontent.com/gopaladasa/GPlan/master/iskcon.png)
@@ -132,3 +141,24 @@ A ISKCON - Sociedade Internacional para a Consciência de Krishna - é uma confe
 
 ![ISKCON BBT Books](https://raw.githubusercontent.com/gopaladasa/GPlan/master/bbt_krishna_books.png)
 
+
+Alguns websites para referência:
+
+(inglês):
+
+    www.iskcon.org
+    
+    www.krishna.com
+    
+    www.vedabase.com
+    
+    www.krishnadays.com
+
+
+(português)
+
+    pt.krishna.com
+    
+    www.bbt.org.br
+    
+    
