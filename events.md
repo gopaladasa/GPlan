@@ -119,5 +119,5 @@ Quarto mês Caturmasya - jejum de urad dahl, lentilha, por um mês.
 
 **Vasanta Pancami** -- o primeiro dia da primavera. Neste dia, são oferecidas para as Deidades muitas flores, folhas e ramos novos de grama. (Este também é um dos dias mais auspiciosos do ano para cerimônias de casamento.)
 
-Fonte: [www.gopala.blog.br/products/festivais-votos-e-outros-eventos-do-calendario-vaishnava](www.gopala.blog.br/products/festivais-votos-e-outros-eventos-do-calendario-vaishnava)
+Fonte: [www.gopala.blog.br/products/festivais-votos-e-outros-eventos-do-calendario-vaishnava](http://www.gopala.blog.br/products/festivais-votos-e-outros-eventos-do-calendario-vaishnava)
 
