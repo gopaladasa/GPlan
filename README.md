@@ -112,6 +112,8 @@ O sistema de definir um determinado dia em Mayapur como sendo "10 de abril", e o
 
 ## Sobre a ISKCON
 
+![ISKCON](https://raw.githubusercontent.com/gopaladasa/GPlan/master/iskcon.png)
+
 A ISKCON - Sociedade Internacional para a Consciência de Krishna - é uma confederação mundial de vaishnavas fundada em Nova York em julho de 1966 por Sua Divina Graça Srila Prabhupada com os seguintes propósitos:
 
 1. Propagar sistematicamente o conhecimento espiritual entre a sociedade em geral e educar todas as pessoas nas técnicas da vida espiritual a fim de restabelecer o equilíbrio dos valores na vida e alcançar assim a verdadeira união e paz mundiais.
@@ -127,4 +129,6 @@ A ISKCON - Sociedade Internacional para a Consciência de Krishna - é uma confe
 6. Manter os membros unidos com o propósito de ensinar um modo de vida mais simples e natural.
 
 7. Tendo em vista o cumprimento dos propósitos acima mencionados, publicar e distribuir periódicos, revistas, livros e outros escritos.
+
+![ISKCON BBT Books](https://raw.githubusercontent.com/gopaladasa/GPlan/master/bbt_krishna_books.png)
 
