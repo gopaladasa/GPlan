@@ -150,20 +150,20 @@ Alguns websites para referência:
 
 (inglês):
 
-  www.iskcon.org
+  [www.iskcon.org](www.iskcon.org)
     
-  www.krishna.com
+  [www.krishna.com](www.krishna.com)
     
-  www.vedabase.com
+  [www.vedabase.com](www.vedabase.com)
     
-  www.krishnadays.com
+  [www.krishnadays.com](www.krishnadays.com)
 
 
 (português)
 
   [pt.krishna.com](http://pt.krishna.com/)
     
-  www.bbt.org.br
+  [www.bbt.org.br](www.bbt.org.br)
     
-  www.sankirtana.com.br
+  [www.sankirtana.com.br](www.sankirtana.com.br)
 
