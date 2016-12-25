@@ -11,7 +11,7 @@ Agenda Vaishnava GPlan é baseada no programa [GCal (Gaurabda Calendar)](http://
 
 Em 10 a 15 minutos você tem a Agenda pronta para imprimir.
 
-Assista ao [vídeo)](https://www.youtube.com/watch?v=rdbnSmjYFGg) e comprove (obs.: vídeo da versão anterior 11.65 hospedado no [Google Code](https://code.google.com/archive/p/gplan-gaurabda-planner/) - a versão mais recente está ainda mais simples e rápida).
+Assista ao [vídeo](https://www.youtube.com/watch?v=rdbnSmjYFGg) e comprove (obs.: vídeo da versão anterior 11.65 hospedado no [Google Code](https://code.google.com/archive/p/gplan-gaurabda-planner/) - a versão mais recente está ainda mais simples e rápida).
 
 **O cálculo do Calendário é feito automaticamente pela GPlan!!! 
 Não precisa saber usar nem GCal nem Excel!**
