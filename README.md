@@ -161,7 +161,7 @@ Alguns websites para referência:
 
 (português)
 
-  pt.krishna.com
+  [pt.krishna.com](pt.krishna.com)
     
   www.bbt.org.br
     
