@@ -113,10 +113,10 @@ O sistema de definir um determinado dia em Mayapur como sendo "10 de abril", e o
 ### GBC Vaisnava Calendar Committee
 
 Membros:
-Bhanu Swami <bhanu.swami (at) pamho.net> 
-Gopalapriya Das <gopalapriya.bvs (at) pamho.net>
-Sadasivananda Das <sadasivananda.jps (at) pamho.net>
-Bhaktarupa Das <bhaktarupa.acbsp (at) pamho.net> [Convenor]
+Bhanu Swami < bhanu.swami (at) pamho.net > 
+Gopalapriya Das < gopalapriya.bvs (at) pamho.net >
+Sadasivananda Das < sadasivananda.jps (at) pamho.net >
+Bhaktarupa Das < bhaktarupa.acbsp (at) pamho.net > [Convenor]
 
 
 ## Sobre a ISKCON
