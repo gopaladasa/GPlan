@@ -76,3 +76,24 @@ Clique para baixar a agenda calculada para sua cidade ou cidade mais próxima:
 
 [GPlan-2017-Vitoria.pdf](https://github.com/gopaladasa/GPlan/raw/master/gplan2017pdf/GPlan-2017-Vitoria.pdf)
 
+
+## Características da Agenda GPlan
+
+A Agenda Vaishnava GPlan para impressão possui as seguintes características:
+
+1. Agenda Semanal;
+
+2. Calendários do ano atual e do próximo;
+
+3. Calendários do mês atual e do próximo em cada semana da agenda semanal;
+
+4. Dados pessoais completos;
+
+5. Espaço para anotações diversas;
+
+6. Agenda de contatos;
+
+7. Citações do Bhagavad-gita e outros textos védicos para cada semana do ano, com diacrítico, transliteração latina e tradução;
+
+8. Todas as informações do calendário vaishnava são exibidas nas agendas mensal e semanal nos dias corretos para sua cidade.
+
