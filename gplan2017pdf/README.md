@@ -1,4 +1,6 @@
-## Agendas Vaishnavas GPlan em pdf prontas para imprimir:
+## Agendas Vaishnavas GPlan em pdf prontas para imprimir
+
+Clique para baixar a agenda calculada para sua cidade ou cidade mais próxima:
 
 [GPlan-2017-Aracaju.pdf](https://github.com/gopaladasa/GPlan/raw/master/gplan2017pdf/GPlan-2017-Aracaju.pdf)
 
