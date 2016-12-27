@@ -2,7 +2,7 @@
 
 A Agenda Vaishnava Gaurabda Planner (GPlan) está ainda mais prática!
 
-![GPlan weekly planner image](https://raw.githubusercontent.com/gopaladasa/GPlan/master/gplan17.png)
+![GPlan weekly planner image](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/gplan17.png)
 
 **Baixe [aqui](https://github.com/gopaladasa/GPlan/releases/latest) a última versão do gerador.**
 
@@ -48,7 +48,7 @@ Com a GPlan é possível criar agendas personalizadas com as seguintes caracter�
 
 Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso das macros, e na planilha Índice:
 
-![Abrindo a GPlan pela primeira vez](https://raw.githubusercontent.com/gopaladasa/GPlan/master/gplan-open.png)
+![Abrindo a GPlan pela primeira vez](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/gplan-open.png)
 
 1. Selecione a liguagem desejada para sua agenda vaishnava GPlan.
    Por exemplo: Português
@@ -85,18 +85,18 @@ Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso d
 
 ## Exemplo de agenda impressa e pronta para usar
 
-![GPlan impressa e encadernada](https://raw.githubusercontent.com/gopaladasa/GPlan/master/01gplan.jpg)
-![GPlan impressa e em uso](https://raw.githubusercontent.com/gopaladasa/GPlan/master/02gplan.jpg)
-![GPlan agenda semanal](https://raw.githubusercontent.com/gopaladasa/GPlan/master/03gplan.jpg)
+![GPlan impressa e encadernada](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/01gplan.jpg)
+![GPlan impressa e em uso](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/02gplan.jpg)
+![GPlan agenda semanal](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/03gplan.jpg)
 
 
 ## O que é o Calendário Vaishnava GCal?
 
-![GCal App](https://raw.githubusercontent.com/gopaladasa/GPlan/master/gcalbox.png)
+![GCal App](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/gcalbox.png)
 
 Desenvolvido por [Gopalapriya Das](http://www.gopal.home.sk/gcal) da ISKCON Bratislava, Eslováquia, o GCal (de "Gaurabda Calendário") é um completo programa de cálculo de calendário para Gaudiya Vaisnavas. Escolha a partir da base de dados com milhares de localidades, ou adicione sua próprio localidade! Calcule tithis e naksatras, e adicione eventos personalizados que você está interessado em observar. Descubra os horários de nascer e pôr do sol, e muito mais.
 
-![GCal open](https://raw.githubusercontent.com/gopaladasa/GPlan/master/gcal-open.png)
+![GCal open](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/gcal-open.png)
 
 
 ### Por que um calendário vaishnava calculado especificamente para cada localidade?
@@ -125,7 +125,7 @@ Bhaktarupa Das < bhaktarupa.acbsp (at) pamho.net > [Convenor]
 
 ## Sobre a ISKCON
 
-![ISKCON](https://raw.githubusercontent.com/gopaladasa/GPlan/master/iskcon.png)
+![ISKCON](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/iskcon.png)
 
 A ISKCON - Sociedade Internacional para a Consciência de Krishna - é uma confederação mundial de vaishnavas fundada em Nova York em julho de 1966 por Sua Divina Graça Srila Prabhupada com os seguintes propósitos:
 
@@ -143,7 +143,7 @@ A ISKCON - Sociedade Internacional para a Consciência de Krishna - é uma confe
 
 7. Tendo em vista o cumprimento dos propósitos acima mencionados, publicar e distribuir periódicos, revistas, livros e outros escritos.
 
-![ISKCON BBT Books](https://raw.githubusercontent.com/gopaladasa/GPlan/master/bbt_krishna_books.png)
+![ISKCON BBT Books](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/bbt_krishna_books.png)
 
 
 Alguns websites para referência:
