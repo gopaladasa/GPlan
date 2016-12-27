@@ -1,0 +1,34 @@
+                        Release Notes for
+                  The Vaisnava Calendar Program
+
+
+copyright (c) The Bhaktivedanta Book Trust International, Inc.
+1983-1999. All rights reserved.
+
+
+
+
+VCAL Version 4.01 - Released June 9, 1999
+=========================================
+
+The town file, vcal.tow, released with version 4.00 was
+corrupted. In this version (4.01) a new format of the town file
+was introduced with a version number. Now the program does not
+accept older versions of the town file. This was done to make
+sure that the user of version 4.01 will not by mistake use the
+old corrupted town file.
+
+If the new town file is used with an erlier version of the
+program then an error will be indicated.
+
+The version number of the program is now written on each calendar
+to make it clear which program produced the calendar.
+
+
+
+VCAL Version 4.00 - Released Mars 2, 1999
+=========================================
+
+This is the first public version.
+
+

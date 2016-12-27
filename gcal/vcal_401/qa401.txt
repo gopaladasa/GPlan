@@ -1,0 +1,148 @@
+            Questions and Answers for the release of
+          version 4.01 of the Vaisnava calendar program
+
+                Written by Markandeya Rishi Dasa
+
+
+
+Q: Do I have to change to the new version (4.01)?
+
+A: Yes, you should definitely change to the new version. The town
+   file (vcal.tow, containing longitudes and latitudes etc.) that
+   was included with the previous release (version 4.00), was
+   unfortunately corrupted. Because of this some dates in the
+   calendars become wrong. I sincerely apologize for this
+   mistake.
+
+   To make sure that users do not by mistake use such an old town
+   file, I had to make this new release (version 4.01) of the
+   program which refuses to use old town files.
+
+   So if you use version 4.01 you know that the calendars
+   produced do not have this problem.
+
+
+
+
+Q: The printout of my calendar produced by the old program
+   (version 4.00) shows the right longitude and latitude. Does it
+   mean that my calendar is correct after all? Can I use it?
+
+A: No, unfortunately it is not that simple. Even if the calendar
+   shows the right longitude and latitude it most probably still
+   has this problem.
+
+   The reason is that inside the town file, the coordinates were
+   stored in two ways - in the ASCII and in the binary way. The
+   ASCII storage was intact and that is what you see printed on
+   the calendar. The binary storage was corrupted and that is
+   what the calculation of the calendar is based on. (The new
+   town file uses only one way, the binary way.)
+
+
+
+
+Q: If I get the new version (4.01), is there then a risk that my
+   new proper town file can become corrupted in the same way as
+   the one which was released in version 4.00?
+
+A: No. The corruption was not caused by the Vaisnava calendar
+   program. It was caused by another program which only I have
+   (and which has now been corrected).
+
+
+
+
+Q: If I just look at the print out of a calendar, how do I know
+   if it is produced by the new version (4.01)?
+
+A: The version number of the program will be written to the
+   calendars. The text "Vcal 4.01" will be found in the top right
+   corner of each page of the calendars produced by this version.
+
+
+
+
+Q: Has this problem been there already earlier in previous years
+   in the calendars that you mailed out or that could be
+   downloaded from Com and the Internet?
+
+A: No. This problem is limited to the calendars based on that
+   particular corrupted town file included in the version 4.00
+   release.
+
+   All calendars mailed out throughout the years, and all
+   calendars that could (and still can) be downloaded from Com
+   and from the Internet are based on proper town files and do
+   not have this problem.
+
+
+
+
+Q: How often does the town file included in the previous version
+   (4.00) produce wrong dates? And what about the period for
+   breaking of ekadasi fast?
+
+A: It depends on which town we speak about, but for an "average
+   town" approximately 4-5% of the dates will be wrong. Looking
+   at only ekadasis this means about 1 ekadasi per year.
+
+   The period for breaking of ekadasi fast is also affected by
+   this problem but I have not made a closer investigation of
+   that.
+
+   It may be interesting to compare the 1 ekadasi per year figure
+   mentioned above to the error rate of the old calendar that
+   ISKCON used before the computerized calendar was created. At
+   that time we used the Mayapur (actually Calcutta) calendar all
+   over the world.
+
+   That Calcutta calendar was calculated with old, not very
+   accurate formulas, so it had errors even if you only used it
+   in Calcutta, and even more "errors" if you used it in other
+   parts of the world, which we did.
+
+   The below text is a quote from the documentation of the
+   Vaisnava calendar program. It shows how the calcutta calendar
+   had 2 ekadasis wrong in the year 1989. I would say that it was
+   a rather typical error rate for that calendar.
+
+
+       "The computer calendar made for Calcutta has been compared
+       to the calendar provided by the Gaudiya Math. There where
+       differences but after consulting the Lahiris ephemeris it
+       was always clear that the computer calendar was right and
+       the Gaudiya Math calendar wrong in case of difference.
+       When comparing the ekadasis in the 1989 calendars, such
+       errors in the Gaudiya Math calendar were found at 11:th of
+       September and 9:th of November. These two ekadasis should
+       actually be observed the 12:th of September and 10:th of
+       November respectively."
+
+
+
+
+Q: Can a new town file be used together with the old version
+   (4.00) of the program?
+
+A: Not really. But, yes, from a very technical point of view,
+   because the 4.00 version of the program does not check which
+   version of the town file it uses. This is because the system
+   of having a version number on the town file was introduced in
+   the new version (4.01).
+
+   But instead of the longitude and latitude being written to the
+   calendar the word Error and 02 will be written there. "Error"
+   is used to indicate that something is wrong, i.e. one should
+   not use the old version of the program, but instead change to
+   a newer version. "02" is the version number of the town file.
+
+   But technically speaking the dates in such a calendar will be
+   correct. There is no reason though to use the old version of
+   the program, it only increases the risk for mistakes.
+
+
+
+Copyright (c) The Bhaktivedanta Book Trust International, Inc.
+1983-1999. All rights reserved.
+

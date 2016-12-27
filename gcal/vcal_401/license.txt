@@ -1,0 +1,80 @@
+                          VCAL LICENSE AGREEMENT
+
+
+
+VCAL (c) 1983-1999 by The Bhaktivedanta Book Trust International,
+Inc. All rights reserved
+
+
+TERMS AND CONDITIONS OF USE
+
+VCAL is free software and may be used by any number of users on any
+number of systems without fee or obligation, subject only to the
+terms and conditions laid out below.
+
+VCAL is NOT in the public domain. The Bhaktivedanta Book Trust
+International, Inc., retains ownership and copyright, and exclusively
+reserves all rights to the software. 
+
+Modification of the program or its resources or associated text or
+data files without the copyright holder's explicit written permission
+is strictly forbidden. Unauthorized modifications of any component of
+VCAL are a breach of intellectual property laws in most countries and
+will be pursued vigorously to the full extent of the law.
+
+VCAL may be used by anyone and may be freely distributed via any
+medium, either commercial or non-commercial, provided the following
+conditions are met:
+
+
+1: Distribution. VCAL must be distributed complete and unaltered in
+the original ZIP archive file or self-extracting archive, with all
+messages intact. Removing or modifying any part of the archive,
+including ZIP comments, is expressly forbidden. In the event that the
+VCAL software is being distributed as part of another package or
+software bundle, or in association with software or services for
+which a charge is being levied, the copyright holder's permission
+must be obtained before distribution occurs. The address of the
+copyright holder appears at the end of this document.
+
+2: Charging for distribution. No charge may be directly levied for
+VCAL itself. Fair copying and support charges may be applied, but you
+must not represent that you are actually selling the software itself.
+The intent of this statement is to allow book publishers to
+distribute VCAL freely with books, and to permit Software Libraries
+and BBS systems to distribute VCAL in their catalogues provided that
+only reasonable handling and duplication fees are charged.
+
+3: Ownership. Ownership of the VCAL software remains vested in the
+owner and copyright holder, the Bhaktivedanta Book Trust
+International, Inc. You may not represent ownership of or copyright
+in the software in the course of distribution, and you must not
+represent any specific connection with, or authorization or license
+from, the copyright holder or author.
+
+4: No liability. Although all possible care has been taken to ensure
+that the VCAL software is reliable, we can accept no responsibility
+for loss or damage, whether real or consequential, arising from its
+use. By using the software you explicitly agree to hold the
+Bhaktivedanta Book Trust International, Inc.,  blameless for any such
+losses or damages.
+
+5: All rights reserved. We reserve the right to change the terms and
+conditions of use and distribution of VCAL without specific notice,
+although we will make reasonable efforts to announce any such change
+through normal channels (user groups, mailing lists and so on). The
+current terms and conditions of use of VCAL can be obtained at any
+time upon request.
+
+All the legalese aside, we desire that VCAL be of wide use to the
+followers of the Vedic way of life. 
+
+
+The Bhaktivedanta Book Trust International, Inc. 
+Farboret 101 
+S-24297 Hoerby 
+Sweden 
+   Phone: +46 (0415) 22245 
+   Fax: +46 (0415) 22065 
+   E-mail: madhava.puri@com.bbt.se 
+   Website: www.bbti.org

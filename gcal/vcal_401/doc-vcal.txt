@@ -1,0 +1,626 @@
+
+                  The Vaisnava Calendar Program
+                          Version 4.01
+                         
+
+
+                  Written by Shyamasundara Dasa
+                    and Markandeya Rishi Dasa
+
+
+
+copyright (c) The Bhaktivedanta Book Trust International, Inc.
+1983-1999. All rights reserved.
+
+
+
+
+
+Contents
+--------
+
+ 1. Where to obtain VCAL
+ 2. VCAL is freeware
+ 3. List of files
+ 4. Spellings
+ 5. Introduction to the program
+ 6. How to use the program
+ 7. Some basic Vedic astronomy
+    a. The movements of the moon and sun
+    b. The definitions of solar and lunar months and years
+        i. The solar month and year
+       ii. The lunar month and year
+ 8. The Pancanga, or the Vedic calendar
+    a. Tithi
+    b. Naksatra
+    c. Yoga
+ 9. Reasons to follow a lunar calendar
+10. Traditional and modern methods of calculation
+11. Some comments on interpreting the Vaisnava calendar
+    a. Names of years and months
+    b. When to observe Ekadasi
+    c. "Break fast 05:18 - 09:34" and "Daylight-savings not 
+       considered"
+    d. Double or no tithi
+    e. Sankranti
+    f. Names for the signs of the zodiac
+12. Parting Words
+
+
+1. Where to obtain VCAL
+-----------------------
+
+The most recent version of VCAL should be available on the
+Worldwide Web at <http://www.iskcon.org/calendar/>.
+
+
+2. VCAL is freeware
+-------------------
+
+The Bhaktivedanta Book Trust International owns the program,
+but you are welcome to use it and share it with others. There
+are only a few rules. They appear in the file LICENSE.TXT.
+
+
+3. List of files
+----------------
+
+The following files are included in this archive:
+
+VCAL.EXE      Main program
+VCAL.OV1      Overlay used by the main program
+VCAL.OV2      Overlay used by the main program
+VCAL.OV3      Overlay used by the main program
+VCAL.TOW      File containing list of towns
+VCAL.HLP      Help file
+DOC-VCAL.TXT  The document you are now reading
+HISTORY.TXT   Describing changes in each new version.
+QA401.TXT     Questions and Answers for the release of this
+              version.
+LICENSE.TXT   Your license for the free use of this program
+FESTIVAL.TXT  About the festivals mentioned in the calendar
+PERSONS.TXT   About the saints and incarnations mentioned in
+              the calendar 
+PRABHPAD.TXT  About His Divine Grace A.C. Bhaktivedanta Swami
+              Prabhupada
+BBT.TXT       About the Bhaktivedanta Book Trust
+FILE_ID.DIZ   Brief identification of this program
+
+
+You are welcome to share VCAL with others, but please
+distribute the complete archive, not just selected files.
+
+
+4. Spellings
+------------
+
+To spell Sanskrit (and Bengali) names and terms, VCAL uses 
+"as-if-diacritical" spellings. That is, it spells as if it 
+were employing the diacritical marks used by scholars, but 
+leaves those marks out. Thus "Krishna" is spelled "Krsna." The 
+VCAL documentation follows the same system. A guide to the 
+Sanskrit transliteration system is found in all the books 
+of the Bhaktivedanta Book Trust. 
+
+
+
+5. Introduction to the program
+------------------------------
+
+VCAL calculates Vedic lunar calendars. There are different ways
+to make calendars according to the Vedic lunar system, all very
+similar. This program makes the calendar according to the
+Gaudiya Vaisnava tradition, an important branch of the Vaisnava
+tradition. The word "Vaisnava" denotes a worshiper of Visnu.
+
+VCAL has been developed for ISKCON, the International Society
+for Krishna Consciousness, which follows the Gaudiya Vaisnava
+tradition. But the calendars VCAL produces should be useful for
+most people who follow a Vedic lunar calendar.
+
+VCAL was written by Syamasundara Dasa. He and Markandeya Rsi
+Dasa developed it further.
+
+To develop the program, in June 1989 Markandeya went to India
+for extensive research and consultation with persons
+knowledgeable about calendar making, astronomy, and Vaisnava
+observances. The learning and expertise of those consulted have
+contributed greatly to the reliability of this program.
+
+
+6. How to use the program
+-------------------------
+
+VCAL runs under DOS. It is not a Windows program. To install
+it, simply place all its files in any directory. To uninstall
+it, simply erase the files. 
+
+The program is easy to use, with a simple menu system. The F1
+key gives you context-sensitive help.
+
+VCAL uses a list of towns for which it can calculate a
+calendar.  You may enter new towns as needed, to a limit of
+1200. If you need more, you must delete some towns you don't
+use. (Or you can keep more than one town file and switch between
+your files by renaming them.)
+
+Latitudes greater than 65 degrees and 35 minutes (north or
+south) cause problems for VCAL. Using such latitudes may result
+in wrong calculations or may terminate the program with an error.
+
+If you add new towns to the list, take care to enter the
+latitude, longitude and time zone correctly. If any of this
+information is wrong, your calendar will be incorrect. (If you
+give your modified town files to others, this warning is even
+more important.)
+
+VCAL also provides for "batch files," which allow you to
+calculate several calendars at a time. When you choose, from the
+Main Menu, "Make Vaisnava Calendar," you will be asked, two
+screens later, whether you want to calculate the calendar for
+only one town or for many. If you choose "many," VCAL will
+present you a list of the available batch files. Each batch file
+allows you to calculate calendars for many towns through one
+command. 
+
+You can also use VCAL to calculate birthdays. Insert the birth
+information according to the Western calendar, and VCAL will
+tell you the corresponding Vedic day of birth.
+
+As of 1999, VCAL has been used for about twelve years, but
+could of course still have bugs. If you find a suspected bug,
+please contact Markandeya Rsi Dasa at this e-mail address:
+<markandeya@geocities.com>.
+
+
+7. Some basic astronomy
+-----------------------
+
+   a. The movements of the moon and sun
+   ------------------------------------
+
+From the perspective of an observer on earth, the sun and moon
+and stars are moving around the earth every day. If we look at
+the sky at night, as the hours pass we will see the moon and
+stars gradually move west across the sky, seeming to move
+together. But as several nights go by, we may notice that the
+position of the moon in relation to the stars moves towards the
+east.
+
+The extent of this relative movement comes to roughly 13
+degrees per day. Thus the moon will complete a full rotation
+through the belt of stars, called the zodiac, in about one month.
+
+A similar situation is true for the sun. Because the stars are
+too weak to be seen during the day, we cannot see the sun and
+the stars simultaneously. But if we could, we would see the sun
+moving gradually against the background of the stars. The sun,
+however, moves more slowly than the moon -- only about 1 degree
+each day. So we would have to wait longer to observe the
+difference. For the sun to come back to the same group of stars
+on the zodiac takes one year.
+
+
+   b. The definitions of solar and lunar months and years
+   ------------------------------------------------------
+
+One can define a month and a year in two basic ways: by the
+movement of the moon and by the movement of the sun.
+
+
+      i. The solar month and year
+      ---------------------------
+
+The Vedic solar month lasts the time it takes for the sun to
+traverse a complete sign of the zodiac. The zodiac has twelve
+signs, so each sign covers an angle of 30 degrees. Because the
+sun moves across the zodiac by about 1 degree each day, to
+traverse a complete sign takes about 30 days -- more exactly,
+30.4 days. Twelve such months make one solar year -- that is, a
+little more than 365 days. In other words, a solar year is the
+time it takes for the sun to start from any group of stars and
+return to it. Such a year stays synchronized with the seasons.
+
+
+      ii. The lunar month and year
+      ----------------------------
+
+The lunar month and year are slightly more complex. The Vedic
+calendar defines the lunar month in terms of the phases of the
+moon. We know that the phases of the moon change. The moon is
+sometimes full, sometimes half, and sometimes new, depending on
+how much of the moon we on earth can see lit up by the sun. When
+the sun and moon are close to one another on the zodiac, the
+side of the moon illuminated by the sun will mainly have its
+back to us. So we will see only a sliver, and most of the moon
+will seem dark. Then again, when the sun and moon are on
+opposite sides of the zodiac, the side of the moon we see from
+earth will be fully illuminated, so we will see a full moon. All
+other positions of the sun and moon result in the other,
+intermediate lunar phases.
+
+In the Vaisnava calendar a month starts the day after one full
+moon and continues through the next full moon. This takes about
+29.5 days.
+
+Just as 12 solar months make one solar year, 12 lunar months
+make one lunar year. Since one lunar month takes 29.5 days, 12
+such months will take about 12 times that long -- that is, 354
+days.
+
+This lunar year is 11 days shorter than the 365-day solar year,
+so  although the month synchronizes with the lunar phases, the
+year does not synchronize with the seasons. Counting by the
+solar calendar, every solar year the lunar year will begin 11
+days earlier. So, to synchronize the lunar year with the
+seasons, the Vedic calendar adds an extra month about every
+third year, according to certain rules. In this way the lunar
+and solar years stay in synch.
+
+
+8. The Pancanga, or the Vedic calendar
+--------------------------------------
+
+The Vedic calendar is called Pancanga. The word Pancanga
+indicates that the calendar consists of five parts, or tells
+about five elements. These elements are vara (the day of the
+week), tithi (the lunar day, or phase of the moon), karana (half
+a tithi), naksatra (the position of the moon in the zodiac), and
+yoga (a measurement derived from the positions of the sun and
+moon). For normal use of the calendar, one need not understand
+all these elements. But some of them are described as follows. 
+
+
+   a. Tithi
+   --------
+
+As we have discussed, the lunar month marks the time from one
+full moon to the next. The lunar month is divided into 30 parts,
+called lunar days, or tithis. The tithis are simply the
+different phases of the moon. Thus the first tithi starts at the
+moment when the moon is full -- that is, when the angle between
+the moon and the sun is 180 degrees and it continues until
+the angle has increased 12 degrees. Then, that much less of the
+moon seems bright to us: the moon is no longer completely full.
+
+Now the second tithi starts, and it continues until the angle
+between the sun and moon has increased 12 degrees more. Slightly
+more of the bright side of the moon now has its back to us, and
+so the moon is even less full. 
+
+When 15 such tithis have passed, the angle between the sun and
+the moon has increased by 180 degrees. This time the bright side
+of the moon cannot be seen at all, and so we have a new moon.
+Then 15 more tithis gradually pass, and the moon again becomes
+full. When 30 tithis have thus passed, the month ends.
+
+The period when the moon wanes, or decreases in size, is called
+krsna paksa ("the dark fortnight"), and the period when it
+waxes, or increases, is called sukla paksa or gaura paksa ("the
+bright fortnight"). The words Krsna and Gaura used here are
+specific to the Gaudiya Vaisnava tradition.
+
+Some lunar calendars start the month from the 0-degree position
+-- that is, directly after the new moon. Such calendars are
+called mukhya candra. Other calendars, such as the one used by
+the Gaudiya Vaisnavas, start directly after the full moon, with
+the Krsna paksa. Such calendars are called gauna candra.
+
+Except for the new moon and the full moon, the names of the
+tithis are simply counting words: pratipat, dvitiya, trtiya
+(first, second, third), etc. These names are the same for the
+tithis occurring during Krsna paksa (the dark period of the
+moon) and the gaura paksa (the bright period). The new moon is
+called amavasya, and the full moon purnima.
+
+
+Krsna paksa                         Gaura paksa
+Tithi   Name                        Tithi   Name
+
+  1   Pratipat                       1   Pratipat
+  2   Dvitiya                        2   Dvitiya
+  3   Trtiya                         3   Trtiya
+  4   Caturthi                       4   Caturthi
+  5   Pancami                        5   Pancami
+  6   Sasti                          6   Sasti
+  7   Saptami                        7   Saptami
+  8   Astami                         8   Astami
+  9   Navami                         9   Navami
+ 10   Dasami                        10   Dasami
+ 11   Ekadasi                       11   Ekadasi
+ 12   Dvadasi                       12   Dvadasi
+ 13   Trayodasi                     13   Trayodasi
+ 14   Caturdasi                     14   Caturdasi
+ 15   Amavasya (new moon)           15   Purnima (full moon)
+
+Because the speed of the moon in relation to that of the sun is
+not constant but varies, a tithi is not a fixed duration of
+time. Its length fluctuates between 19 and 26 hours. Therefore,
+since a lunar tithi does not correspond to the 24-hour solar
+day, a tithi may start at any time of the day.
+
+There are certain tithis on which the followers of the Vedic
+culture follow various observances or celebrations. On what day
+is such a tithi to be observed? The general rule is that one
+will celebrate a tithi on that day whose sunrise falls within
+the tithi, though sometimes other rules come into effect.
+
+The Ekadasi tithi is especially important, and special rules
+determine when to observe Ekadasi. Special rules also sometimes
+apply for festivals such as Sri Krsna Janmastami.
+
+
+   b. Naksatra
+   -----------
+
+As previously mentioned, in the sky the belt of stars called
+the zodiac is divided into 12 signs, which cover 30 degrees
+each. There is also a way of dividing the zodiac into 27 parts,
+which cover 13-1/3 degrees each. These parts are called
+naksatras.
+
+While moving over the zodiac, the moon continuously passes
+through these naksatras one by one. In the Vedic calendar,
+naksatra simply refers to the naksatra within which the moon is
+present at sunrise on any particular day.
+
+
+   c. Yoga
+   -------
+
+Tithis and naksatras can easily be understood in relation to
+the phenomena in the sky. Tithi is the phase of the moon, and
+naksatra marks the position of the moon. But yoga is not easily
+understood in a similar way. The yoga is determined by adding
+the angle or longitude of the sun and moon, reducing the sum to
+fit in the circle of 360 degrees (by subtracting 360 degrees if
+needed), and then dividing the resultant number by 13-1/3
+degrees. Like the naksatras, the yogas are also 27 in number.
+
+
+9. Reasons to follow a lunar calendar
+-------------------------------------
+
+In the Vaisnava calendar the times for various celebrations are
+determined by the tithi, sometimes with naksatra and other
+elements of the calendar taken into account.
+
+Most scholars who have analyzed the old Indian calendar
+systems, both lunar and solar, have concluded that the lunar
+system is the more ancient.
+
+The lunar phases are known to influence agriculture, and
+according to scriptures like Manu-samhita (The Law of Manu) they
+also influence more subtle aspects of human life.
+
+
+10. Traditional and modern methods of calculation
+-------------------------------------------------
+
+Traditionally the astronomical calculations needed to make a
+Pancanga were done according to one of the astronomical texts
+such as Surya Siddhanta. The methods described in Surya
+Siddhanta are basically quite similar to modern astronomical
+methods for ascertaining the positions of the planets. The main
+difference is that Surya Siddhanta has a simpler model. Such a
+model is needed if the calculations are to be done by hand in a
+practical way.
+
+The methods of Surya Siddhanta could be used by a skillful
+person at any time, without the need for modern equipment. All
+that was needed were some observatory instruments that could be
+built without high technology. These instruments were used
+regularly to check that the calculations tallied with observable
+reality. When a difference appeared after some time, corrections
+were made to the astronomical constants in the formulas. With
+this system, fairly good results were obtainable even though the
+astronomical model was simple. Its accuracy cannot be compared
+to that obtained by modern methods, but for the purpose of
+astrology and creation of calendars it sufficed.
+
+This computer program uses formulas that give an accuracy of 1
+minute of arc for the longitude of the sun and 2 minutes of arc
+for the longitude of the moon. When determining ending times of
+tithis these errors can result in a maximum error of 5 minutes
+of time. The average error is about 3 minutes. Such an error
+will report an Ekadasi (the eleventh tithi) on the wrong date
+roughly once every 20 years.
+
+
+11. Some comments on interpreting the Vaisnava calendar
+-------------------------------------------------------
+
+
+   a. Names of years and months
+   ----------------------------
+
+Following Gaudiya Vaisnava tradition, the years are counted
+from the appearance of Lord Sri Krsna's incarnation as Lord Sri
+Caitanya Mahaprabhu. Lord Caitanya is also known as Gaura, so
+the year is called "Gaurabda," "the year of Lord Caitanya."
+
+Each month, or "masa," is known by a name of Visnu. The months,
+the Sanskrit names by which they are commonly known in India,
+and their rough equivalents according to the Gregorian calendar
+are listed as follows:
+
+
+
+1.  Visnu             Caitra          March-April              
+
+2.  Madhusudana       Vaisakha        April-May                
+
+3.  Trivikrama        Jyestha         May-June                
+ 
+4.  Vamana            Asadha          June-July                
+
+5.  Sridhara          Sravana         July-August             
+
+6.  Hrsikesa          Bhadrapada      August-September         
+
+7.  Padmanabha        Asvina          September-October        
+
+8.  Damodara          Kartika         October-November         
+
+9.  Kesava            Margasirsa      November-December       
+
+10. Narayana          Pausa           December-January         
+
+11. Madhava           Magha           January-February 
+        
+12. Govinda           Phalguna        February-March           
+
+   Purusottama        adhika,         intercalary month
+                      or Dvitiya 
+                      Jyestha
+
+
+   b. When to observe Ekadasi
+   ---------------------------
+
+Ekadasi, the eleventh tithi, has special importance. In the
+scripture Caitanya-caritamrta (Madhya-lila, chapter 24), Lord
+Caitanya Mahaprabhu instructs Sanatana Gosvami regarding the
+Vaisnava regulative principles. In text 342 Lord Caitanya says:
+
+"You should recommend the avoidance of mixed [viddha] Ekadasi
+and the performance of pure Ekadasi. You should also describe
+the fault in not observing this. One should be very careful as
+far as these items are concerned. If one is not careful, one
+will be negligent in executing devotional service."
+
+As described in the book Hari Bhakti Vilasa, viddha (mixed)
+Ekadasi takes place when the eleventh tithi starts before
+sunrise but the tenth tithi still presides at the beginning of
+brahma muhurta (the auspicious period that starts an hour and a
+half before sunrise).
+
+On Ekadasi it is traditional to fast. But under certain
+conditions, called mahadvadasi, one fasts not on the Ekadasi but
+on the next day, the dvadasi, even though the Ekadasi is suddha,
+or pure, and not viddha, or mixed. There are eight mahadvadasis.
+
+The calendars produced by this program make it easy to see when
+to observe Ekadasi. The Ekadasi fast should be observed on the
+day called suddha (pure) Ekadasi, or alternatively on
+Mahadvadasi, even if the previous day is called Ekadasi. All
+this is clarified by the asterisk (*), which indicates a fast,
+at the right margin of the calendar.
+
+
+   c. "Break fast 05:18 - 09:34" and "Daylight-savings not considered"
+   -------------------------------------------------------------------
+
+To complete the proper observance of Ekadasi, the next morning
+one should end the fast after the first time given in the
+calendar and before the second time. The calendar gives these
+times according to the standard time of the place for which the
+calendar is made. 
+
+During the summer, many locations do not follow standard time,
+but instead move their clocks an hour ahead (or sometimes more)
+to make more use of the hours of daylight. So, for example, 5
+o'clock in the morning becomes 6 o'clock instead. The Vedic
+Calendar program does not take such daylight-saving time into
+account. So for days when your location uses daylight-saving
+time, you must adjust the times given by the calendar.
+Generally, this means that when daylight-saving time is in
+effect you should add an hour to the times given.
+
+
+   d. Double or no tithi
+   ---------------------
+
+When studying the calendar, you may find that sometimes a tithi
+is skipped and sometimes one tithi comes on two consecutive
+days. There is nothing wrong with this. For each day, the
+calendar just shows which tithi (moon phase) prevails at the
+time of sunrise. Sometimes a given lunar phase may begin after
+one sunrise and end before the next, and therefore on the
+calendar that tithi appears missing. Or sometimes one lunar
+phase extends throughout two sunrises in a row, and therefore
+that tithi appears twice.
+
+A person's birthday is determined by the tithi prevailing at
+the moment the person was born. Every year thereafter, the day
+to celebrate as the birthday should be the day whose sunrise
+occurs during that same tithi. If the tithi prevails on two
+consecutive sunrises, the sunrise that has the same naksatra as
+at birth will be the proper day for celebration. If neither
+sunrise occurs with that naksatra, then the latter of the two
+days should be chosen. If there is no day whose sunrise occurs
+during that particular tithi, then the day within which the
+tithi falls should be chosen as the day of celebration.
+
+Suppose, for example, that a person's appearance day should be
+celebrated on dvitiya tithi in the month of Kesava and that for
+the month of Kesava the calendar lists two dvitiya tithis, one
+after another. And suppose that the naksatra that prevailed at
+birth is not present. Then the second dvitiya should be chosen
+as the day of celebration. If the calendar shows no dvitiya at
+all, then the appearance day should be celebrated on the day
+listed as pratipat, because the dvitiya phase of the moon will
+occur during that day.
+
+
+   e. Sankranti
+   ------------
+
+Sankranti means the time when the sun enters a sign of the
+zodiac. If you are conversant with astrology, you might wonder
+why the calendar shows the sun entering the various signs of the
+zodiac at times different from those given in Western astrology.
+This is one of the differences between the two kinds of
+astrology, Western and Vedic. The difference pertains to a
+certain angle called ayanamsa, which is presently around 23
+degrees. The explanation of ayanamsa can be found in books about
+Vedic astrology.
+
+
+   f. Names for the signs of the zodiac
+   ------------------------------------
+
+Here are the Sanskrit names for the signs of the zodiac,
+alongside their English counterparts.
+
+
+SANSKRIT       ENGLISH
+
+
+1. Mesa        Aries
+
+2. Vrsabha     Taurus
+
+3. Mithuna     Gemini
+
+4. Kataka      Cancer
+
+5. Simha       Leo
+
+6. Kanya       Virgo
+
+7. Tula        Libra
+
+8. Vrscika     Scorpio
+
+9. Dhanus      Sagittarius
+
+10. Makara     Capricorn
+
+11. Kumbha     Aquarius
+
+12. Mina       Pisces
+
+
+
+12. Parting Words
+-----------------
+
+We wish you a life fulfilled with good Vaisnava years. Hare
+Krsna.
+
+
+
+Documentation (c) 1999 The Bhaktivedanta Book Trust
+International, Inc. All rights reserved.
+
