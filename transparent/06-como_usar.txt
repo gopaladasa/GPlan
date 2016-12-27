@@ -1,0 +1,153 @@
+
+
+ AGENDA VAISHNAVA
+
+
+
+ Como Usar
+
+
+
+ 1 - Preparação
+
+
+ 1.1 - Fontes
+
+ a) Execute o programa "sanscrito.exe para instalar as fontes "Devanagari" e
+     "Tamal" em seu computador.
+
+ b) Você terá ainda a disposição os programas "Devanagari.exe" e "Diacritico.exe"
+     para auxiliar na alteração das citações exibidas pela agenda.
+
+ c) Instale a fonte "Calend" manualmente. O caminho mais comum é através do
+     seguinte roteiro: Iniciar/Configurações/Painel de Controle/Fontes. Na janela
+     "Fontes" escolher : Arquivo/Instalar nova fonte...
+
+
+ 1.2 - Calendário Vaishnava
+
+ Atenção: as informações atuais do calendário vaishnava foram geradas para a
+ região da cidade de Recife, estado de Pernambuco, Brasil, e são suficientes
+ apenas para o ano de 2006. Para localidades diferentes e outros anos proceda
+ como indicado abaixo:
+
+ a) Utilize o programa "VCAL" versão 4.1 ou posterior para emissão do calendário
+     vaishnava referente a sua localidade, compreendendo o ano anterior, o atual
+     e o próximo em um só arquivo.
+
+ b) Copie o calendário emitido para a coluna "V" da planilha "Vaishnava".
+
+
+ 1.3 - Horário
+
+ Se quiser mudar a hora inicial de registro das atividades, digite o número
+ correspondente à hora desejada na 1ª linha de horários da planilha "Semana-
+ -verso". As horas seguintes serão ajustadas automaticamente.
+
+
+ 1.4 - Fases da Lua
+
+ As informações atuais do calendário vaishnava cobrem o período de novembro de
+ 2005 à dezembro de 2010. Para anos posteriores, é necessário digitar os dados na
+ planilha "Lua".
+
+
+ 1.5 - Marés
+
+ O cálculo do horário da maré é aproximado, com base na data da Lua Nova e na
+ hora média da 1ª maré alta na lua nova na Cidade de Recife, Estado de
+ Pernambuco, Brasil. Caso necessário, corrija esse horário na planilha "Lua".
+
+
+ 1.6 - Feriados e Comemorações
+
+ Caso necessário, altere, inclua ou exclua as datas das planilhas "Feriados" e
+ "Comemorações".
+
+
+
+
+
+ 2 - Impressão*
+
+
+ 2.1 - Dados Pessoais
+
+ a) Selecione o ano desejado na planilha "Calendário";
+
+ b) Complete (se desejar**), a planilha "Dados Pessoais" com suas informações
+     específicas;
+
+ b) Imprima a planilha "Dados Pessoais".
+
+
+ 2.2 - Calendário Anual
+
+ a) Selecione o ano desejado na planilha "Calendário";
+
+ b) Imprima a planilha "Calendário".
+
+
+ 2.3 - Planejamento Anual
+
+ a) Selecione o ano desejado na planilha "Calendário";
+
+ b) Selecione o trimestre desejado nas planilhas "Trimestre-Esquerda" e
+     "Trimestre-Direita";
+
+ c) Imprima as planilhas "Trimestre-Esquerda" e "Trimestre-Direita".
+
+
+ 2.4 - Planejamento Mensal
+
+ a) Selecione o ano desejado na planilha "Calendário";
+
+ b) Selecione o mês desejado na planilha "Mensal-Esquerda";
+
+ c) Imprima as planilhas "Mensal-Esquerda" e "Mensal-Direita".
+
+
+ 2.5 - Fichas
+
+ a) Selecione o ano desejado na planilha "Calendário";
+
+ b) Selecione a semana desejada (1 a 53) na planilha "Semana-Verso";
+
+ c) Imprima a planilha "Semana-Frente";
+
+ d) recoloque na impressora o papel com a frente da ficha já impresso, porém
+     com o lado invertido, para impressão no verso da folha;
+
+ c) Imprima a planilha "Semana-Verso".
+
+
+ 2.6 - Contatos
+
+ a) Digite a letra ou letras desejadas nas planilhas "Contato-Esquerda" e "Contato-
+     Direita";
+
+ c) Imprima as planilhas "Contato-Esquerda" e "Contato-Direita".
+
+
+
+ *Impressão:
+
+           Você pode optar por uma agenda mensal, semanal ou com os dois tipos.
+           No caso de uma agenda com planejamento mensal e semanal, a parte
+           mensal pode ser colocada no início da agenda ou pode ser intercalada
+           entre as fichas semanais.
+
+           Faça arranjos para evitar a ocorrência de frentes ou versos das folhas
+           totalmente em branco na sua agenda.
+
+
+ ** Dicas de Segurança:
+
+         Por questões de segurança, é recomendável não incluir todos os seus
+         dados na planilha "Dados Pessoais". Considere a opção de incluir somente
+         o seu nome e telefone (para que alguém possa devolver a agenda, no
+         caso de perda ou roubo da mesma).
+
+         Também por questões de segurança, devem ser evitadas referências
+         pessoais (tais como "esposa", "filho", "mãe", etc.) nos telefones e
+         endereços que você incluir na agenda.
