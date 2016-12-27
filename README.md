@@ -16,6 +16,7 @@ Assista ao [vídeo](https://www.youtube.com/watch?v=rdbnSmjYFGg) e comprove (obs
 **O cálculo do Calendário é feito automaticamente pela GPlan!!! 
 Não precisa saber usar nem GCal nem Excel!**
 
+Você pode também baixar [aqui](https://github.com/gopaladasa/GPlan/tree/master/gplan2017pdf) mais de 30 agendas prontas para imprimir, calculadas para as capitais e outras cidades brasileiras. È só escolhar a mais próxima, baixar e imprimir.
 
 ### O que é a Agenda Vaishnava GPlan?
 
