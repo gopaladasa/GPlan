@@ -1,0 +1,2892 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1250">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./gcal-console_soubory/filelist.xml">
+<title>VCAL Second Edition Command Line using</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>bhakta</o:Author>
+  <o:LastAuthor>bhakta</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>141</o:TotalTime>
+  <o:Created>2008-05-08T15:22:00Z</o:Created>
+  <o:LastSaved>2008-05-08T15:22:00Z</o:LastSaved>
+  <o:Pages>15</o:Pages>
+  <o:Words>2449</o:Words>
+  <o:Characters>13960</o:Characters>
+  <o:Lines>116</o:Lines>
+  <o:Paragraphs>27</o:Paragraphs>
+  <o:CharactersWithSpaces>17143</o:CharactersWithSpaces>
+  <o:Version>9.2812</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:DrawingGridHorizontalSpacing>6 b.</w:DrawingGridHorizontalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>2</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:238;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+h1
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;
+	mso-ansi-language:SK;
+	font-weight:bold;}
+h2
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:14.0pt;
+	font-family:Arial;
+	mso-ansi-language:SK;
+	font-weight:bold;
+	font-style:italic;}
+h3
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:13.0pt;
+	font-family:Arial;
+	mso-ansi-language:SK;
+	font-weight:bold;}
+h4
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:4;
+	font-size:14.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:SK;
+	font-weight:bold;}
+h5
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:5;
+	font-size:13.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:SK;
+	font-weight:bold;
+	font-style:italic;}
+h6
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:6;
+	font-size:11.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:SK;
+	font-weight:bold;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:7;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:8;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	mso-outline-level:9;
+	font-size:11.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndex1, li.MsoIndex1, div.MsoIndex1
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndex2, li.MsoIndex2, div.MsoIndex2
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndex3, li.MsoIndex3, div.MsoIndex3
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndex4, li.MsoIndex4, div.MsoIndex4
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:48.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndex5, li.MsoIndex5, div.MsoIndex5
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndex6, li.MsoIndex6, div.MsoIndex6
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndex7, li.MsoIndex7, div.MsoIndex7
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndex8, li.MsoIndex8, div.MsoIndex8
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:96.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndex9, li.MsoIndex9, div.MsoIndex9
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:108.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToc4, li.MsoToc4, div.MsoToc4
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToc5, li.MsoToc5, div.MsoToc5
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:48.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToc6, li.MsoToc6, div.MsoToc6
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToc7, li.MsoToc7, div.MsoToc7
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToc8, li.MsoToc8, div.MsoToc8
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:84.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToc9, li.MsoToc9, div.MsoToc9
+	{mso-style-update:auto;
+	mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:96.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoNormalIndent, li.MsoNormalIndent, div.MsoNormalIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:35.4pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 8.0cm right 16.0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 8.0cm right 16.0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoIndexHeading, li.MsoIndexHeading, div.MsoIndexHeading
+	{mso-style-next:"Rejstřík 1";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;
+	font-weight:bold;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{mso-style-next:Normální;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;
+	font-weight:bold;}
+p.MsoTof, li.MsoTof, div.MsoTof
+	{mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-24.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoEnvelopeAddress, li.MsoEnvelopeAddress, div.MsoEnvelopeAddress
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:144.0pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-element:frame;
+	mso-element-frame-width:396.0pt;
+	mso-element-frame-height:99.0pt;
+	mso-element-frame-hspace:7.05pt;
+	mso-element-wrap:auto;
+	mso-element-anchor-horizontal:page;
+	mso-element-left:center;
+	mso-element-top:bottom;
+	mso-height-rule:exactly;
+	font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoEnvelopeReturn, li.MsoEnvelopeReturn, div.MsoEnvelopeReturn
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoEndnoteText, li.MsoEndnoteText, div.MsoEndnoteText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToa, li.MsoToa, div.MsoToa
+	{mso-style-next:Normální;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-12.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoMacroText, li.MsoMacroText, div.MsoMacroText
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:24.0pt 48.0pt 72.0pt 96.0pt 120.0pt 144.0pt 168.0pt 192.0pt 216.0pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoToaHeading, li.MsoToaHeading, div.MsoToaHeading
+	{mso-style-next:Normální;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;
+	font-weight:bold;}
+p.MsoList, li.MsoList, div.MsoList
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListBullet, li.MsoListBullet, div.MsoListBullet
+	{mso-style-update:auto;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l9 level1 lfo6;
+	tab-stops:list 18.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListNumber, li.MsoListNumber, div.MsoListNumber
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:18.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l8 level1 lfo1;
+	tab-stops:list 18.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoList2, li.MsoList2, div.MsoList2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:28.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoList3, li.MsoList3, div.MsoList3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoList4, li.MsoList4, div.MsoList4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:56.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoList5, li.MsoList5, div.MsoList5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:70.75pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListBullet2, li.MsoListBullet2, div.MsoListBullet2
+	{mso-style-update:auto;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l7 level1 lfo7;
+	tab-stops:list 32.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListBullet3, li.MsoListBullet3, div.MsoListBullet3
+	{mso-style-update:auto;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l6 level1 lfo8;
+	tab-stops:list 46.3pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListBullet4, li.MsoListBullet4, div.MsoListBullet4
+	{mso-style-update:auto;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l5 level1 lfo9;
+	tab-stops:list 60.45pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListBullet5, li.MsoListBullet5, div.MsoListBullet5
+	{mso-style-update:auto;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:74.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l4 level1 lfo10;
+	tab-stops:list 74.6pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListNumber2, li.MsoListNumber2, div.MsoListNumber2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:32.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l3 level1 lfo2;
+	tab-stops:list 32.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListNumber3, li.MsoListNumber3, div.MsoListNumber3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:46.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l2 level1 lfo3;
+	tab-stops:list 46.3pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListNumber4, li.MsoListNumber4, div.MsoListNumber4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:60.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l1 level1 lfo4;
+	tab-stops:list 60.45pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListNumber5, li.MsoListNumber5, div.MsoListNumber5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:74.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-18.0pt;
+	mso-pagination:widow-orphan;
+	mso-list:l0 level1 lfo5;
+	tab-stops:list 74.6pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-font-kerning:14.0pt;
+	mso-ansi-language:SK;
+	font-weight:bold;}
+p.MsoClosing, li.MsoClosing, div.MsoClosing
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:212.6pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoSignature, li.MsoSignature, div.MsoSignature
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:212.6pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListContinue, li.MsoListContinue, div.MsoListContinue
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListContinue2, li.MsoListContinue2, div.MsoListContinue2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:28.3pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListContinue3, li.MsoListContinue3, div.MsoListContinue3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.45pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListContinue4, li.MsoListContinue4, div.MsoListContinue4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:56.6pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoListContinue5, li.MsoListContinue5, div.MsoListContinue5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:70.75pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoMessageHeader, li.MsoMessageHeader, div.MsoMessageHeader
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:2.0cm;
+	margin-bottom:.0001pt;
+	text-indent:-2.0cm;
+	mso-pagination:widow-orphan;
+	background:#CCCCCC;
+	mso-shading:windowtext;
+	mso-pattern:gray-20 auto;
+	border:none;
+	mso-border-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 1.0pt 1.0pt 1.0pt;
+	font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:12.0pt;
+	font-family:Arial;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoSalutation, li.MsoSalutation, div.MsoSalutation
+	{mso-style-next:Normální;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoDate, li.MsoDate, div.MsoDate
+	{mso-style-next:Normální;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoBodyTextFirstIndent, li.MsoBodyTextFirstIndent, div.MsoBodyTextFirstIndent
+	{mso-style-parent:"Základní text";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-indent:10.5pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoBodyTextFirstIndent2, li.MsoBodyTextFirstIndent2, div.MsoBodyTextFirstIndent2
+	{mso-style-parent:"Základní text odsazený";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	text-indent:10.5pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoNoteHeading, li.MsoNoteHeading, div.MsoNoteHeading
+	{mso-style-next:Normální;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoBodyText2, li.MsoBodyText2, div.MsoBodyText2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoBodyTextIndent2, li.MsoBodyTextIndent2, div.MsoBodyTextIndent2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	line-height:200%;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoBodyTextIndent3, li.MsoBodyTextIndent3, div.MsoBodyTextIndent3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoBlockText, li.MsoBlockText, div.MsoBlockText
+	{margin-top:0cm;
+	margin-right:72.0pt;
+	margin-bottom:6.0pt;
+	margin-left:72.0pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	background:navy;
+	font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.MsoAutoSig, li.MsoAutoSig, div.MsoAutoSig
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+address
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ansi-language:SK;
+	font-style:italic;}
+pre
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:35.4pt;
+	font-size:10.0pt;
+	font-family:"Courier New";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+p.SectionSep, li.SectionSep, div.SectionSep
+	{mso-style-name:"Section Sep";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:16.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	color:#003366;
+	mso-ansi-language:SK;}
+p.SubsectionSep, li.SubsectionSep, div.SubsectionSep
+	{mso-style-name:"Subsection Sep";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;
+	font-weight:bold;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:42.55pt 51.05pt 42.55pt 51.05pt;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:-132;
+	mso-list-type:simple;
+	mso-list-template-ids:179337336;}
+@list l0:level1
+	{mso-level-style-link:"Číslovaný seznam 5";
+	mso-level-tab-stop:74.6pt;
+	mso-level-number-position:left;
+	margin-left:74.6pt;
+	text-indent:-18.0pt;}
+@list l1
+	{mso-list-id:-131;
+	mso-list-type:simple;
+	mso-list-template-ids:-1442043910;}
+@list l1:level1
+	{mso-level-style-link:"Číslovaný seznam 4";
+	mso-level-tab-stop:60.45pt;
+	mso-level-number-position:left;
+	margin-left:60.45pt;
+	text-indent:-18.0pt;}
+@list l2
+	{mso-list-id:-130;
+	mso-list-type:simple;
+	mso-list-template-ids:-370526478;}
+@list l2:level1
+	{mso-level-style-link:"Číslovaný seznam 3";
+	mso-level-tab-stop:46.3pt;
+	mso-level-number-position:left;
+	margin-left:46.3pt;
+	text-indent:-18.0pt;}
+@list l3
+	{mso-list-id:-129;
+	mso-list-type:simple;
+	mso-list-template-ids:1316240300;}
+@list l3:level1
+	{mso-level-style-link:"Číslovaný seznam 2";
+	mso-level-tab-stop:32.15pt;
+	mso-level-number-position:left;
+	margin-left:32.15pt;
+	text-indent:-18.0pt;}
+@list l4
+	{mso-list-id:-128;
+	mso-list-type:simple;
+	mso-list-template-ids:-1016299714;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"Seznam s odrážkami 5";
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:74.6pt;
+	mso-level-number-position:left;
+	margin-left:74.6pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l5
+	{mso-list-id:-127;
+	mso-list-type:simple;
+	mso-list-template-ids:1542345730;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"Seznam s odrážkami 4";
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:60.45pt;
+	mso-level-number-position:left;
+	margin-left:60.45pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6
+	{mso-list-id:-126;
+	mso-list-type:simple;
+	mso-list-template-ids:-437206604;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"Seznam s odrážkami 3";
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:46.3pt;
+	mso-level-number-position:left;
+	margin-left:46.3pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l7
+	{mso-list-id:-125;
+	mso-list-type:simple;
+	mso-list-template-ids:-1876368484;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"Seznam s odrážkami 2";
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:32.15pt;
+	mso-level-number-position:left;
+	margin-left:32.15pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l8
+	{mso-list-id:-120;
+	mso-list-type:simple;
+	mso-list-template-ids:-1078808390;}
+@list l8:level1
+	{mso-level-style-link:"Číslovaný seznam";
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l9
+	{mso-list-id:-119;
+	mso-list-type:simple;
+	mso-list-template-ids:-426631254;}
+@list l9:level1
+	{mso-level-number-format:bullet;
+	mso-level-style-link:"Seznam s odrážkami";
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+</head>
+
+<body lang=CS link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<h1><span lang=SK>GCAL Command Line using</span></h1>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>If GCAL is started
+without arguments, it will open window for user interface.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>When GCAL is
+started with command line arguments, it will not show any window and will runs
+just for processing arguments and then exits.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SectionSep><span lang=SK>Command line arguments</span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>GCAL is used for
+few purposes, some of them are primary, some of them are secondary.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><b><span lang=SK
+style='font-family:Tahoma'>Calculation methods<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Calculation of <a href="#a_first">first day</a> in Gaurabda year<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Calculation of <a href="#a_appday">appearance </a>data<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Calculation of all <a href="#a_sankranti">sankrantis</a> in common year<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Calculation of <a href="#a_cal">vaisnava calendar</a> for given period
+of time<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Calculation of <a href="#a_naks">naksatra</a> times for given period of
+time<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Calculation of date for <a href="#a_nak2">given naksatra</a><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Calculation of <a href="#a_tit">tithis</a> for given day<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Calculation of date for <a href="#a_tits">given tithi</a> (for range of
+years)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Calculation of <a href="#a_next">next date</a> for given tithi<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><b><span lang=SK
+style='font-family:Tahoma'>Other functions<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='font-family:
+Tahoma'>Exporting <a href="#other_explang">default language file</a>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SectionSep><span lang=SK>Calculation Functions</span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>This section deals
+with using of gcal program for calculation purposes.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>firstday<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>appday<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>calendar<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>gcalendar<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>sankranti<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>naksatra<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>gnaksatra<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>tithi<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>gtithi<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>next<br clear=all
+style='mso-special-character:line-break;page-break-before:always'>
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:#E0E0E0'><a name="a_first"></a><b><span
+lang=SK style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma'>First
+day<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><b><span lang=SK
+style='font-family:Tahoma'>gcal.exe firstday</span></b><span lang=SK
+style='font-family:Tahoma'> <i>&lt;latitude&gt; &lt;longitude&gt; &lt;year&gt;
+&lt;filename&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_longitude">longitude</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_latitude">latitude</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year</span></i><span
+lang=SK style='font-family:Tahoma'> - calculated year<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">filename<span style='font-style:normal'> </span></a></span></i><span
+lang=SK style='font-family:Tahoma'>- filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLES<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='font-family:
+"Courier New"'>gcal.exe firstday 47N23 21E15 2004 out1.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file OUT1.XML
+will write first day of Gaurabda year in the Gregorian epoch 2004.<o:p></o:p></span></p>
+
+<span lang=SK style='font-size:12.0pt;font-family:Tahoma;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:SK;mso-fareast-language:CS;mso-bidi-language:
+AR-SA'><br clear=all style='mso-special-character:line-break;page-break-before:
+always'>
+</span>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span lang=SK
+style='font-family:Tahoma'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:#E0E0E0'><a name="a_appday"></a><b><span
+lang=SK style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma'>Appearance
+Day<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:96.0pt;text-indent:-54.0pt'><b><span
+lang=SK style='font-family:Tahoma'>gcal.exe appday</span></b><span lang=SK
+style='font-family:Tahoma'> </span><i><span lang=EN-US style='font-family:Tahoma;
+mso-ansi-language:EN-US'>&lt;latitude&gt; &lt;longitude&gt; &lt;timezone&gt;
+&lt;year&gt; &lt;month&gt; &lt;day&gt; &lt;hour&gt; &lt;minute&gt;
+&lt;filename&gt; &lt;dst&gt;</span></i><span lang=EN-US style='font-family:
+Tahoma;mso-ansi-language:EN-US'><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></i></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_longitude">longitude</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_latitude">latitude</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_timezone">tzone</a></span></i><span lang=SK style='font-family:
+Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year, month, day</span></i><span
+lang=SK style='font-family:Tahoma'> – date of event<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>hour, minute – time
+of event<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">filename<span style='font-style:normal'> </span></a></span></i><span
+lang=SK style='font-family:Tahoma'>- filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>dst</span></i><span
+lang=SK style='font-family:Tahoma'> - optional flag. accepted values are:<span
+style="mso-spacerun: yes">  </span>/dst:aus, /dst:eur, /dst:us<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:Tahoma;mso-ansi-language:
+EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-family:"Courier New"'><span
+style="mso-spacerun: yes">   </span>gcal.exe appday 27S28 153E02 +10.0 2007 4
+10 5 23 exp1.xml<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>This is calculation
+for Brisbane, Australia.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>OUTPUT FILE EXP1.XML<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'>&lt;xml&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;request
+name=&quot;AppDay&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;longitude&quot; value=&quot;+153.033333&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;latitude&quot; value=&quot;-27.466667&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span><span
+style='mso-tab-count:1'>      </span>&lt;arg name=&quot;timezone&quot;
+value=&quot;+10.000000&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;year&quot; value=&quot;2007&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;month&quot; value=&quot;4&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;day&quot; value=&quot;10&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;hour&quot; value=&quot;5&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;minute&quot; value=&quot;23&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;/request&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;result
+name=&quot;AppDay&quot; &gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;tithi
+name=&quot;Saptami&quot; elapse=&quot;50.477080&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;naksatra
+name=&quot;Purva-asadha&quot; elapse=&quot;7.579771&quot;
+pada=&quot;1&quot;/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;paksa
+name=&quot;Krsna&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;masa
+name=&quot;Madhusudana&quot; adhikamasa=&quot;no&quot;/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;gaurabda
+value=&quot;521&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;celebrations&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>&lt;celebration
+gaurabda=&quot;521&quot; day=&quot;10&quot; month=&quot;4&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:4'>                        </span>monthabr=&quot;Apr&quot;
+year=&quot;2007&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>&lt;celebration
+gaurabda=&quot;522&quot; day=&quot;28&quot; month=&quot;4&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:4'>                        </span>monthabr=&quot;Apr&quot;
+year=&quot;2008&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>&lt;celebration
+gaurabda=&quot;523&quot; day=&quot;17&quot; month=&quot;4&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:4'>                        </span>monthabr=&quot;Apr&quot;
+year=&quot;2009&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;/celebrations&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;/result&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'>&lt;/xml&gt;</span><span lang=SK
+style='font-family:Tahoma'><br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:#E0E0E0'><a name="a_sankranti"></a><b><span
+lang=SK style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma'>Sankranti<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><b><span lang=SK
+style='font-family:Tahoma'>gcal.exe sankranti</span></b><span lang=SK
+style='font-family:Tahoma'> <i>&lt;latitude&gt; &lt;longitude&gt;
+&lt;timezone&gt; &lt;year&gt; &lt;filename&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_longitude">longitude</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_latitude">latitude</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_timezone">timezone</a></span></i><span lang=SK style='font-family:
+Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year</span></i><span
+lang=SK style='font-family:Tahoma'> - calculated year<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">filename<span style='font-style:normal'> </span></a></span></i><span
+lang=SK style='font-family:Tahoma'>- filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLES<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='font-family:
+"Courier New"'>gcal.exe sankranti 48N14 13E04 2:00 2006 out2.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file OUT2.xml
+will write list of sankrantis for whole Gaurabda year begining in 2006.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<span lang=SK style='font-size:12.0pt;font-family:Tahoma;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:SK;mso-fareast-language:CS;mso-bidi-language:
+AR-SA'><br clear=all style='mso-special-character:line-break;page-break-before:
+always'>
+</span>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span lang=SK
+style='font-family:Tahoma'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:#E0E0E0'><a name="a_cal"></a><b><span
+lang=SK style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma'>Vaisnava
+Calendar<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:90.0pt;text-indent:-54.0pt'><b><span
+lang=SK style='font-family:Tahoma'>gcal.exe calendar</span></b><span lang=SK
+style='font-family:Tahoma'> <i>&lt;lat&gt; &lt;long&gt; &lt;tzone&gt;
+&lt;year&gt; &lt;month&gt; &lt;day&gt; &lt;count&gt; &lt;filename&gt;
+&lt;dst&gt; &lt;language&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_longitude">long</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_latitude">lat</a></span></i><span lang=SK style='font-family:Tahoma'>
+- observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_timezone">tzone</a></span></i><span lang=SK style='font-family:
+Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year, month, day</span></i><span
+lang=SK style='font-family:Tahoma'> – starting date<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>count</span></i><span
+lang=SK style='font-family:Tahoma'> - count of calculated days<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">filename<span style='font-style:normal'> </span></a></span></i><span
+lang=SK style='font-family:Tahoma'>- filename for XML output<i> <o:p></o:p></i></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>dst</span></i><span
+lang=SK style='font-family:Tahoma'> - optional flag. accepted values are:<span
+style="mso-spacerun: yes">  </span>/dst:aus, /dst:eur, /dst:us<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>language – optional
+flag, see notes on <a href="#notes_language">Language Output</a>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Other way of
+calculation Vaisnava calendar is to use gcalendar.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:90.0pt;text-indent:-54.0pt'><b><span
+lang=SK style='font-family:Tahoma'>gcal.exe gcalendar</span></b><span lang=SK
+style='font-family:Tahoma'> <i>&lt;lat&gt; &lt;long&gt; &lt;tzone&gt;
+&lt;year&gt; &lt;filename&gt; &lt;dst&gt; &lt;language&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_longitude">long</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_latitude">lat</a></span></i><span lang=SK style='font-family:Tahoma'>
+- observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year</span></i><span
+lang=SK style='font-family:Tahoma'> - calculated year of Gregorian Calendar
+(1600...3999)<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_timezone">tzone</a></span></i><span lang=SK style='font-family:
+Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">filename<span style='font-style:normal'> </span></a></span></i><span
+lang=SK style='font-family:Tahoma'>- filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>dst</span></i><span
+lang=SK style='font-family:Tahoma'> - optional flag. accepted values are:<span
+style="mso-spacerun: yes">  </span>/dst:aus, /dst:eur, /dst:us<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>language – optional
+flag, see notes on <a href="#notes_language">Language Output</a>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>This will calculate
+fist day of Gaurabda year in given Gregorian Year and calculates whole Gaurabda
+year.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLES<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='font-family:
+"Courier New"'>gcal.exe calendar 12N78 75E10 5.5 2007 2 1 365 out3.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file OUT3.XML
+will write calculated calendar for 365 days begining from 1st February 2007 for
+timezone 5 hours 30 minutes (= 5.5 hrs)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>-------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:"Courier New"'>gcal.exe
+calendar 42N78 25E10 1.0 2007 2 1 365 out4.xml /dst:eur<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file OUT4.XML
+will write calculated calendar for 365 days begining from 1st February 2007 for
+timezone 1 hour (= 1.0 hrs) with daylight saving time system for Europe.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>-------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:"Courier New"'>gcal.exe
+calendar 12N78 75E10 5.5 2007 2 1 365 out5.xml /lang:ge<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file OUT5.XML
+will write calculated calendar for 365 days begining from 1st February 2007 for
+timezone 5 hours 30 minutes (= 5.5 hrs). Text values will be in German Language
+(lang:ge refers to German language)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>-------------<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:"Courier New"'>gcal.exe
+gcalendar 12N78 75E10 5.5 2007 temp1.xml /lang:hi<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file TEMP1.XML
+will write calculated calendar from first day of Gaurabda year (in this case Mar
+4, 2007) up to last day of that Gaurabda year (in this case up to Mar 21, 2008)
+for timezone 5 hours 30 minutes (= 5.5 hrs). Text values will be in Hindi
+Language (lang:hi refers to Hindi language)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<span lang=SK style='font-size:12.0pt;font-family:Tahoma;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:SK;mso-fareast-language:CS;mso-bidi-language:
+AR-SA'><br clear=all style='mso-special-character:line-break;page-break-before:
+always'>
+</span>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span lang=SK
+style='font-family:Tahoma'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:#E0E0E0'><a name="a_naks"></a><b><span
+lang=SK style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma'>Naksatra<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>There are two ways
+how to calculate naksatras. They differs only in arguments.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><i><span lang=SK style='font-family:Tahoma'>First way
+(date given in Gregorian Calendar)<o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><span
+style="mso-spacerun: yes">  </span><b>gcal.exe naksatra</b> &lt;<i>lat</i>&gt;
+&lt;<i>long</i>&gt; &lt;<i>tzone</i>&gt; &lt;<i>year</i>&gt; &lt;<i>month</i>&gt;
+&lt;<i>day</i>&gt; &lt;<i>daycount</i>&gt; &lt;<i>fileout</i>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>&lt;<a
+href="#notes_latitude">lat</a>&gt; and &lt;<a href="#notes_longitude">long</a>&gt;
+is latitude and longitude like for other cases.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="#notes_timezone">tzone</a> - timezone<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>year - range
+1600..3999<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>month - range 1..12<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>day - range 1..31<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>daycount - range
+1..5000<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">fileout </a>– output filename<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>output: list of
+days with calculated naksatra timings<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='font-family:
+"Courier New"'>gcal.exe naksatra 12N78 75E10 5.5 2007 2 1 30 naks5.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name="a_nak2"></a><b><i><span lang=SK style='font-family:
+Tahoma'>Second way (date given in Gaurabda Calendar)<o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><span
+style="mso-spacerun: yes">  </span><b>gcal</b>.<b>exe</b> <b>gnaksatra</b> &lt;<i>lat</i>&gt;
+&lt;<i>lon</i>&gt; &lt;<i>tzone</i>&gt; &lt;<i>gaurabdayear</i>&gt; &lt;<i>masa</i>&gt;
+&lt;<i>fileout</i>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_longitude">long</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_latitude">lat</a></span></i><span lang=SK style='font-family:Tahoma'>
+- observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="#notes_timezone">tzone</a> - timezone<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>gaurabdayear - year
+of Gaurabda Era - range 0..2500<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>masa - range 1..12
+or name e.g. Madhava, Govinda, visnu, hrsikesa, etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">fileout </a>– output filename<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>output: list od
+days with calculated naksatra timing for given Masa<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='font-family:
+"Courier New"'>gcal.exe gnaksatra 12N78 75E10 5.5 522 visnu temp6.xml <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<span lang=SK style='font-size:12.0pt;font-family:Tahoma;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:SK;mso-fareast-language:CS;mso-bidi-language:
+AR-SA'><br clear=all style='mso-special-character:line-break;page-break-before:
+always'>
+</span>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span lang=SK
+style='font-family:Tahoma'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:#E0E0E0'><a name="a_tit"></a><b><span
+lang=SK style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma'>Tithis
+for Calendar date<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-family:Tahoma'><span
+style="mso-spacerun: yes">  </span>gcal.exe</span></b><span lang=SK
+style='font-family:Tahoma'> <b>tithi</b> &lt;<i>lat</i>&gt; &lt;<i>long</i>&gt;
+&lt;<i>tzone</i>&gt; &lt;<i>year</i>&gt; &lt;<i>month</i>&gt; &lt;<i>day</i>&gt;
+&lt;<i>fileout</i>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>&lt;<a
+href="#notes_latitude">lat</a>&gt; and &lt;<a href="#notes_longitude">long</a>&gt;
+is latitude and longitude like for other cases.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="#notes_timezone">tzone</a> - timezone<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>year - range
+1600..3999<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>month - range 1..12<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>day - range 1..31<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">fileout </a>– output filename<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>output: calculated
+tithis which are touching given day<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='font-family:
+"Courier New"'>gcal.exe tithi 12N78 75E10 5.5 2007 2 1 temp7.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>OUTPUT FILE TEMP7.XML<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'>&lt;xml&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;request
+name=&quot;Tithi&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;longitude&quot; val=&quot;+75.16667&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;latitude&quot; val=&quot;+13.30000&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;timezone&quot; val=&quot;+5.50000&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;startdate&quot; val=&quot;1 Feb 2007&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;/request&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;result
+name=&quot;Tithi&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;tithi<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>id=&quot;28&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>name=&quot;Caturdasi&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>startdate=&quot;31
+Jan 2007&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>starttime=&quot;10:33:09&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-indent:35.4pt'><span lang=SK
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:"Courier New"'>/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;tithi<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>id=&quot;29&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>name=&quot;Purnima&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>startdate=&quot;1
+Feb 2007&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:3'>                  </span>starttime=&quot;10:40:11&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt;text-indent:35.4pt'><span lang=SK
+style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:"Courier New"'>/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;/result&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'>&lt;/xml&gt; </span><span lang=SK
+style='font-family:Tahoma'><br clear=all style='mso-special-character:line-break;
+page-break-before:always'>
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:#D9D9D9'><a name="a_tits"></a><b><span
+lang=SK style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma;
+background:#D9D9D9'>Calendar Day for given Tithi</span></b><b><span lang=SK
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><span
+style="mso-spacerun: yes">  </span><b>gcal.exe gtithi</b> &lt;<i>lat</i>&gt;
+&lt;<i>lon</i>&gt; &lt;<i>tzone</i>&gt; &lt;<i>year-range</i>&gt; &lt;<i>masa</i>&gt;
+&lt;<i>paksa</i>&gt; &lt;<i>tithi</i>&gt; &lt;<i>fileout</i>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>year range - years
+of Gaurabda Era or Gregorian Era<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>masa - range 1..12
+or name e.g. Madhava, Govinda, visnu, hrsikesa, etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>paksa - range 0..1,
+or {k, K, krsna, Gaura, g, G, gaura}<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>tithi - range 1..15
+or name e.g. pancami, Ekadasi, caturti, etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">fileout </a>– output filename<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>on input 2007:2009
+means interval from 2007 upto 2009. Whether it is gaurabda year or calendar
+year, it depends on value. If value is lesser than 1500 then it is gaurabda
+year, if greater then it is gregorian calendar year.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=109 valign=top style='width:81.5pt;border:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>example<o:p></o:p></span></b></p>
+  </td>
+  <td width=333 valign=top style='width:250.1pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>meaning<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=109 valign=top style='width:81.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-family:Tahoma'>520:524<o:p></o:p></span></p>
+  </td>
+  <td width=333 valign=top style='width:250.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-family:Tahoma'>interval for
+  gaurabda years 520 - 524<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=109 valign=top style='width:81.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-family:Tahoma'>2010-2012<o:p></o:p></span></p>
+  </td>
+  <td width=333 valign=top style='width:250.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-family:Tahoma'>interval for
+  years 2010 to 2012<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=109 valign=top style='width:81.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-family:Tahoma'>1998<o:p></o:p></span></p>
+  </td>
+  <td width=333 valign=top style='width:250.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-family:Tahoma'>just for one year
+  (in this case 1998)<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>separator of years
+is either '-' or ':'<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>if other separator
+is used, then error is raised<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>output: calculated
+timings for given tithi<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='font-family:
+"Courier New"'>gcal.exe gtithi 27S28 153E02 +10.0 2007:2009 Madhusudana <o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:70.8pt;text-indent:35.4pt'><span lang=SK
+style='font-family:"Courier New"'>K Trayodasi exp.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='font-family:
+"Courier New"'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='font-family:
+"Courier New"'>what is calculation for Brisbane, Australia<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>OUTPUT FILE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'>&lt;xml&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;request
+name=&quot;Tithi&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;longitude&quot; val=&quot;+153.03333&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;latitude&quot; val=&quot;-27.46667&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;timezone&quot; val=&quot;+10.00000&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;year-start&quot; val=&quot;2007&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;year-end&quot; val=&quot;2009&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;masa&quot; val=&quot;0&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;paksa&quot; val=&quot;0&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;tithi&quot; val=&quot;12&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;/request&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;result
+name=&quot;Tithi&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;celebration<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rtithi=&quot;Trayodasi&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rmasa=&quot;Madhusudana&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rpaksa=&quot;Krsna&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>type=&quot;ksaya&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>date=&quot;16
+Apr 2007&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>otithi=&quot;Caturdasi&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>omasa=&quot;Madhusudana&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>opaksa=&quot;Krsna&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;celebration<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rtithi=&quot;Trayodasi&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rmasa=&quot;Madhusudana&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rpaksa=&quot;Krsna&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>type=&quot;ksaya&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>date=&quot;4
+May 2008&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>otithi=&quot;Caturdasi&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>omasa=&quot;Madhusudana&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>opaksa=&quot;Krsna&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;celebration<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rtithi=&quot;Trayodasi&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rmasa=&quot;Madhusudana&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rpaksa=&quot;Krsna&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>type=&quot;normal&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>date=&quot;23
+Apr 2009&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>otithi=&quot;Trayodasi&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>omasa=&quot;Madhusudana&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>opaksa=&quot;Krsna&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;/result&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'>&lt;/xml&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>rtithi, rmasa,
+rpaksa - input values of given vaisnava day<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>type -
+&quot;ksaya&quot; if tithi is ksaya, &quot;normal&quot; normal tithi,
+&quot;vriddhi&quot; if tithi is vriddhi<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>date - date of
+celebration<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>otithi, omasa,
+opaksa - actual vaisnava day for calculated date<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>There are values
+RTITHI and OTITHI (besides others) in the CELEBRATION tag.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Difference between
+OTITHI and RTITHI is when tithi is ksaya, then OTITHI is tithi after RTITHI and
+DATE is the day when this RTITHI occurs.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>RTITHI like
+REQUESTED TITHI<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>OTITHI like
+OBSERVANCE TITHI<o:p></o:p></span></p>
+
+<span lang=SK style='font-size:12.0pt;font-family:Tahoma;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:SK;mso-fareast-language:CS;mso-bidi-language:
+AR-SA'><br clear=all style='mso-special-character:line-break;page-break-before:
+always'>
+</span>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span lang=SK
+style='font-family:Tahoma'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:#D9D9D9'><a name="a_next"></a><b><span
+lang=SK style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma'>Next
+Celebration for given Tithi<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-family:Tahoma'>gcal.exe</span></b><span
+lang=SK style='font-family:Tahoma'> <b>next</b> </span><span lang=EN-US
+style='font-family:Tahoma;mso-ansi-language:EN-US'>&lt;<i>latitude</i>&gt; &lt;<i>longitude</i>&gt;
+&lt;<i>timezone</i>&gt; &lt;<i>start</i>-<i>date</i>&gt; &lt;<i>masa</i>&gt;
+&lt;<i>paksa</i>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:Tahoma;mso-ansi-language:
+EN-US'><span style='mso-tab-count:2'>                   </span>&lt;<i>tithi</i>&gt;
+&lt;<i>output</i>-<i>file</i>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_longitude">longitude</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'><a
+href="#notes_latitude">latitude</a></span></i><span lang=SK style='font-family:
+Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="#notes_timezone">timezone</a> - timezone<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>masa - range 1..12
+or name e.g. Madhava, Govinda, visnu, hrsikesa, etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>paksa - range 0..1,
+or {k, K, krsna, Gaura, g, G, gaura}<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>tithi - range 1..15
+or name e.g. pancami, Ekadasi, caturti, etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="#notes_filename">output-file </a>– output filename<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>This command
+calculates the same output as GTITHI command, but only one date is calculated.
+GTITHI command calculates more observances of given tithi (depends on given
+range of years) but NEXT command calculates only one observance of given tithi.
+First instance of given tithi from given date.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>In the case when
+given tithi falls on given starting date, then this date also its output value.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLE<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-family:Tahoma'>gcal.exe next
+27S28 153E02 +10.0 25-12-2008 Narayana K Trayodasi exp2.xml<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>OUTPUT<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'>&lt;xml&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;request
+name=&quot;Tithi&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;longitude&quot; val=&quot;+153.03333&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;latitude&quot; val=&quot;-27.46667&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;timezone&quot; val=&quot;+10.00000&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;start date&quot; val=&quot;25 Dec 2008&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;masa&quot; val=&quot;8&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;paksa&quot; val=&quot;0&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>&lt;arg
+name=&quot;tithi&quot; val=&quot;12&quot; /&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;/request&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;result
+name=&quot;Tithi&quot;&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;celebration<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rtithi=&quot;Trayodasi&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rmasa=&quot;Narayana&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>rpaksa=&quot;Krsna&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>type=&quot;normal&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>date=&quot;25
+Dec 2008&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>otithi=&quot;Trayodasi&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>omasa=&quot;Narayana&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:2'>            </span>opaksa=&quot;Krsna&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'><span style='mso-tab-count:1'>      </span>&lt;/result&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:"Courier New"'>&lt;/xml&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Meaning of tags and
+attributes are the same as for GTITHI command.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>rtithi, rmasa,
+rpaksa - input values of given vaisnava day<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>type -
+&quot;ksaya&quot; if tithi is ksaya, &quot;normal&quot; normal tithi,
+&quot;vriddhi&quot; if tithi is vriddhi<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>date - date of
+celebration<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>otithi, omasa,
+opaksa - actual vaisnava day for calculated date<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>There are values
+RTITHI and OTITHI (besides others) in the CELEBRATION tag.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Difference between
+OTITHI and RTITHI is when tithi is ksaya, then OTITHI is tithi after RTITHI and
+DATE is the day when this RTITHI occurs.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>RTITHI like REQUESTED
+TITHI<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>OTITHI like
+OBSERVANCE TITHI<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<span lang=SK style='font-size:12.0pt;font-family:Tahoma;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:SK;mso-fareast-language:CS;mso-bidi-language:
+AR-SA'><br clear=all style='mso-special-character:line-break;page-break-before:
+always'>
+</span>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span lang=SK
+style='font-family:Tahoma'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='background:#FFFF99'><b><span lang=SK
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma;
+color:purple'>NOTES:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name="notes_longitude"></a><b><span lang=SK
+style='font-family:Tahoma'>longitude</span></b><span lang=SK style='font-family:
+Tahoma'> can be given in these forms<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>47E80<span
+style="mso-spacerun: yes">    </span>equal 47 deg 80 arcmin East<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>40.25<span
+style="mso-spacerun: yes">    </span>equal 40 deg 15 arcmin East<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>16.3333<span
+style="mso-spacerun: yes">  </span>equal 16 deg 20 arcmin West<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name="notes_latitude"></a><b><span lang=SK
+style='font-family:Tahoma'>latitude</span></b><span lang=SK style='font-family:
+Tahoma'> can be given in these forms<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>15N30<span
+style="mso-spacerun: yes">   </span>equal 15 deg 30 arcmin North<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>46.50<span
+style="mso-spacerun: yes">  </span>equal 46 deg 30 arcmin South<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name="notes_timezone"></a><b><span lang=SK
+style='font-family:Tahoma'>timezone</span></b><span lang=SK style='font-family:
+Tahoma'> can be given in these forms<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>5:30<span
+style="mso-spacerun: yes">   </span>equal 5 hours 30 mins<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>2.5<span
+style="mso-spacerun: yes">    </span>equal 2 hours 30 mins<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>W7.75<span
+style="mso-spacerun: yes">  </span>equal -7 hours 45 mins<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>E5.5 equal +5 hours
+30 mins<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Western Timezones
+are negative values but command line does not allow using 'minus' character
+before number because Windows is using minus for flags. Therefore W is used for
+negative (western) time zones and E is used for positive (eastern) time zones.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>(separator : means
+time in HH:MM format,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>separator . means
+time in floating point format)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name="notes_filename"></a><b><span lang=SK
+style='font-family:Tahoma'>Filename<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Filename can be
+typed in two ways (a) with quotes, (<span style='mso-tab-count:1'>          </span>b)
+without quotes.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma;color:red'>With
+Quotes<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma'>&quot;testTithi.xml&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma'>This is OK.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma'>&quot;test for first time.xml&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma'>Quotes are necesary, because filename must be one
+string. Otherwise Windows will misinterpret arguments for program. So, for
+instance gcal.exe calendar 10n00 11e20 10:30 2008 2 5 10 test first time.xml
+/dst:aus will be misinterpretted filename. Filename in this case will be test
+and rest of arguments will be not accepted (except /dst flag, that is accepted
+wherever in arguments). This is right form (with quotes): gcal.exe calendar
+10n00 11e20 10:30 2008 2 5 10 &quot;test first time.xml&quot; /dst:aus<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma;color:red'>Without
+Quotes<o:p></o:p></span></i></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>If there is no
+space characters in the file name, then filename is not neccessary involve into
+quotes. These filenames are accepted as one string.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>test.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>test_2.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>incl\test3.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>c:\data\test4.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>but quotes are
+required when ...<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>&quot;test
+5.xml&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>&quot;c:\My
+Documents\test 6.xml&quot;<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name="notes_language"></a><b><span lang=SK
+style='font-family:Tahoma'>Language output<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>GCAL offers possibility
+for modifying language in which output text is given. Regarding XML file, only
+text values are in given language.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Language strings
+are stored in files with LNG extension. These files are in the same directory
+as GCAL program. Each file defines only one language. Besides other
+information, language file contains two strings: Language Name and Language
+Identificator. Language name is for instance: <b>English, English (Australia),
+German, Dutch, Hungary, Slovensky</b>, etc. Language identificator is short
+string which uniquely identifies language file. For English it will be <b>en</b>,
+or for Germany it will be <b>ge</b>, etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>These two strings
+are defined by creator of language file so identificator for Germany could be
+also yye, but for easy indentification for user, language identificator should
+be like acronym of language name.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Default language is
+<i>English</i> so there is no need to give argument like <i>/lang:en</i>. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<span lang=SK style='font-size:12.0pt;font-family:Tahoma;mso-fareast-font-family:
+"Times New Roman";mso-ansi-language:SK;mso-fareast-language:CS;mso-bidi-language:
+AR-SA'><br clear=all style='mso-special-character:line-break;page-break-before:
+always'>
+</span>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><span lang=SK
+style='font-family:Tahoma'><o:p></o:p></span></p>
+
+<p class=SectionSep><span lang=SK>Other functions</span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SubsectionSep><a name="other_explang"></a><span lang=SK>Exporting
+default language file</span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Default language
+file is stored in application itself. It can be exported (and thus translated
+into another language) by argument line:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:"Courier New"'><span
+style='mso-tab-count:1'>     </span>gcal.exe export-deflang<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>This is create new
+file in the application directory.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=SectionSep><span lang=SK>Revision History</span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=133 valign=top style='width:99.5pt;border:solid windowtext .5pt;
+  padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>DATE<o:p></o:p></span></b></p>
+  </td>
+  <td width=534 valign=top style='width:400.7pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>CHANGE / UPDATE<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:99.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>April 20, 2008<o:p></o:p></span></p>
+  </td>
+  <td width=534 valign=top style='width:400.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>Changed notation for timezone values. Added flag
+  DST for gcalendar.<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:99.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>Feb 18, 2008<o:p></o:p></span></p>
+  </td>
+  <td width=534 valign=top style='width:400.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>Changed behaviour of GTITHI command. Added command
+  NEXT. Added example file for APPDAY and TITHI commands. <o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:99.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>Jan 5, 2008<o:p></o:p></span></p>
+  </td>
+  <td width=534 valign=top style='width:400.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>Description of right typing of the filename. Added
+  arguments for appday (calculation of Appearance Day).<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:99.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>Jan 1, 2008<o:p></o:p></span></p>
+  </td>
+  <td width=534 valign=top style='width:400.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>Added arguments for gcalendar, export-deflang<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=133 valign=top style='width:99.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>July 7, 2007<o:p></o:p></span></p>
+  </td>
+  <td width=534 valign=top style='width:400.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:5.65pt 3.5pt 5.65pt 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+  12.0pt;font-family:Tahoma'>First version. Arguments sankranti, gtithi, tithi,
+  naksatra, gnaksatra, calendar, firstday<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<div style='border:none;border-top:solid windowtext .5pt;padding:1.0pt 0cm 0cm 0cm'>
+
+<p class=MsoNormal style='border:none;mso-border-top-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 0cm 0cm 0cm'><span lang=SK style='font-family:
+Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Other information
+available from<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a
+href="mailto:gopalapriya.bvs@pamho.net">gopalapriya.bvs@pamho.net</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
