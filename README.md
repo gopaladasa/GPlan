@@ -2,7 +2,7 @@
 
 A Agenda Vaishnava Gaurabda Planner (GPlan) está ainda mais prática!
 
-![GPlan weekly planner image](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/gplan17.png)
+![GPlan weekly planner image](https://raw.githubusercontent.com/gopaladasa/GPlan/master/images/gplan18.png)
 
 **Baixe [aqui](https://github.com/gopaladasa/GPlan/releases/latest) a última versão do gerador.**
 
