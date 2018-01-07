@@ -61,12 +61,12 @@ Abra o arquivo gplan.xlsm (parte do pacote GPlan.zip) no Excel, habilite o uso d
    Por exemplo: Recife|Brazil|-34.881111|-8.053889|-3.00|63
  
 4. Selecione o ano desejado. 
-   Por exemplo: 2017
+   Por exemplo: 2018
  
 5. Clique no botão "5- Calcular" e aguarde a conclusão do cálculo e carregamento dos dados do calendário. Não clique com o mouse ou mexa no teclado até a conclusão do processo.
  
 6. Confira os dados do calendário calculado.
-    Por exemplo: Recife - Brazil - 2017
+    Por exemplo: Recife - Brazil - 2018
  
 7. Corrija, complemente ou confirme o nome da localidade que aparecerá na capa da sua Agenda Vaishnava Gaurabda Planner.
    Por exemplo: Recife
