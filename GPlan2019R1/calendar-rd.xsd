@@ -1,0 +1,85 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="xml">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="request">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="reqname"/>
+              <xs:element type="xs:string" name="reqversion"/>
+              <xs:element type="xs:float" name="reqlongitude"/>
+              <xs:element type="xs:float" name="reqlatitude"/>
+              <xs:element type="xs:float" name="reqtimezone"/>
+              <xs:element type="xs:string" name="reqstartdate"/>
+              <xs:element type="xs:short" name="reqdaycount"/>
+              <xs:element type="xs:byte" name="reqdst"/>
+              <xs:element type="xs:string" name="resname"/>
+              <xs:element type="xs:string" name="resdstsystem"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="result">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="masa" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="msday" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="daydate" type="xs:date"/>
+                          <xs:element name="dayweekid" type="xs:positiveInteger"/>
+                          <xs:element name="dayweekst"/>
+                          <xs:element name="gyear" type="xs:short"/>
+                          <xs:element name="gymasa"/>
+                          <xs:element name="mpaksaid"/>
+                          <xs:element name="mpaksaname"/>
+                          <xs:element name="stithiindex" type="xs:positiveInteger" />
+                          <xs:element name="stithiname"/>
+                          <xs:element name="atithiname"/>
+                          <xs:element name="arunodayatime" type="xs:time"/>
+                          <xs:element name="dsunrisetime" type="xs:time"/>
+                          <xs:element name="paranafrom" type="xs:time" minOccurs="0"/>
+                          <xs:element name="paranato" type="xs:time" minOccurs="0"/>
+                          <xs:element name="noontime" type="xs:time"/>
+                          <xs:element name="sunsettime" type="xs:time"/>
+                          <xs:element name="sankrantitime" type="xs:time" minOccurs="0"/>
+                          <xs:element name="sankrantirasi" minOccurs="0"/>
+                          <xs:element name="ksayafrom" type="xs:time" minOccurs="0"/>
+                          <xs:element name="ksayato" type="xs:time" minOccurs="0"/>
+                          <xs:element name="moonrise"/>
+                          <xs:element name="moonset"/>
+                          <xs:element name="dstoffset" type="xs:float"  minOccurs="0"/>
+                          <xs:element name="vriddhisd"/>
+                          <xs:element name="tithielapse" type="xs:float"/>
+                          <xs:element name="naksatraelapse" type="xs:float"/>
+                          <xs:element name="naksatraname"/>
+                          <xs:element name="yoganame"/>
+                          <xs:element name="dcaturmasya1" minOccurs="0"/>
+                          <xs:element name="dcaturmasya2" minOccurs="0"/>
+                          <xs:element name="fasttype" minOccurs="0"/>
+                          <xs:element name="fastmark" minOccurs="0"/>
+                          <xs:element name="dfestival1" minOccurs="0"/>
+                          <xs:element name="dclass1" type="xs:integer" minOccurs="0"/>
+                          <xs:element name="dfestival2" minOccurs="0"/>
+                          <xs:element name="dclass2" type="xs:integer" minOccurs="0"/>
+                          <xs:element name="dfestival3" minOccurs="0"/>
+                          <xs:element name="dclass3" type="xs:integer" minOccurs="0"/>
+                          <xs:element name="dfestival4" minOccurs="0"/>
+                          <xs:element name="dclass4" type="xs:integer" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="gyear" use="optional"/>
+                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="name"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
