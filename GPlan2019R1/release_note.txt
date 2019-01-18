@@ -1,0 +1,112 @@
+A planilha Excel geradora da Agenda Vaishnava (Gaurabda Planner - GPlan) versão 2019 já pode ser baixada no seguinte link direto: https://github.com/gopaladasa/GPlan/releases/download/GPlan2019R1/GPlan2019R1.zip
+
+A Agenda Vaishnava GPlan é uma mistura de agenda semanal com calendário vaishnava, com espaço para você planejar as atividades pessoais, familiares, profissionais e espirituais da semana.
+
+Voce imprime e encaderna como quiser :-) .
+
+Também, é possível baixar a agenda em pdf já pronta para impressão para uma das cidades abaixo: 
+
+Aracajú - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Aracaju.pdf
+Belém - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Belem.pdf
+Belo Horizonte - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Belo_Horizonte.pdf
+Boa Vista - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Boa_Vista.pdf
+Brasília - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Brasilia.pdf
+Campina Grande - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Campina_Grande.pdf
+Campo Grande - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Campo_Grande.pdf
+Caruarú - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Caruaru.pdf
+Cuiabá - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Cuiaba.pdf
+Curitiba - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Curitiba.pdf
+Florianópolis - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Florianopolis.pdf
+Fortaleza - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Fortaleza.pdf
+Goiânia - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Goiania.pdf
+João Pessoa - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Joao_Pessoa.pdf
+Macapá - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Macapa.pdf
+Maceió - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Maceio.pdf
+Manaus - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Manaus.pdf
+Natal - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Natal.pdf
+Porto Alegre - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Porto_Alegre.pdf
+Porto Velho - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Porto_Velho.pdf
+Recife - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Recife.pdf
+Rio Branco - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Rio_Branco.pdf
+Rio de Janeiro - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Rio_de_Janeiro.pdf
+Salvador - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Salvador.pdf
+Santos - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Santos.pdf
+São José do Rio Preto - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Sao_Jose_do_Rio_Preto.pdf
+São José dos Campos - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Sao_Jose_dos_Campos.pdf
+São Luis - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Sao_Luis.pdf
+São Paulo - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Sao_Paulo.pdf
+Taubaté - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Taubate.pdf
+Teresina - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Teresina.pdf
+Vitória - https://github.com/gopaladasa/GPlan/raw/master/GPlan2019R1/GPlanPDF/GPlan-2019-Vitoria.pdf
+
+
+
+GPlan 2019 Release 1
+
+A GPlan é uma planilha eletrônica em formato Excel® capaz de gerar uma agenda semanal com as datas e eventos do calendário vaishnava referentes à sua cidade e também com os seus dados pessoais, para personalizar e imprimir.
+
+Com a GPlan é possível criar agendas personalizadas com as seguintes características:
+
+    * Agenda Semanal;
+
+    * Calendários do ano atual e do próximo;
+
+    * Calendários do mês atual e do próximo em cada semana da agenda semanal;
+
+    * Agenda mensal para os primeiros três meses do ano seguinte;
+
+    * Dados pessoais completos;
+
+    * Espaço para anotações diversas;
+
+    * Agenda de contatos;
+
+    * Citações do Bhagavad-gita e outros textos védicos para cada semana do ano;
+
+    * Todas as informações do calendário vaishnava são exibidas nas agendas mensal e semanal nos dias corretos para sua cidade (basta facilmente selecionar a cidade e ano desejado para carregar a planilha com o calendário GCal calculado para a cidade) - com tradução para o português, inglês ou espanhol (em andamento), e a possibilidade de expansão ou adaptação da linguagem para outros idiomas;
+
+    * Opção para inclusão de feriados e datas comemorativas locais;
+
+    * Opção para inclusão de aniversários de amigos, parentes e afins.
+
+    * Opção para inclusão das descrições de eventos e personalidades do calendário vaishnava.
+
+    * Opção para inclusão folhas de acompanhamento e controle de resultados de reuniões.
+
+    * Opção para inclusão de tabelas de conversão de unidades (por enquanto apenas em português).
+
+
+Melhorias da GPlan 2019 R1
+
+    1. Formulário de opções de cálculo do calendário com busca que reduz a lista de opções a medida que se digita o nome do país e da cidade, facilitando a seleção dessas opções.
+
+    2. Não é mais necessária a instalação de fontes especiais para as citações dos textos védicos, que foram transcodificados para Unicode.
+
+    3. Não é mais necessário abrir a tela do GCal, que agora é acionado por linha de comando, tornando o cálculo do calendário quase instantâneo.
+
+    4. Melhorias na apresentação dos dados do calendário vaishnava, tornando-o mais didático.
+
+    5. Cálculo das fases da lua ajustado para o padrão ocidental.
+
+    6. Melhoria nas indicações dos feriados, comemorações e eventos nos calendários anual, mensal e semanal.
+
+    7. Inclusão dos horários de arunodaya (início do Brahma muhurta - horário auspicioso de 48 minutos -para atividades espirituais antes do amanhecer), e do meio dos sandhyas (muhurtas do nascer-do-sol, ápice e por-do-sol) da segunda-feira de cada semana do calendário semanal (os horários dos demais dias pode ser inferido, pois variam pouco de um dia para o outro, e são indicados por asteriscos * nas colunas das semanas).
+
+    8. Citações deslocadas para a primeira coluna na agenda semanal, ganhando mais espaço e destaque, e melhorando nossa inspiração.
+
+    9. Calendários mensais deslocados para baixo na última coluna da direita na agenda semanal, permitindo mais espaço para os sábados e domingos.
+
+    10. Símbolos das fase da lua no calendário anual e na agenda semanal fora melhorados.
+
+    11. Lista dos Avatars e outras Personalidades do Calendário Vaishnava como um opcional.
+
+    12. Lista dos festivais, votos (vratas) e outros eventos do calendário vaisnava como um opcional.
+
+    13. Tabelas de Conversão de Unidades como um opcional.
+
+    14. Folhas de acompanhamento e controle de resultados de reuniões como um opcional.
+
+    15. Complemento do calendário vaishnava parcial gerado pelo GCal por linha de comando, com tabelas e cálculos mais "enxutos".
+
+    16. Uso do msxsl.exe com arquivo de transformação xslt para mudar o calendário xml do GCal para um formato mais próximo do tabular, facilitando a importação e processamento dos dados do calendário vaishnava.
+
