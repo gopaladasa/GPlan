@@ -3,6 +3,11 @@ References
 
 GPlan
 
+https://github.com/gopaladasa
+https://github.com/gopaladasa/GPlan
+https://github.com/gopaladasa/GCAL-for-Windows
+https://github.com/gopaladasa/GCA
+L
 https://github.com/gopaladasa/GPlan/tree/master/GPlanLatestRelease
 https://github.com/gopaladasa/GPlan/tree/master/GPlan2019R1
 https://github.com/gopaladasa/GPlan/issues/1
@@ -15,6 +20,8 @@ GCal
 http://gopal.home.sk/
 http://www.krishnadays.com/eng/index.php?option=com_docman&task=cat_view&gid=38&Itemid=58
 http://www.krishnadays.com/eng/index.php?option=com_docman&task=doc_details&gid=27&Itemid=58
+http://www.harekrsna.de/artikel/vaishnava-calendar.htm
+http://www.vaisnavacalendar.info/about-the-vaisnava-calendar
 http://www.vaisnavacalendar.com/
 http://www.vaisnavacalendar.com/62/2019/01/
 http://www.harekrishnabh.com.br/calendario-vaisnava/
@@ -23,11 +30,16 @@ http://www.gopala.blog.br/calendario-gaurabda/
 
 Vedic Calendar
 
+https://pt.scribd.com/document/91681689/Civilizacao-vedica
 https://www.geogebra.org/m/syHzksN3
 https://upload.wikimedia.org/wikipedia/commons/7/7b/Tithi.ogv
+https://en.wikipedia.org/wiki/Hindu_calendar
 https://en.wikipedia.org/wiki/Climate_of_India
 https://en.wikipedia.org/wiki/Ritu_(Indian_season)
 https://en.wikipedia.org/wiki/Basant_(season)
+https://en.wikipedia.org/wiki/Hindu_units_of_time
+https://voltaaosupremo.com/artigos/artigos/o-tempo-vedico/
+https://en.wikipedia.org/wiki/Manvantara
 
 
 Sanskrit
@@ -110,6 +122,9 @@ https://www.techonthenet.com/excel/formulas/index_vba.php
 https://support.office.com/pt-pt/article/operadores-de-c%C3%A1lculo-e-ordem-de-execu%C3%A7%C3%A3o-no-excel-48be406d-4975-4d31-b2b8-7af9e0e2878a
 http://vbacodigos.blogspot.com/2013/05/operadores-matematicos-e-logicos-do-vba.html
 
+http://www.etepiracicaba.org.br/cursos/apostilas/aplicativos/excel_avancado.pdf
+
+
 
 XML & XSLT
 
@@ -151,3 +166,10 @@ Others
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
+https://pt.scribd.com/document/323633219/Astrologia-Vedica-Basica-Sumario-das-Casas
+
+https://dreamsongs.com/IHE/IHE-50.html
+
+https://www.gnu.org/licenses/fdl-1.3.html
+
+http://www.videosoftdev.com/free-video-editor
