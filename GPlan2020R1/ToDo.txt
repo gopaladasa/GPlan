@@ -8,3 +8,5 @@ Revisar apresentação
 
 Revisar Leiame/Como usar
 
+Tirar macros da planilha
+
