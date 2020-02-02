@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+<day>
+    <tgdate>9010008</tgdate>
+    <festival ref="SrivasaApp" name="Sri Srivasa Pandita - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9010012</tgdate>
+    <festival ref="GovindaDis" name="Sri Govinda Ghosh - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9010105</tgdate>
+    <festival ref="RamanujacaryaApp" name="Sri Ramanujacarya - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9010112</tgdate>
+    <festival name="Damanakaropana Dvadasi" class="1"/>
+</day>
+<day>
+    <tgdate>9010115</tgdate>
+    <festival name="Sri Balarama Rasayatra" class="1"/>
+    <festival name="Sri Krsna Vasanta Rasa" class="1"/>
+    <festival ref="VamsivadanaApp" name="Sri Vamsivadana Thakura - Appearance" class="3"/>
+    <festival ref="SyamanandaApp" name="Sri Syamananda Prabhu - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9020007</tgdate>
+    <festival ref="AbhiramaDis" name="Sri Abhirama Thakura - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9020010</tgdate>
+    <festival ref="VrndavanaDis" name="Srila Vrndavana Dasa Thakura - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9020015</tgdate>
+    <festival ref="GadadharaApp" name="Sri Gadadhara Pandita - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9020103</tgdate>
+    <festival ref="Candana" name="Aksaya Trtiya. Candana Yatra starts. (Continues for 21 days)" class="1"/>
+</day>
+<day>
+    <tgdate>902107</tgdate>
+    <festival name="Jahnu Saptami" class="5"/>
+</day>
+<day>
+    <tgdate>9020109</tgdate>
+    <festival ref="SitaApp" name="Srimati Sita Devi (consort of Lord Sri Rama) - Appearance" class="1"/>
+    <festival ref="MadhuDis" name="Sri Madhu Pandita - Disappearance" class="3"/>
+    <festival ref="JahnavaApp" name="Srimati Jahnava Devi - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9020112</tgdate>
+    <festival name="Rukmini Dvadasi" class="1"/>
+</day>
+<day>
+    <tgdate>9020113</tgdate>
+    <festival ref="JayanandaDis" name="Sri Jayananda Prabhu - Disappearance" class="4"/>
+</day>
+<day>
+    <tgdate>9020114</tgdate>
+    <festival ref="NrsimhadevaApp"  name="Nrsimha Caturdasi: Appearance of Lord Nrsimhadeva" class="0"/>
+    <festival ref="FastTDusk" name="(Fast till dusk)" class="-3" fasttype="2" fastmark="|" />
+</day>
+<day>
+    <tgdate>9020115</tgdate>
+    <festival name="Krsna Phula Dola, Salila Vihara" class="1"/>
+    <festival ref="ParamesvariDis" name="Sri Paramesvari Dasa Thakura - Disappearance" class="3"/>
+    <festival ref="RadhaRamanaApp" name="Sri Sri Radha-Ramana Devaji - Appearance" class="1"/>
+    <festival ref="MadhavendraApp" name="Sri Madhavendra Puri - Appearance" class="3"/>
+    <festival ref="SrinivasaApp" name="Sri Srinivasa Acarya - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9030005</tgdate>
+    <festival ref="RamanandaDis" name="Sri Ramananda Raya - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9030012</tgdate>
+    <festival ref="VrndavanaApp" name="Srila Vrndavana Dasa Thakura - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9030110</tgdate>
+    <festival ref="BaladevaDis" name="Sri Baladeva Vidyabhusana - Disappearance" class="3"/>
+    <festival name="Ganga Puja" class="1"/>
+    <festival ref="GangamataApp" name="Srimati Gangamata Gosvamini - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9030113</tgdate>
+    <festival name="Panihati Cida Dahi Utsava" class="1"/>
+</day>
+<day>
+    <tgdate>9030115</tgdate>
+    <festival name="Snana Yatra" class="1"/>
+    <festival ref="MukundaDis" name="Sri Mukunda Datta - Disappearance" class="3"/>
+    <festival ref="SridharaDis" name="Sri Sridhara Pandita - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9040001</tgdate>
+    <festival ref="SyamanandaDis" name="Sri Syamananda Prabhu - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9040005</tgdate>
+    <festival ref="VakresvaraApp" name="Sri Vakresvara Pandita - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9040010</tgdate>
+    <festival ref="SrivasaDis" name="Sri Srivasa Pandita - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9040015</tgdate>
+    <festival ref="GadadharaDis" name="Sri Gadadhara Pandita - Disappearance" class="3"/>
+    <festival ref="BhaktivinodaDis" name="Srila Bhaktivinoda Thakura - Disappearance" class="2"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" class="-3" fasttype="1" fastmark="|" />
+</day>
+<day>
+    <tgdate>9040102</tgdate>
+    <festival ref="SvarupaDis" name="Sri Svarupa Damodara Gosvami - Disappearance" class="3"/>
+    <festival ref="SivanandaDis" name="Sri Sivananda Sena - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9040106</tgdate>
+    <festival ref="VakresvaraDis" name="Sri Vakresvara Pandita - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9040115</tgdate>
+    <festival name="Guru (Vyasa) Purnima" class="1"/>
+    <festival ref="SanatanaDis" name="Srila Sanatana Gosvami - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9050005</tgdate>
+    <festival ref="GopalaBhattaDis" name="Srila Gopala Bhatta Gosvami - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9050008</tgdate>
+    <festival ref="LokanathaDis" name="Srila Lokanatha Gosvami - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9050009</tgdate>
+    <festival ref="ISKCON" name="The incorporation of ISKCON in New York" class="4"/>
+</day>
+<day>
+    <tgdate>9050104</tgdate>
+    <festival ref="RaghunandanaDis" name="Sri Raghunandana Thakura - Disappearance" class="3"/>
+    <festival ref="VamsidasaDis" name="Sri Vamsidasa Babaji - Disappearance" class="2"/>
+</day>
+<day>
+    <tgdate>9050111</tgdate>
+    <festival ref="JhulanaBeg" name="Radha Govinda Jhulana Yatra begins" class="1"/>
+</day>
+<day>
+    <tgdate>9050112</tgdate>
+    <festival ref="RupaDis" name="Srila Rupa Gosvami - Disappearance" class="3"/>
+    <festival ref="GauridasaDis"  name="Sri Gauridasa Pandita - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9050115</tgdate>
+    <festival ref="JhulanaEnd" name="Jhulana Yatra ends" class="1"/>
+    <festival ref="BalaramaApp" name="Lord Balarama - Appearance" class="0"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" class="-3" fasttype="1" fastmark="|" />
+</day>
+<day>
+    <tgdate>9060001</tgdate>
+    <festival ref="PrabhupadaUSADep" name="Srila Prabhupada's departure for the USA" class="4"/>
+</day>
+<day>
+    <tgdate>9060105</tgdate>
+    <festival ref="SitaThakuraniApp" name="Srimati Sita Thakurani (Sri Advaita's consort) - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9060106</tgdate>
+    <festival name="Lalita sasti" class="1"/>
+</day>
+<day>
+    <tgdate>9060108</tgdate>
+    <festival ref="RadharaniApp" name="Radhastami: Appearance of Srimati Radharani" class="0"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" class="-3" fasttype="1" fastmark="|" />
+</day>
+<day>
+    <tgdate>9060112</tgdate>
+    <festival ref="VamanadevaApp" name="Sri Vamana Dvadasi: Appearance of Lord Vamanadeva" class="0"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" fastsubject="Vamanadeva" class="-3" fasttype="1" fastmark="|" />
+    <festival ref="JivaApp" name="Srila Jiva Gosvami - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9060113</tgdate>
+    <festival ref="BhaktivinodaApp" name="Srila Bhaktivinoda Thakura - Appearance" class="2"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" fastsubject="Bhaktivinoda Thakura" class="-3" fasttype="1"  fastmark="|" />
+</day>
+<day>
+    <tgdate>9060114</tgdate>
+    <festival name="Ananta Caturdasi Vrata" class="1"/>
+    <festival ref="HaridasaDis" name="Srila Haridasa Thakura - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9060115</tgdate>
+    <festival name="Sri Visvarupa Mahotsava" class="1"/>
+    <festival ref="PrabhupadaSannyasa" name="Acceptance of sannyasa by Srila Prabhupada" class="4"/>
+</day>
+<day>
+    <tgdate>9070007</tgdate>
+    <festival ref="PrabhupadaUSAArr" name="Srila Prabhupada's arrival in the USA" class="4"/>
+</day>
+<day>
+    <tgdate>9070107</tgdate>
+    <festival name="Durga Puja" class="5"/>
+</day>
+<day>
+    <tgdate>9070110</tgdate>
+    <festival name="Ramacandra Vijayotsava" class="1"/>
+    <festival ref="MadhvacaryaApp" name="Sri Madhvacarya - Appearance" class="2"/>
+</day>
+<day>
+    <tgdate>9070112</tgdate>
+    <festival ref="RaghunathaDasaDis" name="Srila Raghunatha Dasa Gosvami - Disappearance" class="3"/>
+    <festival ref="RaghunathaBhattaDis" name="Srila Raghunatha Bhatta Gosvami - Disappearance" class="3"/>
+    <festival ref="KrsnadasaDis" name="Srila Krsnadasa Kaviraja Gosvami - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9070115</tgdate>
+    <festival name="Sri Krsna Saradiya Rasayatra" class="1"/>
+    <festival ref="MurariDis" name="Sri Murari Gupta - Disappearance" class="3"/>
+    <festival name="Laksmi Puja" class="5"/>
+</day>
+<day>
+    <tgdate>9080005</tgdate>
+    <festival ref="NarottamaDis" name="Srila Narottama Dasa Thakura - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9080008</tgdate>
+    <festival ref="RadhaKunda" name="Appearance of Radha Kunda, snana dana" class="1"/>
+    <festival name="Bahulastami" class="1"/>
+</day>
+<day>
+    <tgdate>9080009</tgdate>
+    <festival ref="VirabhadraApp" name="Sri Virabhadra - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9080015</tgdate>
+    <festival name="Dipa dana, Dipavali, (Kali Puja)" class="1"/>
+</day>
+<day>
+    <tgdate>9080101</tgdate>
+    <festival name="Bali Daityaraja Puja" class="1"/>
+    <festival ref="RasikanandaApp" name="Sri Rasikananda - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9080102</tgdate>
+    <festival ref="VasudevaDis" name="Sri Vasudeva Ghosh - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9080104</tgdate>
+    <festival ref="PrabhupadaDis" name="Srila Prabhupada - Disappearance" class="2"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" class="-3" fasttype="1" fastmark="|" />
+</day>
+<day>
+    <tgdate>9080108</tgdate>
+    <festival name="Gopastami, Gosthastami" class="1"/>
+    <festival ref="GadadharaDasaDis" name="Sri Gadadhara Dasa Gosvami - Disappearance" class="3"/>
+    <festival ref="DhananjayaDis" name="Sri Dhananjaya Pandita - Disappearance" class="3"/>
+    <festival ref="SrinivasaDis" name="Sri Srinivasa Acarya - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9080109</tgdate>
+    <festival name="Jagaddhatri Puja" class="5"/>
+</day>
+<day>
+    <tgdate>9080111</tgdate>
+    <festival ref="GauraKisoraDis" name="Srila Gaura Kisora Dasa Babaji - Disappearance" class="2"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" fastsubject="Gaura Kisora" class="-3" fasttype="1" fastmark="|" />
+</day>
+<day>
+    <tgdate>9080114</tgdate>
+    <festival ref="BhugarbhaDis" name="Sri Bhugarbha Gosvami - Disappearance" class="3"/>
+    <festival ref="KasisvaraDis" name="Sri Kasisvara Pandita - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9080115</tgdate>
+    <festival name="Sri Krsna Rasayatra" class="1"/>
+    <festival ref="TulasiSaligrama" name="Tulasi-Saligrama Vivaha (marriage)" class="1"/>
+    <festival ref="NimbarkacaryaApp" name="Sri Nimbarkacarya - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9090001</tgdate>
+    <festival ref="KatyayaniBeg" name="Katyayani vrata begins" class="1"/>
+</day>
+<day>
+    <tgdate>9090011</tgdate>
+    <festival ref="NarahariDis" name="Sri Narahari Sarakara Thakura - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9090012</tgdate>
+    <festival ref="KaliyaDis" name="Sri Kaliya Krsnadasa - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9090013</tgdate>
+    <festival ref="SarangaDis" name="Sri Saranga Thakura - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9090106</tgdate>
+    <festival name="Odana sasthi" class="1"/>
+</day>
+<day>
+    <tgdate>9090111</tgdate>
+    <festival ref="BhagavadGita" name="Advent of Srimad Bhagavad-gita" class="1"/>
+</day>
+<day>
+    <tgdate>9090115</tgdate>
+    <festival ref="KatyayaniEnd" name="Katyayani vrata ends" class="1"/>
+</day>
+<day>
+    <tgdate>9100004</tgdate>
+    <festival ref="BhaktisiddhantaDis" name="Srila Bhaktisiddhanta Sarasvati Thakura - Disappearance" class="2"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" class="-3" fasttype="1" fastmark="|" />
+</day>
+<day>
+    <tgdate>9100011</tgdate>
+    <festival ref="DevanandaDis" name="Sri Devananda Pandita - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9100013</tgdate>
+    <festival ref="MahesaDis" name="Sri Mahesa Pandita - Disappearance" class="3"/>
+    <festival ref="UddharanaDis" name="Sri Uddharana Datta Thakura - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9100101</tgdate>
+    <festival ref="LocanaApp" name="Sri Locana Dasa Thakura - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9100103</tgdate>
+    <festival ref="JivaDis" name="Srila Jiva Gosvami - Disappearance" class="3"/>
+    <festival ref="JagadisaDis" name="Sri Jagadisa Pandita - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9100112</tgdate>
+    <festival ref="JagadisaApp" name="Sri Jagadisa Pandita - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9100115</tgdate>
+    <festival name="Sri Krsna Pusya Abhiseka" class="1"/>
+</day>
+<day>
+    <tgdate>9110005</tgdate>
+    <festival ref="RamacandraKavirajaDis" name="Sri Ramacandra Kaviraja - Disappearance" class="3"/>
+    <festival ref="GopalaBhattaApp" name="Srila Gopala Bhatta Gosvami - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9110006</tgdate>
+    <festival ref="JayadevaDis" name="Sri Jayadeva Gosvami - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9110007</tgdate>
+    <festival ref="LocanaDis" name="Sri Locana Dasa Thakura - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9110105</tgdate>
+    <festival name="Vasanta Pancami" class="1"/>
+    <festival ref="VisnupriyaApp" name="Srimati Visnupriya Devi - Appearance" class="3"/>
+    <festival ref="VisvanathaDis" name="Srila Visvanatha Cakravarti Thakura - Disappearance" class="3"/>
+    <festival ref="PundarikaApp" name="Sri Pundarika Vidyanidhi - Appearance" class="3"/>
+    <festival ref="RaghunandanaApp" name="Sri Raghunandana Thakura - Appearance" class="3"/>
+    <festival ref="RaghunathaDasaApp" name="Srila Raghunatha Dasa Gosvami - Appearance" class="3"/>
+    <festival name="Sarasvati Puja" class="5"/>
+</day>
+<day>
+    <tgdate>9110107</tgdate>
+    <festival ref="AdvaitaApp" name="Sri Advaita Acarya - Appearance" class="0"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" class="-3" fasttype="1" fastmark="|" />
+</day>
+<day>
+    <tgdate>9110108</tgdate>
+    <festival name="Bhismastami" class="1"/>
+</day>
+<day>
+    <tgdate>9110109</tgdate>
+    <festival ref="MadhvacaryaDis" name="Sri Madhvacarya - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9110110</tgdate>
+    <festival ref="RamanujacaryaDis" name="Sri Ramanujacarya - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9110112</tgdate>
+    <festival ref="VarahadevaApp" name="Varaha Dvadasi: Appearance of Lord Varahadeva" class="0"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" fastsubject="Varahadeva" class="-3" fasttype="1"  fastmark="|" />
+</day>
+<day>
+    <tgdate>9110113</tgdate>
+    <festival ref="NityanandaApp" name="Nityananda Trayodasi: Appearance of Sri Nityananda Prabhu" class="0"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" fastsubject="Sri Nityananda" class="-3" fasttype="1" fastmark="|" />
+</day>
+<day>
+    <tgdate>9110115</tgdate>
+    <festival name="Sri Krsna Madhura Utsava" class="1"/>
+    <festival ref="NarottamaApp" name="Srila Narottama Dasa Thakura - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9120005</tgdate>
+    <festival ref="PurusottamaDis" name="Sri Purusottama Das Thakura - Disappearance" class="3"/>
+    <festival ref="BhaktisiddhantaApp" name="Srila Bhaktisiddhanta Sarasvati Thakura - Appearance" class="2"/>
+    <festival ref="FastTNoon" name="(Fast till noon)" class="-3" fasttype="1"  fastmark="|" />
+</day>
+<day>
+    <tgdate>9120012</tgdate>
+    <festival ref="IsvaraDis" name="Sri Isvara Puri - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9120014</tgdate>
+    <festival name="Siva Ratri" class="1"/>
+</day>
+<day>
+    <tgdate>9120101</tgdate>
+    <festival ref="JagannathaDasaDis" name="Srila Jagannatha Dasa Babaji - Disappearance" class="2"/>
+    <festival ref="RasikanandaDis" name="Sri Rasikananda - Disappearance" class="3"/>
+</day>
+<day>
+    <tgdate>9120104</tgdate>
+    <festival ref="PurusottamaApp" name="Sri Purusottama Dasa Thakura - Appearance" class="3"/>
+</day>
+<day>
+    <tgdate>9120112</tgdate>
+    <festival ref="MadhavendraDis" name="Sri Madhavendra Puri - Disappearance" class="3"/>
+</day>
+
+</xml>

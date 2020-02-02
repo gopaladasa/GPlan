@@ -1,0 +1,194 @@
+﻿Unidades de Tempo Hindu
+
+Os textos hindus descrevem unidades de medida de Kala (tempo), de microssegundos a trilhões de anos.[1] De acordo com esses textos, o tempo é cíclico, que se repete eternamente.[2]
+
+
+Conteúdo
+1 Unidades de tempo
+1.1 Métricas Siderais
+1.1.1 Pequenas unidades de tempo usadas nos Vedas
+2 Métricas lunares
+3 Métricas tropicais
+4 Contagem de tempo entre outras entidades
+4.1 Entre os Pitṛs (antepassados)
+4.2 Entre os Devas
+4.3 Para Brahma
+5 Quatro yugas
+6 Data atual
+6.1 Cálculo do tempo decorrido desde a atual criação de Brahma
+7 Veja também
+8 Notas
+9 Referências
+10 Links externos
+
+
+
+
+Unidades de Tempo
+
+Várias frações de tempo são usadas em Escrituras Hindus tais como Vedas, Bhagavata Purana, Vishnu Purana, Mahabharata, Suryasidhanta, etc. Um resumo das métricas hindus de tempo (kāla vyavahāra) segue.[citação necessária]
+
+Métricas Siderais
+
+Unidade
+Definição
+Relação com unidades do SI
+
+Dia Sideral
+
+
+Sistema Alternativo
+Unidade
+Definição
+Relação com unidades do SI
+
+
+Pequenas unidades de tempo usadas nos Vedas
+
+Unidade base
+
+dias
+
+meses
+
+
+Medidas hindu em escala logarítmica.
+
+
+
+Métricas lunares
+
+Um Tithi ou dia lunar é definido como o tempo que leva para o ângulo longitudinal entre a lua e o Sol aumentar em 12°. Tithis começam em diferentes momentos do dia e variam em duração de aproximadamente 19 a aproximadamente 26 horas.[4][5]
+Um Paksa (ou Pakṣa) ou quinzena lunar consiste em 15 tithis.[4]
+Um Māsa ou mês lunar (aproximadamente 29,5 dias) é dividido em 2 Pakṣas: aquele entre a lua nova e a lua cheia (crescente) é chamado Gaura (brilhante) ou Śukla Pakṣa; aquele entre a lua cheia e a lua nova (minguante) é chamado Kṛiṣhṇa (escuro) Paksha.[4]
+Um Ṛitu (ou estação) compreende 2 Māsa.[4]
+Uma Ayana (semestre) compreende 3 Ṛitus.[4]
+Um ano (lunar) é composto de dois Ayanas.[4]
+
+
+Métricas tropicais
+Sete Ghatis e meio perfazem um Yāma.[6]
+Oito Yāmas perfazem metade de um dia (tanto o período diurno quanto o noturno do dia).[6]
+Um Ahorātra é um dia tropical (Nota: o dia começa e termina ao nascer do sol, não à meia-noite).[6]
+
+Nome
+Definição
+Equivalência
+
+dia solar
+
+
+
+Contagem de tempo entre outras entidades
+
+Entre os Pitṛs (antepassados)
+1 dia dos pitṛs = 1 masa (mês lunar)[6]
+30 dias dos pitṛs = 1 mês de pitṛs[6]
+12 meses dos pitṛs = 1 ano de pitṛs[6]
+O tempo de vida dos pitṛs é de 100 anos dos pitṛs (3.000 anos solares).[6]
+
+Entre os Devas (divindades)
+O tempo de vida de qualquer deva hindu abrange 4,5 milhões de anos ou mais. Estatisticamente, também podemos entendê-lo como:
+
+12000 anos dos Devas = Vida dos Devas = 1 Mahā-Yuga.[7]
+
+A seção de medição Tempo do Viṣṇu Purāṇa, Viṣṇu Purāṇa, Livro I, Capítulo III, explica a declaração acima da seguinte forma:
+
+2 Ayanas (períodos de 6 meses, ver acima) = 1 ano humano ou 1 dia dos devas
+4.000 + 400 + 400 = 4.800 anos divinos (= 1.728.000 anos humanos) = 1 Satya Yuga [7]
+3.000 + 300 + 300 = 3.600 anos divinos (= 1.296.000 anos humanos) = 1 Treta Yuga [7]
+2.000 + 200 + 200 = 2.400 anos divinos (= 864.000 anos humanos) = 1 Dvapara Yuga [7]
+1.000 + 100 + 100 = 1.200 anos divinos (= 432.000 anos humanos) = 1 Kali Yuga [7]
+12.000 anos divinos = 4 Yugas (= 4.320.000 anos humanos) = 1 Mahā-Yuga (a qual também é igual a 12000 Daiva Yuga) [7]
+[2 x 12.000 = 24.000 anos divinos (daiva) = 12.000 revoluções do sol ao redor de seu dual] [7]
+
+
+Para Brahma (primeiro semideus da trindade Hindu)
+1.000 Mahā-Yugas = 1 Kalpa = 1 dia ou 1 noite de Brahma
+(2 Kalpas constituem um dia e noite de Brahma: 8,64 bilhões de anos humanos)
+
+30 dias de Brahma = 1 mês de Brahma (259,2 bilhões de anos humanos)
+12 meses de Brahma = 1 ano de Brahma (3.110,4 trilhões de anos humanos)
+50 anos de Brahma = 1 Parārdha (156.764.160.000.000 anos humanos)
+2 parardhas = 100 anos de Brahma = 1 Para = 1 Mahā-Kalpa (o tempo de vida de Brahma) (313.528.320.000.000 de anos humanos)
+Um dia de Brahma é dividido em 10000 partes chamadas charaṇas.[8]
+
+
+Quatro yugas
+As quatro yugas que se sucedem continuamente são as seguintes (juntamente com suas durações):
+
+As quatro yugas
+
+anos solares
+
+
+O ciclo se repete, então, ao todo, existem 1.000 ciclos de Mahā-Yugas em um dia de Brahma.
+
+Um ciclo das quatro Yugas acima é uma Mahā-Yuga (4,32 milhões de anos solares)
+
+como é confirmado pelo Bhagavad-gītā, verso 8.17, "sahasra-yuga-paryantam ahar yad brahmaṇo viduḥ rātriṁ yuga-sahasrāntāṁ te 'ho-rātra-vido janāḥ", significando que um dia de Brahma compreende 1000 Mahā-Yugas. Assim, um dia de Brahma, Kalpa, tem a duração de 4,32 bilhões de anos solares. Dois Kalpas constituem um dia e noite (Adhi Sandhi) de Brahma. [9]
+Um Manvantara consiste em 71 Mahā-Yugas (306.720.000 anos solares). Cada Manvantara é governado por um Manu. [8]
+Após cada Manvantara segue-se um Saṃdhi Kāla da mesma duração que um Kṛta Yuga (1.728.000 = 4 Charaṇas). (É dito que durante um Saṃdhi Kala, toda a terra está submersa em água.) [8]
+Um Kalpa consiste em um período de 4,32 bilhões de anos solares, seguido por 14 Manvataras e Saṃdhi Kalas. [8]
+Um dia de Brahma é igual a
+(14 vezes 71 Mahā-Yuga) + (15 × 4 Charaṇas)
+= 994 Mahā-Yuga + (15 * 4800)
+= 994 Mahā-Yuga + (72.000 anos)[anos dos devas] / 6 = 12.000 [anos dos devas, ou seja, uma maha yuga].
+= 994 Mahā-Yuga + 6 Mahā-Yuga
+= 1.000 Mahā-Yuga. [8]
+
+
+Data atual
+
+Atualmente, 50 anos de Brahma já decorreram. O último Kalpa no final do 50º ano chama-se Padma Kalpa. Estamos atualmente no primeiro 'dia' do 51º ano. [10] Este dia de Brahma, Kalpa é nomeado como Shveta-Varaha Kalpa. Deste Dia, seis Manvantaras já se passaram [11] e este é o sétimo Manvantara, nomeado como Vaivasvatha Manvantara (ou Sraddhadeva Manvantara). Dentro do Vaivasvatha Manvantara, 27 Mahayugas [11] (as 4 Yugas juntas formam uma Mahayuga), e a Krita, [12] Treta e Dwapara Yugas do 28º Mahayuga decorreram. Esta Kaliyuga está no 28º Mahayuga. Esta Kaliyuga começou no ano 3102 AEC no Calendário Juliano proléptico [13]. Uma vez que 50 anos de Brahma já se passaram, este é o segundo Parardha, também chamado de Dvithiya Parardha.
+
+
+Calculando o tempo decorrido desde a atual criação de Brahma
+
+432.000 × 10 × 1.000 × 2 = 8,64 bilhões de anos (2 Kalpa (dia e noite))
+
+8,64 × 109 × 30 × 12 = 3,1104 Trilhões de anos (1 ano de Brahma)
+
+3,1104 × 1.012 × 50 = 155,52 trilhões de anos (50 anos de Brahma)
+
+
+(6 × 71 × 4.320.000) + 7 × 1,728 × 10 ^ 6 = 1.852.416.000 anos transcorridos nos primeiros seis Manvataras e Sandhi Kalas no atual Kalpa
+
+
+27 × 4.320.000 = 116.640.000 anos decorridos nos primeiros 27 Mahayugas da atual Manvantara
+
+1,728 × 10 ^ 6 + 1,296 × 10 ^ 6 + 864.000 = 3.888.000 anos transcorridos no atual Mahayuga
+
+3.102 + 2.017 = 5.119 anos decorridos na atual Kaliyuga.
+
+Então o tempo total decorrido desde a atual Brahma é
+
+155.520.000.000.000 + 1.852.416.000 + 116.640.000 + 3.888.000 + 5.119 = 155.521.972.949.120 anos
+
+(cento e cinquenta e cinco trilhões, quinhentos e vinte e um bilhões, novecentos e setenta e dois milhões, novecentos e quarenta e nove mil, cento e vinte anos) a partir de 2.018 dC
+
+A idade total de Brahma é 100 (anos Brahma), que é igual a 311.040.000.000.000 anos humanos
+
+A corrente Kali Yuga começou à meia-noite de 17 de fevereiro a 18 de fevereiro de 3.102 AC, no calendário juliano proléptico.[14] De acordo com as informações acima sobre os períodos das Yugas, apenas 5.120 anos são passados ​​de 432.000 anos da atual Kali Yuga, e portanto outros 426.880 anos ainda restam para completar esta 28ª Kali Yuga de Vaivaswatha Manvantara [nota 1].
+
+
+
+
+Creation of Universe God or Big Bang
+Por Keerthi Kumar Patangay - Notion Press - 2017
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
