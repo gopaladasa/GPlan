@@ -1,0 +1,40 @@
+@city=Tulaghi
+@country=Solomon Islands
+@lat=-9.1
+@long=160.15
+@timezone=11.000000
+@dst=313
+@create
+
+@city=Honiara
+@country=Solomon Islands
+@lat=-9.4333333
+@long=159.95
+@timezone=11.000000
+@dst=313
+@create
+
+@city=Gizo
+@country=Solomon Islands
+@lat=-8.1
+@long=156.85
+@timezone=11.000000
+@dst=313
+@create
+
+@city=Auki
+@country=Solomon Islands
+@lat=-8.7666667
+@long=160.7
+@timezone=11.000000
+@dst=313
+@create
+
+@city=Kirakira
+@country=Solomon Islands
+@lat=-10.45
+@long=161.9166667
+@timezone=11.000000
+@dst=313
+@create
+

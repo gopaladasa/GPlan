@@ -1,0 +1,584 @@
+@city=Yonggang-up
+@country=North Korea
+@lat=38.8561111
+@long=125.4244444
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Yongbyon
+@country=North Korea
+@lat=39.8133333
+@long=125.8041667
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Yonan-up
+@country=North Korea
+@lat=37.9088889
+@long=126.1611111
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Yomju
+@country=North Korea
+@lat=39.8933333
+@long=124.5980556
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Wonsan
+@country=North Korea
+@lat=39.1527778
+@long=127.4436111
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Tongchon-up
+@country=North Korea
+@lat=38.9538889
+@long=127.8916667
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sungho 1-tong
+@country=North Korea
+@lat=38.9913889
+@long=125.9777778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sunan
+@country=North Korea
+@lat=39.1983333
+@long=125.69
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Songnim
+@country=North Korea
+@lat=38.7541667
+@long=125.645
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sil-li
+@country=North Korea
+@lat=39.4947222
+@long=125.4736111
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sinmak
+@country=North Korea
+@lat=38.4166667
+@long=126.2333333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sinanju
+@country=North Korea
+@lat=39.5980556
+@long=125.6097222
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sariwon
+@country=North Korea
+@lat=38.5072222
+@long=125.7558333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sangsong-ni
+@country=North Korea
+@lat=39.1694444
+@long=126.8855556
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Samho-rodongjagu
+@country=North Korea
+@lat=39.9475
+@long=127.8711111
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Pyongyang
+@country=North Korea
+@lat=39.0194444
+@long=125.7547222
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Pyoksong-up
+@country=North Korea
+@lat=38.0475
+@long=125.5566667
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Panghyon-dong
+@country=North Korea
+@lat=39.8872222
+@long=125.2413889
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Ongjin
+@country=North Korea
+@lat=37.9347222
+@long=125.3619444
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kwaksan
+@country=North Korea
+@lat=39.6875
+@long=125.0827778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kusong
+@country=North Korea
+@lat=39.9811111
+@long=125.2447222
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kujang-up
+@country=North Korea
+@lat=39.8672222
+@long=126.0302778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kowon-up
+@country=North Korea
+@lat=39.4380556
+@long=127.2430556
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kosan-up
+@country=North Korea
+@lat=38.8558333
+@long=127.4180556
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Koksan
+@country=North Korea
+@lat=38.7819444
+@long=126.6663889
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kangdong-up
+@country=North Korea
+@lat=39.1425
+@long=126.0961111
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kaesong
+@country=North Korea
+@lat=37.9708333
+@long=126.5544444
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hwangju-up
+@country=North Korea
+@lat=38.6702778
+@long=125.7761111
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hungnam
+@country=North Korea
+@lat=39.8316667
+@long=127.6186111
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hukkyo-ri
+@country=North Korea
+@lat=38.7986111
+@long=125.7919444
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hoeyang
+@country=North Korea
+@lat=38.7102778
+@long=127.5983333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hamhung
+@country=North Korea
+@lat=39.9183333
+@long=127.5363889
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Haeju
+@country=North Korea
+@lat=38.0405556
+@long=125.7147222
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Chunghwa-up
+@country=North Korea
+@lat=38.8638889
+@long=125.8
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Chongju-up
+@country=North Korea
+@lat=39.6933333
+@long=125.2102778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Changyon
+@country=North Korea
+@lat=38.2508333
+@long=125.0961111
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Chaeryong-up
+@country=North Korea
+@lat=38.3991667
+@long=125.6155556
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Ayang-ni
+@country=North Korea
+@lat=38.2430556
+@long=125.78
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Anju
+@country=North Korea
+@lat=39.6177778
+@long=125.6647222
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Anbyon-up
+@country=North Korea
+@lat=39.0425
+@long=127.5238889
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Anak
+@country=North Korea
+@lat=38.5108333
+@long=125.4941667
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sinsang-ni
+@country=North Korea
+@lat=39.6502778
+@long=127.4058333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Yuktae-dong
+@country=North Korea
+@lat=40.0247222
+@long=128.1597222
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Ungsang-nodongjagu
+@country=North Korea
+@lat=42.3577778
+@long=130.4622222
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Uiju
+@country=North Korea
+@lat=40.1994444
+@long=124.5316667
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sungam-nodongjagu
+@country=North Korea
+@lat=41.6697222
+@long=129.6688889
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sonbong
+@country=North Korea
+@lat=42.3422222
+@long=130.3966667
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sinuiju
+@country=North Korea
+@lat=40.1005556
+@long=124.3980556
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sakchu-up
+@country=North Korea
+@lat=40.3894444
+@long=125.0466667
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Puryong
+@country=North Korea
+@lat=42.0605556
+@long=129.7116667
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Pukchil-lodongjagu
+@country=North Korea
+@lat=40.2019444
+@long=125.7483333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Yonggwang-up
+@country=North Korea
+@lat=40.0183333
+@long=127.4547222
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Onsong
+@country=North Korea
+@lat=42.9572222
+@long=129.9933333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Nanam
+@country=North Korea
+@lat=41.7136111
+@long=129.6844444
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Namyang-dong
+@country=North Korea
+@lat=42.95
+@long=129.8666667
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Najin
+@country=North Korea
+@lat=42.2488889
+@long=130.3002778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Musan-up
+@country=North Korea
+@lat=42.2294444
+@long=129.2130556
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kyongwon
+@country=North Korea
+@lat=42.8136111
+@long=130.1527778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kyongsong
+@country=North Korea
+@lat=41.5877778
+@long=129.6061111
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kilju
+@country=North Korea
+@lat=40.9641667
+@long=129.3277778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kapsan-up
+@country=North Korea
+@lat=41.0902778
+@long=128.2933333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Kanggye
+@country=North Korea
+@lat=40.9872222
+@long=126.6113889
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Iwon-up
+@country=North Korea
+@lat=40.3230556
+@long=128.6552778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hyesan-dong
+@country=North Korea
+@lat=41.4
+@long=128.1833333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hongwon
+@country=North Korea
+@lat=40.0252778
+@long=127.9558333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hoeryong
+@country=North Korea
+@lat=42.4427778
+@long=129.7508333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hoemul-li
+@country=North Korea
+@lat=41.4338889
+@long=129.67
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Hau-ri
+@country=North Korea
+@lat=41.2005556
+@long=129.4702778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Chongjin
+@country=North Korea
+@lat=41.7955556
+@long=129.7758333
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Chasong
+@country=North Korea
+@lat=41.4608333
+@long=126.6413889
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Aoji-ri
+@country=North Korea
+@lat=42.5205556
+@long=130.3952778
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Sungjibaegam
+@country=North Korea
+@lat=41.2427778
+@long=128.7988889
+@timezone=9.000000
+@dst=206
+@create
+
+@city=Komusan 1-tong
+@country=North Korea
+@lat=42.1091667
+@long=129.7
+@timezone=9.000000
+@dst=206
+@create
+

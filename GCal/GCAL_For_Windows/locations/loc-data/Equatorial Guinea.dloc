@@ -1,0 +1,176 @@
+@city=Santiago de Baney
+@country=Equatorial Guinea
+@lat=3.7
+@long=8.9166667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Pale
+@country=Equatorial Guinea
+@lat=-1.4013889
+@long=5.6325
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Rio Campo
+@country=Equatorial Guinea
+@lat=2.3333333
+@long=9.8166667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Rebola
+@country=Equatorial Guinea
+@lat=3.7166667
+@long=8.8333333
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Nsok
+@country=Equatorial Guinea
+@lat=1.1333333
+@long=11.2666667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Nsang
+@country=Equatorial Guinea
+@lat=2.0333333
+@long=10.9333333
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Ncue
+@country=Equatorial Guinea
+@lat=2.0166667
+@long=10.4666667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Mongomo
+@country=Equatorial Guinea
+@lat=1.6333333
+@long=11.3166667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Mikomeseng
+@country=Equatorial Guinea
+@lat=2.1333333
+@long=10.6166667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Mbini
+@country=Equatorial Guinea
+@lat=1.5833333
+@long=9.6166667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Machinda
+@country=Equatorial Guinea
+@lat=1.8833333
+@long=9.9666667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Evinayong
+@country=Equatorial Guinea
+@lat=1.45
+@long=10.5666667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Ebebiyin
+@country=Equatorial Guinea
+@lat=2.15
+@long=11.3333333
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Malabo
+@country=Equatorial Guinea
+@lat=3.75
+@long=8.7833333
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Luba
+@country=Equatorial Guinea
+@lat=3.45
+@long=8.55
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Bitica
+@country=Equatorial Guinea
+@lat=1.4166667
+@long=9.6166667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Bicurga
+@country=Equatorial Guinea
+@lat=1.5833333
+@long=10.4666667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Bata
+@country=Equatorial Guinea
+@lat=1.85
+@long=9.75
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Ayene
+@country=Equatorial Guinea
+@lat=1.8666667
+@long=10.7
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Anisoc
+@country=Equatorial Guinea
+@lat=1.85
+@long=10.7666667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Acurenam
+@country=Equatorial Guinea
+@lat=1.0333333
+@long=10.6666667
+@timezone=1.000000
+@dst=169
+@create
+
+@city=Aconibe
+@country=Equatorial Guinea
+@lat=1.3
+@long=10.9333333
+@timezone=1.000000
+@dst=169
+@create
+

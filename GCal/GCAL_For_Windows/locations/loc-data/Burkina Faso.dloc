@@ -1,0 +1,336 @@
+@city=Zorgho
+@country=Burkina Faso
+@lat=12.2488889
+@long=-0.6158333
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Ziniare
+@country=Burkina Faso
+@lat=12.5822222
+@long=-1.2983333
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Yako
+@country=Burkina Faso
+@lat=12.9666667
+@long=-2.2666667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Tougan
+@country=Burkina Faso
+@lat=13.0666667
+@long=-3.0666667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Tenkodogo
+@country=Burkina Faso
+@lat=11.78
+@long=-0.3697222
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Solenzo
+@country=Burkina Faso
+@lat=12.1833333
+@long=-4.0833333
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Sindou
+@country=Burkina Faso
+@lat=10.6666667
+@long=-5.1666667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Sapouy
+@country=Burkina Faso
+@lat=11.5544444
+@long=-1.7736111
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Reo
+@country=Burkina Faso
+@lat=12.3166667
+@long=-2.4666667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Po
+@country=Burkina Faso
+@lat=11.1697222
+@long=-1.145
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Pitmoaga
+@country=Burkina Faso
+@lat=12.2397222
+@long=-1.8766667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Ouahigouya
+@country=Burkina Faso
+@lat=13.5833333
+@long=-2.4166667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Ouagadougou
+@country=Burkina Faso
+@lat=12.3702778
+@long=-1.5247222
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Nouna
+@country=Burkina Faso
+@lat=12.7333333
+@long=-3.8666667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Manga
+@country=Burkina Faso
+@lat=11.6636111
+@long=-1.0730556
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Leo
+@country=Burkina Faso
+@lat=11.1
+@long=-2.1
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Koupela
+@country=Burkina Faso
+@lat=12.1794444
+@long=-0.3516667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Koudougou
+@country=Burkina Faso
+@lat=12.25
+@long=-2.3666667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Kongoussi
+@country=Burkina Faso
+@lat=13.3258333
+@long=-1.5347222
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Kombissiri
+@country=Burkina Faso
+@lat=12.0655556
+@long=-1.3375
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Kokologo
+@country=Burkina Faso
+@lat=12.1897222
+@long=-1.8855556
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Kaya
+@country=Burkina Faso
+@lat=13.0916667
+@long=-1.0844444
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Hounde
+@country=Burkina Faso
+@lat=11.5
+@long=-3.5166667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Gourcy
+@country=Burkina Faso
+@lat=13.2166667
+@long=-2.35
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Gouloure
+@country=Burkina Faso
+@lat=12.2305556
+@long=-1.9288889
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Gorom-Gorom
+@country=Burkina Faso
+@lat=14.4438889
+@long=-0.2361111
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Gayeri
+@country=Burkina Faso
+@lat=12.6497222
+@long=0.4930556
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Garango
+@country=Burkina Faso
+@lat=11.8
+@long=-0.5505556
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Fada NGourma
+@country=Burkina Faso
+@lat=12.0622222
+@long=0.3577778
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Dori
+@country=Burkina Faso
+@lat=14.0333333
+@long=-0.0333333
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Djibo
+@country=Burkina Faso
+@lat=14.1022222
+@long=-1.6305556
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Diebougou
+@country=Burkina Faso
+@lat=10.9666667
+@long=-3.25
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Diapaga
+@country=Burkina Faso
+@lat=12.0708333
+@long=1.7888889
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Dedougou
+@country=Burkina Faso
+@lat=12.4666667
+@long=-3.4666667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Dano
+@country=Burkina Faso
+@lat=11.15
+@long=-3.0666667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Boulsa
+@country=Burkina Faso
+@lat=12.6675
+@long=-0.5758333
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Boromo
+@country=Burkina Faso
+@lat=11.75
+@long=-2.9333333
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Bogande
+@country=Burkina Faso
+@lat=12.9713889
+@long=-0.1436111
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Bobo Dioulasso
+@country=Burkina Faso
+@lat=11.2
+@long=-4.3
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Batie
+@country=Burkina Faso
+@lat=9.8833333
+@long=-2.9166667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Banfora
+@country=Burkina Faso
+@lat=10.6333333
+@long=-4.7666667
+@timezone=0.000000
+@dst=51
+@create
+
+@city=Orodara
+@country=Burkina Faso
+@lat=10.9491667
+@long=-4.9341667
+@timezone=0.000000
+@dst=51
+@create
+

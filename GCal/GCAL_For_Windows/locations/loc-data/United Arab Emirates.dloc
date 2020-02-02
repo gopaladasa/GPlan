@@ -1,0 +1,72 @@
+@city=Umm al Qaywayn
+@country=United Arab Emirates
+@lat=25.5652778
+@long=55.5533333
+@timezone=4.000000
+@dst=2
+@create
+
+@city=Ras al Khaymah
+@country=United Arab Emirates
+@lat=25.7911111
+@long=55.9427778
+@timezone=4.000000
+@dst=2
+@create
+
+@city=Khawr Fakkan
+@country=United Arab Emirates
+@lat=25.3391667
+@long=56.3561111
+@timezone=4.000000
+@dst=2
+@create
+
+@city=Dubai
+@country=United Arab Emirates
+@lat=25.2522222
+@long=55.28
+@timezone=4.000000
+@dst=2
+@create
+
+@city=Sharjah
+@country=United Arab Emirates
+@lat=25.3622222
+@long=55.3911111
+@timezone=4.000000
+@dst=2
+@create
+
+@city=Al Fujayrah
+@country=United Arab Emirates
+@lat=25.1230556
+@long=56.3375
+@timezone=4.000000
+@dst=2
+@create
+
+@city=Al `Ayn
+@country=United Arab Emirates
+@lat=24.1916667
+@long=55.7605556
+@timezone=4.000000
+@dst=2
+@create
+
+@city=`Ajman
+@country=United Arab Emirates
+@lat=25.41110530265
+@long=55.435037612915
+@timezone=4.000000
+@dst=2
+@create
+
+@city=Abu Dhabi
+@country=United Arab Emirates
+@lat=24.4666667
+@long=54.3666667
+@timezone=4.000000
+@dst=2
+@create
+

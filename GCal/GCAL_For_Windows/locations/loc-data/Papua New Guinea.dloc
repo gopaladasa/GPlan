@@ -1,0 +1,288 @@
+@city=Wewak
+@country=Papua New Guinea
+@lat=-3.55
+@long=143.6333333
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Wau
+@country=Papua New Guinea
+@lat=-7.3333333
+@long=146.7166667
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Wabag
+@country=Papua New Guinea
+@lat=-5.4833333
+@long=143.7
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Vanimo
+@country=Papua New Guinea
+@lat=-2.6833333
+@long=141.3
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Rabaul
+@country=Papua New Guinea
+@lat=-4.2
+@long=152.1833333
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Port Moresby
+@country=Papua New Guinea
+@lat=-9.4647222
+@long=147.1925
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Porgera
+@country=Papua New Guinea
+@lat=-5.4666667
+@long=143.2
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Popondetta
+@country=Papua New Guinea
+@lat=-8.7666667
+@long=148.2333333
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Panguna
+@country=Papua New Guinea
+@lat=-6.25
+@long=155.5
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Namatanai
+@country=Papua New Guinea
+@lat=-3.6666667
+@long=152.4333333
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Mount Hagen
+@country=Papua New Guinea
+@lat=-5.8666667
+@long=144.2166667
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Morehead
+@country=Papua New Guinea
+@lat=-8.55
+@long=141.65
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Mendi
+@country=Papua New Guinea
+@lat=-6.15
+@long=143.65
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Madang
+@country=Papua New Guinea
+@lat=-5.2166667
+@long=145.8
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Lorengau
+@country=Papua New Guinea
+@lat=-2.0166667
+@long=147.2666667
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Lae
+@country=Papua New Guinea
+@lat=-6.7333333
+@long=147.0
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kundiawa
+@country=Papua New Guinea
+@lat=-6.0166667
+@long=144.9666667
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kokopo
+@country=Papua New Guinea
+@lat=-4.35
+@long=152.2666667
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kokoda
+@country=Papua New Guinea
+@lat=-8.8833333
+@long=147.7333333
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kiunga
+@country=Papua New Guinea
+@lat=-6.1166667
+@long=141.3
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kimbe
+@country=Papua New Guinea
+@lat=-5.55
+@long=150.15
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kieta
+@country=Papua New Guinea
+@lat=-6.2166667
+@long=155.6333333
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kerema
+@country=Papua New Guinea
+@lat=-7.9666667
+@long=145.7666667
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kavieng
+@country=Papua New Guinea
+@lat=-2.5666667
+@long=150.8
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kandrian
+@country=Papua New Guinea
+@lat=-6.2166667
+@long=149.55
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Kainantu
+@country=Papua New Guinea
+@lat=-6.2833333
+@long=145.8666667
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Ialibu
+@country=Papua New Guinea
+@lat=-6.2833333
+@long=143.9833333
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Goroka
+@country=Papua New Guinea
+@lat=-6.0833333
+@long=145.3833333
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Finschhafen
+@country=Papua New Guinea
+@lat=-6.6
+@long=147.85
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Daru
+@country=Papua New Guinea
+@lat=-9.0833333
+@long=143.2
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Bulolo
+@country=Papua New Guinea
+@lat=-7.2
+@long=146.65
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Arawa
+@country=Papua New Guinea
+@lat=-6.2166667
+@long=155.55
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Angoram
+@country=Papua New Guinea
+@lat=-4.0666667
+@long=144.0666667
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Ambunti
+@country=Papua New Guinea
+@lat=-4.2333333
+@long=142.8333333
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Aitape
+@country=Papua New Guinea
+@lat=-3.1333333
+@long=142.35
+@timezone=10.000000
+@dst=279
+@create
+
+@city=Samarai
+@country=Papua New Guinea
+@lat=-10.6166667
+@long=150.6666667
+@timezone=10.000000
+@dst=279
+@create
+

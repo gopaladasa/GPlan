@@ -1,0 +1,80 @@
+@city=San Pedro
+@country=Belize
+@lat=17.9166667
+@long=-87.95
+@timezone=-6.000000
+@dst=79
+@create
+
+@city=San Ignacio
+@country=Belize
+@lat=17.1561111
+@long=-89.0713889
+@timezone=-6.000000
+@dst=79
+@create
+
+@city=Punta Gorda
+@country=Belize
+@lat=16.1
+@long=-88.8
+@timezone=-6.000000
+@dst=79
+@create
+
+@city=Orange Walk
+@country=Belize
+@lat=18.0666667
+@long=-88.55
+@timezone=-6.000000
+@dst=79
+@create
+
+@city=Dangriga
+@country=Belize
+@lat=16.9666667
+@long=-88.2166667
+@timezone=-6.000000
+@dst=79
+@create
+
+@city=Corozal
+@country=Belize
+@lat=18.3833333
+@long=-88.3833333
+@timezone=-6.000000
+@dst=79
+@create
+
+@city=Benque Viejo del Carmen
+@country=Belize
+@lat=17.075
+@long=-89.1391667
+@timezone=-6.000000
+@dst=79
+@create
+
+@city=Belmopan
+@country=Belize
+@lat=17.25
+@long=-88.7666667
+@timezone=-6.000000
+@dst=79
+@create
+
+@city=Belize City
+@country=Belize
+@lat=17.4833333
+@long=-88.1833333
+@timezone=-6.000000
+@dst=79
+@create
+
+@city=Valley of Peace
+@country=Belize
+@lat=17.3347222
+@long=-88.8347222
+@timezone=-6.000000
+@dst=79
+@create
+

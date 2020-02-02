@@ -1,0 +1,24 @@
+@city=Monte-Carlo
+@country=Monaco
+@lat=43.7333333
+@long=7.4166667
+@timezone=1.000000
+@dst=227
+@create
+
+@city=La Condamine
+@country=Monaco
+@lat=43.7333333
+@long=7.4166667
+@timezone=1.000000
+@dst=227
+@create
+
+@city=Fontvieille
+@country=Monaco
+@lat=43.7333333
+@long=7.4166667
+@timezone=1.000000
+@dst=227
+@create
+

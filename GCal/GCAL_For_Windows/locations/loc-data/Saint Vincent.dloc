@@ -1,0 +1,32 @@
+@city=Georgetown
+@country=Saint Vincent
+@lat=13.2666667
+@long=-61.1166667
+@timezone=-4.000000
+@dst=386
+@create
+
+@city=Byera Village
+@country=Saint Vincent
+@lat=13.25
+@long=-61.1166667
+@timezone=-4.000000
+@dst=386
+@create
+
+@city=Biabou
+@country=Saint Vincent
+@lat=13.2
+@long=-61.1333333
+@timezone=-4.000000
+@dst=386
+@create
+
+@city=Kingstown Park
+@country=Saint Vincent
+@lat=13.1583333
+@long=-61.235
+@timezone=-4.000000
+@dst=386
+@create
+

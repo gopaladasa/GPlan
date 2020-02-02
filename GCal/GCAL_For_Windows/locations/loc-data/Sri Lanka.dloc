@@ -1,0 +1,480 @@
+@city=Welisara
+@country=Sri Lanka
+@lat=7.0333333
+@long=79.9
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Weligama
+@country=Sri Lanka
+@lat=5.9666667
+@long=80.4166667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Wattegama
+@country=Sri Lanka
+@lat=6.8
+@long=81.5
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Wattala
+@country=Sri Lanka
+@lat=6.9897222
+@long=79.8933333
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Vavuniya
+@country=Sri Lanka
+@lat=8.75
+@long=80.5
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Valvedditturai
+@country=Sri Lanka
+@lat=9.8166667
+@long=80.1666667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Trincomalee
+@country=Sri Lanka
+@lat=8.5666667
+@long=81.2333333
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Tangalla
+@country=Sri Lanka
+@lat=6.0230556
+@long=80.7888889
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Talawakele
+@country=Sri Lanka
+@lat=6.9366667
+@long=80.6611111
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Sigiriya
+@country=Sri Lanka
+@lat=7.95
+@long=80.75
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Ratnapura
+@country=Sri Lanka
+@lat=6.6827778
+@long=80.3991667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Puttalam
+@country=Sri Lanka
+@lat=8.0333333
+@long=79.8166667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Point Pedro
+@country=Sri Lanka
+@lat=9.8166667
+@long=80.2333333
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Pita Kotte
+@country=Sri Lanka
+@lat=6.8833333
+@long=79.9
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Peliyagoda
+@country=Sri Lanka
+@lat=6.95
+@long=79.9
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Panadura
+@country=Sri Lanka
+@lat=6.7133333
+@long=79.9041667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Nuwara Eliya
+@country=Sri Lanka
+@lat=6.9697222
+@long=80.77
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Negombo
+@country=Sri Lanka
+@lat=7.2086111
+@long=79.8358333
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Mulleriyawa
+@country=Sri Lanka
+@lat=6.9333333
+@long=79.9333333
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Moratuwa
+@country=Sri Lanka
+@lat=6.7733333
+@long=79.8825
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Monaragala
+@country=Sri Lanka
+@lat=6.8666667
+@long=81.35
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Minuwangoda
+@country=Sri Lanka
+@lat=7.1733333
+@long=79.9619444
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Maharagama
+@country=Sri Lanka
+@lat=6.8461111
+@long=79.9280556
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kurunegala
+@country=Sri Lanka
+@lat=7.4866667
+@long=80.3647222
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kuliyapitiya
+@country=Sri Lanka
+@lat=7.4708333
+@long=80.0455556
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Sri Jayewardenepura Kotte
+@country=Sri Lanka
+@lat=6.9027778
+@long=79.9083333
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kotikawatta
+@country=Sri Lanka
+@lat=6.9333333
+@long=79.9166667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kolonnawa
+@country=Sri Lanka
+@lat=6.9316667
+@long=79.8944444
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kilinochchi
+@country=Sri Lanka
+@lat=9.4
+@long=80.4
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kelaniya
+@country=Sri Lanka
+@lat=6.96
+@long=79.8977778
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Katunayaka
+@country=Sri Lanka
+@lat=7.1647222
+@long=79.8730556
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kandy
+@country=Sri Lanka
+@lat=7.2963889
+@long=80.635
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kandana
+@country=Sri Lanka
+@lat=7.0477778
+@long=79.8938889
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kalutara
+@country=Sri Lanka
+@lat=6.5761111
+@long=79.9658333
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kalmunai
+@country=Sri Lanka
+@lat=7.4166667
+@long=81.8166667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Kadugannawa
+@country=Sri Lanka
+@lat=7.2536111
+@long=80.5275
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Jaffna
+@country=Sri Lanka
+@lat=9.6666667
+@long=80.0
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Ja-Ela
+@country=Sri Lanka
+@lat=7.0844444
+@long=79.8947222
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Horana
+@country=Sri Lanka
+@lat=6.7166667
+@long=80.06
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Homagama
+@country=Sri Lanka
+@lat=6.8408333
+@long=80.0138889
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Hendala
+@country=Sri Lanka
+@lat=6.9838889
+@long=79.8763889
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Hatton
+@country=Sri Lanka
+@lat=6.8972222
+@long=80.5958333
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Haputale
+@country=Sri Lanka
+@lat=6.7666667
+@long=80.9666667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Hanwella Ihala
+@country=Sri Lanka
+@lat=6.9
+@long=80.0833333
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Gampola
+@country=Sri Lanka
+@lat=7.1647222
+@long=80.5766667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Gampaha
+@country=Sri Lanka
+@lat=7.0916667
+@long=79.9941667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Galle
+@country=Sri Lanka
+@lat=6.0536111
+@long=80.2116667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Galkissa
+@country=Sri Lanka
+@lat=6.8333333
+@long=79.8666667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Eravur
+@country=Sri Lanka
+@lat=7.7666667
+@long=81.6
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Dambulla
+@country=Sri Lanka
+@lat=7.86
+@long=80.6516667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Colombo
+@country=Sri Lanka
+@lat=6.9319444
+@long=79.8477778
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Chilaw
+@country=Sri Lanka
+@lat=7.5758333
+@long=79.7952778
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Beruwala
+@country=Sri Lanka
+@lat=6.4738889
+@long=79.9841667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Batticaloa
+@country=Sri Lanka
+@lat=7.7166667
+@long=81.7
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Battaramulla
+@country=Sri Lanka
+@lat=6.9
+@long=79.9166667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Badulla
+@country=Sri Lanka
+@lat=6.9833333
+@long=81.05
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Anuradhapura
+@country=Sri Lanka
+@lat=8.35647456744206
+@long=80.4172611236572
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Ampara
+@country=Sri Lanka
+@lat=7.2833333
+@long=81.6666667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Ambalangoda
+@country=Sri Lanka
+@lat=6.225
+@long=80.0566667
+@timezone=5.500000
+@dst=219
+@create
+
+@city=Horawala Junction
+@country=Sri Lanka
+@lat=6.48087954064424
+@long=80.1270836591721
+@timezone=5.500000
+@dst=219
+@create
+

@@ -1,0 +1,296 @@
+@city=Birnin Konni
+@country=Niger - Niamey
+@lat=13.8
+@long=5.25
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Zinder
+@country=Niger - Niamey
+@lat=13.8
+@long=8.9833333
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Tillaberi
+@country=Niger - Niamey
+@lat=14.2116667
+@long=1.4530556
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Tibiri
+@country=Niger - Niamey
+@lat=13.5705556
+@long=7.0444444
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Tessaoua
+@country=Niger - Niamey
+@lat=13.7533333
+@long=7.9863889
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Tera
+@country=Niger - Niamey
+@lat=14.0105556
+@long=0.7530556
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Tchin-Tabaradene
+@country=Niger - Niamey
+@lat=15.8869444
+@long=5.7766667
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Tanout
+@country=Niger - Niamey
+@lat=14.9702778
+@long=8.8916667
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Tahoua
+@country=Niger - Niamey
+@lat=14.8902778
+@long=5.2677778
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Say
+@country=Niger - Niamey
+@lat=13.1080556
+@long=2.3597222
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Ouallam
+@country=Niger - Niamey
+@lat=14.3166667
+@long=2.0833333
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Niamey
+@country=Niger - Niamey
+@lat=13.5166667
+@long=2.1166667
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Nguigmi
+@country=Niger - Niamey
+@lat=14.2527778
+@long=13.1108333
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Miria
+@country=Niger - Niamey
+@lat=13.7141667
+@long=9.1505556
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Mayahi
+@country=Niger - Niamey
+@lat=13.9577778
+@long=7.6683333
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Matamey
+@country=Niger - Niamey
+@lat=13.4238889
+@long=8.4777778
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Maradi
+@country=Niger - Niamey
+@lat=13.4916667
+@long=7.0963889
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Maine-Soroa
+@country=Niger - Niamey
+@lat=13.2177778
+@long=12.0266667
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Magaria
+@country=Niger - Niamey
+@lat=12.9975
+@long=8.9105556
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Madarounfa
+@country=Niger - Niamey
+@lat=13.3075
+@long=7.1575
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Madaoua
+@country=Niger - Niamey
+@lat=14.0758333
+@long=5.9586111
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Kollo
+@country=Niger - Niamey
+@lat=13.3086111
+@long=2.3308333
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Keita
+@country=Niger - Niamey
+@lat=14.7572222
+@long=5.7805556
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Illela
+@country=Niger - Niamey
+@lat=14.4616667
+@long=5.2475
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Goure
+@country=Niger - Niamey
+@lat=13.9869444
+@long=10.27
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Gaya
+@country=Niger - Niamey
+@lat=11.8877778
+@long=3.4466667
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Filingue
+@country=Niger - Niamey
+@lat=14.35
+@long=3.3166667
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Dosso
+@country=Niger - Niamey
+@lat=13.0444444
+@long=3.1947222
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Dogondoutchi
+@country=Niger - Niamey
+@lat=13.6461111
+@long=4.0288889
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Diffa
+@country=Niger - Niamey
+@lat=13.3155556
+@long=12.6088889
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Dakoro
+@country=Niger - Niamey
+@lat=14.5105556
+@long=6.765
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Bouza
+@country=Niger - Niamey
+@lat=14.4222222
+@long=6.0452778
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Bilma
+@country=Niger - Niamey
+@lat=18.6866667
+@long=12.9191667
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Ayorou
+@country=Niger - Niamey
+@lat=14.7313889
+@long=0.9194444
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Alarsas
+@country=Niger - Niamey
+@lat=17.0166667
+@long=8.0
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Aguie
+@country=Niger - Niamey
+@lat=13.5080556
+@long=7.7772222
+@timezone=1.000000
+@dst=262
+@create
+
+@city=Abalak
+@country=Niger - Niamey
+@lat=15.4522222
+@long=6.2783333
+@timezone=1.000000
+@dst=262
+@create
+

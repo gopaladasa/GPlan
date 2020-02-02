@@ -1,0 +1,504 @@
+@city=Yen Vinh
+@country=Vietnam
+@lat=18.6666667
+@long=105.6666667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Yen Bai
+@country=Vietnam
+@lat=21.7
+@long=104.8666667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Vung Tau
+@country=Vietnam
+@lat=10.35
+@long=107.0666667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Vinh Yen
+@country=Vietnam
+@lat=21.31
+@long=105.5966667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Vinh Long
+@country=Vietnam
+@lat=10.25
+@long=105.9666667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Viet Tri
+@country=Vietnam
+@lat=21.3019444
+@long=105.4308333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Uong Bi
+@country=Vietnam
+@lat=21.0333333
+@long=106.7833333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Tuy Hoa
+@country=Vietnam
+@lat=13.0833333
+@long=109.3
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Tuyen Quang
+@country=Vietnam
+@lat=21.8233333
+@long=105.2180556
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Tra Vinh
+@country=Vietnam
+@lat=9.9347222
+@long=106.3452778
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Ho Chi Minh City
+@country=Vietnam
+@lat=10.75
+@long=106.6666667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Thanh Hoa
+@country=Vietnam
+@lat=19.8
+@long=105.7666667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Thai Nguyen
+@country=Vietnam
+@lat=21.5927778
+@long=105.8441667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Thai Binh
+@country=Vietnam
+@lat=20.45
+@long=106.3333333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Tan An
+@country=Vietnam
+@lat=10.5333333
+@long=106.4166667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Tam Ky
+@country=Vietnam
+@lat=15.5666667
+@long=108.4833333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Son Tay
+@country=Vietnam
+@lat=21.1377778
+@long=105.505
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Son La
+@country=Vietnam
+@lat=21.3166667
+@long=103.9
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Soc Trang
+@country=Vietnam
+@lat=9.6033333
+@long=105.98
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Sa Dec
+@country=Vietnam
+@lat=10.3
+@long=105.7666667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Rach Gia
+@country=Vietnam
+@lat=10.0166667
+@long=105.0833333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Quy Nhon
+@country=Vietnam
+@lat=13.7666667
+@long=109.2333333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Quang Ngai
+@country=Vietnam
+@lat=15.1166667
+@long=108.8
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Pleiku
+@country=Vietnam
+@lat=13.9833333
+@long=108.0
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Phu Ly
+@country=Vietnam
+@lat=20.5411111
+@long=105.9138889
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Phu Khuong
+@country=Vietnam
+@lat=11.2833333
+@long=106.1333333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Phan Thiet
+@country=Vietnam
+@lat=10.9333333
+@long=108.1
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Phan Rang-Thap Cham
+@country=Vietnam
+@lat=11.5666667
+@long=108.9833333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Ninh Binh
+@country=Vietnam
+@lat=20.2538889
+@long=105.975
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Nha Trang
+@country=Vietnam
+@lat=12.25
+@long=109.1833333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Nam Dinh
+@country=Vietnam
+@lat=20.4166667
+@long=106.1666667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=My Tho
+@country=Vietnam
+@lat=10.35
+@long=106.35
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Long Xuyen
+@country=Vietnam
+@lat=10.3833333
+@long=105.4166667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Lao Cai
+@country=Vietnam
+@lat=22.4833333
+@long=103.95
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Kon Tum
+@country=Vietnam
+@lat=14.35
+@long=108.0
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Hue
+@country=Vietnam
+@lat=16.4666667
+@long=107.6
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Ha Long
+@country=Vietnam
+@lat=20.9511111
+@long=107.08
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Hoi An
+@country=Vietnam
+@lat=15.8794444
+@long=108.335
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Hoa Binh
+@country=Vietnam
+@lat=20.8133333
+@long=105.3383333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Hanoi
+@country=Vietnam
+@lat=21.0333333
+@long=105.85
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Haiphong
+@country=Vietnam
+@lat=20.8561111
+@long=106.6822222
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Hai Duong
+@country=Vietnam
+@lat=20.9333333
+@long=106.3166667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Ha Giang
+@country=Vietnam
+@lat=22.8333333
+@long=104.9833333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Ha Dong
+@country=Vietnam
+@lat=20.9725
+@long=105.7772222
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Dong Xoai
+@country=Vietnam
+@lat=11.5333333
+@long=106.9166667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Dong Hoi
+@country=Vietnam
+@lat=17.4833333
+@long=106.6
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Dong Ha
+@country=Vietnam
+@lat=16.8166667
+@long=107.1333333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Dien Bien Phu
+@country=Vietnam
+@lat=21.3833333
+@long=103.0166667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Da Nang
+@country=Vietnam
+@lat=16.0677778
+@long=108.2208333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Da Lat
+@country=Vietnam
+@lat=11.9333333
+@long=108.4166667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Chau Doc
+@country=Vietnam
+@lat=10.7
+@long=105.1166667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Cao Bang
+@country=Vietnam
+@lat=22.6666667
+@long=106.25
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Can Tho
+@country=Vietnam
+@lat=10.0333333
+@long=105.7833333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Cam Ranh
+@country=Vietnam
+@lat=11.9
+@long=109.2166667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Cam Pha Mines
+@country=Vietnam
+@lat=21.0166667
+@long=107.3
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Ca Mau
+@country=Vietnam
+@lat=9.1769444
+@long=105.15
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Buon Ma Thuot
+@country=Vietnam
+@lat=12.6666667
+@long=108.05
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Bim Son
+@country=Vietnam
+@lat=20.0780556
+@long=105.8602778
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Bien Hoa
+@country=Vietnam
+@lat=10.95
+@long=106.8166667
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Ben Tre
+@country=Vietnam
+@lat=10.2333333
+@long=106.3833333
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Bac Ninh
+@country=Vietnam
+@lat=21.1833333
+@long=106.05
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Bac Lieu
+@country=Vietnam
+@lat=9.285
+@long=105.7244444
+@timezone=7.000000
+@dst=390
+@create
+
+@city=Bac Giang
+@country=Vietnam
+@lat=21.2666667
+@long=106.2
+@timezone=7.000000
+@dst=390
+@create
+

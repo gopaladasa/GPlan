@@ -1,0 +1,784 @@
+@city=Woodend
+@country=New Zealand
+@lat=-43.3166667
+@long=172.6666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Whitianga
+@country=New Zealand
+@lat=-36.8333333
+@long=175.7
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Whangamata
+@country=New Zealand
+@lat=-37.2
+@long=175.8666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Wellsford
+@country=New Zealand
+@lat=-36.2833333
+@long=174.5166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Wellington
+@country=New Zealand
+@lat=-41.3
+@long=174.7833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Warkworth
+@country=New Zealand
+@lat=-36.4
+@long=174.6666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Wanganui
+@country=New Zealand
+@lat=-39.9333333
+@long=175.05
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Wakefield
+@country=New Zealand
+@lat=-41.4
+@long=173.05
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Waiuku
+@country=New Zealand
+@lat=-37.25
+@long=174.75
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Waitakere
+@country=New Zealand
+@lat=-36.85
+@long=174.55
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Waiouru
+@country=New Zealand
+@lat=-39.4833333
+@long=175.6666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Waimate North
+@country=New Zealand
+@lat=-35.3166667
+@long=173.8833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Waihi Beach
+@country=New Zealand
+@lat=-37.4
+@long=175.9333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Turangi
+@country=New Zealand
+@lat=-39.0
+@long=175.9333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Tokoroa
+@country=New Zealand
+@lat=-38.2333333
+@long=175.8666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Timaru
+@country=New Zealand
+@lat=-44.4
+@long=171.25
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Te Kauwhata
+@country=New Zealand
+@lat=-37.4
+@long=175.15
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Te Anau
+@country=New Zealand
+@lat=-45.4166667
+@long=167.7166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Taupo
+@country=New Zealand
+@lat=-38.6833333
+@long=176.0833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Takaka
+@country=New Zealand
+@lat=-40.85
+@long=172.8
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Tairua
+@country=New Zealand
+@lat=-37.0166667
+@long=175.85
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Taipa
+@country=New Zealand
+@lat=-34.9833333
+@long=173.4666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Rolleston
+@country=New Zealand
+@lat=-43.5833333
+@long=172.3833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Rakaia
+@country=New Zealand
+@lat=-43.75
+@long=172.0166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Raglan
+@country=New Zealand
+@lat=-37.8
+@long=174.8833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Pukekohe East
+@country=New Zealand
+@lat=-37.2
+@long=174.95
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Port Motueka
+@country=New Zealand
+@lat=-41.1333333
+@long=173.0166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Porirua
+@country=New Zealand
+@lat=-41.1333333
+@long=174.85
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Pleasant Point
+@country=New Zealand
+@lat=-44.2666667
+@long=171.1333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Wanaka
+@country=New Zealand
+@lat=-44.7
+@long=169.15
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Parakai
+@country=New Zealand
+@lat=-36.65
+@long=174.4333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Palmerston North
+@country=New Zealand
+@lat=-40.35
+@long=175.6166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Paihia
+@country=New Zealand
+@lat=-35.2833333
+@long=174.0833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Oxford
+@country=New Zealand
+@lat=-43.3
+@long=172.1833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Otorohanga
+@country=New Zealand
+@lat=-38.1833333
+@long=175.2
+@timezone=13.000000
+@dst=271
+@create
+
+@city=North Shore
+@country=New Zealand
+@lat=-36.8
+@long=174.75
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Ngunguru
+@country=New Zealand
+@lat=-35.6166667
+@long=174.5
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Ngatea
+@country=New Zealand
+@lat=-37.2833333
+@long=175.5
+@timezone=13.000000
+@dst=271
+@create
+
+@city=New Plymouth
+@country=New Zealand
+@lat=-39.0666667
+@long=174.0833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Napier
+@country=New Zealand
+@lat=-39.4833333
+@long=176.9166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Murupara
+@country=New Zealand
+@lat=-38.4666667
+@long=176.7
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Muriwai Beach
+@country=New Zealand
+@lat=-36.8166667
+@long=174.45
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Moerewa
+@country=New Zealand
+@lat=-35.3833333
+@long=174.0333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Methven
+@country=New Zealand
+@lat=-43.6333333
+@long=171.65
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Maungatapere
+@country=New Zealand
+@lat=-35.75
+@long=174.2
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Mapua
+@country=New Zealand
+@lat=-41.25
+@long=173.1
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Maketu
+@country=New Zealand
+@lat=-37.7666667
+@long=176.45
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Lower Hutt
+@country=New Zealand
+@lat=-41.2166667
+@long=174.9166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Lincoln
+@country=New Zealand
+@lat=-43.65
+@long=172.4833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Leeston
+@country=New Zealand
+@lat=-43.7666667
+@long=172.3
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Kerikeri
+@country=New Zealand
+@lat=-35.2166667
+@long=173.9666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Kawerau
+@country=New Zealand
+@lat=-38.1
+@long=176.7
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Kawakawa
+@country=New Zealand
+@lat=-35.3833333
+@long=174.0666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Katikati
+@country=New Zealand
+@lat=-37.55
+@long=175.9166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Invercargill
+@country=New Zealand
+@lat=-46.4
+@long=168.35
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Hastings
+@country=New Zealand
+@lat=-39.65
+@long=176.8333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Hamilton
+@country=New Zealand
+@lat=-37.7833333
+@long=175.2833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Edgecumbe
+@country=New Zealand
+@lat=-37.9833333
+@long=176.8333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Dunedin
+@country=New Zealand
+@lat=-45.8666667
+@long=170.5
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Dargaville
+@country=New Zealand
+@lat=-35.9333333
+@long=173.8833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Darfield
+@country=New Zealand
+@lat=-43.4833333
+@long=172.1166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Coromandel
+@country=New Zealand
+@lat=-36.7666667
+@long=175.5
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Christchurch
+@country=New Zealand
+@lat=-43.5333333
+@long=172.6333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Burnham
+@country=New Zealand
+@lat=-43.6166667
+@long=172.3166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Bulls
+@country=New Zealand
+@lat=-40.1666667
+@long=175.3833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Brightwater
+@country=New Zealand
+@lat=-41.3833333
+@long=173.1166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Auckland
+@country=New Zealand
+@lat=-36.8666667
+@long=174.7666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Amberley
+@country=New Zealand
+@lat=-43.1666667
+@long=172.7333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Ahipara
+@country=New Zealand
+@lat=-35.1666667
+@long=173.1666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Opunake
+@country=New Zealand
+@lat=-39.4555556
+@long=173.8583333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Eltham
+@country=New Zealand
+@lat=-39.4291667
+@long=174.3
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Hawera
+@country=New Zealand
+@lat=-39.5916667
+@long=174.2833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Patea
+@country=New Zealand
+@lat=-39.7583333
+@long=174.4833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Foxton
+@country=New Zealand
+@lat=-40.4666667
+@long=175.3
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Levin
+@country=New Zealand
+@lat=-40.6333333
+@long=175.275
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Otaki
+@country=New Zealand
+@lat=-40.7583333
+@long=175.15
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Wairoa
+@country=New Zealand
+@lat=-39.0333333
+@long=177.3666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Gisborne
+@country=New Zealand
+@lat=-38.6533333
+@long=178.0041667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Waipawa
+@country=New Zealand
+@lat=-41.4122222
+@long=175.5152778
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Masterton
+@country=New Zealand
+@lat=-40.9597222
+@long=175.6575
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Hokitika
+@country=New Zealand
+@lat=-42.7166667
+@long=170.9666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Greymouth
+@country=New Zealand
+@lat=-42.4666667
+@long=171.2
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Westport
+@country=New Zealand
+@lat=-41.75
+@long=171.5666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Bluff
+@country=New Zealand
+@lat=-46.6
+@long=168.3333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Riverton
+@country=New Zealand
+@lat=-46.35
+@long=168.0166667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Winton
+@country=New Zealand
+@lat=-46.15
+@long=168.3333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Tauranga
+@country=New Zealand
+@lat=-37.6861111
+@long=176.1666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Waitara
+@country=New Zealand
+@lat=-38.925
+@long=174.25
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Milton
+@country=New Zealand
+@lat=-46.1208333
+@long=169.9694444
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Balclutha
+@country=New Zealand
+@lat=-46.2338889
+@long=169.75
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Paeroa
+@country=New Zealand
+@lat=-37.3666667
+@long=175.6666667
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Waihi
+@country=New Zealand
+@lat=-37.3833333
+@long=175.8333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Whakatane
+@country=New Zealand
+@lat=-37.9833333
+@long=177.0
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Opotiki
+@country=New Zealand
+@lat=-38.0833333
+@long=177.2833333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Thames
+@country=New Zealand
+@lat=-37.1333333
+@long=175.5333333
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Oamaru
+@country=New Zealand
+@lat=-45.078362313
+@long=170.980093705
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Rotorua
+@country=New Zealand
+@lat=-38.1387421526934
+@long=176.245164871216
+@timezone=13.000000
+@dst=271
+@create
+
+@city=Blenheim
+@country=New Zealand
+@lat=-41.508276632
+@long=173.940180414
+@timezone=13.000000
+@dst=271
+@create
+

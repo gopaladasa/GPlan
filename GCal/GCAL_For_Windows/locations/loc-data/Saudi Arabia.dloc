@@ -1,0 +1,664 @@
+@city=Yanbu` al Bahr
+@country=Saudi Arabia
+@lat=24.0852778
+@long=38.0486111
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Umm Lajj
+@country=Saudi Arabia
+@lat=25.0241667
+@long=37.2688889
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Umm as Sahik
+@country=Saudi Arabia
+@lat=26.6536111
+@long=49.9163889
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Turayf
+@country=Saudi Arabia
+@lat=31.6775
+@long=38.6530556
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Turabah
+@country=Saudi Arabia
+@lat=21.2172222
+@long=41.6355556
+@timezone=3.000000
+@dst=312
+@create
+
+@city=At Tubi
+@country=Saudi Arabia
+@lat=26.5577778
+@long=49.9916667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Tarut
+@country=Saudi Arabia
+@lat=26.5725
+@long=50.065
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Tanumah
+@country=Saudi Arabia
+@lat=27.1
+@long=44.1333333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Tabuk
+@country=Saudi Arabia
+@lat=28.3833333
+@long=36.5833333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Tubarjal
+@country=Saudi Arabia
+@lat=30.4977778
+@long=38.2194444
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Tabalah
+@country=Saudi Arabia
+@lat=19.95
+@long=42.4
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Sultanah
+@country=Saudi Arabia
+@lat=24.5
+@long=39.5833333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Sayhat
+@country=Saudi Arabia
+@lat=26.4794444
+@long=50.045
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Samitah
+@country=Saudi Arabia
+@lat=16.5972222
+@long=42.9438889
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Sakaka
+@country=Saudi Arabia
+@lat=29.9702778
+@long=40.2086111
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Safwa
+@country=Saudi Arabia
+@lat=26.6508333
+@long=49.9558333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Sabya
+@country=Saudi Arabia
+@lat=17.15
+@long=42.6166667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Rahimah
+@country=Saudi Arabia
+@lat=26.7058333
+@long=50.0588889
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Rabigh
+@country=Saudi Arabia
+@lat=22.7986111
+@long=39.0322222
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Qal`at Bishah
+@country=Saudi Arabia
+@lat=20.0
+@long=42.6
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Najran
+@country=Saudi Arabia
+@lat=17.5055556
+@long=44.1841667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Mulayjah
+@country=Saudi Arabia
+@lat=27.2727778
+@long=48.425
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Masliyah
+@country=Saudi Arabia
+@lat=17.4666667
+@long=42.55
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Marat
+@country=Saudi Arabia
+@lat=25.0716667
+@long=45.4572222
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Mecca
+@country=Saudi Arabia
+@lat=21.4266667
+@long=39.8261111
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Khamis Mushayt
+@country=Saudi Arabia
+@lat=18.3063889
+@long=42.7291667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Julayjilah
+@country=Saudi Arabia
+@lat=25.5
+@long=49.6
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Jizan
+@country=Saudi Arabia
+@lat=16.8891667
+@long=42.5511111
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Jiddah
+@country=Saudi Arabia
+@lat=21.5169444
+@long=39.2191667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Farasan
+@country=Saudi Arabia
+@lat=16.7022222
+@long=42.1183333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Buraydah
+@country=Saudi Arabia
+@lat=26.3316667
+@long=43.9716667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Abqaiq
+@country=Saudi Arabia
+@lat=25.9355556
+@long=49.6683333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Badr Hunayn
+@country=Saudi Arabia
+@lat=23.78
+@long=38.7905556
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Az Zulfi
+@country=Saudi Arabia
+@lat=26.2966667
+@long=44.8036111
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Dhahran
+@country=Saudi Arabia
+@lat=26.3041667
+@long=50.1325
+@timezone=3.000000
+@dst=312
+@create
+
+@city=At Taraf
+@country=Saudi Arabia
+@lat=25.3588889
+@long=49.7219444
+@timezone=3.000000
+@dst=312
+@create
+
+@city=At Taif
+@country=Saudi Arabia
+@lat=21.2702778
+@long=40.4158333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=As Sulayyil
+@country=Saudi Arabia
+@lat=20.4597222
+@long=45.5744444
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Sajir
+@country=Saudi Arabia
+@lat=25.1805556
+@long=44.6002778
+@timezone=3.000000
+@dst=312
+@create
+
+@city=As Saffaniyah
+@country=Saudi Arabia
+@lat=27.9708333
+@long=48.73
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Riyadh
+@country=Saudi Arabia
+@lat=24.6408333
+@long=46.7727778
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Ar Rass
+@country=Saudi Arabia
+@lat=25.8697222
+@long=43.5022222
+@timezone=3.000000
+@dst=312
+@create
+
+@city=`Ar`ar
+@country=Saudi Arabia
+@lat=30.985
+@long=41.0205556
+@timezone=3.000000
+@dst=312
+@create
+
+@city=An Nimas
+@country=Saudi Arabia
+@lat=19.1166667
+@long=42.1333333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Qurayyat
+@country=Saudi Arabia
+@lat=31.3333333
+@long=37.3419444
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Wajh
+@country=Saudi Arabia
+@lat=26.2333333
+@long=36.4666667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Qurayn
+@country=Saudi Arabia
+@lat=25.4833333
+@long=49.6
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Qaysumah
+@country=Saudi Arabia
+@lat=28.3097222
+@long=46.1275
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Qatif
+@country=Saudi Arabia
+@lat=26.52
+@long=50.0247222
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Qarah
+@country=Saudi Arabia
+@lat=25.4166667
+@long=49.6666667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Mutayrifi
+@country=Saudi Arabia
+@lat=25.4797222
+@long=49.5563889
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Munayzilah
+@country=Saudi Arabia
+@lat=25.3833333
+@long=49.6666667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Mubarraz
+@country=Saudi Arabia
+@lat=25.41
+@long=49.5808333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Mindak
+@country=Saudi Arabia
+@lat=20.1
+@long=41.2833333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Markaz
+@country=Saudi Arabia
+@lat=25.4
+@long=49.7333333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Medina
+@country=Saudi Arabia
+@lat=24.4686111
+@long=39.6141667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Khafji
+@country=Saudi Arabia
+@lat=28.4130556
+@long=48.4841667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Jumum
+@country=Saudi Arabia
+@lat=21.6169444
+@long=39.6980556
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Jubayl
+@country=Saudi Arabia
+@lat=27.0047222
+@long=49.6613889
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Jubayl
+@country=Saudi Arabia
+@lat=25.4
+@long=49.65
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Jaradiyah
+@country=Saudi Arabia
+@lat=16.58
+@long=42.9119444
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Jafr
+@country=Saudi Arabia
+@lat=25.3769444
+@long=49.7236111
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Hufuf
+@country=Saudi Arabia
+@lat=25.3783333
+@long=49.5866667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Bukayriyah
+@country=Saudi Arabia
+@lat=26.1505556
+@long=43.66
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Battaliyah
+@country=Saudi Arabia
+@lat=25.4333333
+@long=49.6333333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Bahah
+@country=Saudi Arabia
+@lat=20.0166667
+@long=41.4666667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Artawiyah
+@country=Saudi Arabia
+@lat=26.51
+@long=45.3438889
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Awjam
+@country=Saudi Arabia
+@lat=26.5627778
+@long=49.9438889
+@timezone=3.000000
+@dst=312
+@create
+
+@city=`Afif
+@country=Saudi Arabia
+@lat=23.9166667
+@long=42.9333333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Ad Dilam
+@country=Saudi Arabia
+@lat=23.9969444
+@long=47.165
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Ad Dawadimi
+@country=Saudi Arabia
+@lat=24.4941667
+@long=44.3833333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Ad Darb
+@country=Saudi Arabia
+@lat=17.7333333
+@long=42.25
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Ad Dammam
+@country=Saudi Arabia
+@lat=26.4258333
+@long=50.1141667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Abu `Arish
+@country=Saudi Arabia
+@lat=16.9677778
+@long=42.8294444
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Abha
+@country=Saudi Arabia
+@lat=18.2163889
+@long=42.5052778
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Hajrat al Khinbish
+@country=Saudi Arabia
+@lat=27.8041667
+@long=45.0738889
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Suwayr
+@country=Saudi Arabia
+@lat=30.1163889
+@long=40.3908333
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Tumayr
+@country=Saudi Arabia
+@lat=25.7055556
+@long=45.8697222
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Fuwayliq
+@country=Saudi Arabia
+@lat=26.4394444
+@long=43.2666667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Majaridah
+@country=Saudi Arabia
+@lat=19.1236111
+@long=41.9111111
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Muwayh
+@country=Saudi Arabia
+@lat=22.4333333
+@long=41.7591667
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Al Hada
+@country=Saudi Arabia
+@lat=21.3686111
+@long=40.2847222
+@timezone=3.000000
+@dst=312
+@create
+
+@city=Mizhirah
+@country=Saudi Arabia
+@lat=16.8261111
+@long=42.7333333
+@timezone=3.000000
+@dst=312
+@create
+

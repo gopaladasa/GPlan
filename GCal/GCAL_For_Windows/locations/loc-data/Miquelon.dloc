@@ -1,0 +1,16 @@
+@city=Saint-Pierre
+@country=Miquelon
+@lat=46.7666667
+@long=-56.1833333
+@timezone=-3.000000
+@dst=283
+@create
+
+@city=Miquelon
+@country=Miquelon
+@lat=47.0975
+@long=-56.3813889
+@timezone=-3.000000
+@dst=283
+@create
+

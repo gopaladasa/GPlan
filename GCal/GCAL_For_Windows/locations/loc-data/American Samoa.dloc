@@ -1,0 +1,80 @@
+@city=Aua
+@country=American Samoa
+@lat=-14.27611
+@long=-170.66389
+@timezone=-11.000000
+@dst=30
+@create
+
+@city=Vaitogi
+@country=American Samoa
+@lat=-14.35889
+@long=-170.73472
+@timezone=-11.000000
+@dst=30
+@create
+
+@city=Vailoatai
+@country=American Samoa
+@lat=-14.3607316260231
+@long=-170.782127380371
+@timezone=-11.000000
+@dst=30
+@create
+
+@city=Tafuna
+@country=American Samoa
+@lat=-14.33583
+@long=-170.72
+@timezone=-11.000000
+@dst=30
+@create
+
+@city=Faleniu
+@country=American Samoa
+@lat=-14.3325
+@long=-170.74444
+@timezone=-11.000000
+@dst=30
+@create
+
+@city=Fagatogo
+@country=American Samoa
+@lat=-14.2825
+@long=-170.69
+@timezone=-11.000000
+@dst=30
+@create
+
+@city=Leone
+@country=American Samoa
+@lat=-14.34389
+@long=-170.785
+@timezone=-11.000000
+@dst=30
+@create
+
+@city=Malaeimi
+@country=American Samoa
+@lat=-14.32278
+@long=-170.73389
+@timezone=-11.000000
+@dst=30
+@create
+
+@city=Mapusagafou
+@country=American Samoa
+@lat=-14.33056
+@long=-170.75278
+@timezone=-11.000000
+@dst=30
+@create
+
+@city=Pago Pago
+@country=American Samoa
+@lat=-14.27806
+@long=-170.7025
+@timezone=-11.000000
+@dst=30
+@create
+

@@ -1,0 +1,24 @@
+@city=Serravalle
+@country=San Marino
+@lat=43.95
+@long=12.5
+@timezone=1.000000
+@dst=323
+@create
+
+@city=San Marino
+@country=San Marino
+@lat=43.9333333
+@long=12.45
+@timezone=1.000000
+@dst=323
+@create
+
+@city=Acquaviva
+@country=San Marino
+@lat=43.95
+@long=12.4166667
+@timezone=1.000000
+@dst=323
+@create
+

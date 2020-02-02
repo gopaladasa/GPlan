@@ -1,0 +1,224 @@
+@city=Yate-Barrage
+@country=New Caledonia
+@lat=-22.15
+@long=166.8833333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=We
+@country=New Caledonia
+@lat=-20.9
+@long=167.2666667
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Voh
+@country=New Caledonia
+@lat=-20.9666667
+@long=164.7
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Vao
+@country=New Caledonia
+@lat=-22.6666667
+@long=167.4833333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Touho
+@country=New Caledonia
+@lat=-20.7833333
+@long=165.2333333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Thio
+@country=New Caledonia
+@lat=-21.6166667
+@long=166.2166667
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Tadine
+@country=New Caledonia
+@lat=-21.55
+@long=167.8833333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Poya
+@country=New Caledonia
+@lat=-21.35
+@long=165.15
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Poum
+@country=New Caledonia
+@lat=-20.2333333
+@long=164.0166667
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Pouembout
+@country=New Caledonia
+@lat=-21.1333333
+@long=164.9
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Pouebo
+@country=New Caledonia
+@lat=-20.4
+@long=164.5666667
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Ponerihouen
+@country=New Caledonia
+@lat=-21.0833333
+@long=165.4
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Poindimie
+@country=New Caledonia
+@lat=-20.9333333
+@long=165.3333333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Paita
+@country=New Caledonia
+@lat=-22.1333333
+@long=166.3666667
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Ouegoa
+@country=New Caledonia
+@lat=-20.35
+@long=164.4333333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Noumea
+@country=New Caledonia
+@lat=-22.2666667
+@long=166.45
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Mont-Dore
+@country=New Caledonia
+@lat=-22.2833333
+@long=166.5833333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=La Foa
+@country=New Caledonia
+@lat=-21.7166667
+@long=165.8166667
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Koumac
+@country=New Caledonia
+@lat=-20.5666667
+@long=164.2833333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Kone
+@country=New Caledonia
+@lat=-21.0666667
+@long=164.8666667
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Kaala-Gomen
+@country=New Caledonia
+@lat=-20.6666667
+@long=164.4
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Houailou
+@country=New Caledonia
+@lat=-21.2833333
+@long=165.6166667
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Hienghene
+@country=New Caledonia
+@lat=-20.6833333
+@long=164.9333333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Fayaoue
+@country=New Caledonia
+@lat=-20.65
+@long=166.5333333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Dumbea
+@country=New Caledonia
+@lat=-22.15
+@long=166.45
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Canala
+@country=New Caledonia
+@lat=-21.5333333
+@long=165.95
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Bourail
+@country=New Caledonia
+@lat=-21.5666667
+@long=165.4833333
+@timezone=11.000000
+@dst=261
+@create
+
+@city=Bouloupari
+@country=New Caledonia
+@lat=-21.8666667
+@long=166.05
+@timezone=11.000000
+@dst=261
+@create
+

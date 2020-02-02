@@ -1,0 +1,64 @@
+@city=Vieux Fort
+@country=Saint Lucia
+@lat=13.7166667
+@long=-60.95
+@timezone=-4.000000
+@dst=217
+@create
+
+@city=Soufriere
+@country=Saint Lucia
+@lat=13.85
+@long=-61.05
+@timezone=-4.000000
+@dst=217
+@create
+
+@city=Micoud
+@country=Saint Lucia
+@lat=13.8166667
+@long=-60.9
+@timezone=-4.000000
+@dst=217
+@create
+
+@city=Laborie
+@country=Saint Lucia
+@lat=13.75
+@long=-60.9833333
+@timezone=-4.000000
+@dst=217
+@create
+
+@city=Gros Islet
+@country=Saint Lucia
+@lat=14.0666667
+@long=-60.95
+@timezone=-4.000000
+@dst=217
+@create
+
+@city=Dennery
+@country=Saint Lucia
+@lat=13.9
+@long=-60.8833333
+@timezone=-4.000000
+@dst=217
+@create
+
+@city=Bisee
+@country=Saint Lucia
+@lat=14.0166667
+@long=-60.9666667
+@timezone=-4.000000
+@dst=217
+@create
+
+@city=Anse La Raye
+@country=Saint Lucia
+@lat=13.9333333
+@long=-61.0333333
+@timezone=-4.000000
+@dst=217
+@create
+

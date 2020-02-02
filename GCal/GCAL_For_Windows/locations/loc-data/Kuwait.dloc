@@ -1,0 +1,144 @@
+@city=Janub as Surrah
+@country=Kuwait
+@lat=29.2691667
+@long=47.9780556
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Bayan
+@country=Kuwait
+@lat=29.3180556
+@long=48.0391667
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Az Zawr
+@country=Kuwait
+@lat=29.4425
+@long=48.2747222
+@timezone=3.000000
+@dst=208
+@create
+
+@city=As Salimiyah
+@country=Kuwait
+@lat=29.3338889
+@long=48.0761111
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Ash Shamiyah
+@country=Kuwait
+@lat=29.3472222
+@long=47.9616667
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Ar Riqqah
+@country=Kuwait
+@lat=29.1458333
+@long=48.0947222
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Al Wafrah
+@country=Kuwait
+@lat=28.6391667
+@long=47.9305556
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Al Manqaf
+@country=Kuwait
+@lat=29.0961111
+@long=48.1327778
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Al Mahbulah
+@country=Kuwait
+@lat=29.145
+@long=48.1302778
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Kuwait
+@country=Kuwait
+@lat=29.3697222
+@long=47.9783333
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Al Funaytis
+@country=Kuwait
+@lat=29.2252778
+@long=48.1016667
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Al Fuhayhil
+@country=Kuwait
+@lat=29.0825
+@long=48.1302778
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Al Fintas
+@country=Kuwait
+@lat=29.1738889
+@long=48.1211111
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Al Farwaniyah
+@country=Kuwait
+@lat=29.2775
+@long=47.9586111
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Ad Dasmah
+@country=Kuwait
+@lat=29.365
+@long=48.0013889
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Salwa
+@country=Kuwait
+@lat=29.2958333
+@long=48.0786111
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Ar Rabiyah
+@country=Kuwait
+@lat=29.295
+@long=47.9330556
+@timezone=3.000000
+@dst=208
+@create
+
+@city=Sabah as Salim
+@country=Kuwait
+@lat=29.2572222
+@long=48.0572222
+@timezone=3.000000
+@dst=208
+@create
+

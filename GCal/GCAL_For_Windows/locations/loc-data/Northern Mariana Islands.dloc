@@ -1,0 +1,96 @@
+@city=Capital Hill
+@country=Northern Mariana Islands
+@lat=15.2
+@long=145.7519444
+@timezone=10.000000
+@dst=241
+@create
+
+@city=Chalan Kanoa
+@country=Northern Mariana Islands
+@lat=15.1455556
+@long=145.6991667
+@timezone=10.000000
+@dst=241
+@create
+
+@city=Garapan
+@country=Northern Mariana Islands
+@lat=15.2069444
+@long=145.715
+@timezone=10.000000
+@dst=241
+@create
+
+@city=Gualo Rai
+@country=Northern Mariana Islands
+@lat=15.1908333
+@long=145.7225
+@timezone=10.000000
+@dst=241
+@create
+
+@city=Koblerville
+@country=Northern Mariana Islands
+@lat=15.1205556
+@long=145.7063889
+@timezone=10.000000
+@dst=241
+@create
+
+@city=San Antonio
+@country=Northern Mariana Islands
+@lat=15.1325
+@long=145.6936111
+@timezone=10.000000
+@dst=241
+@create
+
+@city=San Jose
+@country=Northern Mariana Islands
+@lat=14.9694444
+@long=145.6227778
+@timezone=10.000000
+@dst=241
+@create
+
+@city=San Roque
+@country=Northern Mariana Islands
+@lat=15.2469444
+@long=145.7727778
+@timezone=10.000000
+@dst=241
+@create
+
+@city=San Vicente
+@country=Northern Mariana Islands
+@lat=15.1516667
+@long=145.7377778
+@timezone=10.000000
+@dst=241
+@create
+
+@city=Songsong
+@country=Northern Mariana Islands
+@lat=14.1397222
+@long=145.1411111
+@timezone=10.000000
+@dst=241
+@create
+
+@city=Susupe
+@country=Northern Mariana Islands
+@lat=15.1563889
+@long=145.7058333
+@timezone=10.000000
+@dst=241
+@create
+
+@city=Tanapag
+@country=Northern Mariana Islands
+@lat=15.2411111
+@long=145.7525
+@timezone=10.000000
+@dst=241
+@create
+

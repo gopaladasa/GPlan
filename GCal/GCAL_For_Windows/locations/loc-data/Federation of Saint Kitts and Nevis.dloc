@@ -1,0 +1,16 @@
+@city=Charlestown
+@country=Federation of Saint Kitts and Nevis
+@lat=17.1333333
+@long=-62.6166667
+@timezone=-4.000000
+@dst=205
+@create
+
+@city=Basseterre
+@country=Federation of Saint Kitts and Nevis
+@lat=17.3
+@long=-62.7166667
+@timezone=-4.000000
+@dst=205
+@create
+
