@@ -1,0 +1,112 @@
+@city=Sinnamary
+@country=French Guiana
+@lat=5.3833333
+@long=-52.95
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Saint-Laurent-du-Maroni
+@country=French Guiana
+@lat=5.5
+@long=-54.0333333
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Saint-Georges-de-lOyapock
+@country=French Guiana
+@lat=3.9
+@long=-51.8
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Roura
+@country=French Guiana
+@lat=4.7333333
+@long=-52.3333333
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Remire-Montjoly
+@country=French Guiana
+@lat=4.9166667
+@long=-52.2666667
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Matoury
+@country=French Guiana
+@lat=4.85
+@long=-52.3333333
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Mana
+@country=French Guiana
+@lat=5.6666667
+@long=-53.7833333
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Macouria
+@country=French Guiana
+@lat=4.9166667
+@long=-52.3666667
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Kourou
+@country=French Guiana
+@lat=5.15
+@long=-52.65
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Iracoubo
+@country=French Guiana
+@lat=5.4833333
+@long=-53.2166667
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Grand-Santi
+@country=French Guiana
+@lat=4.25
+@long=-54.3833333
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Cayenne
+@country=French Guiana
+@lat=4.9333333
+@long=-52.3333333
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Camopi
+@country=French Guiana
+@lat=3.1666667
+@long=-52.35
+@timezone=-3.000000
+@dst=158
+@create
+
+@city=Apatou
+@country=French Guiana
+@lat=5.15
+@long=-54.3333333
+@timezone=-3.000000
+@dst=158
+@create
+

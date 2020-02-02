@@ -1,0 +1,1240 @@
+@city=Rafah
+@country=Gaza Strip
+@lat=31.2841667
+@long=34.2508333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Khan Yunis
+@country=Gaza Strip
+@lat=31.3438889
+@long=34.3025
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Jabaliya
+@country=Gaza Strip
+@lat=31.5333333
+@long=34.4833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dayr al Balah
+@country=Gaza Strip
+@lat=31.4255556
+@long=34.3402778
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Lahiyah
+@country=Gaza Strip
+@lat=31.55
+@long=34.5
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Burayj
+@country=Gaza Strip
+@lat=31.4394444
+@long=34.4030556
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Zububa
+@country=Gaza Strip
+@lat=32.5455556
+@long=35.2241667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Zayta
+@country=Gaza Strip
+@lat=32.3844444
+@long=35.0497222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Yattah
+@country=Gaza Strip
+@lat=31.45
+@long=35.0833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Yatma
+@country=Gaza Strip
+@lat=32.1069444
+@long=35.2655556
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Yasid
+@country=Gaza Strip
+@lat=32.2944444
+@long=35.2769444
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Tulkarm
+@country=Gaza Strip
+@lat=32.3108333
+@long=35.0258333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Tubas
+@country=Gaza Strip
+@lat=32.3213889
+@long=35.3691667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Tayasir
+@country=Gaza Strip
+@lat=32.3380556
+@long=35.3955556
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Tarqumiyah
+@country=Gaza Strip
+@lat=31.5833333
+@long=35.0166667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Tammun
+@country=Gaza Strip
+@lat=32.2825
+@long=35.3836111
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Talluza
+@country=Gaza Strip
+@lat=32.2719444
+@long=35.2938889
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Tall
+@country=Gaza Strip
+@lat=32.2
+@long=35.2091667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Talfit
+@country=Gaza Strip
+@lat=32.0841667
+@long=35.2897222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Taffuh
+@country=Gaza Strip
+@lat=31.5333333
+@long=35.05
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Surif
+@country=Gaza Strip
+@lat=31.65
+@long=35.0666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Siris
+@country=Gaza Strip
+@lat=32.3294444
+@long=35.2897222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Sinjil
+@country=Gaza Strip
+@lat=32.0333333
+@long=35.2666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Silwad
+@country=Gaza Strip
+@lat=31.9833333
+@long=35.2666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Silat az Zahr
+@country=Gaza Strip
+@lat=32.3188889
+@long=35.1836111
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Silat al Harithiyah
+@country=Gaza Strip
+@lat=32.5080556
+@long=35.2277778
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Shuqba
+@country=Gaza Strip
+@lat=31.9833333
+@long=35.0333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Sayda
+@country=Gaza Strip
+@lat=32.3852778
+@long=35.1197222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Sartah
+@country=Gaza Strip
+@lat=32.1025
+@long=35.0891667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Sarrah
+@country=Gaza Strip
+@lat=32.2113889
+@long=35.1922222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Sanur
+@country=Gaza Strip
+@lat=32.3561111
+@long=35.2469444
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Sanniriyah
+@country=Gaza Strip
+@lat=32.1286111
+@long=35.0472222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Salim
+@country=Gaza Strip
+@lat=32.2091667
+@long=35.3277778
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Salfit
+@country=Gaza Strip
+@lat=32.0808333
+@long=35.1761111
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Saffa
+@country=Gaza Strip
+@lat=31.9
+@long=35.0666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Sabastiyah
+@country=Gaza Strip
+@lat=32.2763889
+@long=35.195
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Rummanah
+@country=Gaza Strip
+@lat=32.5233333
+@long=35.2055556
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Rujayb
+@country=Gaza Strip
+@lat=32.1833333
+@long=35.3
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Rantis
+@country=Gaza Strip
+@lat=32.025
+@long=35.0175
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Rammun
+@country=Gaza Strip
+@lat=31.9333333
+@long=35.3
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Ramin
+@country=Gaza Strip
+@lat=32.2836111
+@long=35.1491667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Ram Allah
+@country=Gaza Strip
+@lat=31.9
+@long=35.2
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Rafat
+@country=Gaza Strip
+@lat=32.0780556
+@long=35.0441667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Rafat
+@country=Gaza Strip
+@lat=31.8666667
+@long=35.2
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Raba
+@country=Gaza Strip
+@lat=32.3858333
+@long=35.3819444
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Qusrah
+@country=Gaza Strip
+@lat=32.0833333
+@long=35.3333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Qibya
+@country=Gaza Strip
+@lat=31.9833333
+@long=35.0166667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Qatannah
+@country=Gaza Strip
+@lat=31.8333333
+@long=35.1
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Qaryut
+@country=Gaza Strip
+@lat=32.0666667
+@long=35.3
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Qarawat Bani Zayd
+@country=Gaza Strip
+@lat=32.0533333
+@long=35.1266667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Qalqilyah
+@country=Gaza Strip
+@lat=32.1863889
+@long=34.9630556
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Qaffin
+@country=Gaza Strip
+@lat=32.4313889
+@long=35.0819444
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Qabatiyah
+@country=Gaza Strip
+@lat=32.4086111
+@long=35.28
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Qabalan
+@country=Gaza Strip
+@lat=32.1
+@long=35.2833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Nuba
+@country=Gaza Strip
+@lat=31.6
+@long=35.0333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Nahhalin
+@country=Gaza Strip
+@lat=31.6833333
+@long=35.1166667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Nabulus
+@country=Gaza Strip
+@lat=32.2211111
+@long=35.2544444
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Misilyah
+@country=Gaza Strip
+@lat=32.3833333
+@long=35.2833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Maythalun
+@country=Gaza Strip
+@lat=32.35
+@long=35.2666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Mardah
+@country=Gaza Strip
+@lat=32.1119444
+@long=35.1916667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Majdal Bani Fadil
+@country=Gaza Strip
+@lat=32.0822222
+@long=35.3622222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kufayrat
+@country=Gaza Strip
+@lat=32.4436111
+@long=35.2013889
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kifl Harith
+@country=Gaza Strip
+@lat=32.1155556
+@long=35.1541667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Khirbat al Burj
+@country=Gaza Strip
+@lat=31.45
+@long=34.9
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Khirbat Abu Falah
+@country=Gaza Strip
+@lat=32.0166667
+@long=35.3
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kharas
+@country=Gaza Strip
+@lat=31.6166667
+@long=35.0333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kawbar
+@country=Gaza Strip
+@lat=31.9833333
+@long=35.1666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kafr Thulth
+@country=Gaza Strip
+@lat=32.1497222
+@long=35.0433333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kafr Qallil
+@country=Gaza Strip
+@lat=32.2
+@long=35.2833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kafr Qaddum
+@country=Gaza Strip
+@lat=32.2213889
+@long=35.1422222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kafr Malik
+@country=Gaza Strip
+@lat=31.9833333
+@long=35.3166667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kafr Jammal
+@country=Gaza Strip
+@lat=32.2252778
+@long=35.0433333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kafr Dan
+@country=Gaza Strip
+@lat=32.4786111
+@long=35.2538889
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kafr al Labad
+@country=Gaza Strip
+@lat=32.2972222
+@long=35.1108333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Kafr ad Dik
+@country=Gaza Strip
+@lat=32.0647222
+@long=35.0786111
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Jit
+@country=Gaza Strip
+@lat=32.2161111
+@long=35.1677778
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Jayyus
+@country=Gaza Strip
+@lat=32.2008333
+@long=35.0352778
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Janin
+@country=Gaza Strip
+@lat=32.4563889
+@long=35.2958333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Jalbun
+@country=Gaza Strip
+@lat=32.4577778
+@long=35.4144444
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Immatin
+@country=Gaza Strip
+@lat=32.1925
+@long=35.1586111
+@timezone=2.000000
+@dst=286
+@create
+
+@city=`Illar
+@country=Gaza Strip
+@lat=32.3711111
+@long=35.1063889
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Iktabah
+@country=Gaza Strip
+@lat=32.3258333
+@long=35.0583333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Huwarah
+@country=Gaza Strip
+@lat=32.1469444
+@long=35.2566667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Husan
+@country=Gaza Strip
+@lat=31.7166667
+@long=35.1333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Hizma
+@country=Gaza Strip
+@lat=31.8333333
+@long=35.2666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Haris
+@country=Gaza Strip
+@lat=32.1141667
+@long=35.1425
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Halhul
+@country=Gaza Strip
+@lat=31.5833333
+@long=35.1166667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Hajjah
+@country=Gaza Strip
+@lat=32.2047222
+@long=35.1308333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Hablah
+@country=Gaza Strip
+@lat=32.1613889
+@long=34.975
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Fahmah
+@country=Gaza Strip
+@lat=32.3825
+@long=35.1797222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dura
+@country=Gaza Strip
+@lat=31.5
+@long=35.0333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Duma
+@country=Gaza Strip
+@lat=32.05
+@long=35.3666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dhannabah
+@country=Gaza Strip
+@lat=32.3141667
+@long=35.0413889
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dayr Sharaf
+@country=Gaza Strip
+@lat=32.2538889
+@long=35.1888889
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dayr Jarir
+@country=Gaza Strip
+@lat=31.9666667
+@long=35.3
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dayr Istiya
+@country=Gaza Strip
+@lat=32.1291667
+@long=35.1380556
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dayr Dibwan
+@country=Gaza Strip
+@lat=31.9166667
+@long=35.2666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dayr Ballut
+@country=Gaza Strip
+@lat=32.0638889
+@long=35.0233333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dayr as Sudan
+@country=Gaza Strip
+@lat=32.0338889
+@long=35.1483333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dayr al Hatab
+@country=Gaza Strip
+@lat=32.2166667
+@long=35.3166667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Dayr al Ghusun
+@country=Gaza Strip
+@lat=32.3525
+@long=35.0744444
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Buruqin
+@country=Gaza Strip
+@lat=32.0691667
+@long=35.0994444
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Burqin
+@country=Gaza Strip
+@lat=32.4530556
+@long=35.2583333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Burqa
+@country=Gaza Strip
+@lat=31.9
+@long=35.25
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Burin
+@country=Gaza Strip
+@lat=32.1811111
+@long=35.2486111
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bir Zayt
+@country=Gaza Strip
+@lat=31.9666667
+@long=35.2
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Biddu
+@country=Gaza Strip
+@lat=31.8333333
+@long=35.15
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Biddiya
+@country=Gaza Strip
+@lat=32.1130556
+@long=35.0763889
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bazzariyah
+@country=Gaza Strip
+@lat=32.3069444
+@long=35.1661111
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Baytuniya
+@country=Gaza Strip
+@lat=31.8833333
+@long=35.1666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Umrin
+@country=Gaza Strip
+@lat=32.2911111
+@long=35.2155556
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Surik
+@country=Gaza Strip
+@lat=31.8333333
+@long=35.15
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Sira
+@country=Gaza Strip
+@lat=31.8833333
+@long=35.05
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Sahur
+@country=Gaza Strip
+@lat=31.7
+@long=35.2166667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Liqya
+@country=Gaza Strip
+@lat=31.8666667
+@long=35.0666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Lid
+@country=Gaza Strip
+@lat=32.26
+@long=35.1313889
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bethlehem
+@country=Gaza Strip
+@lat=31.7166667
+@long=35.2
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Kahil
+@country=Gaza Strip
+@lat=31.5666667
+@long=35.0666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Jala
+@country=Gaza Strip
+@lat=31.7166667
+@long=35.1833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Baytin
+@country=Gaza Strip
+@lat=31.9333333
+@long=35.2333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Immar
+@country=Gaza Strip
+@lat=31.6166667
+@long=35.1
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Baytillu
+@country=Gaza Strip
+@lat=31.9833333
+@long=35.1166667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Iba
+@country=Gaza Strip
+@lat=32.2355556
+@long=35.2086111
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Furik
+@country=Gaza Strip
+@lat=32.1766667
+@long=35.3322222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Fajjar
+@country=Gaza Strip
+@lat=31.6166667
+@long=35.15
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Dajan
+@country=Gaza Strip
+@lat=32.1925
+@long=35.3680556
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayt Awla
+@country=Gaza Strip
+@lat=31.6
+@long=35.0333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Bayta al Fawqa
+@country=Gaza Strip
+@lat=32.1416667
+@long=35.2847222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Battir
+@country=Gaza Strip
+@lat=31.7333333
+@long=35.1333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Baqah ash Sharqiyah
+@country=Gaza Strip
+@lat=32.41
+@long=35.0697222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Balatah
+@country=Gaza Strip
+@lat=32.205
+@long=35.2847222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Az Zawiyah
+@country=Gaza Strip
+@lat=32.0958333
+@long=35.0402778
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Az Zahiriyah
+@country=Gaza Strip
+@lat=31.4166667
+@long=34.9666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Az Zababidah
+@country=Gaza Strip
+@lat=32.3847222
+@long=35.3225
+@timezone=2.000000
+@dst=286
+@create
+
+@city=`Attil
+@country=Gaza Strip
+@lat=32.3691667
+@long=35.0697222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=As Sawiyah
+@country=Gaza Strip
+@lat=32.0833333
+@long=35.2666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Ash Shuyukh
+@country=Gaza Strip
+@lat=31.5833333
+@long=35.15
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Artas
+@country=Gaza Strip
+@lat=31.6833333
+@long=35.1833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Ar Rihiyah
+@country=Gaza Strip
+@lat=31.4666667
+@long=35.0833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Ar Ram
+@country=Gaza Strip
+@lat=31.85
+@long=35.2333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=`Arrabah
+@country=Gaza Strip
+@lat=32.405
+@long=35.2019444
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Jericho
+@country=Gaza Strip
+@lat=31.8666667
+@long=35.45
+@timezone=2.000000
+@dst=286
+@create
+
+@city=`Aqrabah
+@country=Gaza Strip
+@lat=32.1275
+@long=35.3422222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=`Anabta
+@country=Gaza Strip
+@lat=32.3080556
+@long=35.1186111
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Yamun
+@country=Gaza Strip
+@lat=32.4825
+@long=35.2275
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Qubaybah
+@country=Gaza Strip
+@lat=31.8333333
+@long=35.1333333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Mughayyir
+@country=Gaza Strip
+@lat=32.4166667
+@long=35.3833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Mughayyir
+@country=Gaza Strip
+@lat=32.0197222
+@long=35.3447222
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Khidr
+@country=Gaza Strip
+@lat=31.7
+@long=35.1666667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Hebron
+@country=Gaza Strip
+@lat=31.5333333
+@long=35.1
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Judayrah
+@country=Gaza Strip
+@lat=31.8666667
+@long=35.2
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Jib
+@country=Gaza Strip
+@lat=31.85
+@long=35.1833333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Fandaqumiyah
+@country=Gaza Strip
+@lat=32.3208333
+@long=35.2033333
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Al Birah
+@country=Gaza Strip
+@lat=31.9
+@long=35.2166667
+@timezone=2.000000
+@dst=286
+@create
+
+@city=Abu Dis
+@country=Gaza Strip
+@lat=31.7666667
+@long=35.2666667
+@timezone=2.000000
+@dst=286
+@create
+

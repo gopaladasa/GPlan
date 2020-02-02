@@ -1,0 +1,2145 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1250">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List href="./gcal-adv_soubory/filelist.xml">
+<title>Astronomical Calculations</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>bhakta</o:Author>
+  <o:LastAuthor>bhakta</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>231</o:TotalTime>
+  <o:Created>2008-06-07T15:03:00Z</o:Created>
+  <o:LastSaved>2008-06-07T15:03:00Z</o:LastSaved>
+  <o:Pages>6</o:Pages>
+  <o:Words>1144</o:Words>
+  <o:Characters>6524</o:Characters>
+  <o:Lines>54</o:Lines>
+  <o:Paragraphs>13</o:Paragraphs>
+  <o:CharactersWithSpaces>8011</o:CharactersWithSpaces>
+  <o:Version>9.2812</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:238;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+h1
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:16.0pt;
+	font-family:Arial;
+	mso-font-kerning:16.0pt;}
+h2
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:2;
+	font-size:13.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:Arial;
+	mso-bidi-font-style:italic;}
+h3
+	{mso-style-next:Normální;
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	page-break-after:avoid;
+	mso-outline-level:3;
+	font-size:12.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:Arial;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.arguments, li.arguments, div.arguments
+	{mso-style-name:arguments;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:35.4pt;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:#993366;
+	mso-ansi-language:SK;}
+p.algorithm, li.algorithm, div.algorithm
+	{mso-style-name:algorithm;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	background:#FFFF99;
+	border:none;
+	mso-border-alt:solid windowtext 1.0pt;
+	padding:0cm;
+	mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt;
+	mso-border-shadow:yes;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-ansi-language:EN-US;}
+p.Example, li.Example, div.Example
+	{mso-style-name:Example;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:Tahoma;
+	mso-fareast-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	color:gray;
+	mso-ansi-language:SK;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body lang=CS link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<h1><span lang=SK style='mso-ansi-language:SK'>Astronomical Calculations in
+GCAL<o:p></o:p></span></h1>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Algorithms for
+calculation of tithi, naksatra etc are given in this document. All descriptions
+are given &quot;as they are&quot; in application, that means this document does
+not aim to define calculation algorithms for values like tithi, naksatra etc.
+rather it describes how these algorithms are implemented.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>This documents is
+for certification of algorithms used in GCAL program.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><span lang=SK style='mso-ansi-language:SK'>Content<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><a
+href="#_Mathematical_operations">Mathematical operations</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><a
+href="#_Calculation_of_Tithi">Calculation of Tithi</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><a href="#_Paksa">Paksa</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><a
+href="#_Naksatra">Naksatra</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><a href="#_Yoga">Yoga</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><a href="#_Rasi">Rasi</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><a
+href="#_Sankranti">Sankranti</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><a href="#_Masa">Masa,
+Gaurabda Year</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><a
+href="#_Revision_History">Revision History</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><a name="_Mathematical_operations"></a><span lang=SK style='mso-ansi-language:
+SK'>Mathematical operations<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>/<span
+style='mso-tab-count:1'>        </span>divide<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>*<span
+style='mso-tab-count:1'>        </span>multiple<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>floor<span
+style='mso-tab-count:1'>    </span>returns whole of part of real number<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>rmdr<span
+style='mso-tab-count:1'>   </span>return remainder after subtraction of whole
+part of number<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>put_in_360<span
+style='mso-tab-count:1'>         </span>puts given angle into range 0..360
+degrees or equivalent 0..2*PI<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><a name="_Calculation_of_Tithi"></a><span lang=SK style='mso-ansi-language:
+SK'>Calculation of Tithi<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>input values:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>m – tropical longitude of the Moon /real
+number/</span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><span lang=SK style='color:#993366;
+mso-ansi-language:SK'>s – tropical longitude of the Sun /real number/<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>output value:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>tithi – number of tithi /integer/</span></p>
+
+<p class=arguments><span lang=SK>tithi_elapsed – amount of elapsed time from
+tithi (in percents) /real number/</span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#FFFF99'>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=SK
+style='mso-ansi-language:SK'>tithi </span><span lang=EN-US>= floor (
+put_in_360(m – s – 180.0) / 12.0 )</span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:6.0pt;
+margin-left:0cm;border:none;mso-border-alt:solid windowtext .5pt;padding:0cm;
+mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US style='mso-ansi-language:
+EN-US'>tithi_elapsed = rmdr( put_in_360(m – s – 180.0) / 12.0 ) * 100.0<o:p></o:p></span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><a name="_Paksa"></a><span lang=EN-US style='mso-ansi-language:EN-US'>Paksa<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'>input
+value:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>tithi – moon's tithi /integer/</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'>output
+value:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>paksa – moon's paksa /integer/</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'>value 0 is
+for Krsna Paksa<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'>value 1 is
+for Gaura Paksa<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#FFFF99'>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>paksa =
+floor( tithi / 15)</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><a name="_Naksatra"></a><span lang=SK style='mso-ansi-language:SK'>Naksatra<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>input values:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>m – tropical longitude of the moon /real
+number/</span></p>
+
+<p class=arguments><span lang=SK>a – ayanamsa value calculated for the same
+moment as longitude of the moon /real number/</span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>output values:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>naksatra – number of naksatra /integer/</span></p>
+
+<p class=arguments><span lang=SK>naksatra_elapsed – elapsation of naksatra
+/real number/</span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>We need convert
+range &lt;0,360) to range &lt;0,27). Therefore constant 3/40.0 is used.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal>naksatra_pos = (sidereal_moon_pos) * (3 / 40.0)</p>
+
+<p class=MsoNormal>in other symbols:</p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#FFFF99'>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>naksatra_pos
+= put_in_360(m – a) * (3 / 40.0)</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>naksatra
+= floor( naksatra_pos )</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>naksatra_elapsed
+= rmdr ( naksatra_pos ) * 100.0</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>naksatra value 0
+is for Asvini, value 26 is for Revati<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><a name="_Yoga"></a><span lang=SK style='mso-ansi-language:SK'>Yoga<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>input values:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>m – tropical longitude of the moon /real
+number/</span></p>
+
+<p class=arguments><span lang=SK>s – tropical longitude of the Sun /real
+number/</span></p>
+
+<p class=arguments><span lang=SK>a – ayanamsa value calculated for the same
+moment as longitude of the moon /real number/</span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>output value:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>yoga – number of yoga /integer/</span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>yoga_pos =
+(sidereal_moon_pos + sidereal_sun_pos) * (3/40.0)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>in other symbols:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#FFFF99'>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>yoga_pos
+= ((m – a) + (s – a)) * (3/40.0) = put_in_360(m + s – 2*a) * (3/40.0)</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>yoga =
+floor( yoga_pos )</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Yoga value 0 is
+for Viskumba, value 26 is for Vaidhrti.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><a name="_Rasi"></a><span lang=SK style='mso-ansi-language:SK'>Rasi<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>input values:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>s – tropical longitude of the Sun /real
+number/</span></p>
+
+<p class=arguments><span lang=SK>a – ayanamsa value calculated for the same
+moment as longitude of the moon /real number/</span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>output value:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>rasi – integer number of rasi for sun in given
+position</span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='mso-ansi-language:SK'>sidereal_sun_pos</span></b><span
+lang=SK style='mso-ansi-language:SK'> equals <b>(s – a)</b><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#FFFF99'>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>rasi =
+floor ( put_in_360( s – a) / 30.0 )</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>rasi value 0 is
+for Mesa (Aries), value 11 is for Mina (Pisces)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><a name="_Sankranti"></a><span lang=SK style='mso-ansi-language:SK'>Sankranti<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Sankranti
+calculation is based on rasi.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#FFFF99'>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>1) If
+rasi is changing from one day (day1) to next day (day2), then exact time of
+change of rasi is calculated. </span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>2a) If
+calculated time of sankranti is <b>before</b> noon for day1 for given location,
+then sankranti is mentioned in day1.</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>2b) If
+calculated time of sankranti is <b>after</b> noon for day1, then sankranti is
+mentioned in day2.</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><a name="_Masa"></a><span lang=SK style='mso-ansi-language:SK'>Masa<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>input values:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>date – day, month, year</span></p>
+
+<p class=arguments><span lang=SK>time of sunrise</span></p>
+
+<p class=arguments><span lang=SK>tithi for given date</span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>output values:<o:p></o:p></span></p>
+
+<p class=arguments><span lang=SK>masa – calculated masa for given day</span></p>
+
+<p class=arguments><span lang=SK>gyear – gaurabda year</span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Now we will
+calculate conjunctions of sun and moon, that is moment when sun and moon have
+the same longitude, in other words Gaura Pratipat Tithi begins.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Let us say that
+t1 is moment of sunrise for given day. Then we will calculate four previous
+conjunctions and two next conjunctions. Ordered by time, we have values c0, c1,
+t1, c2, c3, c4, c5 where c0 &lt; c1 &lt; c2 &lt; c3 </span><span lang=EN-US
+style='mso-ansi-language:EN-US'>&lt; t1 &lt; c4 &lt; c5<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='mso-ansi-language:SK'>step 1<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>We will calculate
+sun rasi for each conjuction and we get values rasi0, rasi1, rasi2 ... rasi5.
+We are not calculating rasi for t1 (sunrise of given date) since we dont need
+it.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Then we are
+looking for ksaya month within values c0...c5. Than means <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-indent:35.4pt'><span lang=SK style='color:#993300;
+mso-ansi-language:SK'>if [rasi(n+1)] equals [(rasi(n) + 2) modulo 12] , then
+there is ksaya month</span><span lang=SK style='mso-ansi-language:SK'>. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Normal is <span
+style='color:#993300'>[rasi(n+1)]</span> equals <span style='color:#993300'>[(rasi(n)+1)
+modulo 12]</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#FFFF99'>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>If we
+have found such index <b>k</b>, that [(rasi(k-1)+2) modulo 12] equals rasi(k)</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US><span
+style='mso-tab-count:1'>         </span>then we are looking for adhika masa</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US><span
+style='mso-tab-count:1'>         </span><span style='mso-tab-count:1'>         </span>if
+we have found such index <b>ke</b>, that rasi(ke+1) equals rasi(ke)</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US><span
+style='mso-tab-count:1'>         </span><span style='mso-tab-count:1'>         </span>then
+corrected range is &lt;k, ke&gt;</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US><span
+style='mso-tab-count:1'>         </span><span style='mso-tab-count:1'>         </span>otherwise
+let ke = 5 and corrected range is &lt;k, ke&gt;</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>If we
+have found no such index k, then skip to test 2.</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>Now, we
+will make decrement of each rasi in the interval k..ke</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>see <a
+href="#_4_Examples_for">examples</a> for step1 effect.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='mso-ansi-language:SK'>step 2</span></b><span
+lang=SK style='mso-ansi-language:SK'> is performing evaluation for masa.
+Following is decision table which reads from top to bottom and is similar to
+decision tree.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=614 colspan=3 valign=top style='width:460.6pt;border:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><b><span lang=EN-US>if rasi[3]
+  equals rasi[4]</span></b><span lang=EN-US><br>
+  ... note that time t1 is between rasi1 and rasi2 moments</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=307 valign=top style='width:230.3pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>yes, equals</span></p>
+  </td>
+  <td width=307 colspan=2 valign=top style='width:230.3pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>no, rasis are different</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=307 rowspan=3 valign=top style='width:230.3pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>t1 belongs to
+  adhika masa</span></p>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>rasi_g (for
+  gaurabda year testing) is set to rasi[3]</span></p>
+  </td>
+  <td width=307 colspan=2 valign=top style='width:230.3pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><b><span lang=EN-US>test of
+  paksa of t1<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=154 valign=top style='width:115.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>paksa is krsna</span></p>
+  </td>
+  <td width=154 valign=top style='width:115.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>paksa is gaura</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=154 valign=top style='width:115.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>t1 belongs to
+  masa according rasi[4]</span></p>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>(next
+  conjunction rasi)</span></p>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>rasi_g set to
+  rasi[4]</span></p>
+  </td>
+  <td width=154 valign=top style='width:115.15pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>t1 belongs to
+  masa according rasi[3]</span></p>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>(previous
+  conjunction rasi)</span></p>
+  <p class=algorithm align=center style='text-align:center;background:transparent;
+  border:none;mso-padding-alt:0cm 0cm 0cm 0cm'><span lang=EN-US>rasi_g set to
+  rasi[3]</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='mso-ansi-language:SK'>step 3<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>After calculation
+of masa, we will calculate gaurabda year.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Basic formula is<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#FFFF99'>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>GYprep =
+Year – 1486</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>But this is not
+true for time interval from 1st January to Gaura Purnima. In that interval is
+valid formula GYprep = Year - 1487. <o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>So test for
+Gaurabda Year is:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<div style='border:solid windowtext .5pt;padding:1.0pt 4.0pt 1.0pt 4.0pt;
+background:#FFFF99'>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>if masa_g
+is in the interval from Kesava to Govinda (that means before Gaura Purnima)</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>and at
+the same time month of given date is from interval January – June (that means
+after 1st January)</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>then<span
+style="mso-spacerun: yes">  </span>GaurabdaYear = GYprep – 1</span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=algorithm style='border:none;mso-border-alt:solid windowtext .5pt;
+padding:0cm;mso-padding-alt:1.0pt 4.0pt 1.0pt 4.0pt'><span lang=EN-US>otherwise
+GaurabdaYear = GYprep</span></p>
+
+</div>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<h2><span lang=SK style='mso-ansi-language:SK'>Examples<o:p></o:p></span></h2>
+
+<h3><a name="_4_Examples_for"></a><span lang=SK style='mso-ansi-language:SK'>4
+Examples for STEP 1 of masa calculation algorithm.<o:p></o:p></span></h3>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=289 colspan=6 valign=top style='width:217.05pt;border:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>old sequence<o:p></o:p></span></p>
+  </td>
+  <td width=289 colspan=6 valign=top style='width:216.45pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>corrected sequence<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c0<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c1<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c2<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c3<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c4<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c5<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c0<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c1<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c2<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c3<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c4<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='mso-ansi-language:SK'>c5<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>gemini<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>gemini<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>gemini<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>gemini<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>gemini<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>gemini<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>gemini<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>gemini<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#FFFF99;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>virgo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>virgo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#FFFF99;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>libra<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>gemini<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>cancer<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>leo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>virgo<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>libra<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>normal sequence
+is aries – taurus – gemini – cancer – leo – virgo – libra – ...<o:p></o:p></span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Other
+representation of these examples is given by ksaya/adhika notation:<o:p></o:p></span></p>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=295 colspan=6 valign=top style='width:221.4pt;border:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>old
+  sequence<o:p></o:p></span></p>
+  </td>
+  <td width=294 colspan=6 valign=top style='width:220.15pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>corrected
+  sequence<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></b></p>
+  </td>
+  <td width=48 valign=top style='width:36.2pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></b></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>gemini<o:p></o:p></span></b></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>cancer<o:p></o:p></span></b></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></b></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>virgo<o:p></o:p></span></b></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>aries<o:p></o:p></span></b></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>taurus<o:p></o:p></span></b></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>gemini<o:p></o:p></span></b></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>cancer<o:p></o:p></span></b></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>leo<o:p></o:p></span></b></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>virgo<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#CCFFCC;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=48 valign=top style='width:36.2pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#CCFFCC;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=48 valign=top style='width:36.2pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>ksaya<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#CCFFCC;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=48 valign=top style='width:36.2pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>ksaya<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#CCFFCC;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=48 valign=top style='width:36.2pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>ksaya<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=53 valign=top style='width:39.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;background:#CCFFCC;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+  <td width=48 valign=top style='width:36.2pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>ksaya<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  background:#CCFFCC;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>adhika<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>-<o:p></o:p></span></p>
+  </td>
+  <td width=52 valign=top style='width:38.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=50 valign=top style='width:37.8pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+  <td width=47 valign=top style='width:35.5pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:9.0pt;mso-bidi-font-size:12.0pt;color:red;mso-ansi-language:
+  SK'>normal<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Therefore STEP 1
+is, in general, handling these cases of ksaya-adhika sequences:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td style='border:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:8.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>Case<o:p></o:p></span></p>
+  </td>
+  <td style='border:solid windowtext .5pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:8.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>Sequence<o:p></o:p></span></p>
+  </td>
+  <td style='border:solid windowtext .5pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:8.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>No. <br>
+  of changes <br>
+  in rasi<o:p></o:p></span></p>
+  </td>
+  <td style='border:solid windowtext .5pt;border-left:none;mso-border-left-alt:
+  solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span lang=SK
+  style='font-size:8.0pt;mso-bidi-font-size:12.0pt;mso-ansi-language:SK'>No. <br>
+  of changes<br>
+  in masa<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid windowtext .5pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>1<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>adhika-ksaya-adhika<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>1<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>2<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid windowtext .5pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>2<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>adhika-normal-ksaya-adhika<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>1<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>2<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid windowtext .5pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>3<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>adhika-ksaya-normal-adhika<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>2<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>3<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid windowtext .5pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>4<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>adhika-normal-normal-ksaya-adhika<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>1<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>2<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid windowtext .5pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>5<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>adhika-normal-ksaya-normal-adhika<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>2<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>3<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:solid windowtext .5pt;border-top:none;
+  mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>6<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>adhika-ksaya-normal-normal-adhika<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>3<o:p></o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:solid windowtext .5pt;
+  border-right:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal><span lang=SK style='font-size:9.0pt;mso-bidi-font-size:
+  12.0pt;mso-ansi-language:SK'>4<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>No adjustment of
+months is required BEFORE the ksaya month, only after.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Algorithm does
+not handle single ksaya month.<o:p></o:p></span></p>
+
+<h2><a name="_Revision_History"></a><span lang=SK style='mso-ansi-language:
+SK'>Revision History<o:p></o:p></span></h2>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<table border=1 cellspacing=0 cellpadding=0 style='border-collapse:collapse;
+ border:none;mso-border-alt:solid windowtext .5pt;mso-padding-alt:0cm 3.5pt 0cm 3.5pt'>
+ <tr>
+  <td width=125 valign=top style='width:93.5pt;border:solid windowtext .5pt;
+  background:#D9D9D9;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm'><b><span lang=SK style='mso-ansi-language:SK'>Date<o:p></o:p></span></b></p>
+  </td>
+  <td width=489 valign=top style='width:367.1pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;background:#D9D9D9;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm'><b><span lang=SK style='mso-ansi-language:SK'>Description<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=125 valign=top style='width:93.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm'><span lang=SK style='mso-ansi-language:SK'>May 2, 2008<o:p></o:p></span></p>
+  </td>
+  <td width=489 valign=top style='width:367.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm'><span lang=SK style='mso-ansi-language:SK'>Initial
+  version<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=125 valign=top style='width:93.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm'><span lang=SK style='mso-ansi-language:SK'>May 9, 2008<o:p></o:p></span></p>
+  </td>
+  <td width=489 valign=top style='width:367.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm'><span lang=SK style='mso-ansi-language:SK'>Corrections
+  of few small errors<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=125 valign=top style='width:93.5pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm'><span lang=SK style='mso-ansi-language:SK'>June 7,
+  2008<o:p></o:p></span></p>
+  </td>
+  <td width=489 valign=top style='width:367.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 3.5pt 0cm 3.5pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm'><span lang=SK style='mso-ansi-language:SK'>Changed
+  algorithm for masa calculation<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>Author:
+Gopalapriya Das<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'>© 2008 Copyright
+ISKCON GBC Vaisnava Calendar Comitee<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='mso-ansi-language:SK'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+@city=Tunapuna
+@country=Trinidad and Tobago
+@lat=10.6333333
+@long=-61.3833333
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Paradise
+@country=Trinidad and Tobago
+@lat=10.6347116273073
+@long=-61.3667106628418
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Tabaquite
+@country=Trinidad and Tobago
+@lat=10.3833333
+@long=-61.3
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Siparia
+@country=Trinidad and Tobago
+@lat=10.1333333
+@long=-61.5
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Scarborough
+@country=Trinidad and Tobago
+@lat=11.1833333
+@long=-60.7333333
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Sangre Grande
+@country=Trinidad and Tobago
+@lat=10.5833333
+@long=-61.1166667
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Princes Town
+@country=Trinidad and Tobago
+@lat=10.2666667
+@long=-61.3833333
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Port-of-Spain
+@country=Trinidad and Tobago
+@lat=10.65
+@long=-61.5166667
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Point Fortin
+@country=Trinidad and Tobago
+@lat=10.1833333
+@long=-61.6833333
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Penal
+@country=Trinidad and Tobago
+@lat=10.1666667
+@long=-61.4666667
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Mucurapo
+@country=Trinidad and Tobago
+@lat=10.6666667
+@long=-61.5333333
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Mon Repos
+@country=Trinidad and Tobago
+@lat=10.2666667
+@long=-61.45
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Marabella
+@country=Trinidad and Tobago
+@lat=10.3
+@long=-61.45
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Debe
+@country=Trinidad and Tobago
+@lat=10.2
+@long=-61.45
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Couva
+@country=Trinidad and Tobago
+@lat=10.4166667
+@long=-61.45
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Chaguanas
+@country=Trinidad and Tobago
+@lat=10.5166667
+@long=-61.4166667
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Arouca
+@country=Trinidad and Tobago
+@lat=10.6333333
+@long=-61.3333333
+@timezone=-4.000000
+@dst=343
+@create
+
+@city=Arima
+@country=Trinidad and Tobago
+@lat=10.6333333
+@long=-61.2833333
+@timezone=-4.000000
+@dst=343
+@create
+

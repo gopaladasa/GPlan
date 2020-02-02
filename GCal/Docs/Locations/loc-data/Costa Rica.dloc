@@ -1,0 +1,952 @@
+@city=Zarcero
+@country=Costa Rica
+@lat=10.1833333
+@long=-84.4
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Upala
+@country=Costa Rica
+@lat=10.9
+@long=-85.0333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Turrialba
+@country=Costa Rica
+@lat=9.9
+@long=-83.6833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Tucurrique
+@country=Costa Rica
+@lat=9.85
+@long=-83.7166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Tres Rios
+@country=Costa Rica
+@lat=9.9
+@long=-83.9833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Tobosi
+@country=Costa Rica
+@lat=9.8333333
+@long=-83.9833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Tilaran
+@country=Costa Rica
+@lat=10.4666667
+@long=-84.9666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Tejar
+@country=Costa Rica
+@lat=9.75
+@long=-84.2333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Sixaola
+@country=Costa Rica
+@lat=9.5166667
+@long=-82.6166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Siquirres
+@country=Costa Rica
+@lat=10.1
+@long=-83.5166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Sardinal
+@country=Costa Rica
+@lat=10.5166667
+@long=-85.65
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Vito
+@country=Costa Rica
+@lat=8.8333333
+@long=-82.9666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Vicente
+@country=Costa Rica
+@lat=9.9666667
+@long=-84.05
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Santo Domingo
+@country=Costa Rica
+@lat=10.0666667
+@long=-84.15
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Santiago
+@country=Costa Rica
+@lat=10.0333333
+@long=-84.45
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Santiago
+@country=Costa Rica
+@lat=9.85
+@long=-84.3166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Santa Cruz
+@country=Costa Rica
+@lat=10.2666667
+@long=-85.5833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Santa Ana
+@country=Costa Rica
+@lat=9.9333333
+@long=-84.1833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Ramon
+@country=Costa Rica
+@lat=10.0833333
+@long=-84.4666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Rafael Arriba
+@country=Costa Rica
+@lat=9.8833333
+@long=-84.0833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Rafael Abajo
+@country=Costa Rica
+@lat=9.8333333
+@long=-84.2833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Rafael
+@country=Costa Rica
+@lat=10.0666667
+@long=-84.4666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Rafael
+@country=Costa Rica
+@lat=10.0166667
+@long=-84.1
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Rafael
+@country=Costa Rica
+@lat=9.9666667
+@long=-84.2166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Rafael
+@country=Costa Rica
+@lat=9.9333333
+@long=-84.1333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Pedro
+@country=Costa Rica
+@lat=9.9333333
+@long=-84.05
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Pablo
+@country=Costa Rica
+@lat=10.0
+@long=-84.0833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Miguel
+@country=Costa Rica
+@lat=9.8833333
+@long=-84.0666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Marcos
+@country=Costa Rica
+@lat=9.6666667
+@long=-84.0333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Juan de Dios
+@country=Costa Rica
+@lat=9.8833333
+@long=-84.0833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Juan
+@country=Costa Rica
+@lat=10.1
+@long=-84.3166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Juan
+@country=Costa Rica
+@lat=9.9666667
+@long=-84.0833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Josecito
+@country=Costa Rica
+@lat=10.0166667
+@long=-84.1
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Jose
+@country=Costa Rica
+@lat=10.9666667
+@long=-85.1333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Jose
+@country=Costa Rica
+@lat=9.9333333
+@long=-84.0833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Isidro
+@country=Costa Rica
+@lat=9.3833333
+@long=-83.7
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Ignacio
+@country=Costa Rica
+@lat=9.8
+@long=-84.1666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Francisco
+@country=Costa Rica
+@lat=9.9833333
+@long=-84.1333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Felipe
+@country=Costa Rica
+@lat=9.9
+@long=-84.1
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Diego
+@country=Costa Rica
+@lat=9.9
+@long=-84.0
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Antonio
+@country=Costa Rica
+@lat=9.9833333
+@long=-84.1833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Samara
+@country=Costa Rica
+@lat=9.8833333
+@long=-85.5333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Salitrillos
+@country=Costa Rica
+@lat=9.85
+@long=-84.1
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Salitral
+@country=Costa Rica
+@lat=9.9166667
+@long=-84.1833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Sabanilla
+@country=Costa Rica
+@lat=10.0833333
+@long=-84.2166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Sabanilla
+@country=Costa Rica
+@lat=9.95
+@long=-84.0333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Roxana
+@country=Costa Rica
+@lat=10.2666667
+@long=-83.75
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Rio Segundo
+@country=Costa Rica
+@lat=10.2333333
+@long=-84.3
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Quesada
+@country=Costa Rica
+@lat=10.3333333
+@long=-84.4333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Quepos
+@country=Costa Rica
+@lat=9.45
+@long=-84.15
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Purral
+@country=Costa Rica
+@lat=9.95
+@long=-84.0333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Puntarenas
+@country=Costa Rica
+@lat=9.9666667
+@long=-84.8333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Puerto Limon
+@country=Costa Rica
+@lat=10.0
+@long=-83.0333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Pocosol
+@country=Costa Rica
+@lat=10.3666667
+@long=-84.6166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Pocora
+@country=Costa Rica
+@lat=10.1833333
+@long=-83.6
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Pital
+@country=Costa Rica
+@lat=10.45
+@long=-84.2833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Pejibaye
+@country=Costa Rica
+@lat=9.8166667
+@long=-83.7
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Patarra
+@country=Costa Rica
+@lat=9.8833333
+@long=-84.0333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Parrita
+@country=Costa Rica
+@lat=9.5166667
+@long=-84.3166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Paraiso
+@country=Costa Rica
+@lat=9.8333333
+@long=-83.8666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Paquera
+@country=Costa Rica
+@lat=9.8166667
+@long=-84.9333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Palmichal
+@country=Costa Rica
+@lat=9.8333333
+@long=-84.2
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Pacayas
+@country=Costa Rica
+@lat=9.8
+@long=-84.05
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Orotina
+@country=Costa Rica
+@lat=9.9
+@long=-84.5333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Orosi
+@country=Costa Rica
+@lat=9.8
+@long=-83.85
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Nicoya
+@country=Costa Rica
+@lat=10.15
+@long=-85.45
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Naranjo
+@country=Costa Rica
+@lat=10.1
+@long=-84.3833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Nandayure
+@country=Costa Rica
+@lat=10.0333333
+@long=-85.2
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Miramar
+@country=Costa Rica
+@lat=10.1
+@long=-84.7333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Mercedes
+@country=Costa Rica
+@lat=10.0166667
+@long=-84.1333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Mercedes
+@country=Costa Rica
+@lat=9.2666667
+@long=-83.5833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Matina
+@country=Costa Rica
+@lat=10.0833333
+@long=-83.2833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Los Chiles
+@country=Costa Rica
+@lat=11.0333333
+@long=-84.7166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Llorente
+@country=Costa Rica
+@lat=10.0
+@long=-84.15
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Liberia
+@country=Costa Rica
+@lat=10.6333333
+@long=-85.4333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=La Suiza
+@country=Costa Rica
+@lat=9.85
+@long=-83.6166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=La Cruz
+@country=Costa Rica
+@lat=11.0666667
+@long=-85.6333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=La Asuncion
+@country=Costa Rica
+@lat=9.9833333
+@long=-84.1666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Juntas
+@country=Costa Rica
+@lat=10.2833333
+@long=-84.95
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Jaco
+@country=Costa Rica
+@lat=9.6166667
+@long=-84.6333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Ipis
+@country=Costa Rica
+@lat=9.9666667
+@long=-84.0166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Hojancha
+@country=Costa Rica
+@lat=10.0666667
+@long=-85.4166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Heredia
+@country=Costa Rica
+@lat=10.0
+@long=-84.1166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Guapiles
+@country=Costa Rica
+@lat=10.2166667
+@long=-83.7833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Guadalupe
+@country=Costa Rica
+@lat=9.946111
+@long=-84.05279
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Guacimo
+@country=Costa Rica
+@lat=10.2166667
+@long=-83.6833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Granadilla
+@country=Costa Rica
+@lat=9.9333333
+@long=-84.0166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Golfito
+@country=Costa Rica
+@lat=8.65
+@long=-83.15
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Fortuna
+@country=Costa Rica
+@lat=10.6833333
+@long=-85.2166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Fortuna
+@country=Costa Rica
+@lat=10.4833333
+@long=-84.65
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Esquipulas
+@country=Costa Rica
+@lat=10.0666667
+@long=-84.4166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Esparza
+@country=Costa Rica
+@lat=9.9833333
+@long=-84.6666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Escazu
+@country=Costa Rica
+@lat=9.9166667
+@long=-84.1333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Desamparados
+@country=Costa Rica
+@lat=9.95
+@long=-84.5
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Daniel Flores
+@country=Costa Rica
+@lat=9.3333333
+@long=-83.6666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Curridabat
+@country=Costa Rica
+@lat=9.9166667
+@long=-84.0333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Cot
+@country=Costa Rica
+@lat=9.9
+@long=-83.8666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Corredor
+@country=Costa Rica
+@lat=8.6333333
+@long=-82.95
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Concepcion
+@country=Costa Rica
+@lat=9.9333333
+@long=-84.0
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Colon
+@country=Costa Rica
+@lat=9.9166667
+@long=-84.25
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Colima
+@country=Costa Rica
+@lat=9.95
+@long=-84.0833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Ciudad Cortes
+@country=Costa Rica
+@lat=8.9666667
+@long=-83.5333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Chacarita
+@country=Costa Rica
+@lat=9.9833333
+@long=-84.7833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Cartago
+@country=Costa Rica
+@lat=9.8666667
+@long=-83.9166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Carrillos
+@country=Costa Rica
+@lat=10.0333333
+@long=-84.2666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Canoas
+@country=Costa Rica
+@lat=8.5333333
+@long=-82.8333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Canas
+@country=Costa Rica
+@lat=10.4333333
+@long=-85.1
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Calle Blancos
+@country=Costa Rica
+@lat=9.95
+@long=-84.0666667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Buenos Aires
+@country=Costa Rica
+@lat=9.1666667
+@long=-83.3333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Bijagua
+@country=Costa Rica
+@lat=10.7333333
+@long=-85.1
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Belen
+@country=Costa Rica
+@lat=10.4
+@long=-85.6
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Batan
+@country=Costa Rica
+@lat=10.0833333
+@long=-83.3333333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Bagaces
+@country=Costa Rica
+@lat=10.5333333
+@long=-85.25
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Atenas
+@country=Costa Rica
+@lat=9.9833333
+@long=-84.3833333
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Aserri
+@country=Costa Rica
+@lat=9.8666667
+@long=-84.1
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Angeles
+@country=Costa Rica
+@lat=10.0
+@long=-84.05
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Alajuelita
+@country=Costa Rica
+@lat=9.9
+@long=-84.1
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=Alajuela
+@country=Costa Rica
+@lat=10.0166667
+@long=-84.2166667
+@timezone=-6.000000
+@dst=124
+@create
+
+@city=San Vicente de Moravia
+@country=Costa Rica
+@lat=9.96164393568201
+@long=-84.0488004684448
+@timezone=-6.000000
+@dst=124
+@create
+

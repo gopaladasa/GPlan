@@ -1,0 +1,56 @@
+@city=Sitrah
+@country=Kingdom of Bahrain
+@lat=26.1547222
+@long=50.6205556
+@timezone=3.000000
+@dst=53
+@create
+
+@city=Madinat `Isa
+@country=Kingdom of Bahrain
+@lat=26.1736111
+@long=50.5477778
+@timezone=3.000000
+@dst=53
+@create
+
+@city=Jidd Hafs
+@country=Kingdom of Bahrain
+@lat=26.2186111
+@long=50.5477778
+@timezone=3.000000
+@dst=53
+@create
+
+@city=Dar Kulayb
+@country=Kingdom of Bahrain
+@lat=26.0686111
+@long=50.5038889
+@timezone=3.000000
+@dst=53
+@create
+
+@city=Al Muharraq
+@country=Kingdom of Bahrain
+@lat=26.2572222
+@long=50.6119444
+@timezone=3.000000
+@dst=53
+@create
+
+@city=Manama
+@country=Kingdom of Bahrain
+@lat=26.2361111
+@long=50.5830556
+@timezone=3.000000
+@dst=53
+@create
+
+@city=Al Hadd
+@country=Kingdom of Bahrain
+@lat=26.2455556
+@long=50.6541667
+@timezone=3.000000
+@dst=53
+@create
+

@@ -1,0 +1,512 @@
+@city=Zuenoula
+@country=Ivory Coast
+@lat=7.4291667
+@long=-6.0430556
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Yamoussoukro
+@country=Ivory Coast
+@lat=6.8166667
+@long=-5.2833333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Vavoua
+@country=Ivory Coast
+@lat=7.3819444
+@long=-6.4777778
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Toumodi
+@country=Ivory Coast
+@lat=6.55
+@long=-5.0166667
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Toulepleu-Guere
+@country=Ivory Coast
+@lat=6.5666667
+@long=-8.4166667
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Touba
+@country=Ivory Coast
+@lat=8.2833333
+@long=-7.6833333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Tengrela
+@country=Ivory Coast
+@lat=10.4869444
+@long=-6.4097222
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Tiassale
+@country=Ivory Coast
+@lat=5.8983333
+@long=-4.8283333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Tanda
+@country=Ivory Coast
+@lat=7.8063889
+@long=-3.1713889
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Tabou
+@country=Ivory Coast
+@lat=4.4166667
+@long=-7.35
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Sinfra
+@country=Ivory Coast
+@lat=6.6166667
+@long=-5.9166667
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Sassandra
+@country=Ivory Coast
+@lat=4.95
+@long=-6.0833333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=San-Pedro
+@country=Ivory Coast
+@lat=4.7333333
+@long=-6.6166667
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Sakassou
+@country=Ivory Coast
+@lat=7.4580556
+@long=-5.2941667
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Oume
+@country=Ivory Coast
+@lat=6.3833333
+@long=-5.4166667
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Odienne
+@country=Ivory Coast
+@lat=9.51
+@long=-7.5691667
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Mankono
+@country=Ivory Coast
+@lat=8.0586111
+@long=-6.1897222
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Man
+@country=Ivory Coast
+@lat=7.4052778
+@long=-7.5475
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Lakota
+@country=Ivory Coast
+@lat=5.8527778
+@long=-5.6883333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Korhogo
+@country=Ivory Coast
+@lat=9.45
+@long=-5.6333333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Katiola
+@country=Ivory Coast
+@lat=8.1333333
+@long=-5.1
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Issia
+@country=Ivory Coast
+@lat=6.4833333
+@long=-6.5833333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Guiglo
+@country=Ivory Coast
+@lat=6.5402778
+@long=-7.4858333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Guiberoua
+@country=Ivory Coast
+@lat=6.2366667
+@long=-6.1775
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Grand-Lahou
+@country=Ivory Coast
+@lat=5.1366667
+@long=-5.0241667
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Grand-Bassam
+@country=Ivory Coast
+@lat=5.2019444
+@long=-3.735
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Affery
+@country=Ivory Coast
+@lat=6.315
+@long=-3.9602778
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Gagnoa
+@country=Ivory Coast
+@lat=6.1333333
+@long=-5.9333333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Ferkessedougou
+@country=Ivory Coast
+@lat=9.6
+@long=-5.2
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Duekoue
+@country=Ivory Coast
+@lat=6.7380556
+@long=-7.3430556
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Divo
+@country=Ivory Coast
+@lat=5.8397222
+@long=-5.36
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Dimbokro
+@country=Ivory Coast
+@lat=6.65
+@long=-4.7
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Daoukro
+@country=Ivory Coast
+@lat=7.0525
+@long=-3.9558333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Danane
+@country=Ivory Coast
+@lat=7.2627778
+@long=-8.1597222
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Daloa
+@country=Ivory Coast
+@lat=6.8747222
+@long=-6.4519444
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Dabou
+@country=Ivory Coast
+@lat=5.3205556
+@long=-4.3830556
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Dabakala
+@country=Ivory Coast
+@lat=8.3666667
+@long=-4.4333333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Boundiali
+@country=Ivory Coast
+@lat=9.5216667
+@long=-6.4869444
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Bouna
+@country=Ivory Coast
+@lat=9.2666667
+@long=-3.0
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Bouake
+@country=Ivory Coast
+@lat=7.6833333
+@long=-5.0330556
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Bouafle
+@country=Ivory Coast
+@lat=6.9833333
+@long=-5.75
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Botro
+@country=Ivory Coast
+@lat=7.8566667
+@long=-5.3083333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Bonoua
+@country=Ivory Coast
+@lat=5.2722222
+@long=-3.6008333
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Bongouanou
+@country=Ivory Coast
+@lat=6.6486111
+@long=-4.1991667
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Bondoukou
+@country=Ivory Coast
+@lat=8.0333333
+@long=-2.8
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Bocanda
+@country=Ivory Coast
+@lat=7.0641667
+@long=-4.5011111
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Bingerville
+@country=Ivory Coast
+@lat=5.3558333
+@long=-3.89
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Biankouma
+@country=Ivory Coast
+@lat=7.7369444
+@long=-7.6102778
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Beoumi
+@country=Ivory Coast
+@lat=7.6761111
+@long=-5.5797222
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Bangolo
+@country=Ivory Coast
+@lat=7.0069444
+@long=-7.475
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Ayame
+@country=Ivory Coast
+@lat=5.6
+@long=-3.1622222
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Arrah
+@country=Ivory Coast
+@lat=6.6652778
+@long=-3.9722222
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Anyama
+@country=Ivory Coast
+@lat=5.4958333
+@long=-4.0547222
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Akoupe
+@country=Ivory Coast
+@lat=6.39
+@long=-3.9002778
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Agnibilekrou
+@country=Ivory Coast
+@lat=7.1344444
+@long=-3.2047222
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Agboville
+@country=Ivory Coast
+@lat=5.9341667
+@long=-4.2213889
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Adzope
+@country=Ivory Coast
+@lat=6.1069444
+@long=-3.8619444
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Adiake
+@country=Ivory Coast
+@lat=5.2863889
+@long=-3.3075
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Aboisso
+@country=Ivory Coast
+@lat=5.4675
+@long=-3.2144444
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Abobo
+@country=Ivory Coast
+@lat=5.4188889
+@long=-4.0205556
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Abidjan
+@country=Ivory Coast
+@lat=5.3411111
+@long=-4.0280556
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Abengourou
+@country=Ivory Coast
+@lat=6.7297222
+@long=-3.4963889
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Seguela
+@country=Ivory Coast
+@lat=7.9611111
+@long=-6.6730556
+@timezone=0.000000
+@dst=113
+@create
+
+@city=Soubre
+@country=Ivory Coast
+@lat=5.7855556
+@long=-6.6083333
+@timezone=0.000000
+@dst=113
+@create
+

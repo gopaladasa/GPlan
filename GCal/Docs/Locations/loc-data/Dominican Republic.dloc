@@ -1,0 +1,1512 @@
+@city=Yayas de Viajama
+@country=Dominican Republic
+@lat=18.6
+@long=-70.9166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Yamasa
+@country=Dominican Republic
+@lat=18.7666667
+@long=-70.0166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Yaguate
+@country=Dominican Republic
+@lat=18.3333333
+@long=-70.1833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villa Vasquez
+@country=Dominican Republic
+@lat=19.75
+@long=-71.45
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villa Tapia
+@country=Dominican Republic
+@lat=19.3
+@long=-70.4166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villarpando
+@country=Dominican Republic
+@lat=18.65
+@long=-71.0333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villa Riva
+@country=Dominican Republic
+@lat=19.1833333
+@long=-69.9166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villa Jaragua
+@country=Dominican Republic
+@lat=18.4833333
+@long=-71.5
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villa Isabela
+@country=Dominican Republic
+@lat=19.8166667
+@long=-71.05
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villa Gonzalez
+@country=Dominican Republic
+@lat=19.5333333
+@long=-70.7833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villa Elisa
+@country=Dominican Republic
+@lat=19.6833333
+@long=-71.2666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villa Bisono
+@country=Dominican Republic
+@lat=19.5666667
+@long=-70.8666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Villa Altagracia
+@country=Dominican Republic
+@lat=18.6666667
+@long=-70.1666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Vicente Noble
+@country=Dominican Republic
+@lat=18.3833333
+@long=-71.1833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Veragua Arriba
+@country=Dominican Republic
+@lat=19.5833333
+@long=-70.3333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Vallejuelo
+@country=Dominican Republic
+@lat=18.65
+@long=-71.3333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Tireo Arriba
+@country=Dominican Republic
+@lat=18.9333333
+@long=-70.6833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Tenares
+@country=Dominican Republic
+@lat=19.3666667
+@long=-70.35
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Tamboril
+@country=Dominican Republic
+@lat=19.4833333
+@long=-70.6
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Tamayo
+@country=Dominican Republic
+@lat=18.4
+@long=-71.2
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Tabara Arriba
+@country=Dominican Republic
+@lat=18.5666667
+@long=-70.8833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sosua
+@country=Dominican Republic
+@lat=19.7666667
+@long=-70.5166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Victor Arriba
+@country=Dominican Republic
+@lat=19.4666667
+@long=-70.5166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Santo Domingo
+@country=Dominican Republic
+@lat=18.4666667
+@long=-69.9
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Santiago de los Caballeros
+@country=Dominican Republic
+@lat=19.45
+@long=-70.7
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Santa Cruz de El Seibo
+@country=Dominican Republic
+@lat=18.7666667
+@long=-69.0333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Santa Cruz de Barahona
+@country=Dominican Republic
+@lat=18.2
+@long=-71.1
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Santa Barbara de Samana
+@country=Dominican Republic
+@lat=19.2166667
+@long=-69.3166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Rafael del Yuma
+@country=Dominican Republic
+@lat=18.4333333
+@long=-68.6666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Pedro de Macoris
+@country=Dominican Republic
+@lat=18.45
+@long=-69.3
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Juan de la Maguana
+@country=Dominican Republic
+@lat=18.8
+@long=-71.2333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Jose de Ocoa
+@country=Dominican Republic
+@lat=18.55
+@long=-70.5
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Jose de Las Matas
+@country=Dominican Republic
+@lat=19.3333333
+@long=-70.9333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Gregorio de Nigua
+@country=Dominican Republic
+@lat=18.3833333
+@long=-70.0833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Francisco de Macoris
+@country=Dominican Republic
+@lat=19.3
+@long=-70.25
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Fernando de Monte Cristi
+@country=Dominican Republic
+@lat=19.8666667
+@long=-71.65
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=San Felipe de Puerto Plata
+@country=Dominican Republic
+@lat=19.8
+@long=-70.6833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sanchez
+@country=Dominican Republic
+@lat=19.2333333
+@long=-69.6
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Salvaleon de Higuey
+@country=Dominican Republic
+@lat=18.6166667
+@long=-68.7
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Salsipuedes
+@country=Dominican Republic
+@lat=19.4
+@long=-70.3833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sabaneta
+@country=Dominican Republic
+@lat=19.4666667
+@long=-71.3333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sabana Yegua
+@country=Dominican Republic
+@lat=18.7166667
+@long=-71.0166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sabana Iglesia
+@country=Dominican Republic
+@lat=19.3333333
+@long=-70.75
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sabana Grande de Palenque
+@country=Dominican Republic
+@lat=18.2666667
+@long=-70.15
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sabana Grande de Boya
+@country=Dominican Republic
+@lat=18.95
+@long=-69.8
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sabana del Puerto
+@country=Dominican Republic
+@lat=19.0666667
+@long=-70.4166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sabana de La Mar
+@country=Dominican Republic
+@lat=19.0666667
+@long=-69.3833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Sabana Buey
+@country=Dominican Republic
+@lat=18.2666667
+@long=-70.5333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Rio Verde Arriba
+@country=Dominican Republic
+@lat=19.3166667
+@long=-70.5666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Rio San Juan
+@country=Dominican Republic
+@lat=19.65
+@long=-70.0833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Rio Limpio
+@country=Dominican Republic
+@lat=19.25
+@long=-71.5333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Rincon
+@country=Dominican Republic
+@lat=19.1
+@long=-70.4
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Restauracion
+@country=Dominican Republic
+@lat=19.3166667
+@long=-71.6833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Ramon Santana
+@country=Dominican Republic
+@lat=18.55
+@long=-69.1833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Quisqueya
+@country=Dominican Republic
+@lat=18.55
+@long=-69.4166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pueblo Viejo
+@country=Dominican Republic
+@lat=18.4
+@long=-70.7666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Postrer Rio
+@country=Dominican Republic
+@lat=18.55
+@long=-71.6333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Polo
+@country=Dominican Republic
+@lat=18.0833333
+@long=-71.2833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pizarrete
+@country=Dominican Republic
+@lat=18.3
+@long=-70.2166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pimentel
+@country=Dominican Republic
+@lat=19.1833333
+@long=-70.1
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Piedra Blanca
+@country=Dominican Republic
+@lat=18.8333333
+@long=-70.3
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pescaderia
+@country=Dominican Republic
+@lat=18.2666667
+@long=-71.1666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Peralta
+@country=Dominican Republic
+@lat=18.5833333
+@long=-70.7666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pepillo Salcedo
+@country=Dominican Republic
+@lat=19.7011111
+@long=-71.7533333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pedro Santana
+@country=Dominican Republic
+@lat=19.1
+@long=-71.7
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pedro Sanchez
+@country=Dominican Republic
+@lat=18.8666667
+@long=-69.1
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pedro Garcia
+@country=Dominican Republic
+@lat=19.6
+@long=-70.65
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pedro Corto
+@country=Dominican Republic
+@lat=18.85
+@long=-71.4166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Pedernales
+@country=Dominican Republic
+@lat=18.0333333
+@long=-71.75
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Paya
+@country=Dominican Republic
+@lat=18.25
+@long=-70.3
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Partido
+@country=Dominican Republic
+@lat=19.4833333
+@long=-71.55
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Paraiso
+@country=Dominican Republic
+@lat=18.0
+@long=-71.1666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Palmar de Ocoa
+@country=Dominican Republic
+@lat=18.3
+@long=-70.5833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Palmar Arriba
+@country=Dominican Republic
+@lat=19.5333333
+@long=-70.7333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Padre Las Casas
+@country=Dominican Republic
+@lat=18.7333333
+@long=-70.9333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Oviedo
+@country=Dominican Republic
+@lat=17.7833333
+@long=-71.3666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Otra Banda
+@country=Dominican Republic
+@lat=18.65
+@long=-68.6666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Nizao
+@country=Dominican Republic
+@lat=18.25
+@long=-70.2
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Neiba
+@country=Dominican Republic
+@lat=18.4666667
+@long=-71.4166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Nagua
+@country=Dominican Republic
+@lat=19.3831985986418
+@long=-69.8474049568176
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Monte Plata
+@country=Dominican Republic
+@lat=18.8
+@long=-69.7833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Moncion
+@country=Dominican Republic
+@lat=19.4166667
+@long=-71.1666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Moca
+@country=Dominican Republic
+@lat=19.4
+@long=-70.5166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Miches
+@country=Dominican Republic
+@lat=18.9833333
+@long=-69.05
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Mella
+@country=Dominican Republic
+@lat=18.3666667
+@long=-71.4166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Matayaya
+@country=Dominican Republic
+@lat=18.89
+@long=-71.5925
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Matanzas
+@country=Dominican Republic
+@lat=18.2333333
+@long=-70.4166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Mao
+@country=Dominican Republic
+@lat=19.5666667
+@long=-71.0833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Majagual
+@country=Dominican Republic
+@lat=19.05
+@long=-69.8333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Maizal
+@country=Dominican Republic
+@lat=19.65
+@long=-71.0333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Luperon
+@country=Dominican Republic
+@lat=19.9
+@long=-70.95
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Los Rios
+@country=Dominican Republic
+@lat=18.5166667
+@long=-71.5833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Los Llanos
+@country=Dominican Republic
+@lat=18.6166667
+@long=-69.5
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Los Hidalgos
+@country=Dominican Republic
+@lat=19.7333333
+@long=-71.0333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Los Botados
+@country=Dominican Republic
+@lat=18.7333333
+@long=-70.0
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Loma de Cabrera
+@country=Dominican Republic
+@lat=19.4333333
+@long=-71.6
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Licey al Medio
+@country=Dominican Republic
+@lat=19.4333333
+@long=-70.6
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=La Uvilla
+@country=Dominican Republic
+@lat=18.3666667
+@long=-71.2166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Las Terrenas
+@country=Dominican Republic
+@lat=19.3166667
+@long=-69.5333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Las Salinas
+@country=Dominican Republic
+@lat=18.2666667
+@long=-71.3166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Las Matas de Santa Cruz
+@country=Dominican Republic
+@lat=19.6666667
+@long=-71.5
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Las Matas de Farfan
+@country=Dominican Republic
+@lat=18.8736111
+@long=-71.5213889
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Las Guaranas
+@country=Dominican Republic
+@lat=19.2
+@long=-70.2166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Las Charcas
+@country=Dominican Republic
+@lat=18.45
+@long=-70.6166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=La Romana
+@country=Dominican Republic
+@lat=18.4166667
+@long=-68.9666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Laguna Salada
+@country=Dominican Republic
+@lat=19.65
+@long=-71.0833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=La Entrada
+@country=Dominican Republic
+@lat=19.55
+@long=-69.9
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=La Descubierta
+@country=Dominican Republic
+@lat=18.5666667
+@long=-71.7333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=La Cienaga
+@country=Dominican Republic
+@lat=18.0666667
+@long=-71.1
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=La Caya
+@country=Dominican Republic
+@lat=19.7
+@long=-71.1166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=La Canela
+@country=Dominican Republic
+@lat=19.4666667
+@long=-70.8166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Juncalito Abajo
+@country=Dominican Republic
+@lat=19.2166667
+@long=-70.8166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Juan Santiago
+@country=Dominican Republic
+@lat=18.7
+@long=-71.5833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Juan Lopez Abajo
+@country=Dominican Republic
+@lat=19.4333333
+@long=-70.5
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Juan de Herrera
+@country=Dominican Republic
+@lat=18.8666667
+@long=-71.2333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Juancho
+@country=Dominican Republic
+@lat=17.8666667
+@long=-71.2833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Juan Adrian
+@country=Dominican Republic
+@lat=18.7666667
+@long=-70.3333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Joba Arriba
+@country=Dominican Republic
+@lat=19.5666667
+@long=-70.2666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Jimani
+@country=Dominican Republic
+@lat=18.4908333
+@long=-71.8508333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Jima Abajo
+@country=Dominican Republic
+@lat=19.1333333
+@long=-70.3833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Jicome
+@country=Dominican Republic
+@lat=19.65
+@long=-70.95
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Jarabacoa
+@country=Dominican Republic
+@lat=19.1166667
+@long=-70.6333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Jaquimeyes
+@country=Dominican Republic
+@lat=18.3166667
+@long=-71.1666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Jamao al Norte
+@country=Dominican Republic
+@lat=19.65
+@long=-70.45
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Jaibon
+@country=Dominican Republic
+@lat=19.6166667
+@long=-71.15
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Imbert
+@country=Dominican Republic
+@lat=19.75
+@long=-70.8333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Hostos
+@country=Dominican Republic
+@lat=19.1833333
+@long=-70.0166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Hondo Valle
+@country=Dominican Republic
+@lat=18.7166667
+@long=-71.7
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Hato Mayor del Rey
+@country=Dominican Republic
+@lat=18.7666667
+@long=-69.25
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Hatillo Palma
+@country=Dominican Republic
+@lat=19.6666667
+@long=-71.1833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Guaymate
+@country=Dominican Republic
+@lat=18.5833333
+@long=-68.9833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Guayabo Dulce
+@country=Dominican Republic
+@lat=18.65
+@long=-69.2833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Guayabal
+@country=Dominican Republic
+@lat=18.6
+@long=-71.65
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Guatapanal
+@country=Dominican Republic
+@lat=19.5166667
+@long=-70.9166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Guananico
+@country=Dominican Republic
+@lat=19.7166667
+@long=-70.9166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Gonzalo
+@country=Dominican Republic
+@lat=18.95
+@long=-69.75
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Gaspar Hernandez
+@country=Dominican Republic
+@lat=19.6166667
+@long=-70.2833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Galvan
+@country=Dominican Republic
+@lat=18.5
+@long=-71.3333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Fundacion
+@country=Dominican Republic
+@lat=18.2833333
+@long=-71.1833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Fantino
+@country=Dominican Republic
+@lat=19.1166667
+@long=-70.3
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Estero Hondo
+@country=Dominican Republic
+@lat=19.8333333
+@long=-71.1666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Estebania
+@country=Dominican Republic
+@lat=18.45
+@long=-70.65
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Esperanza
+@country=Dominican Republic
+@lat=19.5833333
+@long=-71.0
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Esperalvillo
+@country=Dominican Republic
+@lat=18.8166667
+@long=-70.0333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Enriquillo
+@country=Dominican Republic
+@lat=17.9
+@long=-71.2333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Valle
+@country=Dominican Republic
+@lat=18.9666667
+@long=-69.3833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Puerto
+@country=Dominican Republic
+@lat=18.7833333
+@long=-69.4666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Pino
+@country=Dominican Republic
+@lat=19.4333333
+@long=-71.4833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Penon
+@country=Dominican Republic
+@lat=18.3
+@long=-71.1833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Palmar
+@country=Dominican Republic
+@lat=18.4166667
+@long=-71.2333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Llano
+@country=Dominican Republic
+@lat=18.8166667
+@long=-71.6333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Guayabal
+@country=Dominican Republic
+@lat=18.75
+@long=-70.8333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Factor
+@country=Dominican Republic
+@lat=19.3166667
+@long=-69.8833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Carril
+@country=Dominican Republic
+@lat=18.45
+@long=-70.0166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=El Cacao
+@country=Dominican Republic
+@lat=18.5166667
+@long=-70.3
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Duverge
+@country=Dominican Republic
+@lat=18.3666667
+@long=-71.5166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Don Juan
+@country=Dominican Republic
+@lat=18.8333333
+@long=-69.95
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Dajabon
+@country=Dominican Republic
+@lat=19.55
+@long=-71.7
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cristobal
+@country=Dominican Republic
+@lat=18.3
+@long=-71.3
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cotui
+@country=Dominican Republic
+@lat=19.05
+@long=-70.15
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Constanza
+@country=Dominican Republic
+@lat=18.9166667
+@long=-70.75
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Concepcion de La Vega
+@country=Dominican Republic
+@lat=19.2166667
+@long=-70.5166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Comendador
+@country=Dominican Republic
+@lat=18.8775
+@long=-71.7027778
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cevicos
+@country=Dominican Republic
+@lat=19.0
+@long=-69.9833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cercado Abajo
+@country=Dominican Republic
+@lat=18.7333333
+@long=-71.5333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cayetano Germosen
+@country=Dominican Republic
+@lat=19.3333333
+@long=-70.4833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Castillo
+@country=Dominican Republic
+@lat=19.2166667
+@long=-70.0333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Castanuelas
+@country=Dominican Republic
+@lat=19.7
+@long=-71.5
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Canoa
+@country=Dominican Republic
+@lat=18.35
+@long=-71.15
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cana Chapeton
+@country=Dominican Republic
+@lat=19.6
+@long=-71.2666667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cambita Garabitos
+@country=Dominican Republic
+@lat=18.45
+@long=-70.2
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cachon
+@country=Dominican Republic
+@lat=18.25
+@long=-71.1833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cabrera
+@country=Dominican Republic
+@lat=19.6333333
+@long=-69.9
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Cabral
+@country=Dominican Republic
+@lat=18.25
+@long=-71.2166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Bonao
+@country=Dominican Republic
+@lat=18.9333333
+@long=-70.4166667
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Bohechio
+@country=Dominican Republic
+@lat=18.7666667
+@long=-70.9833333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Boca de Yuma
+@country=Dominican Republic
+@lat=18.3833333
+@long=-68.6
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Benemerita de San Cristobal
+@country=Dominican Republic
+@lat=18.4166667
+@long=-70.1
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Bayaguana
+@country=Dominican Republic
+@lat=18.75
+@long=-69.6333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Banica
+@country=Dominican Republic
+@lat=19.0833333
+@long=-71.7
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Bani
+@country=Dominican Republic
+@lat=18.2833333
+@long=-70.3333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Bajos de Haina
+@country=Dominican Republic
+@lat=18.4166667
+@long=-70.0333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Baitoa
+@country=Dominican Republic
+@lat=19.3166667
+@long=-70.7
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Azua de Compostela
+@country=Dominican Republic
+@lat=18.45
+@long=-70.7333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Arroyo Salado
+@country=Dominican Republic
+@lat=19.5
+@long=-69.9
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Arenoso
+@country=Dominican Republic
+@lat=19.1833333
+@long=-69.85
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Amina
+@country=Dominican Republic
+@lat=19.55
+@long=-71.0
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Altamira
+@country=Dominican Republic
+@lat=19.6833333
+@long=-70.8333333
+@timezone=-4.000000
+@dst=134
+@create
+
+@city=Agua Santa del Yuna
+@country=Dominican Republic
+@lat=19.15
+@long=-69.8
+@timezone=-4.000000
+@dst=134
+@create
+

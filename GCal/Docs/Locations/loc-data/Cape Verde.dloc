@@ -1,0 +1,104 @@
+@city=Vila do Maio
+@country=Cape Verde
+@lat=15.1333333
+@long=-23.2166667
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Vila da Ribeira Brava
+@country=Cape Verde
+@lat=16.6166667
+@long=-24.3
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Tarrafal
+@country=Cape Verde
+@lat=15.2833333
+@long=-23.7666667
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Sao Filipe
+@country=Cape Verde
+@lat=14.9
+@long=-24.5166667
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Santa Maria
+@country=Cape Verde
+@lat=16.6
+@long=-22.9
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Santa Cruz
+@country=Cape Verde
+@lat=15.1333333
+@long=-23.5666667
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Sal Rei
+@country=Cape Verde
+@lat=16.1833333
+@long=-22.9166667
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Praia
+@country=Cape Verde
+@lat=14.9166667
+@long=-23.5166667
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Porto Novo
+@country=Cape Verde
+@lat=17.0333333
+@long=-25.0666667
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Ponta do Sol
+@country=Cape Verde
+@lat=17.2
+@long=-25.1
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Pombas
+@country=Cape Verde
+@lat=17.15
+@long=-25.0166667
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Mindelo
+@country=Cape Verde
+@lat=16.8833333
+@long=-25.0
+@timezone=-1.000000
+@dst=126
+@create
+
+@city=Assomada
+@country=Cape Verde
+@lat=15.1
+@long=-23.6833333
+@timezone=-1.000000
+@dst=126
+@create
+

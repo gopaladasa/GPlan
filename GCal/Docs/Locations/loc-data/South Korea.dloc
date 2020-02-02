@@ -1,0 +1,736 @@
+@city=Hunghae
+@country=South Korea
+@lat=36.1125
+@long=129.3522222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yosu
+@country=South Korea
+@lat=34.7441667
+@long=127.7377778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yonil
+@country=South Korea
+@lat=35.9941667
+@long=129.345
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yongwol
+@country=South Korea
+@lat=37.1872222
+@long=128.4733333
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yongju
+@country=South Korea
+@lat=36.8216667
+@long=128.6308333
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yonggwang
+@country=South Korea
+@lat=35.275
+@long=126.5094444
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yongdong
+@country=South Korea
+@lat=36.175
+@long=127.7763889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yongchon
+@country=South Korea
+@lat=35.9675
+@long=128.9308333
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yoju
+@country=South Korea
+@lat=37.2938889
+@long=127.6377778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yesan
+@country=South Korea
+@lat=36.6791667
+@long=126.845
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yangsan
+@country=South Korea
+@lat=35.3386111
+@long=129.0386111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Wonju
+@country=South Korea
+@lat=37.3513889
+@long=127.9452778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Waegwan
+@country=South Korea
+@lat=35.9888889
+@long=128.3972222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Ulsan
+@country=South Korea
+@lat=35.5372222
+@long=129.3166667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Uijongbu
+@country=South Korea
+@lat=37.7486111
+@long=127.0388889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Tangjin
+@country=South Korea
+@lat=36.8944444
+@long=126.6297222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Taesan
+@country=South Korea
+@lat=36.9388889
+@long=126.435
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Taejon
+@country=South Korea
+@lat=36.3213889
+@long=127.4197222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Taegu
+@country=South Korea
+@lat=35.8702778
+@long=128.5911111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Poryong
+@country=South Korea
+@lat=36.3466667
+@long=126.6047222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Taebaek
+@country=South Korea
+@lat=37.1730556
+@long=128.9861111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Suwon
+@country=South Korea
+@lat=37.2841667
+@long=127.0191667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Sunchon
+@country=South Korea
+@lat=34.9511111
+@long=127.4883333
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Seoul
+@country=South Korea
+@lat=37.5663889
+@long=126.9997222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Sosan
+@country=South Korea
+@lat=36.7816667
+@long=126.4522222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Sonsan
+@country=South Korea
+@lat=36.2408333
+@long=128.2975
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Songhwan
+@country=South Korea
+@lat=36.9155556
+@long=127.1313889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Sangju
+@country=South Korea
+@lat=36.4152778
+@long=128.1605556
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Samchok
+@country=South Korea
+@lat=37.4405556
+@long=129.1708333
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Puyo
+@country=South Korea
+@lat=36.2819444
+@long=126.9125
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Pusan
+@country=South Korea
+@lat=35.1027778
+@long=129.0402778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Puchon
+@country=South Korea
+@lat=37.4988889
+@long=126.7830556
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Puan
+@country=South Korea
+@lat=35.7280556
+@long=126.7319444
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Polgyo
+@country=South Korea
+@lat=34.8430556
+@long=127.3433333
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Osan
+@country=South Korea
+@lat=37.145
+@long=127.0694444
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Asan
+@country=South Korea
+@lat=36.7836111
+@long=127.0041667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Nonsan
+@country=South Korea
+@lat=36.2038889
+@long=127.0847222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Namwon
+@country=South Korea
+@lat=35.41
+@long=127.3858333
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Naju
+@country=South Korea
+@lat=35.0283333
+@long=126.7175
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Munsan
+@country=South Korea
+@lat=37.8594444
+@long=126.785
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Mokpo
+@country=South Korea
+@lat=34.7936111
+@long=126.3886111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Miryang
+@country=South Korea
+@lat=35.4933333
+@long=128.7488889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Masan
+@country=South Korea
+@lat=35.2080556
+@long=128.5725
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kyongsan
+@country=South Korea
+@lat=35.8233333
+@long=128.7377778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kyongju
+@country=South Korea
+@lat=35.8427778
+@long=129.2116667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kwangyang
+@country=South Korea
+@lat=34.9752778
+@long=127.5891667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kwangju
+@country=South Korea
+@lat=37.4091667
+@long=127.2591667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kwangju
+@country=South Korea
+@lat=35.1547222
+@long=126.9155556
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kuri
+@country=South Korea
+@lat=37.5947222
+@long=127.1427778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kunsan
+@country=South Korea
+@lat=35.9786111
+@long=126.7113889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kumsan
+@country=South Korea
+@lat=36.1030556
+@long=127.4888889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kumi
+@country=South Korea
+@lat=36.1272222
+@long=128.3447222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kosong
+@country=South Korea
+@lat=34.9727778
+@long=128.3236111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kongju
+@country=South Korea
+@lat=36.4555556
+@long=127.1247222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Koje
+@country=South Korea
+@lat=34.8502778
+@long=128.5886111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kimje
+@country=South Korea
+@lat=35.8016667
+@long=126.8888889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kimhae
+@country=South Korea
+@lat=35.2341667
+@long=128.8811111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kijang
+@country=South Korea
+@lat=35.2441667
+@long=129.2138889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kangnung
+@country=South Korea
+@lat=37.7555556
+@long=128.8961111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kanghwa
+@country=South Korea
+@lat=37.7472222
+@long=126.4855556
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Iksan
+@country=South Korea
+@lat=35.9438889
+@long=126.9544444
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Hwasun
+@country=South Korea
+@lat=35.0594444
+@long=126.985
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Hongsong
+@country=South Korea
+@lat=36.5994444
+@long=126.6627778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Hayang
+@country=South Korea
+@lat=35.9133333
+@long=128.82
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Haenam
+@country=South Korea
+@lat=34.5711111
+@long=126.5988889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Chunchon
+@country=South Korea
+@lat=37.8747222
+@long=127.7341667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Chonju
+@country=South Korea
+@lat=35.8219444
+@long=127.1488889
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Chongju
+@country=South Korea
+@lat=36.6372222
+@long=127.4897222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Chonan
+@country=South Korea
+@lat=36.8063889
+@long=127.1522222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Chinyong
+@country=South Korea
+@lat=35.3041667
+@long=128.7316667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Chinju
+@country=South Korea
+@lat=35.1927778
+@long=128.0847222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Chinhae
+@country=South Korea
+@lat=35.1494444
+@long=128.6597222
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Cheju
+@country=South Korea
+@lat=33.5097222
+@long=126.5219444
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Changwon
+@country=South Korea
+@lat=35.2280556
+@long=128.6811111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Anyang
+@country=South Korea
+@lat=37.3925
+@long=126.9269444
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Ansong
+@country=South Korea
+@lat=37.0108333
+@long=127.2702778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Ansan
+@country=South Korea
+@lat=37.3236111
+@long=126.8219444
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Andong
+@country=South Korea
+@lat=36.5655556
+@long=128.725
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Aewol-li
+@country=South Korea
+@lat=33.4644444
+@long=126.3183333
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Sinhyon
+@country=South Korea
+@lat=34.8825
+@long=128.6266667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Yonmu
+@country=South Korea
+@lat=36.1294444
+@long=127.1
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Tonghae
+@country=South Korea
+@lat=37.5438889
+@long=129.1069444
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Pubal
+@country=South Korea
+@lat=37.2916667
+@long=127.5077778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Songnam
+@country=South Korea
+@lat=37.4386111
+@long=127.1377778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Hanam
+@country=South Korea
+@lat=37.54
+@long=127.2055556
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Hwado
+@country=South Korea
+@lat=37.6525
+@long=127.3075
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Namyangju
+@country=South Korea
+@lat=37.6366667
+@long=127.2141667
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Ungsang
+@country=South Korea
+@lat=35.4061111
+@long=129.1686111
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Wabu
+@country=South Korea
+@lat=37.5897222
+@long=127.2202778
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Naeso
+@country=South Korea
+@lat=35.2497222
+@long=128.52
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Hwawon
+@country=South Korea
+@lat=35.8016667
+@long=128.5008333
+@timezone=9.000000
+@dst=207
+@create
+
+@city=Kwangmyong
+@country=South Korea
+@lat=37.4772222
+@long=126.8663889
+@timezone=9.000000
+@dst=207
+@create
+

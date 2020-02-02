@@ -1,0 +1,602 @@
+<html>
+<head>
+<title>Index</title>
+</head>
+
+<body>
+<h1>Basic calculations</h1>
+
+<div style='background:#bbccdd'>
+<h2>Calculate Appearance Day</h2>
+<form action="http://localhost:3683/gcal-app">
+<h3>Location</h3>
+<table>
+<tr><td>Latitude</td><td><input type="text" name="la" size=3> DEG <input type="text" name="laa" size=2> ARC</td></tr>
+<tr><td>Longitude</td><td><input type="text" name="lo" size=3> DEG <input type="text" name="loa" size=2> ARC</td></tr>
+<tr><td>City</td><td><input type="text" name="lc"></td></tr>
+<tr><td>Country</td><td><input type="text" name="ln"></td></tr>
+<tr><td>Time Zone</td><td>
+<select name="lt">
+<option value="399">UTC-12:00
+<option value="400">UTC-11:00
+<option value="401">UTC-10:00
+<option value="402">UTC-09:30
+<option value="403">UTC-09:00
+<option value="404">UTC-08:00
+<option value="405">UTC-07:00
+<option value="406">UTC-06:00
+<option value="407">UTC-05:00
+<option value="408">UTC-04:30
+<option value="409">UTC-04:00
+<option value="410">UTC-03:30
+<option value="411">UTC-03:00
+<option value="412">UTC-02:00
+<option value="413">UTC-01:00
+<option value="414" selected="selected">UTC+00:00
+<option value="415">UTC+01:00
+<option value="416">UTC+02:00
+<option value="417">UTC+03:00
+<option value="418">UTC+03:30
+<option value="419">UTC+04:00
+<option value="420">UTC+04:30
+<option value="421">UTC+05:00
+<option value="422">UTC+05:30
+<option value="423">UTC+05:45
+<option value="424">UTC+06:00
+<option value="425">UTC+06:30
+<option value="426">UTC+07:00
+<option value="427">UTC+08:00
+<option value="428">UTC+08:45
+<option value="429">UTC+09:00
+<option value="430">UTC+09:30
+<option value="431">UTC+10:00
+<option value="432">UTC+10:30
+<option value="433">UTC+11:00
+<option value="434">UTC+11:30
+<option value="435">UTC+12:00
+<option value="436">UTC+12:45
+<option value="437">UTC+13:00
+<option value="438">UTC+14:00
+</select></td></tr>
+</table>
+<h3>Time</h3>
+<table>
+<tr><td>Year</td><td><input type="text" name="ty" value="2009"></td></tr>
+<tr><td>Month</td><td><input type="text" name="tm" value="1"></td></tr>
+<tr><td>Day</td><td><input type="text" name="td" value="1"></td></tr>
+<tr><td>Hour</td><td><input type="text" name="th" value="12"></td></tr>
+<tr><td>Min</td><td><input type="text" name="tmin" value="00"></td></tr>
+</table>
+<input type="submit" value="Calculate App Day" title="Calculate">
+</form>
+<p>&nbsp;<br>&nbsp;</p>
+</div>
+
+
+
+
+<div style='background:#ffffaa'>
+<h2>First day of Year</h2>
+<form action="http://localhost:3683/gcal-fd">
+<h3>Location</h3>
+<table>
+<tr><td>Latitude</td><td><input type="text" name="la" size=3> DEG <input type="text" name="laa" size=2> ARC</td></tr>
+<tr><td>Longitude</td><td><input type="text" name="lo" size=3> DEG <input type="text" name="loa" size=2> ARC</td></tr>
+<tr><td>City</td><td><input type="text" name="lc"></td></tr>
+<tr><td>Country</td><td><input type="text" name="ln"></td></tr>
+<tr><td>Time Zone</td><td>
+<select name="lt">
+<option value="399">UTC-12:00
+<option value="400">UTC-11:00
+<option value="401">UTC-10:00
+<option value="402">UTC-09:30
+<option value="403">UTC-09:00
+<option value="404">UTC-08:00
+<option value="405">UTC-07:00
+<option value="406">UTC-06:00
+<option value="407">UTC-05:00
+<option value="408">UTC-04:30
+<option value="409">UTC-04:00
+<option value="410">UTC-03:30
+<option value="411">UTC-03:00
+<option value="412">UTC-02:00
+<option value="413">UTC-01:00
+<option value="414" selected="selected">UTC+00:00
+<option value="415">UTC+01:00
+<option value="416">UTC+02:00
+<option value="417">UTC+03:00
+<option value="418">UTC+03:30
+<option value="419">UTC+04:00
+<option value="420">UTC+04:30
+<option value="421">UTC+05:00
+<option value="422">UTC+05:30
+<option value="423">UTC+05:45
+<option value="424">UTC+06:00
+<option value="425">UTC+06:30
+<option value="426">UTC+07:00
+<option value="427">UTC+08:00
+<option value="428">UTC+08:45
+<option value="429">UTC+09:00
+<option value="430">UTC+09:30
+<option value="431">UTC+10:00
+<option value="432">UTC+10:30
+<option value="433">UTC+11:00
+<option value="434">UTC+11:30
+<option value="435">UTC+12:00
+<option value="436">UTC+12:45
+<option value="437">UTC+13:00
+<option value="438">UTC+14:00
+</select></td></tr>
+</table>
+<h3>Time</h3>
+<table>
+<tr><td>Year</td><td><input type="text" name="ty" value="2009"></td></tr>
+</table>
+<input type="submit" value="Calculate" title="Calculate">
+</form>
+<p>&nbsp;<br>&nbsp;</p>
+</div>
+
+<div style='background:#ffcccc'>
+<h2>Calendar</h2>
+<form action="http://localhost:3683/gcalg">
+<h3>Location</h3>
+<table>
+<tr><td>Latitude</td><td><input type="text" name="la" size=3> DEG <input type="text" name="laa" size=2> ARC</td></tr>
+<tr><td>Longitude</td><td><input type="text" name="lo" size=3> DEG <input type="text" name="loa" size=2> ARC</td></tr>
+<tr><td>City</td><td><input type="text" name="lc"></td></tr>
+<tr><td>Country</td><td><input type="text" name="ln"></td></tr>
+<tr><td>Time Zone</td><td>
+<select name="lt">
+<option value="399">UTC-12:00   UTC-12
+<option value="30">UTC-11:00   Pacific/Pago_Pago
+<option value="270">UTC-11:00   Pacific/Niue
+<option value="353">UTC-11:00   Pacific/Midway
+<option value="393">UTC-11:00   Pacific/Apia
+<option value="400">UTC-11:00   UTC-11
+<option value="114">UTC-10:00   Pacific/Rarotonga
+<option value="276">UTC-10:00   Pacific/Tahiti
+<option value="337">UTC-10:00   Pacific/Fakaofo
+<option value="352">UTC-10:00   Pacific/Johnston
+<option value="380">UTC-10:00   America/Adak
+<option value="381">UTC-10:00   Pacific/Honolulu
+<option value="401">UTC-10:00   UTC-10
+<option value="277">UTC-09:30   Pacific/Marquesas
+<option value="402">UTC-09:30   UTC-9:30
+<option value="278">UTC-09:00   Pacific/Gambier
+<option value="376">UTC-09:00   America/Anchorage
+<option value="377">UTC-09:00   America/Juneau
+<option value="378">UTC-09:00   America/Yakutat
+<option value="379">UTC-09:00   America/Nome
+<option value="403">UTC-09:00   UTC-9
+<option value="104">UTC-08:00   America/Vancouver
+<option value="105">UTC-08:00   America/Whitehorse
+<option value="106">UTC-08:00   America/Dawson
+<option value="256">UTC-08:00   America/Tijuana
+<option value="284">UTC-08:00   Pacific/Pitcairn
+<option value="375">UTC-08:00   America/Los_Angeles
+<option value="404">UTC-08:00   UTC-8
+<option value="99">UTC-07:00   America/Edmonton
+<option value="100">UTC-07:00   America/Cambridge_Bay
+<option value="101">UTC-07:00   America/Yellowknife
+<option value="102">UTC-07:00   America/Inuvik
+<option value="103">UTC-07:00   America/Dawson_Creek
+<option value="253">UTC-07:00   America/Mazatlan
+<option value="254">UTC-07:00   America/Chihuahua
+<option value="255">UTC-07:00   America/Hermosillo
+<option value="371">UTC-07:00   America/Denver
+<option value="372">UTC-07:00   America/Boise
+<option value="373">UTC-07:00   America/Shiprock
+<option value="374">UTC-07:00   America/Phoenix
+<option value="405">UTC-07:00   UTC-7
+<option value="79">UTC-06:00   America/Belize
+<option value="94">UTC-06:00   America/Rankin_Inlet
+<option value="95">UTC-06:00   America/Winnipeg
+<option value="96">UTC-06:00   America/Rainy_River
+<option value="97">UTC-06:00   America/Regina
+<option value="98">UTC-06:00   America/Swift_Current
+<option value="124">UTC-06:00   America/Costa_Rica
+<option value="137">UTC-06:00   Pacific/Galapagos
+<option value="172">UTC-06:00   America/Guatemala
+<option value="177">UTC-06:00   America/Tegucigalpa
+<option value="249">UTC-06:00   America/Mexico_City
+<option value="250">UTC-06:00   America/Cancun
+<option value="251">UTC-06:00   America/Merida
+<option value="252">UTC-06:00   America/Monterrey
+<option value="265">UTC-06:00   America/Managua
+<option value="328">UTC-06:00   America/El_Salvador
+<option value="361">UTC-06:00   America/Indiana/Knox
+<option value="365">UTC-06:00   America/Chicago
+<option value="366">UTC-06:00   America/Indiana/Tell_City
+<option value="368">UTC-06:00   America/Menominee
+<option value="369">UTC-06:00   America/North_Dakota/Center
+<option value="370">UTC-06:00   America/North_Dakota/New_Salem
+<option value="406">UTC-06:00   UTC-6
+<option value="73">UTC-05:00   America/Eirunepe
+<option value="74">UTC-05:00   America/Rio_Branco
+<option value="75">UTC-05:00   America/Nassau
+<option value="86">UTC-05:00   America/Montreal
+<option value="87">UTC-05:00   America/Toronto
+<option value="88">UTC-05:00   America/Nipigon
+<option value="89">UTC-05:00   America/Thunder_Bay
+<option value="90">UTC-05:00   America/Iqaluit
+<option value="91">UTC-05:00   America/Pangnirtung
+<option value="92">UTC-05:00   America/Resolute
+<option value="93">UTC-05:00   America/Atikokan
+<option value="116">UTC-05:00   Pacific/Easter
+<option value="123">UTC-05:00   America/Bogota
+<option value="125">UTC-05:00   America/Havana
+<option value="136">UTC-05:00   America/Guayaquil
+<option value="179">UTC-05:00   America/Port-au-Prince
+<option value="195">UTC-05:00   America/Jamaica
+<option value="209">UTC-05:00   America/Cayman
+<option value="274">UTC-05:00   America/Panama
+<option value="275">UTC-05:00   America/Lima
+<option value="331">UTC-05:00   America/Grand_Turk
+<option value="355">UTC-05:00   America/New_York
+<option value="356">UTC-05:00   America/Detroit
+<option value="357">UTC-05:00   America/Kentucky/Louisville
+<option value="358">UTC-05:00   America/Kentucky/Monticello
+<option value="359">UTC-05:00   America/Indiana/Indianapolis
+<option value="360">UTC-05:00   America/Indiana/Vincennes
+<option value="362">UTC-05:00   America/Indiana/Winamac
+<option value="363">UTC-05:00   America/Indiana/Marengo
+<option value="364">UTC-05:00   America/Indiana/Vevay
+<option value="367">UTC-05:00   America/Indiana/Petersburg
+<option value="407">UTC-05:00   UTC-5
+<option value="408">UTC-04:30   UTC-4:30
+<option value="4">UTC-04:00   America/Antigua
+<option value="5">UTC-04:00   America/Anguilla
+<option value="8">UTC-04:00   America/Curacao
+<option value="44">UTC-04:00   America/Aruba
+<option value="48">UTC-04:00   America/Barbados
+<option value="57">UTC-04:00   Atlantic/Bermuda
+<option value="59">UTC-04:00   America/La_Paz
+<option value="70">UTC-04:00   America/Porto_Velho
+<option value="71">UTC-04:00   America/Boa_Vista
+<option value="72">UTC-04:00   America/Manaus
+<option value="81">UTC-04:00   America/Halifax
+<option value="82">UTC-04:00   America/Glace_Bay
+<option value="83">UTC-04:00   America/Moncton
+<option value="84">UTC-04:00   America/Goose_Bay
+<option value="85">UTC-04:00   America/Blanc-Sablon
+<option value="133">UTC-04:00   America/Dominica
+<option value="134">UTC-04:00   America/Santo_Domingo
+<option value="156">UTC-04:00   America/Grenada
+<option value="165">UTC-04:00   America/Thule
+<option value="168">UTC-04:00   America/Guadeloupe
+<option value="175">UTC-04:00   America/Guyana
+<option value="205">UTC-04:00   America/St_Kitts
+<option value="217">UTC-04:00   America/St_Lucia
+<option value="242">UTC-04:00   America/Martinique
+<option value="244">UTC-04:00   America/Montserrat
+<option value="285">UTC-04:00   America/Puerto_Rico
+<option value="343">UTC-04:00   America/Port_of_Spain
+<option value="386">UTC-04:00   America/St_Vincent
+<option value="387">UTC-04:00   America/Caracas
+<option value="388">UTC-04:00   America/Tortola
+<option value="389">UTC-04:00   America/St_Thomas
+<option value="409">UTC-04:00   UTC-4
+<option value="80">UTC-03:30   America/St_Johns
+<option value="410">UTC-03:30   UTC-3:30
+<option value="12">UTC-03:00   Antarctica/Rothera
+<option value="13">UTC-03:00   Antarctica/Palmer
+<option value="20">UTC-03:00   America/Argentina/Buenos_Aires
+<option value="21">UTC-03:00   America/Argentina/Cordoba
+<option value="22">UTC-03:00   America/Argentina/Jujuy
+<option value="23">UTC-03:00   America/Argentina/Tucuman
+<option value="24">UTC-03:00   America/Argentina/Catamarca
+<option value="25">UTC-03:00   America/Argentina/La_Rioja
+<option value="26">UTC-03:00   America/Argentina/San_Juan
+<option value="27">UTC-03:00   America/Argentina/Mendoza
+<option value="28">UTC-03:00   America/Argentina/Rio_Gallegos
+<option value="29">UTC-03:00   America/Argentina/Ushuaia
+<option value="61">UTC-03:00   America/Belem
+<option value="62">UTC-03:00   America/Fortaleza
+<option value="63">UTC-03:00   America/Recife
+<option value="64">UTC-03:00   America/Araguaina
+<option value="65">UTC-03:00   America/Maceio
+<option value="66">UTC-03:00   America/Bahia
+<option value="68">UTC-03:00   America/Campo_Grande
+<option value="69">UTC-03:00   America/Cuiaba
+<option value="115">UTC-03:00   America/Santiago
+<option value="148">UTC-03:00   Atlantic/Stanley
+<option value="158">UTC-03:00   America/Cayenne
+<option value="162">UTC-03:00   America/Godthab
+<option value="283">UTC-03:00   America/Miquelon
+<option value="291">UTC-03:00   America/Asuncion
+<option value="326">UTC-03:00   America/Paramaribo
+<option value="411">UTC-03:00   UTC-3
+<option value="60">UTC-02:00   America/Noronha
+<option value="67">UTC-02:00   America/Sao_Paulo
+<option value="171">UTC-02:00   Atlantic/South_Georgia
+<option value="382">UTC-02:00   America/Montevideo
+<option value="412">UTC-02:00   UTC-2
+<option value="126">UTC-01:00   Atlantic/Cape_Verde
+<option value="164">UTC-01:00   America/Scoresbysund
+<option value="289">UTC-01:00   Atlantic/Azores
+<option value="413">UTC-01:00   UTC-1
+<option value="0" selected="selected">UTC+00:00   Undefined
+<option value="51">UTC+00:00   Africa/Ouagadougou
+<option value="56">UTC+00:00   America/St_Barthelemy
+<option value="113">UTC+00:00   Africa/Abidjan
+<option value="140">UTC+00:00   Africa/El_Aaiun
+<option value="144">UTC+00:00   Atlantic/Canary
+<option value="152">UTC+00:00   Atlantic/Faroe
+<option value="155">UTC+00:00   Europe/London
+<option value="159">UTC+00:00   Europe/Guernsey
+<option value="160">UTC+00:00   Africa/Accra
+<option value="163">UTC+00:00   America/Danmarkshavn
+<option value="166">UTC+00:00   Africa/Banjul
+<option value="167">UTC+00:00   Africa/Conakry
+<option value="174">UTC+00:00   Africa/Bissau
+<option value="185">UTC+00:00   Europe/Dublin
+<option value="187">UTC+00:00   Europe/Isle_of_Man
+<option value="192">UTC+00:00   Atlantic/Reykjavik
+<option value="194">UTC+00:00   Europe/Jersey
+<option value="220">UTC+00:00   Africa/Monrovia
+<option value="226">UTC+00:00   Africa/Casablanca
+<option value="230">UTC+00:00   America/Marigot
+<option value="235">UTC+00:00   Africa/Bamako
+<option value="243">UTC+00:00   Africa/Nouakchott
+<option value="287">UTC+00:00   Europe/Lisbon
+<option value="288">UTC+00:00   Atlantic/Madeira
+<option value="318">UTC+00:00   Atlantic/St_Helena
+<option value="322">UTC+00:00   Africa/Freetown
+<option value="324">UTC+00:00   Africa/Dakar
+<option value="327">UTC+00:00   Africa/Sao_Tome
+<option value="334">UTC+00:00   Africa/Lome
+<option value="414">UTC+00:00   UTC
+<option value="1">UTC+01:00   Europe/Andorra
+<option value="6">UTC+01:00   Europe/Tirane
+<option value="9">UTC+01:00   Africa/Luanda
+<option value="31">UTC+01:00   Europe/Vienna
+<option value="47">UTC+01:00   Europe/Sarajevo
+<option value="50">UTC+01:00   Europe/Brussels
+<option value="55">UTC+01:00   Africa/Porto-Novo
+<option value="108">UTC+01:00   Africa/Kinshasa
+<option value="110">UTC+01:00   Africa/Bangui
+<option value="111">UTC+01:00   Africa/Brazzaville
+<option value="112">UTC+01:00   Europe/Zurich
+<option value="117">UTC+01:00   Africa/Douala
+<option value="129">UTC+01:00   Europe/Prague
+<option value="130">UTC+01:00   Europe/Berlin
+<option value="132">UTC+01:00   Europe/Copenhagen
+<option value="135">UTC+01:00   Africa/Algiers
+<option value="142">UTC+01:00   Europe/Madrid
+<option value="143">UTC+01:00   Africa/Ceuta
+<option value="153">UTC+01:00   Europe/Paris
+<option value="154">UTC+01:00   Africa/Libreville
+<option value="161">UTC+01:00   Europe/Gibraltar
+<option value="169">UTC+01:00   Africa/Malabo
+<option value="178">UTC+01:00   Europe/Zagreb
+<option value="180">UTC+01:00   Europe/Budapest
+<option value="193">UTC+01:00   Europe/Rome
+<option value="218">UTC+01:00   Europe/Vaduz
+<option value="223">UTC+01:00   Europe/Luxembourg
+<option value="227">UTC+01:00   Europe/Monaco
+<option value="229">UTC+01:00   Europe/Podgorica
+<option value="234">UTC+01:00   Europe/Skopje
+<option value="245">UTC+01:00   Europe/Malta
+<option value="262">UTC+01:00   Africa/Niamey
+<option value="264">UTC+01:00   Africa/Lagos
+<option value="266">UTC+01:00   Europe/Amsterdam
+<option value="267">UTC+01:00   Europe/Oslo
+<option value="282">UTC+01:00   Europe/Warsaw
+<option value="295">UTC+01:00   Europe/Belgrade
+<option value="316">UTC+01:00   Europe/Stockholm
+<option value="319">UTC+01:00   Europe/Ljubljana
+<option value="320">UTC+01:00   Arctic/Longyearbyen
+<option value="321">UTC+01:00   Europe/Bratislava
+<option value="323">UTC+01:00   Europe/San_Marino
+<option value="332">UTC+01:00   Africa/Ndjamena
+<option value="340">UTC+01:00   Africa/Tunis
+<option value="385">UTC+01:00   Europe/Vatican
+<option value="415">UTC+01:00   UTC+1
+<option value="45">UTC+02:00   Europe/Mariehamn
+<option value="52">UTC+02:00   Europe/Sofia
+<option value="54">UTC+02:00   Africa/Bujumbura
+<option value="77">UTC+02:00   Africa/Gaborone
+<option value="78">UTC+02:00   Europe/Minsk
+<option value="109">UTC+02:00   Africa/Lubumbashi
+<option value="128">UTC+02:00   Asia/Nicosia
+<option value="138">UTC+02:00   Europe/Tallinn
+<option value="139">UTC+02:00   Africa/Cairo
+<option value="146">UTC+02:00   Europe/Helsinki
+<option value="170">UTC+02:00   Europe/Athens
+<option value="186">UTC+02:00   Asia/Jerusalem
+<option value="196">UTC+02:00   Asia/Amman
+<option value="216">UTC+02:00   Asia/Beirut
+<option value="221">UTC+02:00   Africa/Maseru
+<option value="222">UTC+02:00   Europe/Vilnius
+<option value="224">UTC+02:00   Europe/Riga
+<option value="225">UTC+02:00   Africa/Tripoli
+<option value="228">UTC+02:00   Europe/Chisinau
+<option value="248">UTC+02:00   Africa/Blantyre
+<option value="259">UTC+02:00   Africa/Maputo
+<option value="260">UTC+02:00   Africa/Windhoek
+<option value="286">UTC+02:00   Asia/Gaza
+<option value="294">UTC+02:00   Europe/Bucharest
+<option value="296">UTC+02:00   Europe/Kaliningrad
+<option value="311">UTC+02:00   Africa/Kigali
+<option value="329">UTC+02:00   Asia/Damascus
+<option value="330">UTC+02:00   Africa/Mbabane
+<option value="342">UTC+02:00   Europe/Istanbul
+<option value="347">UTC+02:00   Europe/Kiev
+<option value="348">UTC+02:00   Europe/Uzhgorod
+<option value="349">UTC+02:00   Europe/Zaporozhye
+<option value="350">UTC+02:00   Europe/Simferopol
+<option value="396">UTC+02:00   Africa/Johannesburg
+<option value="397">UTC+02:00   Africa/Lusaka
+<option value="398">UTC+02:00   Africa/Harare
+<option value="416">UTC+02:00   UTC+2
+<option value="19">UTC+03:00   Antarctica/Syowa
+<option value="53">UTC+03:00   Asia/Bahrain
+<option value="131">UTC+03:00   Africa/Djibouti
+<option value="141">UTC+03:00   Africa/Asmara
+<option value="145">UTC+03:00   Africa/Addis_Ababa
+<option value="190">UTC+03:00   Asia/Baghdad
+<option value="198">UTC+03:00   Africa/Nairobi
+<option value="204">UTC+03:00   Indian/Comoro
+<option value="208">UTC+03:00   Asia/Kuwait
+<option value="231">UTC+03:00   Indian/Antananarivo
+<option value="292">UTC+03:00   Asia/Qatar
+<option value="297">UTC+03:00   Europe/Moscow
+<option value="298">UTC+03:00   Europe/Volgograd
+<option value="312">UTC+03:00   Asia/Riyadh
+<option value="315">UTC+03:00   Africa/Khartoum
+<option value="325">UTC+03:00   Africa/Mogadishu
+<option value="346">UTC+03:00   Africa/Dar_es_Salaam
+<option value="351">UTC+03:00   Africa/Kampala
+<option value="394">UTC+03:00   Asia/Aden
+<option value="395">UTC+03:00   Indian/Mayotte
+<option value="417">UTC+03:00   UTC+3
+<option value="191">UTC+03:30   Asia/Tehran
+<option value="418">UTC+03:30   UTC+3:30
+<option value="2">UTC+04:00   Asia/Dubai
+<option value="7">UTC+04:00   Asia/Yerevan
+<option value="46">UTC+04:00   Asia/Baku
+<option value="157">UTC+04:00   Asia/Tbilisi
+<option value="246">UTC+04:00   Indian/Mauritius
+<option value="273">UTC+04:00   Asia/Muscat
+<option value="293">UTC+04:00   Indian/Reunion
+<option value="299">UTC+04:00   Europe/Samara
+<option value="314">UTC+04:00   Indian/Mahe
+<option value="419">UTC+04:00   UTC+4
+<option value="3">UTC+04:30   Asia/Kabul
+<option value="420">UTC+04:30   UTC+4:30
+<option value="212">UTC+05:00   Asia/Aqtobe
+<option value="213">UTC+05:00   Asia/Aqtau
+<option value="214">UTC+05:00   Asia/Oral
+<option value="247">UTC+05:00   Indian/Maldives
+<option value="281">UTC+05:00   Asia/Karachi
+<option value="300">UTC+05:00   Asia/Yekaterinburg
+<option value="333">UTC+05:00   Indian/Kerguelen
+<option value="336">UTC+05:00   Asia/Dushanbe
+<option value="339">UTC+05:00   Asia/Ashgabat
+<option value="383">UTC+05:00   Asia/Samarkand
+<option value="384">UTC+05:00   Asia/Tashkent
+<option value="421">UTC+05:00   UTC+5
+<option value="188">UTC+05:30   Asia/Calcutta
+<option value="219">UTC+05:30   Asia/Colombo
+<option value="422">UTC+05:30   UTC+5:30
+<option value="268">UTC+05:45   Asia/Katmandu
+<option value="423">UTC+05:45   UTC+5:45
+<option value="14">UTC+06:00   Antarctica/Mawson
+<option value="17">UTC+06:00   Antarctica/Vostok
+<option value="49">UTC+06:00   Asia/Dhaka
+<option value="76">UTC+06:00   Asia/Thimphu
+<option value="189">UTC+06:00   Indian/Chagos
+<option value="199">UTC+06:00   Asia/Bishkek
+<option value="210">UTC+06:00   Asia/Almaty
+<option value="211">UTC+06:00   Asia/Qyzylorda
+<option value="301">UTC+06:00   Asia/Omsk
+<option value="302">UTC+06:00   Asia/Novosibirsk
+<option value="424">UTC+06:00   UTC+6
+<option value="107">UTC+06:30   Indian/Cocos
+<option value="236">UTC+06:30   Asia/Rangoon
+<option value="425">UTC+06:30   UTC+6:30
+<option value="15">UTC+07:00   Antarctica/Davis
+<option value="127">UTC+07:00   Indian/Christmas
+<option value="181">UTC+07:00   Asia/Jakarta
+<option value="182">UTC+07:00   Asia/Pontianak
+<option value="200">UTC+07:00   Asia/Phnom_Penh
+<option value="215">UTC+07:00   Asia/Vientiane
+<option value="238">UTC+07:00   Asia/Hovd
+<option value="303">UTC+07:00   Asia/Krasnoyarsk
+<option value="335">UTC+07:00   Asia/Bangkok
+<option value="390">UTC+07:00   Asia/Saigon
+<option value="426">UTC+07:00   UTC+7
+<option value="16">UTC+08:00   Antarctica/Casey
+<option value="58">UTC+08:00   Asia/Brunei
+<option value="118">UTC+08:00   Asia/Shanghai
+<option value="119">UTC+08:00   Asia/Harbin
+<option value="120">UTC+08:00   Asia/Chongqing
+<option value="121">UTC+08:00   Asia/Urumqi
+<option value="122">UTC+08:00   Asia/Kashgar
+<option value="176">UTC+08:00   Asia/Hong_Kong
+<option value="183">UTC+08:00   Asia/Makassar
+<option value="237">UTC+08:00   Asia/Ulaanbaatar
+<option value="240">UTC+08:00   Asia/Macau
+<option value="257">UTC+08:00   Asia/Kuala_Lumpur
+<option value="258">UTC+08:00   Asia/Kuching
+<option value="280">UTC+08:00   Asia/Manila
+<option value="304">UTC+08:00   Asia/Irkutsk
+<option value="317">UTC+08:00   Asia/Singapore
+<option value="345">UTC+08:00   Asia/Taipei
+<option value="427">UTC+08:00   UTC+8
+<option value="428">UTC+08:45   UTC+8:45
+<option value="42">UTC+09:00   Australia/Perth
+<option value="184">UTC+09:00   Asia/Jayapura
+<option value="197">UTC+09:00   Asia/Tokyo
+<option value="206">UTC+09:00   Asia/Pyongyang
+<option value="207">UTC+09:00   Asia/Seoul
+<option value="239">UTC+09:00   Asia/Choibalsan
+<option value="290">UTC+09:00   Pacific/Palau
+<option value="305">UTC+09:00   Asia/Yakutsk
+<option value="338">UTC+09:00   Asia/Dili
+<option value="429">UTC+09:00   UTC+9
+<option value="41">UTC+09:30   Australia/Darwin
+<option value="430">UTC+09:30   UTC+9:30
+<option value="43">UTC+09:45   Australia/Eucla
+<option value="18">UTC+10:00   Antarctica/DumontDUrville
+<option value="38">UTC+10:00   Australia/Brisbane
+<option value="39">UTC+10:00   Australia/Lindeman
+<option value="149">UTC+10:00   Pacific/Truk
+<option value="173">UTC+10:00   Pacific/Guam
+<option value="241">UTC+10:00   Pacific/Saipan
+<option value="279">UTC+10:00   Pacific/Port_Moresby
+<option value="306">UTC+10:00   Asia/Vladivostok
+<option value="307">UTC+10:00   Asia/Sakhalin
+<option value="431">UTC+10:00   UTC+10
+<option value="37">UTC+10:30   Australia/Broken_Hill
+<option value="40">UTC+10:30   Australia/Adelaide
+<option value="432">UTC+10:30   UTC+10:30
+<option value="32">UTC+11:00   Australia/Lord_Howe
+<option value="33">UTC+11:00   Australia/Hobart
+<option value="34">UTC+11:00   Australia/Currie
+<option value="35">UTC+11:00   Australia/Melbourne
+<option value="36">UTC+11:00   Australia/Sydney
+<option value="150">UTC+11:00   Pacific/Ponape
+<option value="151">UTC+11:00   Pacific/Kosrae
+<option value="261">UTC+11:00   Pacific/Noumea
+<option value="308">UTC+11:00   Asia/Magadan
+<option value="313">UTC+11:00   Pacific/Guadalcanal
+<option value="391">UTC+11:00   Pacific/Efate
+<option value="433">UTC+11:00   UTC+11
+<option value="263">UTC+11:30   Pacific/Norfolk
+<option value="434">UTC+11:30   UTC+11:30
+<option value="147">UTC+12:00   Pacific/Fiji
+<option value="201">UTC+12:00   Pacific/Tarawa
+<option value="232">UTC+12:00   Pacific/Majuro
+<option value="233">UTC+12:00   Pacific/Kwajalein
+<option value="269">UTC+12:00   Pacific/Nauru
+<option value="309">UTC+12:00   Asia/Kamchatka
+<option value="310">UTC+12:00   Asia/Anadyr
+<option value="344">UTC+12:00   Pacific/Funafuti
+<option value="354">UTC+12:00   Pacific/Wake
+<option value="392">UTC+12:00   Pacific/Wallis
+<option value="435">UTC+12:00   UTC+12
+<option value="436">UTC+12:45   UTC+12:45
+<option value="10">UTC+13:00   Antarctica/McMurdo
+<option value="11">UTC+13:00   Antarctica/South_Pole
+<option value="202">UTC+13:00   Pacific/Enderbury
+<option value="271">UTC+13:00   Pacific/Auckland
+<option value="341">UTC+13:00   Pacific/Tongatapu
+<option value="437">UTC+13:00   UTC+13
+<option value="272">UTC+13:45   Pacific/Chatham
+<option value="203">UTC+14:00   Pacific/Kiritimati
+<option value="438">UTC+14:00   UTC+14
+</select></td></tr>
+</table>
+<h3>Time</h3>
+<table>
+<tr><td>Year</td><td><input type="text" name="ty" value="2009"></td></tr>
+</table>
+<input type="submit" value="Calculate" title="Calculate">
+</form>
+<p>&nbsp;<br>&nbsp;</p>
+</div>
+
+</body>
+</html>

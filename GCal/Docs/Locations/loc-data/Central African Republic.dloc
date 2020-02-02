@@ -1,0 +1,288 @@
+@city=Rafai
+@country=Central African Republic
+@lat=4.95
+@long=23.9166667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Ouango
+@country=Central African Republic
+@lat=4.3166667
+@long=22.55
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Ouadda
+@country=Central African Republic
+@lat=8.0666667
+@long=22.4
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Obo
+@country=Central African Republic
+@lat=5.4
+@long=26.5
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Ndele
+@country=Central African Republic
+@lat=8.4091667
+@long=20.6530556
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Mobaye
+@country=Central African Republic
+@lat=4.3166667
+@long=21.1833333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Kembe
+@country=Central African Republic
+@lat=4.6
+@long=21.9
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Ippy
+@country=Central African Republic
+@lat=6.25
+@long=21.2
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Gambo
+@country=Central African Republic
+@lat=4.65
+@long=22.2666667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Bria
+@country=Central African Republic
+@lat=6.5333333
+@long=21.9833333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Birao
+@country=Central African Republic
+@lat=10.2833333
+@long=22.7833333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Bangassou
+@country=Central African Republic
+@lat=4.7333333
+@long=22.8166667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Bambari
+@country=Central African Republic
+@lat=5.7619444
+@long=20.6672222
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Alindao
+@country=Central African Republic
+@lat=5.0333333
+@long=21.2166667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Sibut
+@country=Central African Republic
+@lat=5.7333333
+@long=19.0833333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Paoua
+@country=Central African Republic
+@lat=7.25
+@long=16.4333333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Nola
+@country=Central African Republic
+@lat=3.5333333
+@long=16.0666667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Mongoumba
+@country=Central African Republic
+@lat=3.6333333
+@long=18.6
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Mbaiki
+@country=Central African Republic
+@lat=3.8833333
+@long=18.0
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Kouango
+@country=Central African Republic
+@lat=4.9666667
+@long=19.9833333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Kaga Bandoro
+@country=Central African Republic
+@lat=6.9833333
+@long=19.1833333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Kabo
+@country=Central African Republic
+@lat=7.65
+@long=18.6166667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Gamboula
+@country=Central African Republic
+@lat=4.1333333
+@long=15.15
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Damara
+@country=Central African Republic
+@lat=4.9666667
+@long=18.7
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Carnot
+@country=Central African Republic
+@lat=4.9333333
+@long=15.8666667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Bozoum
+@country=Central African Republic
+@lat=6.3166667
+@long=16.3833333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Bouca
+@country=Central African Republic
+@lat=6.5
+@long=18.2833333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Bouar
+@country=Central African Republic
+@lat=5.95
+@long=15.6
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Bossangoa
+@country=Central African Republic
+@lat=6.4833333
+@long=17.45
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Boda
+@country=Central African Republic
+@lat=4.3166667
+@long=17.4666667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Boali
+@country=Central African Republic
+@lat=4.8
+@long=18.1166667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Bimbo
+@country=Central African Republic
+@lat=4.3
+@long=18.55
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Berberati
+@country=Central African Republic
+@lat=4.2666667
+@long=15.7833333
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Batangafo
+@country=Central African Republic
+@lat=7.3
+@long=18.3
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Baoro
+@country=Central African Republic
+@lat=5.6666667
+@long=15.9666667
+@timezone=1.000000
+@dst=110
+@create
+
+@city=Bangui
+@country=Central African Republic
+@lat=4.3666667
+@long=18.5833333
+@timezone=1.000000
+@dst=110
+@create
+

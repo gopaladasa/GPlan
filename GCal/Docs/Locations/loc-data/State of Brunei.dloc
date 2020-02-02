@@ -1,0 +1,40 @@
+@city=Tutong
+@country=State of Brunei
+@lat=4.8
+@long=114.65
+@timezone=8.000000
+@dst=58
+@create
+
+@city=Seria
+@country=State of Brunei
+@lat=4.6166667
+@long=114.3166667
+@timezone=8.000000
+@dst=58
+@create
+
+@city=Kuala Belait
+@country=State of Brunei
+@lat=4.5833333
+@long=114.1833333
+@timezone=8.000000
+@dst=58
+@create
+
+@city=Bangar
+@country=State of Brunei
+@lat=4.7166667
+@long=115.0666667
+@timezone=8.000000
+@dst=58
+@create
+
+@city=Bandar Seri Begawan
+@country=State of Brunei
+@lat=4.8833333
+@long=114.9333333
+@timezone=8.000000
+@dst=58
+@create
+

@@ -1,0 +1,40 @@
+@city=West Bay
+@country=Cauman
+@lat=19.3666667
+@long=-81.4166667
+@timezone=-5.000000
+@dst=209
+@create
+
+@city=North Side
+@country=Cauman
+@lat=19.35
+@long=-81.2
+@timezone=-5.000000
+@dst=209
+@create
+
+@city=George Town
+@country=Cauman
+@lat=19.3
+@long=-81.3833333
+@timezone=-5.000000
+@dst=209
+@create
+
+@city=East End
+@country=Cauman
+@lat=19.3
+@long=-81.1166667
+@timezone=-5.000000
+@dst=209
+@create
+
+@city=Bodden Town
+@country=Cauman
+@lat=19.2833333
+@long=-81.25
+@timezone=-5.000000
+@dst=209
+@create
+

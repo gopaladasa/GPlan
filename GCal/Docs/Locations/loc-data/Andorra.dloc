@@ -1,0 +1,48 @@
+@city=Sant Julia de Loria
+@country=Andorra
+@lat=42.4637237004292
+@long=1.49128675460815
+@timezone=1.000000
+@dst=1
+@create
+
+@city=les Escaldes
+@country=Andorra
+@lat=42.5072869554153
+@long=1.53413772583008
+@timezone=1.000000
+@dst=1
+@create
+
+@city=la Massana
+@country=Andorra
+@lat=42.5449866731324
+@long=1.51482582092285
+@timezone=1.000000
+@dst=1
+@create
+
+@city=Encamp
+@country=Andorra
+@lat=42.5333333
+@long=1.5833333
+@timezone=1.000000
+@dst=1
+@create
+
+@city=Canillo
+@country=Andorra
+@lat=42.5666667
+@long=1.6
+@timezone=1.000000
+@dst=1
+@create
+
+@city=Andorra la Vella
+@country=Andorra
+@lat=42.5051514333831
+@long=1.51506185531616
+@timezone=1.000000
+@dst=1
+@create
+

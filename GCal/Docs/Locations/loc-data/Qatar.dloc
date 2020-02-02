@@ -1,0 +1,96 @@
+@city=Umm Salal Muhammad
+@country=Qatar
+@lat=25.4169444
+@long=51.4038889
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Umm Bab
+@country=Qatar
+@lat=25.2141667
+@long=50.8072222
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Dukhan
+@country=Qatar
+@lat=25.4297222
+@long=50.7858333
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Ar Ruays
+@country=Qatar
+@lat=26.1333333
+@long=51.2166667
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Ar Rayyan
+@country=Qatar
+@lat=25.2919444
+@long=51.4244444
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Al Wukayr
+@country=Qatar
+@lat=25.1508333
+@long=51.5377778
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Al Wakrah
+@country=Qatar
+@lat=25.1677778
+@long=51.6069444
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Al Khawr
+@country=Qatar
+@lat=25.6838889
+@long=51.5058333
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Al Jumayliyah
+@country=Qatar
+@lat=25.6094444
+@long=51.0922222
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Al Ghuwayriyah
+@country=Qatar
+@lat=25.8297222
+@long=51.2452778
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Doha
+@country=Qatar
+@lat=25.2866667
+@long=51.5333333
+@timezone=3.000000
+@dst=292
+@create
+
+@city=Fuwayrit
+@country=Qatar
+@lat=26.0216667
+@long=51.3669444
+@timezone=3.000000
+@dst=292
+@create
+

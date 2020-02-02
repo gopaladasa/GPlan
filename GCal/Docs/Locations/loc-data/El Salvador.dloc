@@ -1,0 +1,800 @@
+@city=Zaragoza
+@country=El Salvador
+@lat=13.5894444
+@long=-89.2888889
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Zacatecoluca
+@country=El Salvador
+@lat=13.5
+@long=-88.8666667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Victoria
+@country=El Salvador
+@lat=13.95
+@long=-88.6333333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Usulutan
+@country=El Salvador
+@lat=13.35
+@long=-88.45
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Tonacatepeque
+@country=El Salvador
+@lat=13.7811111
+@long=-89.1186111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Texistepeque
+@country=El Salvador
+@lat=14.1333333
+@long=-89.5
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Tenancingo
+@country=El Salvador
+@lat=13.8333333
+@long=-88.9833333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Tecoluca
+@country=El Salvador
+@lat=13.7891667
+@long=-89.0052778
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Tacuba
+@country=El Salvador
+@lat=13.9011111
+@long=-89.9297222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Suchitoto
+@country=El Salvador
+@lat=13.9380556
+@long=-89.0277778
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Soyapango
+@country=El Salvador
+@lat=13.7347222
+@long=-89.1513889
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Sonzacate
+@country=El Salvador
+@lat=13.7341667
+@long=-89.7147222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Sonsonate
+@country=El Salvador
+@lat=13.7188889
+@long=-89.7241667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Sociedad
+@country=El Salvador
+@lat=13.7
+@long=-88.0166667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Sesori
+@country=El Salvador
+@lat=13.7166667
+@long=-88.3666667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Sensuntepeque
+@country=El Salvador
+@lat=13.8666667
+@long=-88.6333333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Vicente
+@country=El Salvador
+@lat=13.6333333
+@long=-88.8
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Santo Tomas
+@country=El Salvador
+@lat=13.6408333
+@long=-89.1333333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Santiago Nonualco
+@country=El Salvador
+@lat=13.5166667
+@long=-88.95
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Santiago de Maria
+@country=El Salvador
+@lat=13.4833333
+@long=-88.4666667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Santa Rosa de Lima
+@country=El Salvador
+@lat=13.6247222
+@long=-87.8936111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Santa Elena
+@country=El Salvador
+@lat=13.3833333
+@long=-88.4166667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Santa Ana
+@country=El Salvador
+@lat=13.9941667
+@long=-89.5597222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Sebastian
+@country=El Salvador
+@lat=13.7333333
+@long=-88.8333333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Salvador
+@country=El Salvador
+@lat=13.7086111
+@long=-89.2030556
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Rafael Oriente
+@country=El Salvador
+@lat=13.3833333
+@long=-88.35
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Pedro Masahuat
+@country=El Salvador
+@lat=13.5436111
+@long=-89.0386111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Pablo Tacachico
+@country=El Salvador
+@lat=13.9755556
+@long=-89.34
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Miquel
+@country=El Salvador
+@lat=13.4833333
+@long=-88.1833333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Martin
+@country=El Salvador
+@lat=13.7833333
+@long=-88.9166667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Marcos
+@country=El Salvador
+@lat=13.6588889
+@long=-89.1830556
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Juan Opico
+@country=El Salvador
+@lat=13.8761111
+@long=-89.3597222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Francisco Menendez
+@country=El Salvador
+@lat=13.8430556
+@long=-90.0158333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Francisco
+@country=El Salvador
+@lat=13.7
+@long=-88.1
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Antonio del Monte
+@country=El Salvador
+@lat=13.7163889
+@long=-89.7383333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Alejo
+@country=El Salvador
+@lat=13.4313889
+@long=-87.9630556
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=San Agustin
+@country=El Salvador
+@lat=13.4333333
+@long=-88.6
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Rosario de Mora
+@country=El Salvador
+@lat=13.5752778
+@long=-89.2088889
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Quezaltepeque
+@country=El Salvador
+@lat=13.835
+@long=-89.2744444
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Puerto El Triunfo
+@country=El Salvador
+@lat=13.2833333
+@long=-88.55
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Pasaquina
+@country=El Salvador
+@lat=13.5844444
+@long=-87.8411111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Panchimalco
+@country=El Salvador
+@lat=13.6127778
+@long=-89.18
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Ozatlan
+@country=El Salvador
+@lat=13.3833333
+@long=-88.5
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Olocuilta
+@country=El Salvador
+@lat=13.5697222
+@long=-89.1172222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Nuevo Cuscatlan
+@country=El Salvador
+@lat=13.6486111
+@long=-89.2652778
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Nueva San Salvador
+@country=El Salvador
+@lat=13.6769444
+@long=-89.2797222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Nueva Guadalupe
+@country=El Salvador
+@lat=13.5333333
+@long=-88.35
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Nueva Esparta
+@country=El Salvador
+@lat=13.7836111
+@long=-87.8386111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Nueva Concepcion
+@country=El Salvador
+@lat=14.1333333
+@long=-89.3
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Nahuizalco
+@country=El Salvador
+@lat=13.7775
+@long=-89.7366667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Moncagua
+@country=El Salvador
+@lat=13.5333333
+@long=-88.25
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Metapan
+@country=El Salvador
+@lat=14.3333333
+@long=-89.45
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Mejicanos
+@country=El Salvador
+@lat=13.7402778
+@long=-89.2130556
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Lolotique
+@country=El Salvador
+@lat=13.55
+@long=-88.35
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=La Union
+@country=El Salvador
+@lat=13.3369444
+@long=-87.8438889
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=La Libertad
+@country=El Salvador
+@lat=13.4883333
+@long=-89.3222222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Jujutla
+@country=El Salvador
+@lat=13.7869444
+@long=-89.8572222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Jucuaran
+@country=El Salvador
+@lat=13.2538889
+@long=-88.2477778
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Jucuapa
+@country=El Salvador
+@lat=13.5166667
+@long=-88.3833333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Juayua
+@country=El Salvador
+@lat=13.8413889
+@long=-89.7455556
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Jocoro
+@country=El Salvador
+@lat=13.6166667
+@long=-88.0166667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Jiquilisco
+@country=El Salvador
+@lat=13.3166667
+@long=-88.5833333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Izalco
+@country=El Salvador
+@lat=13.7447222
+@long=-89.6730556
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Intipuca
+@country=El Salvador
+@lat=13.1969444
+@long=-88.0544444
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Ilopango
+@country=El Salvador
+@lat=13.7016667
+@long=-89.1094444
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Guazapa
+@country=El Salvador
+@lat=13.8769444
+@long=-89.1730556
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Guaymango
+@country=El Salvador
+@lat=13.7502778
+@long=-89.8422222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Guatajiagua
+@country=El Salvador
+@lat=13.6666667
+@long=-88.2
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=El Transito
+@country=El Salvador
+@lat=13.35
+@long=-88.35
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=El Rosario
+@country=El Salvador
+@lat=13.4977778
+@long=-89.0297222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=El Paisnal
+@country=El Salvador
+@lat=13.9736111
+@long=-89.2186111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=El Congo
+@country=El Salvador
+@lat=13.9088889
+@long=-89.4958333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Delgado
+@country=El Salvador
+@lat=13.7241667
+@long=-89.1702778
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Cuscatancingo
+@country=El Salvador
+@lat=13.7361111
+@long=-89.1813889
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Corinto
+@country=El Salvador
+@lat=13.8108333
+@long=-87.9713889
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Conchagua
+@country=El Salvador
+@lat=13.3077778
+@long=-87.8647222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Concepcion de Ataco
+@country=El Salvador
+@lat=13.8702778
+@long=-89.8486111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Concepcion Batres
+@country=El Salvador
+@lat=13.35
+@long=-88.3666667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Cojutepeque
+@country=El Salvador
+@lat=13.7166667
+@long=-88.9333333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Coatepeque
+@country=El Salvador
+@lat=13.9286111
+@long=-89.5041667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Ciudad Barrios
+@country=El Salvador
+@lat=13.7666667
+@long=-88.2666667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Ciudad Arce
+@country=El Salvador
+@lat=13.8402778
+@long=-89.4472222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Chirilagua
+@country=El Salvador
+@lat=13.2202778
+@long=-88.1386111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Chinameca
+@country=El Salvador
+@lat=13.5
+@long=-88.35
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Chapeltique
+@country=El Salvador
+@lat=13.6333333
+@long=-88.2666667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Chalchuapa
+@country=El Salvador
+@lat=13.9866667
+@long=-89.6811111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Chalatenango
+@country=El Salvador
+@lat=14.0333333
+@long=-88.9333333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Candelaria de La Frontera
+@country=El Salvador
+@lat=14.1166667
+@long=-89.65
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Cacaopera
+@country=El Salvador
+@lat=13.7666667
+@long=-88.0833333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Berlin
+@country=El Salvador
+@lat=13.5
+@long=-88.5333333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Ayutuxtepeque
+@country=El Salvador
+@lat=13.7455556
+@long=-89.2063889
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Atiquizaya
+@country=El Salvador
+@lat=13.9769444
+@long=-89.7525
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Armenia
+@country=El Salvador
+@lat=13.7436111
+@long=-89.4988889
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Apopa
+@country=El Salvador
+@lat=13.8072222
+@long=-89.1791667
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Apastepeque
+@country=El Salvador
+@lat=13.6666667
+@long=-88.7833333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Antiguo Cuscatlan
+@country=El Salvador
+@lat=13.6730556
+@long=-89.2408333
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Anamoros
+@country=El Salvador
+@lat=13.7405556
+@long=-87.8736111
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Ahuachapan
+@country=El Salvador
+@lat=13.9213889
+@long=-89.845
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Aguilares
+@country=El Salvador
+@lat=13.9572222
+@long=-89.1897222
+@timezone=-6.000000
+@dst=328
+@create
+
+@city=Acajutla
+@country=El Salvador
+@lat=13.5927778
+@long=-89.8275
+@timezone=-6.000000
+@dst=328
+@create
+

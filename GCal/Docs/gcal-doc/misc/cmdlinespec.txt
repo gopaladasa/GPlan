@@ -1,0 +1,370 @@
+COMMAND LINE SPECIFICATION
+for GCAL version 1.3.2
+
+
+AUTHOR: Gopalapriya Das
+COPYRIGHT (c) 2008 ISKCON GBC, Vaisnava Calendar Comitee
+
+
+CONTENTS
+================
+
+1. INTRODUCTION
+2. VALUE SPECIFICATOR
+3. REQUESTS DESCRIPTION
+4. FORMAT OF VALUES
+5. DOCUMENT HISTORY
+
+
+1. INTRODUCTION
+================
+
+Request for additional information in output requires reworked structure 
+of the command line for GCAL application. Functionality is the the same, but
+form of command line is NOT compatible with previous version. Therefore little
+adjustment to existing usage of gcal in console mode is required.
+
+Structure of command line is more structured, simplier and easier to understand.
+It allows simplier usage of application.
+
+Each command line is divided into two parts:
+1) name of program (in this case gcal.exe)
+2) list of arguments
+
+List of arguments consists from either pairs of strings, or single strings.
+If string in argument is starting with character - (minus) then program
+takes this as value specificator and next string is taken as value of this 
+specificator.
+
+More will say example:
+----------------------
+
+gcal.exe -R calendar -L 47N50;70E20 -N "Some Location" -SG 1-10-2008 EC 30 -O out.xml
+
+-R is value specificator
+calendar is value
+-L is value specificator
+47N50;70E20 is value
+-SG is value specificator
+1-10-2008 is value
+
+etc.
+
+2. VALUE SPECIFICATOR
+=====================
+
+What are possible values of specificator?
+-----------------------------------------
+-R    Request              command for this session
+-L    Location             contains latitude and longitude
+-TZ   Time Zone            contains timezone value for location
+-N    Name of location     string, name of location
+-SG   Start Gregorian date  contains starting date in gregorian epoch
+-SV   Start Vaisnava date   contains starting date in Gaurabda epoch
+-EG   End Gregorian date    contains ending date in gregorian epoch
+-EV   End Vaisnava date     contains ending date in Gaurabda epoch
+-EC   End Count             count of days calculated
+-DST  Daylight Saving Time  name of the DST system
+-O    Output file           name for output file
+
+Of course, these specificators are NOT used every time all together. They
+are used specificaly for given request. More about specific usage for each 
+request is in the next chapter.
+
+
+3. REQUEST DESCRIPTION
+======================
+
+3.1 Calendar Calculation
+------------------------
+
+General usage format is:
+
+   gcal.exe -R calendar -L <location> -N <loc_name> (-SG|-SV) <start_date> (-EG|-EV|-EC) <end_date> [-DST] <dst-system> -O <out_file>
+
+Note that specificator -SG and -SV cannot be used simultaneously. Also
+-EG, -EV and -EC cannot be used in this way. But it is possible to use -SG with 
+-EV, or -SV with -EG, or -SG with -EC.
+
+Example:
+
+gcal.exe -R calendar -L 47N20;70E30 -N "Location A" -TZ 5:30 -SG 1-10-2008 -EC 30 -O "out.xml"
+
+  explanation: for latitude 47N20, longitude 50E30 and timezone 5:30
+    calculates from date October 1, 2008 for 30 days, result writes into
+    file out.xml
+
+gcal.exe -R calendar -L 47N20;70E30 -N "Location A" -TZ 5:30 -SG 1-10-2008 -EG 30-11-2008 -O "out.xml"
+
+  explanation: for latitude 47N20, longitude 50E30 and timezone 5:30
+    calculates from date October 1, 2008 until November 30, 2008,
+    result writes into file out.xml
+
+gcal.exe -R calendar -L 47N20;70E30 -N "Location A" -TZ 5:30 -SV Pratipat-K-Narayana-500 -EG 30-11-2008 -O "out.xml"
+
+  explanation: for latitude 47N20, longitude 50E30 and timezone 5:30
+    calculates from date Pratipat, Krsna Paksa, Narayana Masa, Gaurabda 500
+    until November 30, 2008, result writes into file out.xml.
+    This last example is significant. It IS possible to combine various ways
+    in specifying date range, but we must be sure, that staring date is 
+    preceeding end date. Otherwise gcal will return no results (it will finish
+    succesfully, without error, but also without results)
+
+3.2 Sankranti Calculation
+-------------------------
+
+gcal.exe -R sankranti -L <location> -N <loc_name> (-SG|-SV) <start_date> (-EG|-EV|-EC) <end_date> -O <out_file>
+
+Usage is the same as for calendar request.
+
+3.3 Naksatra Calculation
+------------------------
+
+gcal.exe -R naksatra -L <location> -N <loc_name> (-SG|-SV) <start_date> (-EG|-EV|-EC) <end_date> -O <out_file>
+
+Usage is the same as for calendar request.
+
+This is replacing old commands naksatra and gnaksatra in previous version 
+of gcal.
+
+3.4 Gaurabda Calendar calculation
+---------------------------------
+
+This request is for simplified usage of gcal console application.
+
+gcal.exe -R gcalendar -L <location> -N <loc_name> -SG <start_date> -O <out_file>
+
+-Sg (start date) can be just year, no need for entering month or day.
+
+Example
+
+  gcal.exe -R gcalendar -L 1N20;10W20 -N "No Location" -SG 2008 -O "out.txt"
+
+If you will enter complete date for -SG tag, gcal will take only year, and
+and day and month will ignore. Then it calculates first day of Gaurabda year
+for given Gregorian year.
+
+3.5 Tithi calculation with Gaurabda spec
+----------------------------------------
+
+gcal.exe -R gtithi -L <location> -N <loc_name> -SV <start_date> -EV <end_date> -O <output_file>
+
+Example
+
+   gcal.exe -R gtithi -L 1N20;10W20 -N "No Location" -SV pratipat-k-visnu-520
+          -EV pratipat-k-madhusudana-520 -O "out.xml"
+
+3.6 Appearance Day calculation
+------------------------------
+
+gcal.exe -R appday -L <location> -N <loc_name> -SG <start_date> -ST <start_time> -O <output_file>
+
+3.7 Tithi Calculation
+---------------------
+
+gcal.exe -R tithi -L <location> -N <loc_name> [-SG|-SV] <start_date> -O <output_file>
+
+3.8 First Day of Year calculation
+---------------------------------
+
+gcal.exe -R firstday -L <location> -N <loc_name> -SG <start_date> -O <output_file>
+
+3.9 Next Celebration calculation
+--------------------------------
+
+gcal.exe -R next -L <location> -N <loc_name> -SG <start_date> -SV <find_tithi> -O <output_file>
+
+Example
+  We want to calculate when to celebrate Pratipat Tithi in Gaura Paksa of Visnu 
+  Masa which should occur after 5th of July 2010. Location will be Delhi.
+  This will be command line:
+  
+  gcal.exe -R next -L 28N40;77E13 -N "Delhi, India" -SG 5-6-2010 -SV pratipat-g-visnu-500 -O "example_1.xml"
+  
+  Date given in tag -SV is given with year, but for calculation this year will 
+  be ignored, since we are calculating celebration of that event.
+  
+
+4. FORMAT OF VALUES
+===================
+
+Each value has specific format, which is described in this chapter.
+
+4.1 Location
+------------
+
+Location has two values - latitude and longitude - separated by delimiter ';'
+Order of this values is specified by their usage. Gcal will recognize that
+N and S are delimiters for latitude, whereas E and W are delimiters for
+longitude.
+
+So both formats are acceptable:
+
+47N00;50E30 and also 50E30;47N00
+
+It is also possible to use floating point numbers in specification of latitude
+and longitude, but in this case the order is specified: first value is longitude
+and second is latitude.
+
+So value 
+   50.5;47.0 
+is recognized as longitude 50E30 and latitude 47N00
+
+
+4.2 Name of location
+--------------------
+
+This value is not mandatory, but is it for better information for user,
+who will read result of this calculation. It proides human readable name
+for location.
+
+Name of the location should be enclosed in quotes.
+
+Example
+
+"Vrndavan, India"
+"Delhi [India]"
+
+
+4.3 Timezone
+-------------
+
+Examples
+
+value      interpreted as
+5:30       +5:30
+5.5        +5:30
+-10:00     -10:00
+-7.75      -7:45
+
+4.4 Date given in gregorian epoch
+---------------------------------
+
+This applies to specificators -SG and -EG.
+
+Date in gregorian format has 3 components:
+- date
+- month
+- year
+
+Components of date are separated by '-' or '/'.
+It is possible to enter incomplete date. In this case values for particular
+component of date are set as default.
+
+Examples
+
+value          interpreted as
+1-10-2008      October 1, 2008
+1-may-2007     May 1, 2008
+3-2008         March 1, 2008 (day is not entered, value 1 is default)
+2010           January 1, 2008 (day and month not entered, value 1 is default)
+
+
+4.5 Date given in gaurabda epoch
+--------------------------------
+
+This aplies to specificators -SV and -EV.
+
+Date in gaurabda format has 4 components:
+- tithi
+- paksa
+- masa
+- year
+
+Components of date are separated by '-' or '/'.
+It is possible to enter incomplete date. In this case values for particular
+component of date are set as default.
+
+Examples
+value                  interpreted as
+pratipat-g-visnu-520   Pratipat Tithi, Gaura Paksa, Visnu Masa, Year 520
+k-madhusudana-510      Pratipat Tithi, Krsna paksa, Madhusudana Masa, 510
+sridhara-525           Pratipat Tithi, Krsna Paksa, Sridhara Masa, 525
+530                    Pratipat, Krsna Paksa, Visnu Masa, 530
+1-0-1-520              Pratipat, Krsna Paksa, Visnu Masa, 520
+
+Values for tithi component:
+
+number text
+------ -------
+1      pratipat (default)
+2      dvitiya
+3      tritiya
+4      caturti
+5      pancami
+6      sasti
+7      saptami
+8      astami
+9      navami
+10     dasami
+11     ekadasi
+12     dvadasi
+13     trayodasi
+14     caturdasi
+15     purnima or amavasya
+
+Values for paksa component
+
+number  text
+------- ------
+0       krsna  (default)
+1       gaura
+
+Values for masa component
+
+number  text
+------- -----------
+1       visnu      (default)
+2       madhusudana
+3       trivikrama
+4       vamana
+5       sridhara
+6       hrsikesa
+7       padmanabha
+8       damodara
+9       kesava
+10      narayana
+11      madhava
+12      govinda
+13      purusottama
+
+
+4.6 Count of days
+-------------------
+
+This applies to specificator -EC.
+Contains number of days.
+Correct values are in the range 1..84000
+
+
+4.7 Output file name
+---------------------
+
+File name should be enclosed in quotes.
+
+"oot.xml"
+"c:\public\output.xml"
+
+If output file name is not specified, then output is redirected to standard
+output.
+
+4.8 DST system
+---------------
+
+DST system is specified be international standard string.
+
+Examples
+
+"America/New_York"
+"Asia/Calcuta"
+"Europe/Prague"
+... etc......
+
+Possible values are defined here:
+http://download.geonames.org/export/dump/
+
+5. Document History
+====================
+
+Version   Date         Comment
+1.0       23 Oct 2008  Initial version of console app usage

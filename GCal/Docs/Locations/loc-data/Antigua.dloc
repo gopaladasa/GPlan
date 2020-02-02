@@ -1,0 +1,40 @@
+@city=Saint Johns
+@country=Antigua
+@lat=17.1166667
+@long=-61.85
+@timezone=-4.000000
+@dst=4
+@create
+
+@city=Potters Village
+@country=Antigua
+@lat=17.0833333
+@long=-61.8166667
+@timezone=-4.000000
+@dst=4
+@create
+
+@city=Liberta
+@country=Antigua
+@lat=17.0333333
+@long=-61.7833333
+@timezone=-4.000000
+@dst=4
+@create
+
+@city=Bolans
+@country=Antigua
+@lat=17.0333333
+@long=-61.8833333
+@timezone=-4.000000
+@dst=4
+@create
+
+@city=All Saints
+@country=Antigua
+@lat=17.05
+@long=-61.8
+@timezone=-4.000000
+@dst=4
+@create
+

@@ -1,0 +1,80 @@
+@city=West End
+@country=Bahamas
+@lat=26.6833333
+@long=-78.9666667
+@timezone=-5.000000
+@dst=75
+@create
+
+@city=Rock Sound
+@country=Bahamas
+@lat=24.9
+@long=-76.2
+@timezone=-5.000000
+@dst=75
+@create
+
+@city=Nassau
+@country=Bahamas
+@lat=25.0833333
+@long=-77.35
+@timezone=-5.000000
+@dst=75
+@create
+
+@city=Marsh Harbour
+@country=Bahamas
+@lat=26.55
+@long=-77.05
+@timezone=-5.000000
+@dst=75
+@create
+
+@city=Lucaya
+@country=Bahamas
+@lat=26.5333333
+@long=-78.6666667
+@timezone=-5.000000
+@dst=75
+@create
+
+@city=High Rock
+@country=Bahamas
+@lat=26.6208333
+@long=-78.2833333
+@timezone=-5.000000
+@dst=75
+@create
+
+@city=Dunmore Town
+@country=Bahamas
+@lat=25.5
+@long=-76.65
+@timezone=-5.000000
+@dst=75
+@create
+
+@city=Coopers Town
+@country=Bahamas
+@lat=26.8666667
+@long=-77.5166667
+@timezone=-5.000000
+@dst=75
+@create
+
+@city=Clarence Town
+@country=Bahamas
+@lat=23.1
+@long=-74.9833333
+@timezone=-5.000000
+@dst=75
+@create
+
+@city=Andros Town
+@country=Bahamas
+@lat=24.7
+@long=-77.7666667
+@timezone=-5.000000
+@dst=75
+@create
+

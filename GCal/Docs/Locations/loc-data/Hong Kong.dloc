@@ -1,0 +1,16 @@
+@city=Kowloon
+@country=Hong Kong
+@lat=22.3166667
+@long=114.1833333
+@timezone=8.000000
+@dst=176
+@create
+
+@city=Hong Kong
+@country=Hong Kong
+@lat=22.2840136009625
+@long=114.15007352829
+@timezone=8.000000
+@dst=176
+@create
+

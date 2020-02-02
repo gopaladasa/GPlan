@@ -1,0 +1,1760 @@
+@city=Aceitunas
+@country=Puerto Rico
+@lat=18.4432783
+@long=-67.0649026
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Adjuntas
+@country=Puerto Rico
+@lat=18.1584934328762
+@long=-66.8017673492432
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Aguada
+@country=Puerto Rico
+@lat=18.3793913
+@long=-67.1882365
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Aguadilla
+@country=Puerto Rico
+@lat=18.4274454
+@long=-67.1540698
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Aguas Buenas
+@country=Puerto Rico
+@lat=18.2568989
+@long=-66.1029442
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Aguas Claras
+@country=Puerto Rico
+@lat=18.252734
+@long=-65.6534952
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Aguilita
+@country=Puerto Rico
+@lat=18.0232976
+@long=-66.5346166
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Aibonito
+@country=Puerto Rico
+@lat=18.1399594
+@long=-66.2660016
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Anasco
+@country=Puerto Rico
+@lat=18.2827291
+@long=-67.1396245
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Animas
+@country=Puerto Rico
+@lat=18.4455016
+@long=-66.6348964
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Anton Ruiz
+@country=Puerto Rico
+@lat=18.1852367
+@long=-65.8084959
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Arecibo
+@country=Puerto Rico
+@lat=18.472445
+@long=-66.7157306
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Arecibo Gardens
+@country=Puerto Rico
+@lat=18.4621678
+@long=-66.7243418
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Arroyo
+@country=Puerto Rico
+@lat=17.9658005
+@long=-66.0612756
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Bairoa
+@country=Puerto Rico
+@lat=18.2591206
+@long=-66.0404432
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Bajadero
+@country=Puerto Rico
+@lat=18.4266134
+@long=-66.6832302
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Bajandas
+@country=Puerto Rico
+@lat=18.1577384
+@long=-65.7815509
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Barahona
+@country=Puerto Rico
+@lat=18.3513393
+@long=-66.4454485
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Barceloneta
+@country=Puerto Rico
+@lat=18.4505017
+@long=-66.5385055
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Barranquitas
+@country=Puerto Rico
+@lat=18.1866243
+@long=-66.3062802
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Bartolo
+@country=Puerto Rico
+@lat=18.361339
+@long=-65.8384971
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Bayamon
+@country=Puerto Rico
+@lat=18.3985595
+@long=-66.1557224
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Bayamon
+@country=Puerto Rico
+@lat=18.1777357
+@long=-66.1132217
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Bayamon Gardens
+@country=Puerto Rico
+@lat=18.377727
+@long=-66.1798894
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Benitez
+@country=Puerto Rico
+@lat=18.2735652
+@long=-65.8790525
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Boqueron
+@country=Puerto Rico
+@lat=18.0269067
+@long=-67.169068
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Boqueron
+@country=Puerto Rico
+@lat=18.2074574
+@long=-65.8484966
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Brenas
+@country=Puerto Rico
+@lat=18.4671678
+@long=-66.3410028
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Buena Vista
+@country=Puerto Rico
+@lat=17.9963547
+@long=-66.0518311
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Bufalo
+@country=Puerto Rico
+@lat=18.4182804
+@long=-66.5732282
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Caban
+@country=Puerto Rico
+@lat=18.4432783
+@long=-67.1360143
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Cabo Rojo
+@country=Puerto Rico
+@lat=18.0866265
+@long=-67.1457347
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Cacao
+@country=Puerto Rico
+@lat=18.4366125
+@long=-66.9371226
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Caguas
+@country=Puerto Rico
+@lat=18.2341217
+@long=-66.0484989
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Campanilla
+@country=Puerto Rico
+@lat=18.4213363
+@long=-66.2368345
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Campo Rico
+@country=Puerto Rico
+@lat=18.3371732
+@long=-65.8979419
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Camuy
+@country=Puerto Rico
+@lat=18.4838331
+@long=-66.8448994
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Candelaria
+@country=Puerto Rico
+@lat=18.4168343546816
+@long=-66.2178611755371
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Candelaria Arenas
+@country=Puerto Rico
+@lat=18.4171697
+@long=-66.2173898
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Candelero Arriba
+@country=Puerto Rico
+@lat=18.1019071
+@long=-65.8368288
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Canovanas
+@country=Puerto Rico
+@lat=18.3777268
+@long=-65.9062756
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Capitanejo
+@country=Puerto Rico
+@lat=17.9913537
+@long=-66.4946164
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Carolina
+@country=Puerto Rico
+@lat=18.3807819
+@long=-65.9573872
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Carrizales
+@country=Puerto Rico
+@lat=18.4818891
+@long=-66.7898983
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Catano
+@country=Puerto Rico
+@lat=18.4413351
+@long=-66.1182218
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Cayey
+@country=Puerto Rico
+@lat=18.1119051
+@long=-66.166
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Cayuco
+@country=Puerto Rico
+@lat=18.2910639
+@long=-66.7393414
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Ceiba
+@country=Puerto Rico
+@lat=18.2641226
+@long=-65.6484951
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Ceiba
+@country=Puerto Rico
+@lat=18.4463353
+@long=-66.3507251
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Celada
+@country=Puerto Rico
+@lat=18.2716202
+@long=-65.9659977
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Central Aguirre
+@country=Puerto Rico
+@lat=17.9535782
+@long=-66.222945
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Ciales
+@country=Puerto Rico
+@lat=18.3360622
+@long=-66.4687823
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Cidra
+@country=Puerto Rico
+@lat=18.1757914
+@long=-66.1612779
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Coamo
+@country=Puerto Rico
+@lat=18.0799617
+@long=-66.3579473
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Coco
+@country=Puerto Rico
+@lat=18.0071869
+@long=-66.2593344
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Comerio
+@country=Puerto Rico
+@lat=18.2180119
+@long=-66.2260012
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Comunas
+@country=Puerto Rico
+@lat=18.0871855
+@long=-65.8437732
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Coqui
+@country=Puerto Rico
+@lat=17.9741328
+@long=-66.2271118
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Corazon
+@country=Puerto Rico
+@lat=17.9927436
+@long=-66.0848873
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Corcovado
+@country=Puerto Rico
+@lat=18.4585569
+@long=-66.7762868
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Corozal
+@country=Puerto Rico
+@lat=18.3410622
+@long=-66.3168357
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Coto Laurel
+@country=Puerto Rico
+@lat=18.0496857
+@long=-66.5512835
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Coto Norte
+@country=Puerto Rico
+@lat=18.4307804
+@long=-66.4398929
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Culebra
+@country=Puerto Rico
+@lat=18.3030119
+@long=-65.3009914
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Daguao
+@country=Puerto Rico
+@lat=18.2263463
+@long=-65.6832172
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Dorado
+@country=Puerto Rico
+@lat=18.4588347
+@long=-66.2676683
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Duque
+@country=Puerto Rico
+@lat=18.2394011
+@long=-65.7504401
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=El Mango
+@country=Puerto Rico
+@lat=18.2341225
+@long=-65.879608
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=El Negro
+@country=Puerto Rico
+@lat=18.0374654
+@long=-65.8512729
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=El Ojo
+@country=Puerto Rico
+@lat=18.0038537
+@long=-66.3915585
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Emajagua
+@country=Puerto Rico
+@lat=18.0005224
+@long=-65.8826621
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Esperanza
+@country=Puerto Rico
+@lat=18.0971868
+@long=-65.4707144
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Espino
+@country=Puerto Rico
+@lat=18.2763407
+@long=-67.1193464
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Estancias de Florida
+@country=Puerto Rico
+@lat=18.3666159
+@long=-66.569617
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Fajardo
+@country=Puerto Rico
+@lat=18.3257869
+@long=-65.6523838
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Florida
+@country=Puerto Rico
+@lat=18.3624494
+@long=-66.5612836
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Franquez
+@country=Puerto Rico
+@lat=18.3402287
+@long=-66.4276706
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Fuig
+@country=Puerto Rico
+@lat=17.9877435
+@long=-66.9160095
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=G. L. Garcia
+@country=Puerto Rico
+@lat=18.1274601
+@long=-66.1040547
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Galateo
+@country=Puerto Rico
+@lat=18.3624501
+@long=-66.2587795
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Garrochales
+@country=Puerto Rico
+@lat=18.453557
+@long=-66.5662837
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Guanica
+@country=Puerto Rico
+@lat=17.971633
+@long=-66.9079537
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Guayabal
+@country=Puerto Rico
+@lat=18.0813507
+@long=-66.5012833
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Guayama
+@country=Puerto Rico
+@lat=17.9841328
+@long=-66.1137767
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Guayanilla
+@country=Puerto Rico
+@lat=18.0191314
+@long=-66.791842
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Guaynabo
+@country=Puerto Rico
+@lat=18.3574502
+@long=-66.1109998
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Gurabo
+@country=Puerto Rico
+@lat=18.2543987
+@long=-65.9729421
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=H. Rivera Colon
+@country=Puerto Rico
+@lat=18.3477285
+@long=-66.2737797
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Hatillo
+@country=Puerto Rico
+@lat=18.4863331
+@long=-66.8254545
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Hato Candal
+@country=Puerto Rico
+@lat=18.3743944
+@long=-65.7871076
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Hormigueros
+@country=Puerto Rico
+@lat=18.1396799
+@long=-67.1274019
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Imbery
+@country=Puerto Rico
+@lat=18.436891
+@long=-66.5523946
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Indios
+@country=Puerto Rico
+@lat=17.9941326
+@long=-66.8193421
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Ingenio
+@country=Puerto Rico
+@lat=18.4421686
+@long=-66.226001
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Humacao
+@country=Puerto Rico
+@lat=18.1496828
+@long=-65.8273847
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Isabela
+@country=Puerto Rico
+@lat=18.500776
+@long=-67.0243462
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Jagual
+@country=Puerto Rico
+@lat=18.1616255
+@long=-65.9954419
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Jauca
+@country=Puerto Rico
+@lat=17.9691331
+@long=-66.3657246
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Jayuya
+@country=Puerto Rico
+@lat=18.2185674
+@long=-66.5915617
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Jobos
+@country=Puerto Rico
+@lat=17.9552449
+@long=-66.1654442
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Juana Diaz
+@country=Puerto Rico
+@lat=18.0524629
+@long=-66.5065611
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Juncal
+@country=Puerto Rico
+@lat=18.3138402
+@long=-66.9190661
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Juncos
+@country=Puerto Rico
+@lat=18.2274558
+@long=-65.920997
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=La Alianza
+@country=Puerto Rico
+@lat=18.3974475
+@long=-66.6023952
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=La Dolores
+@country=Puerto Rico
+@lat=18.3755049
+@long=-65.8557195
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=La Fermina
+@country=Puerto Rico
+@lat=18.1755145
+@long=-65.8534963
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=La Luisa
+@country=Puerto Rico
+@lat=18.4488352
+@long=-66.5098939
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=La Parguera
+@country=Puerto Rico
+@lat=17.9749654
+@long=-67.0465664
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=La Playa
+@country=Puerto Rico
+@lat=18.2874507
+@long=-67.1868475
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=La Plena
+@country=Puerto Rico
+@lat=18.0466298
+@long=-66.2046116
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Lajas
+@country=Puerto Rico
+@lat=18.049962
+@long=-67.059345
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Lamboglia
+@country=Puerto Rico
+@lat=17.9813556
+@long=-65.9857188
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Lares
+@country=Puerto Rico
+@lat=18.2946746
+@long=-66.8771211
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Las Marias
+@country=Puerto Rico
+@lat=18.2932843
+@long=-67.1462914
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Las Marias
+@country=Puerto Rico
+@lat=18.2518983
+@long=-66.9921225
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Las Ochenta
+@country=Puerto Rico
+@lat=17.984688
+@long=-66.3179461
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Las Ollas
+@country=Puerto Rico
+@lat=18.0330192
+@long=-66.4243372
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Las Piedras
+@country=Puerto Rico
+@lat=18.183014
+@long=-65.8662742
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Levittown
+@country=Puerto Rico
+@lat=18.4499458
+@long=-66.1815558
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Liborio Negron Torres
+@country=Puerto Rico
+@lat=18.0430186
+@long=-66.9423989
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Lluveras
+@country=Puerto Rico
+@lat=18.0382969
+@long=-66.9046209
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Loiza
+@country=Puerto Rico
+@lat=18.4313354
+@long=-65.8801645
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Los Llanos
+@country=Puerto Rico
+@lat=18.0552406
+@long=-66.4057259
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Luis Llorens Torres
+@country=Puerto Rico
+@lat=18.0569074
+@long=-66.5268389
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Luis M. Cintron
+@country=Puerto Rico
+@lat=18.299677
+@long=-65.6384948
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Luquillo
+@country=Puerto Rico
+@lat=18.3724507
+@long=-65.7165511
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Luyando
+@country=Puerto Rico
+@lat=18.3643923
+@long=-67.1574031
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Magas Arriba
+@country=Puerto Rico
+@lat=18.0174648
+@long=-66.7690639
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Manati
+@country=Puerto Rico
+@lat=18.4294257370854
+@long=-66.487455368042
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Maria Antonia
+@country=Puerto Rico
+@lat=17.9782996
+@long=-66.8893425
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Mariano Colon
+@country=Puerto Rico
+@lat=18.0232974
+@long=-66.3323909
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Maricao
+@country=Puerto Rico
+@lat=18.1807902
+@long=-66.9799001
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Martorell
+@country=Puerto Rico
+@lat=18.0760744
+@long=-65.898218
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Maunabo
+@country=Puerto Rico
+@lat=18.0071885
+@long=-65.8993289
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Miranda
+@country=Puerto Rico
+@lat=18.3866158
+@long=-66.3837811
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Moca
+@country=Puerto Rico
+@lat=18.3946688
+@long=-67.1132356
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Monserrate
+@country=Puerto Rico
+@lat=18.4366136
+@long=-66.3596141
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Monte Grande
+@country=Puerto Rico
+@lat=18.08746
+@long=-67.1074013
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Mora
+@country=Puerto Rico
+@lat=18.4629997
+@long=-67.0326798
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Morovis
+@country=Puerto Rico
+@lat=18.325785
+@long=-66.4065592
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Mucarabones
+@country=Puerto Rico
+@lat=18.3907821
+@long=-66.216001
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Mayagueez
+@country=Puerto Rico
+@lat=18.201066
+@long=-67.139624
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Naguabo
+@country=Puerto Rico
+@lat=18.2116247
+@long=-65.7348841
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Naranjito
+@country=Puerto Rico
+@lat=18.3007861
+@long=-66.2448904
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Olimpo
+@country=Puerto Rico
+@lat=18.0019099
+@long=-66.1082211
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Pajaros
+@country=Puerto Rico
+@lat=18.3685609
+@long=-66.2168343
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Palmarejo
+@country=Puerto Rico
+@lat=18.0680177
+@long=-66.3254467
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Palmarejo
+@country=Puerto Rico
+@lat=18.0402402
+@long=-67.076845
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Palmas
+@country=Puerto Rico
+@lat=17.9871886
+@long=-66.0254417
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Palmer
+@country=Puerto Rico
+@lat=18.3705058
+@long=-65.7740519
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Palo Seco
+@country=Puerto Rico
+@lat=18.0074659
+@long=-65.9368293
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Palomas
+@country=Puerto Rico
+@lat=18.2324556
+@long=-66.2562795
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Palomas
+@country=Puerto Rico
+@lat=18.013576
+@long=-66.8732316
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Parcelas La Milagrosa
+@country=Puerto Rico
+@lat=18.1707916
+@long=-66.1882227
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Parcelas Nuevas
+@country=Puerto Rico
+@lat=18.1402372
+@long=-66.1723891
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Parcelas Penuelas
+@country=Puerto Rico
+@lat=17.9988539
+@long=-66.3412797
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Pastos
+@country=Puerto Rico
+@lat=18.117738
+@long=-66.2587793
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Patillas
+@country=Puerto Rico
+@lat=18.0063544
+@long=-66.0157194
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Pena Pobre
+@country=Puerto Rico
+@lat=18.2155129
+@long=-65.8221074
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Penuelas
+@country=Puerto Rico
+@lat=18.0563518
+@long=-66.7215633
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Piedra Gorda
+@country=Puerto Rico
+@lat=18.4341129
+@long=-66.8876774
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Playa Fortuna
+@country=Puerto Rico
+@lat=18.3796724
+@long=-65.7451628
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Playita
+@country=Puerto Rico
+@lat=18.0446869
+@long=-65.9073847
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Playita Cortada
+@country=Puerto Rico
+@lat=17.9849653
+@long=-66.4390594
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Pole Ojea
+@country=Puerto Rico
+@lat=17.9749646
+@long=-67.1851793
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Ponce
+@country=Puerto Rico
+@lat=18.0110768
+@long=-66.6140616
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Potala Pastillo
+@country=Puerto Rico
+@lat=17.9913537
+@long=-66.4965608
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Pueblito del Rio
+@country=Puerto Rico
+@lat=18.2280119
+@long=-65.8629412
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Puerto Real
+@country=Puerto Rico
+@lat=18.0749601
+@long=-67.1871243
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Punta Santiago
+@country=Puerto Rico
+@lat=18.1663493
+@long=-65.7482172
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Quebrada
+@country=Puerto Rico
+@lat=18.3566164
+@long=-66.8321206
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Quebradillas
+@country=Puerto Rico
+@lat=18.473833
+@long=-66.938512
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Rafael Capo
+@country=Puerto Rico
+@lat=18.40717
+@long=-66.7821202
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Rafael Gonzalez
+@country=Puerto Rico
+@lat=18.4274469
+@long=-66.7868424
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Rafael Hernandez
+@country=Puerto Rico
+@lat=18.4713327
+@long=-67.0790693
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Ramos
+@country=Puerto Rico
+@lat=18.3396747
+@long=-65.7126621
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Rincon
+@country=Puerto Rico
+@lat=18.3402252
+@long=-67.2499027
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Rio Blanco
+@country=Puerto Rico
+@lat=18.2182908
+@long=-65.7884959
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Rio Canas Abajo
+@country=Puerto Rico
+@lat=18.0382968
+@long=-66.4676716
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Rio Grande
+@country=Puerto Rico
+@lat=18.380227
+@long=-65.8312749
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Rio Lajas
+@country=Puerto Rico
+@lat=18.394671
+@long=-66.2676685
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Rosa Sanchez
+@country=Puerto Rico
+@lat=18.0616306
+@long=-65.913496
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Sabana
+@country=Puerto Rico
+@lat=18.4607792
+@long=-66.358503
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Sabana Eneas
+@country=Puerto Rico
+@lat=18.0860714
+@long=-67.0810122
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Sabana Grande
+@country=Puerto Rico
+@lat=18.0777392
+@long=-66.9604549
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Sabana Hoyos
+@country=Puerto Rico
+@lat=18.4338352
+@long=-66.6137846
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Sabana Seca
+@country=Puerto Rico
+@lat=18.4268914
+@long=-66.1846115
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Salinas
+@country=Puerto Rico
+@lat=17.9774659
+@long=-66.297946
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=San Antonio
+@country=Puerto Rico
+@lat=18.4921651
+@long=-67.098514
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=San Antonio
+@country=Puerto Rico
+@lat=18.4488351
+@long=-66.302669
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=San Antonio
+@country=Puerto Rico
+@lat=18.4516117
+@long=-66.9496229
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=San German
+@country=Puerto Rico
+@lat=18.0816273
+@long=-67.0449008
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=San Isidro
+@country=Puerto Rico
+@lat=18.3921707
+@long=-65.8854421
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=San Jose
+@country=Puerto Rico
+@lat=18.3982819
+@long=-66.2557238
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=San Juan
+@country=Puerto Rico
+@lat=18.4663338
+@long=-66.1057217
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=San Lorenzo
+@country=Puerto Rico
+@lat=18.189402
+@long=-65.9609971
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=San Sebastian
+@country=Puerto Rico
+@lat=18.3366166
+@long=-66.9901782
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Santa Barbara
+@country=Puerto Rico
+@lat=18.3935593
+@long=-65.9187759
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Santa Clara
+@country=Puerto Rico
+@lat=18.2185674
+@long=-66.1287777
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Santa Isabel
+@country=Puerto Rico
+@lat=17.9660775
+@long=-66.404892
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Santo Domingo
+@country=Puerto Rico
+@lat=18.063296
+@long=-66.7523972
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Stella
+@country=Puerto Rico
+@lat=18.3218929
+@long=-67.2468473
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Suarez
+@country=Puerto Rico
+@lat=18.4302244
+@long=-65.8534974
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Sumidero
+@country=Puerto Rico
+@lat=18.2185674
+@long=-66.1287777
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Tallaboa
+@country=Puerto Rico
+@lat=17.9949661
+@long=-66.7162855
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Tallaboa Alta
+@country=Puerto Rico
+@lat=18.0510743
+@long=-66.7001742
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Tierras Nuevas Poniente
+@country=Puerto Rico
+@lat=18.4618902
+@long=-66.4885047
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Toa Alta
+@country=Puerto Rico
+@lat=18.3882823
+@long=-66.2482237
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Toa Baja
+@country=Puerto Rico
+@lat=18.4438353
+@long=-66.2596126
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Trujillo Alto
+@country=Puerto Rico
+@lat=18.3546719
+@long=-66.0073876
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Utuado
+@country=Puerto Rico
+@lat=18.2655095
+@long=-66.7004519
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Vazquez
+@country=Puerto Rico
+@lat=18.0657957
+@long=-66.238501
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Vega Alta
+@country=Puerto Rico
+@lat=18.4121703
+@long=-66.3312805
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Vega Baja
+@country=Puerto Rico
+@lat=18.4443909
+@long=-66.38767
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Vieques
+@country=Puerto Rico
+@lat=18.424947
+@long=-65.8329416
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Vieques
+@country=Puerto Rico
+@lat=18.1474625
+@long=-65.4448811
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Villalba
+@country=Puerto Rico
+@lat=18.1271824
+@long=-66.4921164
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Yabucoa
+@country=Puerto Rico
+@lat=18.0505201
+@long=-65.8793288
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Yauco
+@country=Puerto Rico
+@lat=18.034964
+@long=-66.8498983
+@timezone=-4.000000
+@dst=285
+@create
+
+@city=Yaurel
+@country=Puerto Rico
+@lat=18.026909
+@long=-66.0571092
+@timezone=-4.000000
+@dst=285
+@create
+

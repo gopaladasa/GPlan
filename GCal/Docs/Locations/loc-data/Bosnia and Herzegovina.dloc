@@ -1,0 +1,1760 @@
+@city=Zvornik
+@country=Bosnia and Herzegovina
+@lat=44.3869444
+@long=19.1013889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Zivinice
+@country=Bosnia and Herzegovina
+@lat=44.5472222
+@long=17.375
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Zivinice
+@country=Bosnia and Herzegovina
+@lat=44.4494444
+@long=18.6497222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Zepce
+@country=Bosnia and Herzegovina
+@lat=44.4266667
+@long=18.0377778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Zenica
+@country=Bosnia and Herzegovina
+@lat=44.2013889
+@long=17.9063889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Zeljezno Polje
+@country=Bosnia and Herzegovina
+@lat=44.4083333
+@long=17.9319444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Zboriste
+@country=Bosnia and Herzegovina
+@lat=45.1458333
+@long=16.0177778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Zavidovici
+@country=Bosnia and Herzegovina
+@lat=44.4458333
+@long=18.1497222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Zabrisce
+@country=Bosnia and Herzegovina
+@lat=43.7925
+@long=16.9422222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Vukovije Donje
+@country=Bosnia and Herzegovina
+@lat=44.4636111
+@long=18.7538889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Vrnograc
+@country=Bosnia and Herzegovina
+@lat=45.1636111
+@long=15.9536111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Vozuca
+@country=Bosnia and Herzegovina
+@lat=44.3613889
+@long=18.3577778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Voljevac
+@country=Bosnia and Herzegovina
+@lat=43.8786111
+@long=17.6591667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Vogosca
+@country=Bosnia and Herzegovina
+@lat=43.9019444
+@long=18.3480556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Vlasenica
+@country=Bosnia and Herzegovina
+@lat=44.1819444
+@long=18.9405556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Vitina
+@country=Bosnia and Herzegovina
+@lat=43.2375
+@long=17.4838889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Vitez
+@country=Bosnia and Herzegovina
+@lat=44.1544444
+@long=17.7902778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Visoko
+@country=Bosnia and Herzegovina
+@lat=43.9888889
+@long=18.1780556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Visegrad
+@country=Bosnia and Herzegovina
+@lat=43.7847222
+@long=19.2991667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Vidosi
+@country=Bosnia and Herzegovina
+@lat=43.7713889
+@long=17.0283333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Velika Obarska
+@country=Bosnia and Herzegovina
+@lat=44.8052778
+@long=19.1641667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Velika Kladusa
+@country=Bosnia and Herzegovina
+@lat=45.1894444
+@long=15.8116667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Velagici
+@country=Bosnia and Herzegovina
+@lat=44.5572222
+@long=16.7316667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Varoska Rijeka
+@country=Bosnia and Herzegovina
+@lat=45.0847222
+@long=16.0141667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Vares
+@country=Bosnia and Herzegovina
+@lat=44.1644444
+@long=18.3283333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Ustikolina
+@country=Bosnia and Herzegovina
+@lat=43.5836111
+@long=18.79
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Ugljevik
+@country=Bosnia and Herzegovina
+@lat=44.6636111
+@long=19.0202778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Tuzla
+@country=Bosnia and Herzegovina
+@lat=44.5427778
+@long=18.6694444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Turbe
+@country=Bosnia and Herzegovina
+@lat=44.2436111
+@long=17.5713889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Trzacka Rastela
+@country=Bosnia and Herzegovina
+@lat=44.9733333
+@long=15.7902778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Trn
+@country=Bosnia and Herzegovina
+@lat=44.8597222
+@long=17.2363889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Trebinje
+@country=Bosnia and Herzegovina
+@lat=42.7119444
+@long=18.3441667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Travnik
+@country=Bosnia and Herzegovina
+@lat=44.2266667
+@long=17.6705556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Tojsici
+@country=Bosnia and Herzegovina
+@lat=44.5011111
+@long=18.7855556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Teslic
+@country=Bosnia and Herzegovina
+@lat=44.6063889
+@long=17.8597222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Tesanj
+@country=Bosnia and Herzegovina
+@lat=44.6116667
+@long=17.9872222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Svodna
+@country=Bosnia and Herzegovina
+@lat=45.0372222
+@long=16.5383333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Sumatac
+@country=Bosnia and Herzegovina
+@lat=45.0988889
+@long=15.8575
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Sturlic
+@country=Bosnia and Herzegovina
+@lat=45.0638889
+@long=15.7780556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Stupari
+@country=Bosnia and Herzegovina
+@lat=44.3147222
+@long=18.6841667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Stolac
+@country=Bosnia and Herzegovina
+@lat=43.0844444
+@long=17.9575
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Stjepan-Polje
+@country=Bosnia and Herzegovina
+@lat=44.7172222
+@long=18.2594444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Stijena
+@country=Bosnia and Herzegovina
+@lat=44.9352778
+@long=16.0172222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Srebrenik
+@country=Bosnia and Herzegovina
+@lat=44.7077778
+@long=18.4880556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Srebrenica
+@country=Bosnia and Herzegovina
+@lat=44.1063889
+@long=19.2969444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Srbac
+@country=Bosnia and Herzegovina
+@lat=45.0977778
+@long=17.525
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Solina
+@country=Bosnia and Herzegovina
+@lat=44.5602778
+@long=18.6947222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Sokolac
+@country=Bosnia and Herzegovina
+@lat=43.9397222
+@long=18.8016667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Sladna
+@country=Bosnia and Herzegovina
+@lat=44.7294444
+@long=18.4241667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Skender Vakuf
+@country=Bosnia and Herzegovina
+@lat=44.4908333
+@long=17.3775
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Sipovo
+@country=Bosnia and Herzegovina
+@lat=44.2813889
+@long=17.0838889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Serici
+@country=Bosnia and Herzegovina
+@lat=44.4652778
+@long=18.5580556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Sekovici
+@country=Bosnia and Herzegovina
+@lat=44.2986111
+@long=18.8527778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Sarajevo
+@country=Bosnia and Herzegovina
+@lat=43.85
+@long=18.3833333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Sanski Most
+@country=Bosnia and Herzegovina
+@lat=44.7652778
+@long=16.6655556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Sanica
+@country=Bosnia and Herzegovina
+@lat=44.6141667
+@long=16.6411111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Rumboci
+@country=Bosnia and Herzegovina
+@lat=43.8322222
+@long=17.5011111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Rudo
+@country=Bosnia and Herzegovina
+@lat=43.6177778
+@long=19.3663889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Rogatica
+@country=Bosnia and Herzegovina
+@lat=43.8008333
+@long=19.0025
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Rodoc
+@country=Bosnia and Herzegovina
+@lat=43.3088889
+@long=17.8069444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Radisici
+@country=Bosnia and Herzegovina
+@lat=43.2219444
+@long=17.5430556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Puracic
+@country=Bosnia and Herzegovina
+@lat=44.5469444
+@long=18.4766667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Novi Travnik
+@country=Bosnia and Herzegovina
+@lat=44.1711111
+@long=17.6575
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Prozor
+@country=Bosnia and Herzegovina
+@lat=43.8222222
+@long=17.6091667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Prnjavor
+@country=Bosnia and Herzegovina
+@lat=44.8702778
+@long=17.6627778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Prijedor
+@country=Bosnia and Herzegovina
+@lat=44.9813889
+@long=16.7130556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Priboj
+@country=Bosnia and Herzegovina
+@lat=44.6027778
+@long=18.9313889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Pribinic
+@country=Bosnia and Herzegovina
+@lat=44.6105556
+@long=17.6905556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Potoci
+@country=Bosnia and Herzegovina
+@lat=43.4086111
+@long=17.8786111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Popovi
+@country=Bosnia and Herzegovina
+@lat=44.7655556
+@long=19.2875
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Polje-Bijela
+@country=Bosnia and Herzegovina
+@lat=43.6333333
+@long=17.9722222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Podzvizd
+@country=Bosnia and Herzegovina
+@lat=45.1741667
+@long=15.8736111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Podhum
+@country=Bosnia and Herzegovina
+@lat=43.7230556
+@long=17.0011111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Petkovci
+@country=Bosnia and Herzegovina
+@lat=44.4530556
+@long=19.0761111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Pecigrad
+@country=Bosnia and Herzegovina
+@lat=45.0544444
+@long=15.8969444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Peci
+@country=Bosnia and Herzegovina
+@lat=44.6272222
+@long=16.7861111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Pazaric
+@country=Bosnia and Herzegovina
+@lat=43.7886111
+@long=18.1608333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Pale
+@country=Bosnia and Herzegovina
+@lat=43.8161111
+@long=18.5694444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Otoka
+@country=Bosnia and Herzegovina
+@lat=44.96
+@long=16.1791667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Ostrozac
+@country=Bosnia and Herzegovina
+@lat=44.9086111
+@long=15.9402778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Ostra Luka
+@country=Bosnia and Herzegovina
+@lat=45.0
+@long=18.5883333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Orguz
+@country=Bosnia and Herzegovina
+@lat=43.7738889
+@long=16.8638889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Orasje
+@country=Bosnia and Herzegovina
+@lat=45.0355556
+@long=18.6933333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Orasac
+@country=Bosnia and Herzegovina
+@lat=44.6288889
+@long=16.0711111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Orahovica Donja
+@country=Bosnia and Herzegovina
+@lat=44.6530556
+@long=18.3702778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Omarska
+@country=Bosnia and Herzegovina
+@lat=44.89
+@long=16.8991667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Olovo
+@country=Bosnia and Herzegovina
+@lat=44.13
+@long=18.5827778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Odzak
+@country=Bosnia and Herzegovina
+@lat=45.0111111
+@long=18.3266667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Obudovac
+@country=Bosnia and Herzegovina
+@lat=44.965
+@long=18.6122222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Novi Seher
+@country=Bosnia and Herzegovina
+@lat=44.5102778
+@long=18.0258333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Nevesinje
+@country=Bosnia and Herzegovina
+@lat=43.2586111
+@long=18.1133333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Mrkonjic Grad
+@country=Bosnia and Herzegovina
+@lat=44.4158333
+@long=17.0861111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Mramor
+@country=Bosnia and Herzegovina
+@lat=44.5916667
+@long=18.5644444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Mostar
+@country=Bosnia and Herzegovina
+@lat=43.3433333
+@long=17.8080556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Modrica
+@country=Bosnia and Herzegovina
+@lat=44.9544444
+@long=18.3036111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Mionica
+@country=Bosnia and Herzegovina
+@lat=44.8672222
+@long=18.4630556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Milici
+@country=Bosnia and Herzegovina
+@lat=44.1711111
+@long=19.0902778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Maslovare
+@country=Bosnia and Herzegovina
+@lat=44.5655556
+@long=17.5336111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Maricka
+@country=Bosnia and Herzegovina
+@lat=44.8686111
+@long=16.8405556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Mala Kladusa
+@country=Bosnia and Herzegovina
+@lat=45.1341667
+@long=15.8586111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Mahala
+@country=Bosnia and Herzegovina
+@lat=44.0119444
+@long=18.2552778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Maglajani
+@country=Bosnia and Herzegovina
+@lat=44.9486111
+@long=17.3494444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Maglaj
+@country=Bosnia and Herzegovina
+@lat=44.5491667
+@long=18.0966667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Lukavica
+@country=Bosnia and Herzegovina
+@lat=44.7627778
+@long=18.1688889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Lopare
+@country=Bosnia and Herzegovina
+@lat=44.6377778
+@long=18.8427778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Lokvine
+@country=Bosnia and Herzegovina
+@lat=44.2047222
+@long=17.8563889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Ljubuski
+@country=Bosnia and Herzegovina
+@lat=43.1969444
+@long=17.545
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Ljubinje
+@country=Bosnia and Herzegovina
+@lat=42.9508333
+@long=18.0886111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Livno
+@country=Bosnia and Herzegovina
+@lat=43.8269444
+@long=17.0077778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Siroki Brijeg
+@country=Bosnia and Herzegovina
+@lat=43.3833333
+@long=17.5927778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Laktasi
+@country=Bosnia and Herzegovina
+@lat=44.9080556
+@long=17.3008333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kotor-Varos
+@country=Bosnia and Herzegovina
+@lat=44.6169444
+@long=17.3716667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kocerin
+@country=Bosnia and Herzegovina
+@lat=43.3897222
+@long=17.485
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kobilja Glava
+@country=Bosnia and Herzegovina
+@lat=43.8819444
+@long=18.3891667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kljuc
+@country=Bosnia and Herzegovina
+@lat=44.535
+@long=16.7722222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kladanj
+@country=Bosnia and Herzegovina
+@lat=44.2263889
+@long=18.6913889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kiseljak
+@country=Bosnia and Herzegovina
+@lat=44.4888889
+@long=18.5688889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kiseljak
+@country=Bosnia and Herzegovina
+@lat=43.9425
+@long=18.0766667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Karadaglije
+@country=Bosnia and Herzegovina
+@lat=44.5716667
+@long=18.0183333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kalenderovci Donji
+@country=Bosnia and Herzegovina
+@lat=44.945
+@long=17.8338889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kakanj
+@country=Bosnia and Herzegovina
+@lat=44.1272222
+@long=18.1180556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Jezerski
+@country=Bosnia and Herzegovina
+@lat=44.9808333
+@long=16.0841667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Janja
+@country=Bosnia and Herzegovina
+@lat=44.6652778
+@long=19.2477778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Jajce
+@country=Bosnia and Herzegovina
+@lat=44.3422222
+@long=17.2655556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Izacic
+@country=Bosnia and Herzegovina
+@lat=44.875
+@long=15.7819444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Ilijas
+@country=Bosnia and Herzegovina
+@lat=43.9508333
+@long=18.2708333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Han Pijesak
+@country=Bosnia and Herzegovina
+@lat=44.0808333
+@long=18.9525
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Hadzici
+@country=Bosnia and Herzegovina
+@lat=43.8222222
+@long=18.2066667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Grude
+@country=Bosnia and Herzegovina
+@lat=43.3641667
+@long=17.4205556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gromiljak
+@country=Bosnia and Herzegovina
+@lat=43.9666667
+@long=18.0530556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gradacac
+@country=Bosnia and Herzegovina
+@lat=44.8808333
+@long=18.4269444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gracanica
+@country=Bosnia and Herzegovina
+@lat=44.7033333
+@long=18.3097222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gracanica
+@country=Bosnia and Herzegovina
+@lat=43.7333333
+@long=18.2833333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gostovici
+@country=Bosnia and Herzegovina
+@lat=44.415
+@long=18.1583333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gornji Vakuf
+@country=Bosnia and Herzegovina
+@lat=43.9380556
+@long=17.5883333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gornje Zivinice
+@country=Bosnia and Herzegovina
+@lat=44.4286111
+@long=18.6169444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gornje Mostre
+@country=Bosnia and Herzegovina
+@lat=44.0188889
+@long=18.1533333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gornja Tuzla
+@country=Bosnia and Herzegovina
+@lat=44.5561111
+@long=18.7613889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gornja Koprivna
+@country=Bosnia and Herzegovina
+@lat=45.0119444
+@long=15.9572222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gorazde
+@country=Bosnia and Herzegovina
+@lat=43.6669444
+@long=18.9763889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gnojnica
+@country=Bosnia and Herzegovina
+@lat=44.6205556
+@long=18.4466667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Glamoc
+@country=Bosnia and Herzegovina
+@lat=44.0458333
+@long=16.8486111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gacko
+@country=Bosnia and Herzegovina
+@lat=43.1672222
+@long=18.5352778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Fojnica
+@country=Bosnia and Herzegovina
+@lat=43.9625
+@long=17.8983333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Foca
+@country=Bosnia and Herzegovina
+@lat=43.505
+@long=18.7786111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Tomislavgrad
+@country=Bosnia and Herzegovina
+@lat=43.7180556
+@long=17.2266667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Dubravica
+@country=Bosnia and Herzegovina
+@lat=44.4419444
+@long=18.1180556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Dubrave Gornje
+@country=Bosnia and Herzegovina
+@lat=44.4713889
+@long=18.7297222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Dubrave Donje
+@country=Bosnia and Herzegovina
+@lat=44.4811111
+@long=18.6961111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Drinovci
+@country=Bosnia and Herzegovina
+@lat=43.355
+@long=17.3538889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Donji Vakuf
+@country=Bosnia and Herzegovina
+@lat=44.1436111
+@long=17.4
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Donja Medida
+@country=Bosnia and Herzegovina
+@lat=44.8025
+@long=18.4033333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Donja Mahala
+@country=Bosnia and Herzegovina
+@lat=45.0469444
+@long=18.6663889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Donja Dubica
+@country=Bosnia and Herzegovina
+@lat=45.075
+@long=18.4113889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Dobrljin
+@country=Bosnia and Herzegovina
+@lat=45.1533333
+@long=16.4775
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Dobrinje
+@country=Bosnia and Herzegovina
+@lat=44.0497222
+@long=18.1194444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Doboj
+@country=Bosnia and Herzegovina
+@lat=44.7347222
+@long=18.0877778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Divicani
+@country=Bosnia and Herzegovina
+@lat=44.3666667
+@long=17.3261111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Derventa
+@country=Bosnia and Herzegovina
+@lat=44.9772222
+@long=17.9102778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Citluk
+@country=Bosnia and Herzegovina
+@lat=43.2286111
+@long=17.7008333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Cim
+@country=Bosnia and Herzegovina
+@lat=43.3527778
+@long=17.7772222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Cecava
+@country=Bosnia and Herzegovina
+@lat=44.6866667
+@long=17.7705556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Cazin
+@country=Bosnia and Herzegovina
+@lat=44.9669444
+@long=15.9430556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Capljina
+@country=Bosnia and Herzegovina
+@lat=43.1213889
+@long=17.6844444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Cajnice
+@country=Bosnia and Herzegovina
+@lat=43.5575
+@long=19.0711111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Buzim
+@country=Bosnia and Herzegovina
+@lat=45.0547222
+@long=16.0319444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Busovaca
+@country=Bosnia and Herzegovina
+@lat=44.0975
+@long=17.8788889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bugojno
+@country=Bosnia and Herzegovina
+@lat=44.0572222
+@long=17.4508333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bronzani Majdan
+@country=Bosnia and Herzegovina
+@lat=44.7869444
+@long=16.9311111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Brcko
+@country=Bosnia and Herzegovina
+@lat=44.8727778
+@long=18.8083333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bratunac
+@country=Bosnia and Herzegovina
+@lat=44.1875
+@long=19.3394444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bosansko Grahovo
+@country=Bosnia and Herzegovina
+@lat=44.1794444
+@long=16.3638889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bosanski Samac
+@country=Bosnia and Herzegovina
+@lat=45.0591667
+@long=18.4669444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bosanski Novi
+@country=Bosnia and Herzegovina
+@lat=45.0458333
+@long=16.3802778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bosanski Brod
+@country=Bosnia and Herzegovina
+@lat=45.1375
+@long=17.9897222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bosanska Krupa
+@country=Bosnia and Herzegovina
+@lat=44.8825
+@long=16.1513889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kostajnica
+@country=Bosnia and Herzegovina
+@lat=45.2197222
+@long=16.5358333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bosanska Gradiska
+@country=Bosnia and Herzegovina
+@lat=45.1411111
+@long=17.25
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bosanska Dubica
+@country=Bosnia and Herzegovina
+@lat=45.1766667
+@long=16.8094444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Blatnica
+@country=Bosnia and Herzegovina
+@lat=44.4863889
+@long=17.8233333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Blagaj
+@country=Bosnia and Herzegovina
+@lat=43.2575
+@long=17.8886111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bileca
+@country=Bosnia and Herzegovina
+@lat=42.8719444
+@long=18.4297222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bila
+@country=Bosnia and Herzegovina
+@lat=43.7825
+@long=16.9252778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bijeljina
+@country=Bosnia and Herzegovina
+@lat=44.7569444
+@long=19.2161111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bihac
+@country=Bosnia and Herzegovina
+@lat=44.8169444
+@long=15.8708333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Banovici
+@country=Bosnia and Herzegovina
+@lat=44.4052778
+@long=18.5241667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Banja Luka
+@country=Bosnia and Herzegovina
+@lat=44.7758333
+@long=17.1855556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Balatun
+@country=Bosnia and Herzegovina
+@lat=44.8627778
+@long=19.3413889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Koran
+@country=Bosnia and Herzegovina
+@lat=43.8102778
+@long=18.5688889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Jelah
+@country=Bosnia and Herzegovina
+@lat=44.6541667
+@long=17.9580556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Stanari
+@country=Bosnia and Herzegovina
+@lat=44.7472222
+@long=17.8294444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Podbrdo
+@country=Bosnia and Herzegovina
+@lat=44.4408333
+@long=17.0138889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Malesici
+@country=Bosnia and Herzegovina
+@lat=44.7380556
+@long=18.2738889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Svojat
+@country=Bosnia and Herzegovina
+@lat=44.3947222
+@long=18.7391667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Dvorovi
+@country=Bosnia and Herzegovina
+@lat=44.8066667
+@long=19.2605556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Knezica
+@country=Bosnia and Herzegovina
+@lat=45.1027778
+@long=16.6775
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Pjanici
+@country=Bosnia and Herzegovina
+@lat=44.9836111
+@long=15.8227778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Polje
+@country=Bosnia and Herzegovina
+@lat=43.8805556
+@long=18.0744444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Ilici
+@country=Bosnia and Herzegovina
+@lat=43.3472222
+@long=17.7680556
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Careva Cuprija
+@country=Bosnia and Herzegovina
+@lat=44.2658333
+@long=18.4291667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Celinac
+@country=Bosnia and Herzegovina
+@lat=44.7227778
+@long=17.3277778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Piskavica
+@country=Bosnia and Herzegovina
+@lat=44.8680556
+@long=16.9736111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Lamovita
+@country=Bosnia and Herzegovina
+@lat=44.9255556
+@long=16.9072222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Putisevac
+@country=Bosnia and Herzegovina
+@lat=44.5394444
+@long=17.0627778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Tesanjka
+@country=Bosnia and Herzegovina
+@lat=44.6730556
+@long=18.0127778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kovaci
+@country=Bosnia and Herzegovina
+@lat=44.4491667
+@long=18.205
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Lijesnica
+@country=Bosnia and Herzegovina
+@lat=44.4941667
+@long=18.0741667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Coralici
+@country=Bosnia and Herzegovina
+@lat=45.0069444
+@long=15.8719444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Crnici
+@country=Bosnia and Herzegovina
+@lat=43.1288889
+@long=17.8666667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Barice
+@country=Bosnia and Herzegovina
+@lat=44.5405556
+@long=18.4811111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Hotonj
+@country=Bosnia and Herzegovina
+@lat=43.8947222
+@long=18.3727778
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Skokovi
+@country=Bosnia and Herzegovina
+@lat=45.0313889
+@long=15.9144444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Dreznica
+@country=Bosnia and Herzegovina
+@lat=43.5288889
+@long=17.2819444
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Kacuni
+@country=Bosnia and Herzegovina
+@lat=44.065
+@long=17.9386111
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Pajic Polje
+@country=Bosnia and Herzegovina
+@lat=43.9758333
+@long=17.5275
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Gornja Breza
+@country=Bosnia and Herzegovina
+@lat=44.0369444
+@long=18.2447222
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Todorovo
+@country=Bosnia and Herzegovina
+@lat=45.0883333
+@long=15.9308333
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Konjic
+@country=Bosnia and Herzegovina
+@lat=43.6519444
+@long=17.9613889
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Jablanica
+@country=Bosnia and Herzegovina
+@lat=43.6602778
+@long=17.7616667
+@timezone=1.000000
+@dst=47
+@create
+
+@city=Bijela
+@country=Bosnia and Herzegovina
+@lat=43.6086111
+@long=17.9519444
+@timezone=1.000000
+@dst=47
+@create
+

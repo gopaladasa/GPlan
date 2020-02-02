@@ -1,0 +1,624 @@
+@city=Zimmi
+@country=Sierra Leone
+@lat=7.3152778
+@long=-11.3061111
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Yonibana
+@country=Sierra Leone
+@lat=8.4447222
+@long=-12.245
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Yengema
+@country=Sierra Leone
+@lat=8.7166667
+@long=-11.1666667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Wima
+@country=Sierra Leone
+@lat=8.3
+@long=-11.2166667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Waterloo
+@country=Sierra Leone
+@lat=8.3383333
+@long=-13.0719444
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Tongole
+@country=Sierra Leone
+@lat=7.45
+@long=-11.9
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Tombu
+@country=Sierra Leone
+@lat=8.5333333
+@long=-10.7333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Tombodu
+@country=Sierra Leone
+@lat=8.1333333
+@long=-10.6166667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Tintafor
+@country=Sierra Leone
+@lat=8.6266667
+@long=-13.215
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Tefea
+@country=Sierra Leone
+@lat=8.7
+@long=-11.2166667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Sumbuya
+@country=Sierra Leone
+@lat=7.6466667
+@long=-11.9611111
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Simbakoro
+@country=Sierra Leone
+@lat=8.6
+@long=-11.0166667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Serabu
+@country=Sierra Leone
+@lat=7.7958333
+@long=-12.0536111
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Seidu
+@country=Sierra Leone
+@lat=9.0166667
+@long=-10.6
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Sawkta
+@country=Sierra Leone
+@lat=8.6319444
+@long=-13.2019444
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Rotifunk
+@country=Sierra Leone
+@lat=8.2333333
+@long=-12.6833333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Rokupr
+@country=Sierra Leone
+@lat=8.6716667
+@long=-12.395
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Potoru
+@country=Sierra Leone
+@lat=7.5072222
+@long=-11.4786111
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Port Loko
+@country=Sierra Leone
+@lat=8.7666667
+@long=-12.7833333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Peyima
+@country=Sierra Leone
+@lat=8.7
+@long=-11.0333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Pepel
+@country=Sierra Leone
+@lat=8.5816667
+@long=-13.0627778
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Pendembu
+@country=Sierra Leone
+@lat=8.1
+@long=-10.7
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Panguma
+@country=Sierra Leone
+@lat=8.1833333
+@long=-11.1333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Ngiehun
+@country=Sierra Leone
+@lat=8.55
+@long=-11.05
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Moyamba
+@country=Sierra Leone
+@lat=8.1666667
+@long=-12.4333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Motema
+@country=Sierra Leone
+@lat=8.6
+@long=-11.0333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Mogbwemo
+@country=Sierra Leone
+@lat=7.7694444
+@long=-12.3105556
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Mobai
+@country=Sierra Leone
+@lat=7.9944444
+@long=-10.7511111
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Masoyila
+@country=Sierra Leone
+@lat=8.6097222
+@long=-13.19
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Masingbi
+@country=Sierra Leone
+@lat=8.7833333
+@long=-11.95
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Masaka
+@country=Sierra Leone
+@lat=8.6666667
+@long=-11.8
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Manowa
+@country=Sierra Leone
+@lat=8.1666667
+@long=-10.75
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Mange
+@country=Sierra Leone
+@lat=8.9166667
+@long=-12.85
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Mamboma
+@country=Sierra Leone
+@lat=8.0833333
+@long=-11.6833333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Mambolo
+@country=Sierra Leone
+@lat=8.9230556
+@long=-13.0444444
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Makeni
+@country=Sierra Leone
+@lat=8.8833333
+@long=-12.05
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Makali
+@country=Sierra Leone
+@lat=8.6333333
+@long=-11.6666667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Magburaka
+@country=Sierra Leone
+@lat=8.7166667
+@long=-11.95
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Lunsar
+@country=Sierra Leone
+@lat=8.6833333
+@long=-12.5333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Loma
+@country=Sierra Leone
+@lat=9.75
+@long=-12.0333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Lago
+@country=Sierra Leone
+@lat=8.2666667
+@long=-12.15
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Kukuna
+@country=Sierra Leone
+@lat=9.4
+@long=-12.6666667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Koribundu
+@country=Sierra Leone
+@lat=7.7113889
+@long=-11.6922222
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Koidu
+@country=Sierra Leone
+@lat=8.4166667
+@long=-10.8333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Kenema
+@country=Sierra Leone
+@lat=7.8766667
+@long=-11.1875
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Kayima
+@country=Sierra Leone
+@lat=8.8833333
+@long=-11.1666667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Kassiri
+@country=Sierra Leone
+@lat=8.9372222
+@long=-13.1244444
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Kambia
+@country=Sierra Leone
+@lat=9.1166667
+@long=-12.9166667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Kamakwie
+@country=Sierra Leone
+@lat=9.5
+@long=-12.2333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Kailahun
+@country=Sierra Leone
+@lat=8.2833333
+@long=-10.5666667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Kabala
+@country=Sierra Leone
+@lat=9.5833333
+@long=-11.55
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Jojoima
+@country=Sierra Leone
+@lat=7.8791667
+@long=-10.7877778
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Hastings
+@country=Sierra Leone
+@lat=8.3797222
+@long=-13.1386111
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Hangha
+@country=Sierra Leone
+@lat=7.9411111
+@long=-11.14
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Gorahun
+@country=Sierra Leone
+@lat=7.4661111
+@long=-11.2375
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Freetown
+@country=Sierra Leone
+@lat=8.4319444
+@long=-13.2897222
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Giehun
+@country=Sierra Leone
+@lat=7.8833333
+@long=-11.05
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Gberia Fotombu
+@country=Sierra Leone
+@lat=9.8833333
+@long=-11.1666667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Gandorhun
+@country=Sierra Leone
+@lat=7.5
+@long=-11.8333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Freetown
+@country=Sierra Leone
+@lat=8.49
+@long=-13.2341667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Foindu
+@country=Sierra Leone
+@lat=7.4108333
+@long=-11.5422222
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Daru
+@country=Sierra Leone
+@lat=7.9919444
+@long=-10.8405556
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Bwedu
+@country=Sierra Leone
+@lat=8.2802778
+@long=-10.3719444
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Bunumbu
+@country=Sierra Leone
+@lat=8.1666667
+@long=-10.8666667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Bumpe
+@country=Sierra Leone
+@lat=7.8919444
+@long=-11.9025
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Bumbuna
+@country=Sierra Leone
+@lat=9.05
+@long=-11.7333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Bonthe
+@country=Sierra Leone
+@lat=7.5263889
+@long=-12.505
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Bomi
+@country=Sierra Leone
+@lat=7.2461111
+@long=-11.5258333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Boajibu
+@country=Sierra Leone
+@lat=8.1833333
+@long=-11.3333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Bo
+@country=Sierra Leone
+@lat=7.9647222
+@long=-11.7383333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Blama
+@country=Sierra Leone
+@lat=7.8736111
+@long=-11.3433333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Bindi
+@country=Sierra Leone
+@lat=9.9166667
+@long=-11.45
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Barma
+@country=Sierra Leone
+@lat=8.35
+@long=-11.3333333
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Baiima
+@country=Sierra Leone
+@lat=8.1
+@long=-11.85
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Alikalia
+@country=Sierra Leone
+@lat=9.1666667
+@long=-11.4
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Konakridee
+@country=Sierra Leone
+@lat=8.6977778
+@long=-13.2391667
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Gbewebu
+@country=Sierra Leone
+@lat=7.5522222
+@long=-11.6063889
+@timezone=0.000000
+@dst=322
+@create
+
+@city=Pujehun
+@country=Sierra Leone
+@lat=7.3580556
+@long=-11.7208333
+@timezone=0.000000
+@dst=322
+@create
+

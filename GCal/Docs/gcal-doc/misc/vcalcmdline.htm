@@ -1,0 +1,547 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1250">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 9">
+<meta name=Originator content="Microsoft Word 9">
+<link rel=File-List
+href="./VCAL%20Second%20Edition%20Command%20Line%20using_soubory/filelist.xml">
+<title>VCAL Second Edition Command Line using</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>bhakta</o:Author>
+  <o:LastAuthor>bhakta</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>33</o:TotalTime>
+  <o:Created>2007-07-07T08:02:00Z</o:Created>
+  <o:LastSaved>2007-07-07T08:02:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>634</o:Words>
+  <o:Characters>3614</o:Characters>
+  <o:Lines>30</o:Lines>
+  <o:Paragraphs>7</o:Paragraphs>
+  <o:CharactersWithSpaces>4438</o:CharactersWithSpaces>
+  <o:Version>9.2812</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:DrawingGridHorizontalSpacing>6 b.</w:DrawingGridHorizontalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>2</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:238;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:1627421319 -2147483648 8 0 66047 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:SK;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:42.55pt 51.05pt 42.55pt 51.05pt;
+	mso-header-margin:35.45pt;
+	mso-footer-margin:35.45pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+
+<body lang=CS link=blue vlink=purple style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span lang=SK
+style='font-size:14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma'>VCAL
+Second Edition Command Line using<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>If VCAL is started
+without arguments, it will open dialog window for user interface.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>When VCAL is
+started with command line arguments, it will not show any window and will runs
+just for processing arguments and then stops.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-family:Tahoma'>COMMAND LINE
+ARGUMENTS<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Possible argument
+types are:<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a href="#firstday">Calculation
+of first day in Gaurabda year</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a href="#sankranti">Calculation
+of all sankrantis in common year</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a href="#vcal">Calculation
+of vaisnava calendar for given period of time</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a href="#naksatra">Calculation
+of naksatra times for given period of time</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a href="#gnaksatra">Calculation
+of date for given naksatra</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a href="#tithi">Calculation
+of tithis for given day</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><a href="#gtithi">Calculation
+of date for given tithi</a><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=firstday></a><b><span lang=SK style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;color:#003300'>First day<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><b><span lang=SK
+style='font-family:Tahoma'>vcal2se firstday</span></b><span lang=SK
+style='font-family:Tahoma'> <i>&lt;<a href="#notelat">latitude</a>&gt; &lt;<a
+href="#notelong">longitude</a>&gt; &lt;year&gt; &lt;filename&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>longitude</span></i><span
+lang=SK style='font-family:Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>latitude</span></i><span
+lang=SK style='font-family:Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year</span></i><span
+lang=SK style='font-family:Tahoma'> - calculated year<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>filename</span></i><span
+lang=SK style='font-family:Tahoma'> - filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLES<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma;color:navy'>vcal2se
+firstday 47N23 21E15 2004 out1.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file OUT1.XML
+will write first day of Gaurabda year in the Gregorian epoch 2004.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=sankranti></a><b><span lang=SK style='font-size:
+14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma;color:#003300'>Sankranti<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:35.4pt'><b><span lang=SK
+style='font-family:Tahoma'>vcal2se sankranti</span></b><span lang=SK
+style='font-family:Tahoma'> <i>&lt;<a href="#notelat">latitude</a>&gt; &lt;<a
+href="#notelong">longitude</a>&gt; &lt;<a href="#notetimezone">timezone</a>&gt;
+&lt;year&gt; &lt;filename&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>longitude</span></i><span
+lang=SK style='font-family:Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>latitude</span></i><span
+lang=SK style='font-family:Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>timezone</span></i><span
+lang=SK style='font-family:Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year</span></i><span
+lang=SK style='font-family:Tahoma'> - calculated year<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>filename</span></i><span
+lang=SK style='font-family:Tahoma'> - filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLES<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma;color:navy'>vcal2se
+sankranti 48N14 13E04 2:00 2006 out2.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file OUT2.xml
+will write list of sankrantis for whole Gaurabda year begining in 2006.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=vcal></a><b><span lang=SK style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;color:#003300'>Vaisnava Calendar<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:90.0pt;text-indent:-54.0pt'><b><span
+lang=SK style='font-family:Tahoma'>vcal2se calendar</span></b><span lang=SK
+style='font-family:Tahoma'> <i>&lt;<a href="#notelat">lat</a>&gt; &lt;<a
+href="#notelong">long</a>&gt; &lt;<a href="#notetimezone">tzone</a>&gt;
+&lt;year&gt; &lt;month&gt; &lt;day&gt; &lt;count&gt; &lt;filename&gt;
+&lt;dst&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>long</span></i><span
+lang=SK style='font-family:Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>lat</span></i><span
+lang=SK style='font-family:Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year</span></i><span
+lang=SK style='font-family:Tahoma'> - calculated year<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>filename</span></i><span
+lang=SK style='font-family:Tahoma'> - filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>tzone</span></i><span
+lang=SK style='font-family:Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>count</span></i><span
+lang=SK style='font-family:Tahoma'> - count of calculated days<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>dst</span></i><span
+lang=SK style='font-family:Tahoma'> - optional flag. accepted values are:<span
+style="mso-spacerun: yes">  </span>/dst:aus, /dst:eur, /dst:us<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:10.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:red'>EXAMPLES:<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma;color:navy'>vcal2se
+calendar 12N78 75E10 5.5 2007 2 1 365 out3.xml<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file OUT3.XML
+will write calculated calendar for 365 days begining from 1st February 2007 for
+timezone 5 hours 30 minutes (= 5.5 hrs)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma;color:navy'>vcal2se
+calendar 42N78 25E10 1.0 2007 2 1 365 out4.xml /dst:eur<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>Into file OUT4.XML
+will write calculated calendar for 365 days begining from 1st February 2007 for
+timezone 1 hour (= 1.0 hrs) with daylight saving time system for Europe.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=naksatra></a><b><span lang=SK style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;color:#003300'>Calculation of
+naksatra times for given period of time<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-family:Tahoma'>vcal2se naksatra</span></b><span
+lang=SK style='font-family:Tahoma'> <i>&lt;<a href="#notelat">lat</a>&gt; &lt;<a
+href="#notelong">long</a>&gt; &lt;<a href="#notetimezone">tzone</a>&gt; &lt;year&gt;
+&lt;month&gt; &lt;day&gt; &lt;daycount&gt; &lt;fileout&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>long</span></i><span
+lang=SK style='font-family:Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>lat</span></i><span
+lang=SK style='font-family:Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>tzone</span></i><span
+lang=SK style='font-family:Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1600..3999<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>month</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1..12<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>day</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1..31<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>daycount</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1..???<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>fileout</span></i><span
+lang=SK style='font-family:Tahoma'> - filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>output: list of
+days with calculated naksatra timings<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=tithi></a><b><span lang=SK style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;color:#003300'>Calculation of
+tithis for given day<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><span
+style="mso-spacerun: yes">  </span><b>vcal2se tithi</b> <i>&lt;<a
+href="#notelat">lat</a>&gt; &lt;<a href="#notelong">long</a>&gt; &lt;<a
+href="#notetimezone">tzone</a>&gt; &lt;year&gt; &lt;month&gt; &lt;day&gt;
+&lt;fileout&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>long</span></i><span
+lang=SK style='font-family:Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>lat</span></i><span
+lang=SK style='font-family:Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>tzone</span></i><span
+lang=SK style='font-family:Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>year</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1600..3999<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>month</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1..12<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>day</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1..31<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>fileout</span></i><span
+lang=SK style='font-family:Tahoma'> - filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>output: calculated
+tithis which are touching given day<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=gtithi></a><b><span lang=SK style='font-size:14.0pt;
+mso-bidi-font-size:12.0pt;font-family:Tahoma;color:#003300'>Calculation of date
+for given tithi<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-family:Tahoma'>vcal2se gtithi</span></b><span
+lang=SK style='font-family:Tahoma'> <i>&lt;<a href="#notelat">lat</a>&gt; &lt;<a
+href="#notelong">long</a>&gt; &lt;<a href="#notetimezone">tzone</a>&gt;
+&lt;gaurabdayear&gt; &lt;masa&gt; &lt;paksa&gt; &lt;tithi&gt; &lt;fileout&gt;<o:p></o:p></i></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>long</span></i><span
+lang=SK style='font-family:Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>lat</span></i><span
+lang=SK style='font-family:Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>tzone</span></i><span
+lang=SK style='font-family:Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>gaurabdayear</span></i><span
+lang=SK style='font-family:Tahoma'> - year of Gaurabda Era - range 0..2500<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>masa</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1..12 or name e.g. Madhava,
+Govinda, visnu, hrsikesa, etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>paksa</span></i><span
+lang=SK style='font-family:Tahoma'> - range 0..1, or {k, K, krsna, Gaura, g, G,
+gaura}<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>tithi</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1..15 or name e.g. pancami,
+Ekadasi, caturti, etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>fileout</span></i><span
+lang=SK style='font-family:Tahoma'> - filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>output: calculated
+timings for given tithi<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=gnaksatra></a><b><span lang=SK style='font-size:
+14.0pt;mso-bidi-font-size:12.0pt;font-family:Tahoma;color:#003300'>Calculation
+of date for given naksatra<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-family:Tahoma'>vcal2se
+gnaksatra</span></b><span lang=SK style='font-family:Tahoma'> <i>&lt;<a
+href="#notelat">lat</a>&gt; &lt;<a href="#notelong">lon</a>&gt; &lt;<a
+href="#notetimezone">tzone</a>&gt; &lt;gaurabdayear&gt; &lt;masa&gt;
+&lt;fileout&gt;</i><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>long</span></i><span
+lang=SK style='font-family:Tahoma'> - observators longitude on the earth<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>lat</span></i><span
+lang=SK style='font-family:Tahoma'> - observators latitude<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>tzone</span></i><span
+lang=SK style='font-family:Tahoma'> - time zone<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>gaurabdayear</span></i><span
+lang=SK style='font-family:Tahoma'> - year of Gaurabda Era - range 0..2500<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>masa</span></i><span
+lang=SK style='font-family:Tahoma'> - range 1..12 or name e.g. Madhava,
+Govinda, visnu, hrsikesa, etc.<o:p></o:p></span></p>
+
+<p class=MsoNormal><i><span lang=SK style='font-family:Tahoma'>fileout</span></i><span
+lang=SK style='font-family:Tahoma'> - filename for XML output<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>output: list od
+days with calculated naksatra timing for given Masa<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span lang=SK style='font-size:14.0pt;mso-bidi-font-size:
+12.0pt;font-family:Tahoma;color:#003300'>NOTES<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=notelong></a><b><span lang=SK style='font-family:
+Tahoma'>longitude can be given in these forms<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>47E80<span
+style="mso-spacerun: yes">    </span>equal 47 deg 80 arcmin East<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>40.25<span
+style="mso-spacerun: yes">    </span>equal 40 deg 15 arcmin East<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>-16.3333<span
+style="mso-spacerun: yes">  </span>equal 16 deg 20 arcmin West<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=notelat></a><b><span lang=SK style='font-family:
+Tahoma'>latitude can be given in these forms<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>15N30<span
+style="mso-spacerun: yes">   </span>equal 15 deg 30 arcmin North<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>-46.50<span
+style="mso-spacerun: yes">  </span>equal 46 deg 30 arcmin South<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><a name=notetimezone></a><b><span lang=SK style='font-family:
+Tahoma'>timezone can be given in these forms<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>5:30<span
+style="mso-spacerun: yes">   </span>equal 5 hours 30 mins<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>2.5<span
+style="mso-spacerun: yes">    </span>equal 2 hours 30 mins<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>-7.75<span
+style="mso-spacerun: yes">  </span>equal -7 hours 45 mins<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>(separator : means
+time in HH:MM format,<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'>separator . means
+time in floating point format)<o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK style='font-family:Tahoma'><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+<p class=MsoNormal><span lang=SK><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
