@@ -1,0 +1,47 @@
+Tabelas Gerais
+
+
+Fases da Lua                                    Semana
+   1      nova     ò       1       2               1       D    Domingo    1
+   2     cresc     É       2       1               2       S    Segunda    2
+   3     cheia     Å       3       4               3       T    TerÁa      3
+   4      ming     Ç       4       3               4       Q    Quarta     4
+                                                   5       Q    Quinta     5
+                                                   6       S    Sexta      6
+Meses                                              7       S    S·bado     7
+   M       NM    NOMES    NM2
+Jan        1    JANEIRO    1
+Feb        2    FEVEREIR   2
+Mar        3    MAR«O      3
+Apr        4    ABRIL      4
+May        5    MAIO       5
+Jun        6    JUNHO      6
+Jul        7    JULHO      7
+Aug        8    AGOSTO     8
+Sep        9    SETEMBRO   9
+Oct        10   OUTUBRO    10
+Nov        11   NOVEMBRO   11
+Dec        12   DEZEMBRO   12
+           13   JANEIRO
+
+
+TITHIS (dias lunares vÈdicos)
+        Gaura Paksa             Krishna Paksa
+         Tithi  Aspecto   Fase   Tithi  Aspecto   Fase
+   1    Pratipat   ò      nova  Pratipat   Å     cheia
+   2    Dvitiya    ò      nova  Dvitiya    Å     cheia
+   3    Tritiya    ò      nova  Tritiya    Å     cheia
+   4    Caturthi   ò      nova  Caturthi   Å     cheia
+   5    Pancami    ò      nova  Pancami    Å     cheia
+   6    Sasti      ò      nova  Sasti      Å     cheia
+   7    Saptami    ò      nova  Saptami    Å     cheia
+   8    Astami     É     cresc  Astami     Ç      ming
+   9    Navami     É     cresc  Navami     Ç      ming
+   10   Dasami     É     cresc  Dasami     Ç      ming
+   11   Ekadasi    É     cresc  Ekadasi    Ç      ming
+   11   Suddha E   É     cresc  Suddha E   Ç      ming
+   12   Dvadasi    É     cresc  Dvadasi    Ç      ming
+   12   Mahadvad   É     cresc  Mahadvad   Ç      ming
+   13   Trayodas   É     cresc  Trayodas   Ç      ming
+   14   Caturdas   É     cresc  Caturdas   Ç      ming
+   15   Purnima    Å     cheia  Amavasya   ò      nova
