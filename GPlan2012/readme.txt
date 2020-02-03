@@ -219,3 +219,15 @@ Vídeo - Como personalizar a GPLan para sua cidade
 Veja no vídeo abaixo como ter em 9 minutos sua Agenda Vaishnava GPlan personalizada para sua cidade e ano desejado.
 
 https://www.youtube.com/embed/vX-typJPG6o
+
+
+
+Websites:
+
+http://www.gopala.blog.br/products/gplan9/
+
+https://gplan.webnode.pt/
+
+https://sites.google.com/site/gaurabdaplanner/
+
+https://sourceforge.net/projects/gplan/files/GPlan/
