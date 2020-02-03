@@ -25,7 +25,7 @@ Consulte também a ajuda em português para obter o calendário do GCal para a A
 
 
  
-Abaixe o passo-a-passo para obter os dados das marés da sua cidade litorânea favorita na sua Agenda Vaishnava.
+Mais abaixo segue o passo-a-passo para obter os dados das marés da sua cidade litorânea favorita na sua Agenda Vaishnava.
 
  
 
