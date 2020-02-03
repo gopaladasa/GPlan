@@ -1,4 +1,8 @@
+Agenda Vaishnava 5.2 - 2005-2007
+
+
 GOPALA DASA ADHIKARI (HDG)
+
 
 Agenda Vaishnava
 
@@ -114,3 +118,7 @@ Para mais informações, consulte os sites:
 
 
 Copyright © 2005-2007 Paulo Sergio de Araujo - Web Design: Gopala Dasa.
+
+
+
+Website: http://www.gopaladasa.xpg.com.br/Projetos/Agenda%20Vaishnava/index.html
