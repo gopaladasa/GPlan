@@ -1,226 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-<string type="F" ref="AbhiramaDis" desc="Sri Abhirama Thakura - Desaparecimento" />
-<string type="F" ref="AdvaitaApp" desc="Sri Advaita Acarya - Aparecimento" />
-<string type="F" ref="BaladevaDis" desc="Sri Baladeva Vidyabhusana - Desaparecimento" />
-<string type="F" ref="BalaramaApp" desc="Senhor Balarama - Aparecimento" />
-<string type="F" ref="BhagavadGita" desc="Advento do Srimad Bhagavad-gita" />
-<string type="F" ref="BhaktisiddhantaApp" desc="Srila Bhaktisiddhanta Sarasvati Thakura - Aparecimento" />
-<string type="F" ref="BhaktisiddhantaDis" desc="Srila Bhaktisiddhanta Sarasvati Thakura - Desaparecimento" />
-<string type="F" ref="BhaktivinodaApp" desc="Srila Bhaktivinoda Thakura - Aparecimento" />
-<string type="F" ref="BhaktivinodaDis" desc="Srila Bhaktivinoda Thakura - Desaparecimento" />
-<string type="F" ref="BhismaFirst" desc="Primeiro dia de Bhisma Pancaka" />
-<string type="F" ref="BhismaLast" desc="Último dia de Bhisma Pancaka" />
-<string type="F" ref="BhugarbhaDis" desc="Sri Bhugarbha Gosvami - Desaparecimento" />
-<string type="F" ref="CaitanyaApp" desc="Gaura Purnima: Aparecimento de Sri Caitanya Mahaprabhu" />
-<string type="F" ref="Candana" desc="Aksaya Trtiya. Início do Candana Yatra. (Continua por 21 dias)" />
-<string type="F" ref="DevanandaDis" desc="Sri Devananda Pandita - Desaparecimento" />
-<string type="F" ref="DhananjayaDis" desc="Sri Dhananjaya Pandita - Desaparecimento" />
-<string type="F" ref="GadadharaApp" desc="Sri Gadadhara Pandita - Aparecimento" />
-<string type="F" ref="GadadharaDasaDis" desc="Sri Gadadhara Dasa Gosvami - Desaparecimento" />
-<string type="F" ref="GadadharaDis" desc="Sri Gadadhara Pandita - Desaparecimento" />
-<string type="F" ref="GangamataApp" desc="Srimati Gangamata Gosvamini - Aparecimento" />
-<string type="F" ref="GauraKisoraDis" desc="Srila Gaura Kisora Dasa Babaji - Desaparecimento" />
-<string type="F" ref="GauridasaDis" desc="Sri Gauridasa Pandita - Desaparecimento" />
-<string type="F" ref="GopalaBhattaApp" desc="Srila Gopala Bhatta Gosvami - Aparecimento" />
-<string type="F" ref="GopalaBhattaDis" desc="Srila Gopala Bhatta Gosvami - Desaparecimento" />
-<string type="F" ref="GovindaDis" desc="Sri Govinda Ghosh - Desaparecimento" />
-<string type="F" ref="HaridasaDis" desc="Srila Haridasa Thakura - Desaparecimento" />
-<string type="F" ref="Hera" desc="Hera Pancami (4 dias após o Ratha Yatra)" />
-<string type="F" ref="ISKCON" desc="Fundação da ISKCON em Nova York" />
-<string type="F" ref="IsvaraDis" desc="Sri Isvara Puri - Desaparecimento" />
-<string type="F" ref="JagadisaApp" desc="Sri Jagadisa Pandita - Aparecimento" />
-<string type="F" ref="JagadisaDis" desc="Sri Jagadisa Pandita - Desaparecimento" />
-<string type="F" ref="JagannathaDasaDis" desc="Srila Jagannatha Dasa Babaji - Desaparecimento" />
-<string type="F" ref="JagannathaMisra" desc="Festival de Jagannatha Misra" />
-<string type="F" ref="JahnavaApp" desc="Srimati Jahnava Devi - Aparecimento" />
-<string type="F" ref="JayadevaDis" desc="Sri Jayadeva Gosvami - Desaparecimento" />
-<string type="F" ref="JayanandaDis" desc="Sri Jayananda Prabhu - Desaparecimento" />
-<string type="F" ref="JhulanaBeg" desc="Início do Radha Govinda Jhulana Yatra" />
-<string type="F" ref="JhulanaEnd" desc="Jhulana Yatra termina" />
-<string type="F" ref="JivaApp" desc="Srila Jiva Gosvami - Apar." />
-<string type="F" ref="JivaDis" desc="Srila Jiva Gosvami - Desaparecimento" />
-<string type="F" ref="KaliyaDis" desc="Sri Kaliya Krishnadasa - Desaparecimento" />
-<string type="F" ref="KasisvaraDis" desc="Sri Kasisvara Pandita - Desaparecimento" />
-<string type="F" ref="KatyayaniBeg" desc="Início do Katyayani vrata" />
-<string type="F" ref="KatyayaniEnd" desc="Katyayani vrata termina" />
-<string type="F" ref="KrsnaApp" desc="Sri Krishna Janmastami: Aparecimento do Senhor Sri Krishna" />
-<string type="F" ref="KrsnadasaDis" desc="Srila Krishnadasa Kaviraja Gosvami - Desaparecimento" />
-<string type="F" ref="LocanaApp" desc="Sri Locana Dasa Thakura - Aparecimento" />
-<string type="F" ref="LocanaDis" desc="Sri Locana Dasa Thakura - Desaparecimento" />
-<string type="F" ref="LokanathaDis" desc="Srila Lokanatha Gosvami - Desaparecimento" />
-<string type="F" ref="MadhavendraApp" desc="Sri Madhavendra Puri - Aparecimento" />
-<string type="F" ref="MadhavendraDis" desc="Sri Madhavendra Puri - Desaparecimento" />
-<string type="F" ref="MadhuDis" desc="Sri Madhu Pandita - Desaparecimento" />
-<string type="F" ref="MadhvacaryaApp" desc="Sri Madhvacarya - Aparecimento" />
-<string type="F" ref="MadhvacaryaDis" desc="Sri Madhvacarya - Desaparecimento" />
-<string type="F" ref="MahesaDis" desc="Sri Mahesa Pandita - Desaparecimento" />
-<string type="F" ref="MukundaDis" desc="Sri Mukunda Datta - Desaparecimento" />
-<string type="F" ref="MurariDis" desc="Sri Murari Gupta - Desaparecimento" />
-<string type="F" ref="NarahariDis" desc="Sri Narahari Sarakara Thakura - Desaparecimento" />
-<string type="F" ref="NarottamaApp" desc="Srila Narottama Dasa Thakura - Aparecimento" />
-<string type="F" ref="NarottamaDis" desc="Srila Narottama Dasa Thakura - Desaparecimento" />
-<string type="F" ref="NimbarkacaryaApp" desc="Sri Nimbarkacarya - Aparecimento" />
-<string type="F" ref="NityanandaApp" desc="Nityananda Trayodasi: Aparecimento de Sri Nityananda Prabhu" />
-<string type="F" ref="NrsimhadevaApp" desc="Nrisimha Caturdasi: Aparecimento do Senhor Nrisimhadeva" />
-<string type="F" ref="ParamesvariDis" desc="Sri Paramesvari Dasa Thakura - Desaparecimento" />
-<string type="F" ref="PrabhupadaApp" desc="Srila Prabhupada - Aparecimento" />
-<string type="F" ref="PrabhupadaDis" desc="Srila Prabhupada - Desaparecimento" />
-<string type="F" ref="PrabhupadaSannyasa" desc="Aceitação de sannyasa por Srila Prabhupada" />
-<string type="F" ref="PrabhupadaUSAArr" desc="Chegada de Srila Prabhupada aos Estados Unidos" />
-<string type="F" ref="PrabhupadaUSADep" desc="Partida de Srila Prabhupada para os Estados Unidos" />
-<string type="F" ref="PundarikaApp" desc="Sri Pundarika Vidyanidhi - Aparecimento" />
-<string type="F" ref="PurusottamaApp" desc="Sri Purusottama Dasa Thakura - Aparecimento" />
-<string type="F" ref="PurusottamaDis" desc="Sri Purusottama Dasa Thakura - Desaparecimento" />
-<string type="F" ref="RadhaKunda" desc="Aparecimento do Radha Kunda, snana dana" />
-<string type="F" ref="RadhaRamanaApp" desc="Sri Sri Radha-Ramana Devaji - Aparecimento" />
-<string type="F" ref="RadharaniApp" desc="Radhastami: Aparecimento de Srimati Radharani" />
-<string type="F" ref="RaghunandanaApp" desc="Sri Raghunandana Thakura - Aparecimento" />
-<string type="F" ref="RaghunandanaDis" desc="Sri Raghunandana Thakura - Desaparecimento" />
-<string type="F" ref="RaghunathaBhattaDis" desc="Srila Raghunatha Bhatta Gosvami - Desaparecimento" />
-<string type="F" ref="RaghunathaDasaApp" desc="Srila Raghunatha Dasa Gosvami - Aparecimento" />
-<string type="F" ref="RaghunathaDasaDis" desc="Srila Raghunatha Dasa Gosvami - Desaparecimento" />
-<string type="F" ref="RamacandraApp" desc="Rama Navami: Aparecimento do Senhor Sri Ramacandra" />
-<string type="F" ref="RamacandraKavirajaDis" desc="Sri Ramacandra Kaviraja - Desaparecimento" />
-<string type="F" ref="RamanandaDis" desc="Sri Ramananda Raya - Desaparecimento" />
-<string type="F" ref="RamanujacaryaApp" desc="Sri Ramanujacarya - Aparecimento" />
-<string type="F" ref="RamanujacaryaDis" desc="Sri Ramanujacarya - Desaparecimento" />
-<string type="F" ref="RasikanandaApp" desc="Sri Rasikananda - Aparecimento" />
-<string type="F" ref="RasikanandaDis" desc="Sri Rasikananda - Desaparecimento" />
-<string type="F" ref="RathaReturn" desc="Retorno do Ratha (8 dias após o Ratha Yatra)" />
-<string type="F" ref="RupaDis" desc="Srila Rupa Gosvami - Desaparecimento" />
-<string type="F" ref="SanatanaDis" desc="Srila Sanatana Gosvami - Desaparecimento" />
-<string type="F" ref="SarangaDis" desc="Sri Saranga Thakura - Desaparecimento" />
-<string type="F" ref="SitaApp" desc="Srimati Sita Devi (consorte do Senhor Sri Rama) - Aparecimento" />
-<string type="F" ref="SitaThakuraniApp" desc="Srimati Sita Thakurani (Consorte de Sri Advaita) - Aparecimento" />
-<string type="F" ref="SivanandaDis" desc="Sri Sivananda Sena - Desaparecimento" />
-<string type="F" ref="SridharaDis" desc="Sri Sridhara Pandita - Desaparecimento" />
-<string type="F" ref="SrinivasaApp" desc="Sri Srinivasa Acarya - Aparecimento" />
-<string type="F" ref="SrinivasaDis" desc="Sri Srinivasa Acarya - Desaparecimento" />
-<string type="F" ref="SrivasaApp" desc="Sri Srivasa Pandita - Aparecimento" />
-<string type="F" ref="SrivasaDis" desc="Sri Srivasa Pandita - Desaparecimento" />
-<string type="F" ref="SvarupaDis" desc="Sri Svarupa Damodara Gosvami - Desaparecimento" />
-<string type="F" ref="SyamanandaApp" desc="Sri Syamananda Prabhu - Aparecimento" />
-<string type="F" ref="SyamanandaDis" desc="Sri Syamananda Prabhu - Desaparecimento" />
-<string type="F" ref="TulasiBeg" desc="Início de Tulasi Jala Dan" />
-<string type="F" ref="TulasiEnd" desc="Tulasi Jala Dan termina" />
-<string type="F" ref="TulasiSaligrama" desc="Tulasi-Saligrama Vivaha (casamento)" />
-<string type="F" ref="UddharanaDis" desc="Sri Uddharana Datta Thakura - Desaparecimento" />
-<string type="F" ref="VakresvaraApp" desc="Sri Vakresvara Pandita - Aparecimento" />
-<string type="F" ref="VakresvaraDis" desc="Sri Vakresvara Pandita - Desaparecimento" />
-<string type="F" ref="VamanadevaApp" desc="Sri Vamana Dvadasi: Apar. do Senhor Vamanadeva" />
-<string type="F" ref="VamsidasaDis" desc="Sri Vamsidasa Babaji - Desaparecimento" />
-<string type="F" ref="VamsivadanaApp" desc="Sri Vamsivadana Thakura - Aparecimento" />
-<string type="F" ref="VarahadevaApp" desc="Varaha Dvadasi: Aparecimento do Senhor Varahadeva" />
-<string type="F" ref="VasudevaDis" desc="Sri Vasudeva Ghosh - Desaparecimento" />
-<string type="F" ref="VirabhadraApp" desc="Sri Virabhadra - Aparecimento" />
-<string type="F" ref="VisnupriyaApp" desc="Srimati Visnupriya Devi - Aparecimento" />
-<string type="F" ref="VisvanathaDis" desc="Srila Visvanatha Cakravarti Thakura - Desaparecimento" />
-<string type="F" ref="VrndavanaApp" desc="Srila Vrndavana Dasa Thakura - Aparecimento" />
-<string type="F" ref="VrndavanaDis" desc="Srila Vrndavana Dasa Thakura - Desaparecimento" />
+<string type="F" ref="AbhiramaDis" desc="Sri Abhirama Thakura - Disappearance" />
+<string type="F" ref="AdvaitaApp" desc="Sri Advaita Acarya - Appearance" />
+<string type="F" ref="BaladevaDis" desc="Sri Baladeva Vidyabhusana - Disappearance" />
+<string type="F" ref="BalaramaApp" desc="Lord Balarama - Appearance" />
+<string type="F" ref="BhagavadGita" desc="Advent of Srimad Bhagavad-gita" />
+<string type="F" ref="BhaktisiddhantaApp" desc="Srila Bhaktisiddhanta Sarasvati Thakura - Appearance" />
+<string type="F" ref="BhaktisiddhantaDis" desc="Srila Bhaktisiddhanta Sarasvati Thakura - Disappearance" />
+<string type="F" ref="BhaktivinodaApp" desc="Srila Bhaktivinoda Thakura - Appearance" />
+<string type="F" ref="BhaktivinodaDis" desc="Srila Bhaktivinoda Thakura - Disappearance" />
+<string type="F" ref="BhismaFirst" desc="First day of Bhisma Pancaka" />
+<string type="F" ref="BhismaLast" desc="Last day of Bhisma Pancaka" />
+<string type="F" ref="BhugarbhaDis" desc="Sri Bhugarbha Gosvami - Disappearance" />
+<string type="F" ref="CaitanyaApp" desc="Gaura Purnima: Appearance of Sri Caitanya Mahaprabhu" />
+<string type="F" ref="Candana" desc="Aksaya Trtiya. Candana Yatra starts. (Continues for 21 days)" />
+<string type="F" ref="DevanandaDis" desc="Sri Devananda Pandita - Disappearance" />
+<string type="F" ref="DhananjayaDis" desc="Sri Dhananjaya Pandita - Disappearance" />
+<string type="F" ref="GadadharaApp" desc="Sri Gadadhara Pandita - Appearance" />
+<string type="F" ref="GadadharaDasaDis" desc="Sri Gadadhara Dasa Gosvami - Disappearance" />
+<string type="F" ref="GadadharaDis" desc="Sri Gadadhara Pandita - Disappearance" />
+<string type="F" ref="GangamataApp" desc="Srimati Gangamata Gosvamini - Appearance" />
+<string type="F" ref="GauraKisoraDis" desc="Srila Gaura Kisora Dasa Babaji - Disappearance" />
+<string type="F" ref="GauridasaDis" desc="Sri Gauridasa Pandita - Disappearance" />
+<string type="F" ref="GopalaBhattaApp" desc="Srila Gopala Bhatta Gosvami - Appearance" />
+<string type="F" ref="GopalaBhattaDis" desc="Srila Gopala Bhatta Gosvami - Disappearance" />
+<string type="F" ref="GovindaDis" desc="Sri Govinda Ghosh - Disappearance" />
+<string type="F" ref="HaridasaDis" desc="Srila Haridasa Thakura - Disappearance" />
+<string type="F" ref="Hera" desc="Hera Pancami (4 days after Ratha Yatra)" />
+<string type="F" ref="ISKCON" desc="The incorporation of ISKCON in New York" />
+<string type="F" ref="IsvaraDis" desc="Sri Isvara Puri - Disappearance" />
+<string type="F" ref="JagadisaApp" desc="Sri Jagadisa Pandita - Appearance" />
+<string type="F" ref="JagadisaDis" desc="Sri Jagadisa Pandita - Disappearance" />
+<string type="F" ref="JagannathaDasaDis" desc="Srila Jagannatha Dasa Babaji - Disappearance" />
+<string type="F" ref="JagannathaMisra" desc="Festival of Jagannatha Misra" />
+<string type="F" ref="JahnavaApp" desc="Srimati Jahnava Devi - Appearance" />
+<string type="F" ref="JayadevaDis" desc="Sri Jayadeva Gosvami - Disappearance" />
+<string type="F" ref="JayanandaDis" desc="Sri Jayananda Prabhu - Disappearance" />
+<string type="F" ref="JhulanaBeg" desc="Radha Govinda Jhulana Yatra begins" />
+<string type="F" ref="JhulanaEnd" desc="Jhulana Yatra ends" />
+<string type="F" ref="JivaApp" desc="Srila Jiva Gosvami - App." />
+<string type="F" ref="JivaDis" desc="Srila Jiva Gosvami - Disappearance" />
+<string type="F" ref="KaliyaDis" desc="Sri Kaliya Krsnadasa - Disappearance" />
+<string type="F" ref="KasisvaraDis" desc="Sri Kasisvara Pandita - Disappearance" />
+<string type="F" ref="KatyayaniBeg" desc="Katyayani vrata begins" />
+<string type="F" ref="KatyayaniEnd" desc="Katyayani vrata ends" />
+<string type="F" ref="KrsnaApp" desc="Sri Krsna Janmastami: Appearance of Lord Sri Krsna" />
+<string type="F" ref="KrsnadasaDis" desc="Srila Krsnadasa Kaviraja Gosvami - Disappearance" />
+<string type="F" ref="LocanaApp" desc="Sri Locana Dasa Thakura - Appearance" />
+<string type="F" ref="LocanaDis" desc="Sri Locana Dasa Thakura - Disappearance" />
+<string type="F" ref="LokanathaDis" desc="Srila Lokanatha Gosvami - Disappearance" />
+<string type="F" ref="MadhavendraApp" desc="Sri Madhavendra Puri - Appearance" />
+<string type="F" ref="MadhavendraDis" desc="Sri Madhavendra Puri - Disappearance" />
+<string type="F" ref="MadhuDis" desc="Sri Madhu Pandita - Disappearance" />
+<string type="F" ref="MadhvacaryaApp" desc="Sri Madhvacarya - Appearance" />
+<string type="F" ref="MadhvacaryaDis" desc="Sri Madhvacarya - Disappearance" />
+<string type="F" ref="MahesaDis" desc="Sri Mahesa Pandita - Disappearance" />
+<string type="F" ref="MukundaDis" desc="Sri Mukunda Datta - Disappearance" />
+<string type="F" ref="MurariDis" desc="Sri Murari Gupta - Disappearance" />
+<string type="F" ref="NarahariDis" desc="Sri Narahari Sarakara Thakura - Disappearance" />
+<string type="F" ref="NarottamaApp" desc="Srila Narottama Dasa Thakura - Appearance" />
+<string type="F" ref="NarottamaDis" desc="Srila Narottama Dasa Thakura - Disappearance" />
+<string type="F" ref="NimbarkacaryaApp" desc="Sri Nimbarkacarya - Appearance" />
+<string type="F" ref="NityanandaApp" desc="Nityananda Trayodasi: Appearance of Sri Nityananda Prabhu" />
+<string type="F" ref="NrsimhadevaApp" desc="Nrsimha Caturdasi: Appearance of Lord Nrsimhadeva" />
+<string type="F" ref="ParamesvariDis" desc="Sri Paramesvari Dasa Thakura - Disappearance" />
+<string type="F" ref="PrabhupadaApp" desc="Srila Prabhupada - Appearance" />
+<string type="F" ref="PrabhupadaDis" desc="Srila Prabhupada - Disappearance" />
+<string type="F" ref="PrabhupadaSannyasa" desc="Acceptance of sannyasa by Srila Prabhupada" />
+<string type="F" ref="PrabhupadaUSAArr" desc="Srila Prabhupada's arrival in the USA" />
+<string type="F" ref="PrabhupadaUSADep" desc="Srila Prabhupada's departure for the USA" />
+<string type="F" ref="PundarikaApp" desc="Sri Pundarika Vidyanidhi - Appearance" />
+<string type="F" ref="PurusottamaApp" desc="Sri Purusottama Dasa Thakura - Appearance" />
+<string type="F" ref="PurusottamaDis" desc="Sri Purusottama Dasa Thakura - Disappearance" />
+<string type="F" ref="RadhaKunda" desc="Appearance of Radha Kunda, snana dana" />
+<string type="F" ref="RadhaRamanaApp" desc="Sri Sri Radha-Ramana Devaji - Appearance" />
+<string type="F" ref="RadharaniApp" desc="Radhastami: Appearance of Srimati Radharani" />
+<string type="F" ref="RaghunandanaApp" desc="Sri Raghunandana Thakura - Appearance" />
+<string type="F" ref="RaghunandanaDis" desc="Sri Raghunandana Thakura - Disappearance" />
+<string type="F" ref="RaghunathaBhattaDis" desc="Srila Raghunatha Bhatta Gosvami - Disappearance" />
+<string type="F" ref="RaghunathaDasaApp" desc="Srila Raghunatha Dasa Gosvami - Appearance" />
+<string type="F" ref="RaghunathaDasaDis" desc="Srila Raghunatha Dasa Gosvami - Disappearance" />
+<string type="F" ref="RamacandraApp" desc="Rama Navami: Appearance of Lord Sri Ramacandra" />
+<string type="F" ref="RamacandraKavirajaDis" desc="Sri Ramacandra Kaviraja - Disappearance" />
+<string type="F" ref="RamanandaDis" desc="Sri Ramananda Raya - Disappearance" />
+<string type="F" ref="RamanujacaryaApp" desc="Sri Ramanujacarya - Appearance" />
+<string type="F" ref="RamanujacaryaDis" desc="Sri Ramanujacarya - Disappearance" />
+<string type="F" ref="RasikanandaApp" desc="Sri Rasikananda - Appearance" />
+<string type="F" ref="RasikanandaDis" desc="Sri Rasikananda - Disappearance" />
+<string type="F" ref="RathaReturn" desc="Return Ratha (8 days after Ratha Yatra)" />
+<string type="F" ref="RupaDis" desc="Srila Rupa Gosvami - Disappearance" />
+<string type="F" ref="SanatanaDis" desc="Srila Sanatana Gosvami - Disappearance" />
+<string type="F" ref="SarangaDis" desc="Sri Saranga Thakura - Disappearance" />
+<string type="F" ref="SitaApp" desc="Srimati Sita Devi (consort of Lord Sri Rama) - Appearance" />
+<string type="F" ref="SitaThakuraniApp" desc="Srimati Sita Thakurani (Sri Advaita's consort) - Appearance" />
+<string type="F" ref="SivanandaDis" desc="Sri Sivananda Sena - Disappearance" />
+<string type="F" ref="SridharaDis" desc="Sri Sridhara Pandita - Disappearance" />
+<string type="F" ref="SrinivasaApp" desc="Sri Srinivasa Acarya - Appearance" />
+<string type="F" ref="SrinivasaDis" desc="Sri Srinivasa Acarya - Disappearance" />
+<string type="F" ref="SrivasaApp" desc="Sri Srivasa Pandita - Appearance" />
+<string type="F" ref="SrivasaDis" desc="Sri Srivasa Pandita - Disappearance" />
+<string type="F" ref="SvarupaDis" desc="Sri Svarupa Damodara Gosvami - Disappearance" />
+<string type="F" ref="SyamanandaApp" desc="Sri Syamananda Prabhu - Appearance" />
+<string type="F" ref="SyamanandaDis" desc="Sri Syamananda Prabhu - Disappearance" />
+<string type="F" ref="TulasiBeg" desc="Tulasi Jala Dan begins" />
+<string type="F" ref="TulasiEnd" desc="Tulasi Jala Dan ends" />
+<string type="F" ref="TulasiSaligrama" desc="Tulasi-Saligrama Vivaha (marriage)" />
+<string type="F" ref="UddharanaDis" desc="Sri Uddharana Datta Thakura - Disappearance" />
+<string type="F" ref="VakresvaraApp" desc="Sri Vakresvara Pandita - Appearance" />
+<string type="F" ref="VakresvaraDis" desc="Sri Vakresvara Pandita - Disappearance" />
+<string type="F" ref="VamanadevaApp" desc="Sri Vamana Dvadasi: Appear. of Lord Vamanadeva" />
+<string type="F" ref="VamsidasaDis" desc="Sri Vamsidasa Babaji - Disappearance" />
+<string type="F" ref="VamsivadanaApp" desc="Sri Vamsivadana Thakura - Appearance" />
+<string type="F" ref="VarahadevaApp" desc="Varaha Dvadasi: Appearance of Lord Varahadeva" />
+<string type="F" ref="VasudevaDis" desc="Sri Vasudeva Ghosh - Disappearance" />
+<string type="F" ref="VirabhadraApp" desc="Sri Virabhadra - Appearance" />
+<string type="F" ref="VisnupriyaApp" desc="Srimati Visnupriya Devi - Appearance" />
+<string type="F" ref="VisvanathaDis" desc="Srila Visvanatha Cakravarti Thakura - Disappearance" />
+<string type="F" ref="VrndavanaApp" desc="Srila Vrndavana Dasa Thakura - Appearance" />
+<string type="F" ref="VrndavanaDis" desc="Srila Vrndavana Dasa Thakura - Disappearance" />
 
-<string type="F" ref="Vriddhi" desc="[tithi extenso (vriddhi) - segundo dia do tithi]" />
+<string type="F" ref="Vriddhi" desc="[extensive tithi (vriddhi) - second day of tithi]" />
 
-<string type="F" ref="Ksaya" desc="[tithi suprimido(ksaya): #tt# tithi das #start_hour#h#start_minute#m de ontem às #end_hour#h#end_minute#m de hoje]" />
+<string type="F" ref="Ksaya" desc="[suppressed tithi (ksaya) - #tt# tithi from #start_hour#:#start_minute# yesterday to #end_hour#:#end_minute# today]" />
 
-<string type="F" ref="FastToday" desc="(Jejum hoje)" />
-<string type="F" ref="FastYesterday" desc="(O jejum foi feito ontem)" />
-<string type="F" ref="FeastToday" desc="(O jejum foi feito ontem, hoje é a festa)" />
-<string type="F" ref="FeastTomorrow" desc="(Jejum até o meio-dia, festa amanhã)" />
-<string type="S" ref="FeastForTomorrow" desc="(Jejum até o meio dia por #name#, festa amanhã)" />
+<string type="F" ref="FastToday" desc="(Fast today)" />
+<string type="F" ref="FastYesterday" desc="(Fasting is done yesterday)" />
+<string type="F" ref="FeastToday" desc="(Fasting was done yesterday, today is feast)" />
+<string type="F" ref="FeastTomorrow" desc="(Fasting till noon, feast tomorrow)" />
+<string type="S" ref="FeastForTomorrow" desc="(Fasting till noon for #name#, feast tomorrow)" />
 
-<string type="1" ref="FastTNoon" desc="(Jejum até o meio-dia)" />
-<string type="2" ref="FastTDusk" desc="(jejum até o crepúsculo)" />
-<string type="3" ref="FastTSunset" desc="(Jejum até o pôr do sol)" />
-<string type="4" ref="FastTMoonrise" desc="(Jejum até o nascer da lua)" />
-<string type="5" ref="FastTMidnight" desc="(Jejum até a meia-noite)" />
-<string type="6" ref="FastEkadasi" desc="(das #start_hour#h#start_minute#m até amanhã após o nascer do sol)" />
-<string type="7" ref="FastAllPeriod" desc="(Jejum por todo o período)" />
-
-<!--
-<string type="-1" ref="FastingBeg" desc="Jejum começa às #start_hour#h#start_minute#m" />
--->
-
-<string type="-2" ref="BreakFast" desc="Quebra de jejum das #start_hour#h#start_minute#m às #end_hour#h#end_minute#m" />
-<string type="-3" ref="BreakFastAfter" desc="Quebra de jejum após as #start_hour#h#start_minute#m" />
-
-<string type="F" ref="NotFasting" desc="(não adequado para jejum)" />
+<string type="1" ref="FastTNoon" desc="(Fast till noon)" />
+<string type="2" ref="FastTDusk" desc="(Fast till dusk)" />
+<string type="3" ref="FastTSunset" desc="(Fast till sunset)" />
+<string type="4" ref="FastTMoonrise" desc="(Fast till moonrise)" />
+<string type="5" ref="FastTMidnight" desc="(Fast till midnight)" />
+<string type="6" ref="FastEkadasi" desc="(from #start_hour#:#start_minute# till tomorrow after sunrise)" />
+<string type="7" ref="FastAllPeriod" desc="(Fast all period)" />
 
 <!--
-<string type="F" ref="Fasting" desc="(adequado para jejum)" />
+<string type="-1" ref="FastingBeg" desc="Beginning of fasting at #start_hour#:#start_minute#" />
 -->
 
-<string type="E" ref="EkadasiFast" desc="Jejum por #ekd# Ekadasi" />
+<string type="-2" ref="BreakFast" desc="Break fast #start_hour#:#start_minute# - #end_hour#:#end_minute#" />
+<string type="-3" ref="BreakFastAfter" desc="Break fast after #start_hour#:#start_minute#" />
 
-<string type="E" ref="Mohini" desc="Jejum por Mohini Ekadasi" />
-<string type="E" ref="Apara" desc="Jejum por Apara Ekadasi" />
-<string type="F" ref="Pandava Nirjala" desc="Jejum por Pandava Nirjala Ekadasi" />
-<string type="E" ref="Yogini" desc="Jejum por Yogini Ekadasi" />
-<string type="E" ref="Sayana" desc="Jejum por Sayana Ekadasi" />
-<string type="E" ref="Kamika" desc="Jejum por Kamika Ekadasi" />
-<string type="E" ref="Pavitropana" desc="Jejum por Pavitraropana Ekadasi" />
-<string type="E" ref="Annada" desc="Jejum por Annada Ekadasi" />
-<string type="E" ref="Parsva" desc="Jejum por Parsva Ekadasi" />
-<string type="E" ref="Indira" desc="Jejum por Indira Ekadasi" />
-<string type="E" ref="Pasankusa" desc="Jejum por Pasankusa Ekadasi" />
-<string type="E" ref="Rama" desc="Jejum por Rama Ekadasi" />
-<string type="E" ref="Utthana" desc="Jejum por Utthana Ekadasi" />
-<string type="E" ref="Utpanna" desc="Jejum por Utpanna Ekadasi" />
-<string type="E" ref="Moksada" desc="Jejum por Moksada Ekadasi" />
-<string type="E" ref="Saphala" desc="Jejum por Saphala Ekadasi" />
-<string type="E" ref="Putrada" desc="Jejum por Putrada Ekadasi" />
-<string type="E" ref="Sat-tila" desc="Jejum por Sat-tila Ekadasi" />
-<string type="E" ref="Bhaimi" desc="Jejum por Bhaimi Ekadasi" />
-<string type="E" ref="Vijaya" desc="Jejum por Vijaya Ekadasi" />
-<string type="E" ref="Amalaki vrata" desc="Jejum por Amalaki vrata Ekadasi" />
-<string type="E" ref="Papamocani" desc="Jejum por Papamocani Ekadasi" />
-<string type="E" ref="Kamada" desc="Jejum por Kamada Ekadasi" />
-<string type="E" ref="Varuthini" desc="Jejum por Varuthini Ekadasi" />
-<string type="E" ref="Parama" desc="Jejum por Parama Ekadasi" />
-<string type="E" ref="Padmini" desc="Jejum por Padmini Ekadasi" />
-<string type="F" ref="TotalFast" desc="(Jejum total, até mesmo de água, se tiver quebrado Ekadasi)" />
+<string type="F" ref="NotFasting" desc="(not suitable for fasting)" />
 
-<string type="J" ref="1first" desc="Início 1º mês de Caturmasya" />
-<string type="F" ref="1fast_" desc="(jejum de vegetais de folhas verdes por um mês)" />
-<string type="J" ref="1cont_" desc="Continuação 1º mês de Caturmasya" />
-<string type="J" ref="1last_" desc="Fim do 1º mês de Caturmasya" />
+<!--
+<string type="F" ref="Fasting" desc="(suitable for fasting)" />
+-->
 
-<string type="J" ref="2first" desc="Início 2º mês de Caturmasya" />
-<string type="F" ref="2fast_" desc="(jejum de iogurte por um mês)" />
-<string type="J" ref="2cont_" desc="Continuação 2º mês de Caturmasya" />
-<string type="J" ref="2last_" desc="Fim do 2º mês de Caturmasya" />
+<string type="E" ref="EkadasiFast" desc="Fasting for #ekd# Ekadasi" />
 
-<string type="J" ref="3first" desc="Início 3º mês de Caturmasya" />
-<string type="F" ref="3fast_" desc="(jejum de leite por um mês)" />
-<string type="J" ref="3cont_" desc="Continuação 3º mês de Caturmasya" />
-<string type="J" ref="3last_" desc="Fim do 3º mês de Caturmasya" />
+<string type="E" ref="Mohini" desc="Fasting for Mohini Ekadasi" />
+<string type="E" ref="Apara" desc="Fasting for Apara Ekadasi" />
+<string type="E" ref="Pandava Nirjala" desc="Fasting for Pandava Nirjala Ekadasi" />
+<string type="E" ref="Yogini" desc="Fasting for Yogini Ekadasi" />
+<string type="E" ref="Sayana" desc="Fasting for Sayana Ekadasi" />
+<string type="E" ref="Kamika" desc="Fasting for Kamika Ekadasi" />
+<string type="E" ref="Pavitropana" desc="Fasting for Pavitraropana Ekadasi" />
+<string type="E" ref="Annada" desc="Fasting for Annada Ekadasi" />
+<string type="E" ref="Parsva" desc="Fasting for Parsva Ekadasi" />
+<string type="E" ref="Indira" desc="Fasting for Indira Ekadasi" />
+<string type="E" ref="Pasankusa" desc="Fasting for Pasankusa Ekadasi" />
+<string type="E" ref="Rama" desc="Fasting for Rama Ekadasi" />
+<string type="E" ref="Utthana" desc="Fasting for Utthana Ekadasi" />
+<string type="E" ref="Utpanna" desc="Fasting for Utpanna Ekadasi" />
+<string type="E" ref="Moksada" desc="Fasting for Moksada Ekadasi" />
+<string type="E" ref="Saphala" desc="Fasting for Saphala Ekadasi" />
+<string type="E" ref="Putrada" desc="Fasting for Putrada Ekadasi" />
+<string type="E" ref="Sat-tila" desc="Fasting for Sat-tila Ekadasi" />
+<string type="E" ref="Bhaimi" desc="Fasting for Bhaimi Ekadasi" />
+<string type="E" ref="Vijaya" desc="Fasting for Vijaya Ekadasi" />
+<string type="E" ref="Amalaki vrata" desc="Fasting for Amalaki vrata Ekadasi" />
+<string type="E" ref="Papamocani" desc="Fasting for Papamocani Ekadasi" />
+<string type="E" ref="Kamada" desc="Fasting for Kamada Ekadasi" />
+<string type="E" ref="Varuthini" desc="Fasting for Varuthini Ekadasi" />
+<string type="E" ref="Parama" desc="Fasting for Parama Ekadasi" />
+<string type="E" ref="Padmini" desc="Fasting for Padmini Ekadasi" />
+<string type="F" ref="TotalFast" desc="(Total fast, even from water, if you have broken Ekadasi)" />
 
-<string type="J" ref="4first" desc="Início 4º mês de Caturmasya" />
-<string type="F" ref="4fast_" desc="(jejum de urad dal por um mês)" />
-<string type="J" ref="4cont_" desc="Continuação 4º mês de Caturmasya" />
-<string type="J" ref="4last_" desc="Fim do 4º mês de Caturmasya" />
+<string type="J" ref="1first" desc="Start of Month 1 of Caturmasya" />
+<string type="F" ref="1fast_" desc="(green leafy vegetable fast for one month)" />
+<string type="J" ref="1cont_" desc="Month 1 of Caturmasya continues" />
+<string type="J" ref="1last_" desc="End of month 1 of Caturmasya" />
 
-<string type="F" ref="NotCaturmasya" desc="(Caturmasya não é observado durante o Purusottama Adhika Masa)" />
+<string type="J" ref="2first" desc="Start of Month 2 of Caturmasya" />
+<string type="F" ref="2fast_" desc="(yogurt fast for one month)" />
+<string type="J" ref="2cont_" desc="Month 2 of Caturmasya continues" />
+<string type="J" ref="2last_" desc="End of the month 2 of Caturmasya" />
 
-<string type="J" ref="EKADASI_" desc="[SISTEMA EKADASI]" />
-<string type="J" ref="PURNIMA_" desc="[SISTEMA PURNIMA]" />
-<string type="J" ref="PRATIPAT" desc="[SISTEMA PRATIPAT]" />
+<string type="J" ref="3first" desc="Start of Month 3 of Caturmasya" />
+<string type="F" ref="3fast_" desc="(milk fast for one month)" />
+<string type="J" ref="3cont_" desc="Month 3 of Caturmasya continues" />
+<string type="J" ref="3last_" desc="End of the month 3 of Caturmasya" />
 
-<string type="S" ref="Mesa" desc="Mesa Sankranti (Sol entra em Áries em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Vrsabha" desc="Vrsabha Sankranti (Sol entra em Touro em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Mithuna" desc="Mithuna Sankranti (Sol entra em Gêmeos em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Karka" desc="Karka Sankranti (Sol entra em Câncer em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Simha" desc="Simha Sankranti (Sol entra em Leão em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Kanya" desc="Kanya Sankranti (Sol entra em Virgem em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Tula" desc="Tula Sankranti (Sol entra em Libra em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Vrscika" desc="Vrscika Sankranti (Sol entra em Escorpião em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Dhanus" desc="Dhanus Sankranti (Sol entra em Sagitário em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Makara" desc="Makara Sankranti (Sol entra em Capricórnio em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Kumbha" desc="Kumbha Sankranti (Sol entra em Aquário em #dd#/#MM#, às #hh#h#mm#m)" />
-<string type="S" ref="Mina" desc="Mina Sankranti (Sol entra em Peixes em #dd#/#MM#, às #hh#h#mm#m)" />
+<string type="J" ref="4first" desc="Start of Month 4 of Caturmasya" />
+<string type="F" ref="4fast_" desc="(urad dal fast for one month)" />
+<string type="J" ref="4cont_" desc="Month 4 of Caturmasya continues" />
+<string type="J" ref="4last_" desc="End of the month 4 of Caturmasya" />
 
-<string type="L" ref="FirstMasaDay" desc="Início de #masa# masa" />
-<string type="L" ref="LastMasaDay" desc="Fim de #masa# masa" />
+<string type="F" ref="NotCaturmasya" desc="(Caturmasya is not observed during Purusottama Adhika Masa)" />
+
+<string type="J" ref="EKADASI_" desc="[EKADASI SYSTEM]" />
+<string type="J" ref="PURNIMA_" desc="[PURNIMA SYSTEM]" />
+<string type="J" ref="PRATIPAT" desc="[PRATIPAT SYSTEM]" />
+
+<string type="S" ref="Mesa" desc="Mesa Sankranti (Sun enters Aries on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Vrsabha" desc="Vrsabha Sankranti (Sun enters Taurus on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Mithuna" desc="Mithuna Sankranti (Sun enters Gemini on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Karka" desc="Karka Sankranti (Sun enters Cancer on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Simha" desc="Simha Sankranti (Sun enters Leo on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Kanya" desc="Kanya Sankranti (Sun enters Virgo on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Tula" desc="Tula Sankranti (Sun enters Libra on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Vrscika" desc="Vrscika Sankranti (Sun enters Scorpio on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Dhanus" desc="Dhanus Sankranti (Sun enters Sagittarius on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Makara" desc="Makara Sankranti (Sun enters Capricorn on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Kumbha" desc="Kumbha Sankranti (Sun enters Aquarius on #dd# #MM#, #hh#:#mm#)" />
+<string type="S" ref="Mina" desc="Mina Sankranti (Sun enters Pisces on #dd# #MM#, #hh#:#mm#)" />
+
+<string type="L" ref="FirstMasaDay" desc="Start of #masa# masa" />
+<string type="L" ref="LastMasaDay" desc="End of #masa# masa" />
 
 <string type="L" ref="Visnu" desc="Vishnu (Chaitra)" />
 <string type="L" ref="Madhusudana" desc="Madhusudana (Vaishakha)" />
@@ -235,59 +235,59 @@
 <string type="L" ref="Madhava" desc="Madhava (Magha)" />
 <string type="L" ref="Govinda" desc="Govinda (Phalguna)" />
 <string type="L" ref="Purusottama-adhika" desc="Purushottama-adhika (Dvitiya Jyestha)" />
-<string type="F" ref="SecondHalf" desc="#masa# masa (segunda parte)" />
+<string type="F" ref="SecondHalf" desc="#masa# masa (Second half)" />
 
-<string type="W" ref="Mo" desc="Segunda" />
-<string type="W" ref="Tu" desc="Terça" />
-<string type="W" ref="We" desc="Quarta" />
-<string type="W" ref="Th" desc="Quinta" />
-<string type="W" ref="Fr" desc="Sexta" />
-<string type="W" ref="Sa" desc="Sábado" />
-<string type="W" ref="Su" desc="Domingo" />
+<string type="W" ref="Mo" desc="Monday" />
+<string type="W" ref="Tu" desc="Tuesday" />
+<string type="W" ref="We" desc="Wednesday" />
+<string type="W" ref="Th" desc="Thursday" />
+<string type="W" ref="Fr" desc="Friday" />
+<string type="W" ref="Sa" desc="Saturday" />
+<string type="W" ref="Su" desc="Sunday" />
 
-<string type="W" ref="Segunda" desc="Seg" />
-<string type="W" ref="Terça" desc="Ter" />
-<string type="W" ref="Quarta" desc="Qua" />
-<string type="W" ref="Quinta" desc="Qui" />
-<string type="W" ref="Sexta" desc="Sex" />
-<string type="W" ref="Sábado" desc="Sáb" />
-<string type="W" ref="Domingo" desc="Dom" />
+<string type="W" ref="Monday" desc="Mo" />
+<string type="W" ref="Tuesday" desc="Tu" />
+<string type="W" ref="Wednesday" desc="We" />
+<string type="W" ref="Thursday" desc="Th" />
+<string type="W" ref="Friday" desc="Fr" />
+<string type="W" ref="Saturday" desc="Sa" />
+<string type="W" ref="Sunday" desc="Su" />
 
-<string type="M" ref="Jan" desc="Janeiro" />
-<string type="M" ref="Feb" desc="Fevereiro" />
-<string type="M" ref="Mar" desc="Março" />
-<string type="M" ref="Apr" desc="Abril" />
-<string type="M" ref="May" desc="Maio" />
-<string type="M" ref="Jun" desc="Junho" />
-<string type="M" ref="Jul" desc="Julho" />
-<string type="M" ref="Aug" desc="Agosto" />
-<string type="M" ref="Sep" desc="Setembro" />
-<string type="M" ref="Oct" desc="Outubro" />
-<string type="M" ref="Nov" desc="Novembro" />
-<string type="M" ref="Dec" desc="Dezembro" />
+<string type="M" ref="Jan" desc="January" />
+<string type="M" ref="Feb" desc="February" />
+<string type="M" ref="Mar" desc="March" />
+<string type="M" ref="Apr" desc="April" />
+<string type="M" ref="May" desc="May" />
+<string type="M" ref="Jun" desc="June" />
+<string type="M" ref="Jul" desc="July" />
+<string type="M" ref="Aug" desc="August" />
+<string type="M" ref="Sep" desc="September" />
+<string type="M" ref="Oct" desc="October" />
+<string type="M" ref="Nov" desc="November" />
+<string type="M" ref="Dec" desc="December" />
 
-<string type="m" ref="01" desc="jan" />
-<string type="m" ref="02" desc="fev" />
-<string type="m" ref="03" desc="mar" />
-<string type="m" ref="04" desc="abr" />
-<string type="m" ref="05" desc="mai" />
-<string type="m" ref="06" desc="jun" />
-<string type="m" ref="07" desc="jul" />
-<string type="m" ref="08" desc="ago" />
-<string type="m" ref="09" desc="set" />
-<string type="m" ref="10" desc="out" />
-<string type="m" ref="11" desc="nov" />
-<string type="m" ref="12" desc="dez" />
+<string type="m" ref="01" desc="Jan" />
+<string type="m" ref="02" desc="Feb" />
+<string type="m" ref="03" desc="Mar" />
+<string type="m" ref="04" desc="Apr" />
+<string type="m" ref="05" desc="May" />
+<string type="m" ref="06" desc="Jun" />
+<string type="m" ref="07" desc="Jul" />
+<string type="m" ref="08" desc="Aug" />
+<string type="m" ref="09" desc="Sep" />
+<string type="m" ref="10" desc="Oct" />
+<string type="m" ref="11" desc="Nov" />
+<string type="m" ref="12" desc="Dec" />
 
-<string type="s" ref="Vasanta" desc="Vasanta Ritu - início da Primavera no subcontinente indiano [meses Vishnu (Chaitra) e Madhusudana (Vaishakha)]" />
-<string type="s" ref="Grishma" desc="Grishma (Grishmarutu) Ritu - início do Verão no subcontinente indiano [meses Trivikrama (Jyesta) e Vamana (Ashadha)]" />
-<string type="s" ref="Varsha" desc="Varsha Ritu - início das Monções no subcontinente indiano [meses Sridhara (Sravana) e Hrishikesha (Bhadrapada)]" />
-<string type="s" ref="Sharad" desc="Sharad Ritu - início do Outono Antecipado no subcontinente indiano [meses Padmanabha (Ashvina) e Damodara (Kartika)]" />
-<string type="s" ref="Hemanta" desc="Hemanta Ritu - início do Outono Tardio no subcontinente indiano [meses Keshava (Margashirsha) e Narayaṇa (Pausha)]" />
-<string type="s" ref="Shishira" desc="Shishira Ritu - início do Inverno no subcontinente indiano [meses Madhava (Magha) e Govinda (Phalguna)]" />
+<string type="s" ref="Vasanta" desc="Vasanta Ritu - indian subcontinent Spring season [Vishnu (Chaitra) and Madhusudana (Vaishakha) months]" />
+<string type="s" ref="Grishma" desc="Grishma (Grishmarutu) Ritu - indian subcontinent Summer season [Trivikrama (Jyesta) and Vamana (Ashadha) months]" />
+<string type="s" ref="Varsha" desc="Varsha Ritu - indian subcontinent Monsoon season [Sridhara (Sravana) and Hrishikesha (Bhadrapada) months]" />
+<string type="s" ref="Sharad" desc="Sharad Ritu - indian subcontinent Early Autumn season [Padmanabha (Ashvina) and Damodara (Kartika) months]" />
+<string type="s" ref="Hemanta" desc="Hemanta Ritu - indian subcontinent Late Autumn season [Keshava (Margashirsha) and Narayaṇa (Pausha) months]" />
+<string type="s" ref="Shishira" desc="Shishira Ritu - indian subcontinent Winter season [Madhava (Magha) and Govinda (Phalguna) months]" />
 
-<string type="s" ref="mcheader1" desc="                                                 |--------- SOL -------------|------- LUA ------|     " />
-<string type="s" ref="mcheader2" desc="DATA       PAKSA  TITHI     YOGA      NAKSATRA   |ARUNODAYA NASC   ZÊN   PÔR | NASC   ZÊN   PÔR |JEJUM" />
+<string type="s" ref="mcheader1" desc="                                                 |---------- SUN ------------|----- - MOON -----|     " />
+<string type="s" ref="mcheader2" desc="DATE       PAKSA  TITHI     YOGA      NAKSATRA   |ARUNODAYA  RISE NOON  SET  | RISE   ZEN   SET | FAST" />
 <string type="s" ref="mcheader3" desc="------------------------------------------------------------------------------------------------------" />
 
 </xml>
