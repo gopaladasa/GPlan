@@ -73,4 +73,11 @@ Com a GPlan é possível criar planners personalizados com as seguintes caracter
 
 ![Planner GPlan 2020 - roda da vida](https://raw.githubusercontent.com/gopaladasa/GPlan/master/GPlan2020R2C/pic/gplan-add.png)
 
+
+## Planners 2020 já prontos para imprimir
+
+No link abaixo você encontra diversos planners 2020 em pdf calculados para diversas cidades brasileiras e já prontos para imprimir:
+
+https://github.com/gopaladasa/GPlan/tree/master/GPlan2020R2C/pdf
+
 ---
