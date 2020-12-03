@@ -1,4 +1,4 @@
-# GPlan 2020 Release 2C
+# GPlan 2021 Release 1
 
 A GPlan é uma planilha eletrônica em formato Excel® capaz de gerar um Planner com as datas e eventos do calendário vaishnava referentes à sua cidade (e também com os seus dados pessoais), para personalizar e imprimir.
 
@@ -50,34 +50,17 @@ Com a GPlan é possível criar planners personalizados com as seguintes caracter
 * Folhas avulsas para acompanhamento do andamento de projetos.
 * Folhas avulsas quadriculadas. 
 
-## Melhorias da GPlan 2020 R2C
+## Melhorias da GPlan 2021 R1
 
-1. Acréscimo de uma opção com as seções de planejamento anual:
-    * "Encontrando sua razão de ser (Propósito de Vida) baseado no diagrama ikigai adaptado para a visão védica de dharma, artha, kama e moksha;
-    * "Declaração de Propósito" com identidade, propósito, método, visão e valores;
-    * "Alcançando meu sonho";
-    * "Análise SWOT (forças, fraquezas, ameaças e oportunidades);
-    * "Planejamento anual";
-
-2. Acréscimo de uma opção com as seções de planejamento mensal:
-    * "Resolução de Problemas";
-    * "Revisão Mensal";
-    * "Roda da Vida";
-    * "Priorização de Tarefas";
-    * "Planner Mensal";
-
-3. Folhas avulsas:
-    * para acompanhamento e controle de resultados de reuniões;
-    * para acompanhamento do andamento de projetos;
-    * quadriculadas.
+1. Acréscimo de tradução dos feriados móveis
 
 ![Planner GPlan 2020 - roda da vida](https://raw.githubusercontent.com/gopaladasa/GPlan/master/GPlan2020R2C/pic/gplan-add.png)
 
 
-## Planners 2020 já prontos para imprimir
+## Planners 2021 já prontos para imprimir
 
 No link abaixo você encontra diversos planners 2020 em pdf calculados para diversas cidades brasileiras e já prontos para imprimir:
 
-https://github.com/gopaladasa/GPlan/tree/master/GPlan2020R2C/pdf
+https://github.com/gopaladasa/GPlan/tree/master/GPlan2021R1/pdf
 
 ---
