@@ -1,0 +1,109 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="xml">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="request">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="reqname"/>
+              <xs:element type="xs:string" name="reqversion"/>
+              <xs:element type="xs:float" name="reqlongitude"/>
+              <xs:element type="xs:float" name="reqlatitude"/>
+              <xs:element type="xs:float" name="reqtimezone"/>
+              <xs:element type="xs:string" name="reqstartdate"/>
+              <xs:element type="xs:short" name="reqdaycount"/>
+              <xs:element type="xs:byte" name="reqdst"/>
+              <xs:element type="xs:string" name="resname"/>
+              <xs:element type="xs:string" name="resdstsystem"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="result">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="masa" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="msday" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:date"            name="date"/>
+                          <xs:element type="xs:positiveInteger" name="doy"/>
+                          <xs:element type="xs:positiveInteger" name="nyc"/>
+                          <xs:element type="xs:string"          name="month"/>
+                          <xs:element type="xs:positiveInteger" name="wnum"/>
+                          <xs:element type="xs:string"          name="weekday"/>
+                          <xs:element type="xs:positiveInteger" name="gyear"/>
+                          <xs:element type="xs:string"          name="masa"/>
+                          <xs:element type="xs:string"          name="paksa"/>
+                          <xs:element type="xs:positiveInteger" name="tnum"/>
+                          <xs:element type="xs:string" name="tithi"/>
+                          <xs:element type="xs:string" name="arunodayatithi"/>
+                          <xs:element type="xs:string" name="vriddhi"       minOccurs="0"/>
+						  <xs:element type="xs:float"  name="dstoffset"     minOccurs="0"/>
+                          <xs:element type="xs:time"   name="ksayafrom"     minOccurs="0"/>
+                          <xs:element type="xs:time"   name="ksayato"       minOccurs="0"/>
+                          <xs:element type="xs:time"   name="sankrantitime" minOccurs="0"/>
+                          <xs:element type="xs:string" name="sankrantirasi" minOccurs="0"/>
+                          <xs:element type="xs:time"   name="arunodaya"/>
+                          <xs:element type="xs:time"   name="sunrise"/>
+                          <xs:element type="xs:time"   name="paranafrom"    minOccurs="0"/>
+                          <xs:element type="xs:time"   name="paranato"      minOccurs="0"/>
+                          <xs:element type="xs:time"   name="noon"/>
+                          <xs:element type="xs:time"   name="sunset"/>
+                          <xs:element type="xs:time"   name="moonrise"/>
+                          <xs:element type="xs:time"   name="moontransit"/>
+                          <xs:element type="xs:time"   name="moonset"/>
+                          <xs:element type="xs:string" name="moonphase"/>
+                          <xs:element type="xs:short"  name="mooncode"/>
+                          <xs:element type="xs:string" name="moontransl"/>
+                          <xs:element type="xs:string" name="moonref"       minOccurs="0"/>
+                          <xs:element type="xs:float"  name="tithielapse"/>
+                          <xs:element type="xs:float"  name="naksatraelapse"/>
+                          <xs:element type="xs:string" name="naksatra"/>
+                          <xs:element type="xs:string" name="yoga"/>
+                          <xs:element type="xs:string" name="fasttype"/>
+                          <xs:element type="xs:string" name="fastmark"/>
+                          <xs:element type="xs:string" name="festival1"   minOccurs="0"/>
+                          <xs:element type="xs:string" name="class1"      minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival2"   minOccurs="0"/>
+                          <xs:element type="xs:string" name="class2"      minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival3"   minOccurs="0"/>
+                          <xs:element type="xs:string" name="class3"      minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival4"   minOccurs="0"/>
+                          <xs:element type="xs:string" name="class4"      minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival5"   minOccurs="0"/>
+                          <xs:element type="xs:string" name="class5"      minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival6"   minOccurs="0"/>
+                          <xs:element type="xs:string" name="class6"      minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival7"   minOccurs="0"/>
+                          <xs:element type="xs:string" name="class7"      minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival8"   minOccurs="0"/>
+                          <xs:element type="xs:string" name="class8"      minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival9"   minOccurs="0"/>
+                          <xs:element type="xs:string" name="class9"      minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival10"  minOccurs="0"/>
+                          <xs:element type="xs:string" name="class10"     minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival11"  minOccurs="0"/>
+                          <xs:element type="xs:string" name="class11"     minOccurs="0"/>
+                          <xs:element type="xs:string" name="festival12"  minOccurs="0"/>
+                          <xs:element type="xs:string" name="class12"     minOccurs="0"/>
+                          <xs:element type="xs:string" name="festivalref" minOccurs="0"/>
+                          <xs:element type="xs:string" name="caturmasya1" minOccurs="0"/>
+                          <xs:element type="xs:string" name="caturmasya2" minOccurs="0"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="name" use="optional"/>
+                  <xs:attribute type="xs:string" name="gyear" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="name"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

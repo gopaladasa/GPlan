@@ -1,0 +1,967 @@
+Calendário Védico Vaishnava - VCal - Versão 4.01
+
+Escrito por Shyamasundara Dasa e Markandeya Rishi Dasa 
+
+The Bhaktivedanta Book Trust International, Inc. 
+copyright (c) 1983-1999. Todos os direitos reservados.
+
+Download do GCal 11.2c (substituto do VCal 4.01)  http://www.gopal.home.sk/gcal/gcal_11_2_app.rar  
+
+Conteúdo:
+
+ 1. Onde obter o VCAL
+ 2. VCAL é freeware
+ 3. Lista de Arquivos
+ 4. Ortografia
+ 5. Introdução ao programa
+ 6. Como usar o programa
+ 7. Alguma astronomia védica básica
+    a. Os movimentos da lua e do sol
+    b. As definições de meses e anos solares e lunares
+        i. Mês e ano solares
+       ii. Mês e ano lunares
+ 8. Pancanga, ou Valendário Védico
+    a. Tithi
+    b. Naksatra
+    c. Yoga
+ 9. Razões para seguir um calendário lunar
+10. Métodos de cálculo tradicionais e modernos
+11. Alguns comentários sobre a interpretação do Calendário Vaisnava
+    a. Nomes dos anos e meses
+    b. Quando observar Ekadasi
+    c. c. "Quebra de Jejum 05:18 - 09:34" e "Horário de verão não considerado"
+    d. Tithi duplicado ou ausente
+    e. Sankranti
+    f. Nomes ds signos do zodíaco
+12. Parting Words
+
+1. Onde obter o VCAL 
+
+A versão mais recente do VCAL deve estar disponível na rede mundial de computadores (Worldwide Web). [http://www.gopal.home.sk/gcal/]
+
+2. VCAL é freeware
+
+A Bhaktivedanta Book Trust International é proprietária do programa, 
+mas você pode usá-lo e compartilhá-lo com outras pessoas. Existem 
+apenas algumas regras. Elas estão no arquivo LICENSE.TXT.
+
+3. Lista de Arquivos
+
+Os seguintes arquivos estão incluídos neste pacote:
+
+VCAL.EXE 
+VCAL.OV1 
+VCAL.OV2 
+VCAL.OV3 
+VCAL.TOW 
+VCAL.HLP 
+DOC-VCAL.TXT
+HISTORY.TXT 
+QA401.TXT 
+LICENSE.TXT 
+FESTIVAL.TXT
+PERSONS.TXT 
+PRABHPAD.TXT
+BBT.TXT 
+FILE_ID.DIZ	Main program
+Overlay used by the main program
+Overlay used by the main program
+Overlay used by the main program
+File containing list of towns
+Help file
+The document you are now reading
+Describing changes in each new version.
+Questions and Answers for the release of this version.
+Your license for the free use of this program
+About the festivals mentioned in the calendar
+About the saints and incarnations mentioned in the calendar 
+About His Divine Grace A.C. Bhaktivedanta Swami Prabhupada
+About the Bhaktivedanta Book Trust
+Brief identification of this program
+You are welcome to share VCAL with others, but please distribute the complete archive, not just selected files.
+
+4. Ortografia
+
+Para soletrar nomes e termos em sânscrito (e bengali), o 
+VCAL usa ortografia "como se fosse diacrítica". Ou seja, 
+soletra como se estivesse empregando as marcas diacríticas 
+usadas pelos estudiosos, mas deixa essas marcas de fora. 
+Assim, "Krishna" está escrito "Krsna". A documentação do 
+VCAL segue o mesmo sistema. Um guia para o sistema de 
+transliteração em sânscrito é encontrado em todos os livros 
+da Bhaktivedanta Book Trust.
+
+5. Introdução ao programa
+
+O VCAL calcula calendários lunares védicos. Existem diferentes 
+maneiras de fazer calendários de acordo com o sistema lunar 
+védico, todos muito semelhantes. Este programa faz o calendário 
+de acordo com a tradição Gaudiya Vaisnava, um ramo importante 
+da tradição Vaisnava. A palavra "Vaisnava" denota um adorador 
+de Visnu (Deus).
+
+O VCAL foi desenvolvido para a ISKCON, a Sociedade Internacional 
+para a Consciência de Krishna, que segue a tradição Gaudiya 
+Vaisnava. Mas os calendários produzidos pelo VCAL devem ser úteis 
+para a maioria das pessoas que seguem um calendário lunar védico.
+
+VCAL foi escrito por Syamasundara Dasa. Ele e Markandeya Rsi Dasa 
+o desenvolveram ainda mais.
+
+Para desenvolver o programa, em junho de 1989 Markandeya foi à 
+Índia para extensa pesquisa e consulta com pessoas conhecedoras 
+de criação de calendário, astronomia e observâncias de eventos e 
+celebrações Vaisnavas. O aprendizado e a experiência dos 
+consultados contribuíram muito para a confiabilidade deste programa.
+
+6. Como usar o programa
+
+O VCAL é executado no DOS. Não é um programa do Windows. 
+Para instalá-lo, basta colocar todos os seus arquivos em qualquer 
+diretório. Para desinstalá-lo, basta apagar os arquivos.
+
+O programa é fácil de usar, com um sistema de menus simples. 
+A tecla F1 fornece ajuda sensível ao contexto.
+
+O VCAL usa uma lista de cidades para as quais pode calcular um 
+calendário. Você pode inserir novas cidades, conforme necessário, 
+até um limite de 1200. Se precisar de mais, você deve excluir 
+algumas cidades que não usa. (Ou você pode manter mais de um 
+arquivo da cidade e alternar entre os arquivos, renomeá-los.)
+
+Latitudes maiores que 65 graus e 35 minutos (norte ou sul) causam 
+problemas para o VCAL. O uso dessas latitudes pode resultar em 
+cálculos errados ou pode encerrar o programa com um erro.
+
+Se você adicionar novas cidades à lista, insira a latitude, 
+longitude e fuso horário corretamente. Se alguma dessas 
+informações estiver incorreta, seu calendário estará incorreto. 
+(Se você compartilha os arquivos de cidade modificados para 
+outras pessoas, esse aviso é ainda mais importante.)
+
+O VCAL também fornece "arquivos em lote", que permitem calcular 
+vários calendários por vez. Quando você escolher, no menu principal, 
+"Criar calendário Vaisnava", será perguntado a você, duas telas 
+depois, se deseja calcular o calendário para apenas uma cidade ou 
+muitas. Se você escolher "muitas", o VCAL apresentará uma lista dos 
+arquivos em lotes disponíveis. Cada arquivo em lotes permite calcular 
+calendários para muitas cidades através de um só comando.
+
+Você também pode usar o VCAL para calcular aniversários. Insira as 
+informações de nascimento de acordo com o calendário ocidental, e o 
+VCAL informará o dia de nascimento védico correspondente.
+
+Desde 1999 o VCAL tem sido usado por cerca de doze anos, mas é claro 
+que ainda pode conter erros. Se você encontrar uma suspeita de erro, 
+entre em contato com Markandeya Rsi Dasa neste endereço de e-mail: 
+<markandeya@geocities.com>.
+
+7. Alguma astronomia védica básica
+
+a. Os movimentos da lua e do sol
+
+Da perspectiva de um observador na Terra, o sol, a lua e as estrelas 
+estão se movendo ao redor da Terra todos os dias. Se olharmos para o 
+céu à noite, à medida que as horas passam, veremos a lua e as estrelas 
+gradualmente se movendo para o oeste no céu, parecendo se mover juntas. 
+Porém, com o passar de várias noites, podemos notar que a posição da 
+lua em relação às estrelas se move em direção ao leste.
+
+A extensão desse movimento relativo é de aproximadamente 13 graus 
+por dia. Assim, a lua completará uma rotação completa através do 
+cinturão de estrelas, chamado zodíaco, em cerca de um mês.
+
+Uma situação semelhante ocorre com o sol. Como as estrelas são fracas 
+demais para serem vistas durante o dia, não podemos ver o sol e as 
+estrelas simultaneamente. Mas, se pudéssemos, veríamos o sol se movendo 
+gradualmente contra o fundo das estrelas. O sol, no entanto, se move 
+mais lentamente que a lua - apenas cerca de 1 grau por dia. Portanto, 
+teríamos que esperar mais para observar a diferença. Para que o sol 
+volte ao mesmo grupo de estrelas no zodíaco, leva um ano.
+
+b. As definições de meses e anos solares e lunares
+
+Pode-se definir um mês e um ano de duas maneiras básicas: pelo 
+movimento da lua e pelo movimento do sol.
+
+i. Mês e ano solares
+
+O mês solar védico dura o tempo que leva o sol  para atravessar um 
+signo completo do zodíaco. O zodíaco tem doze signos, então cada 
+signo cobre um ângulo de 30 graus. Como o sol se move pelo zodíaco 
+cerca de 1 grau por dia, atravessar um signo completo leva cerca 
+de 30 dias - mais exatamente, 30,4 dias. Doze meses geram um ano 
+solar - ou seja, um pouco mais de 365 dias. Em outras palavras, um 
+ano solar é o tempo que leva para o sol começar de qualquer grupo de 
+estrelas e retornar a ele. Esse ano permanece sincronizado com as 
+estações do ano.
+
+ii. Mês e ano lunares
+
+O mês e o ano lunares são um pouco mais complexos. O calendário 
+védico define o mês lunar em termos das fases da lua. Sabemos que 
+as fases da lua mudam. Às vezes a lua está cheia, às vezes pela 
+metade (crescente/minguante) e às vezes nova, dependendo do quanto 
+da lua nós aqui na terra podemos ver iluminado pelo sol. Quando o 
+sol e a lua estão próximos um do outro no zodíaco, o lado da lua 
+iluminado pelo sol estará, na maior parte, de costas para nós. Então, 
+veremos apenas uma lasca, e a maior parte da lua parecerá escura. 
+Por outro lado, quando o sol e a lua estiverem em lados opostos do 
+zodíaco, o lado da lua que vemos da Terra ficará totalmente iluminado, 
+e assim veremos a lua cheia. Todas as outras posições do sol e da lua 
+resultam nas outras fases lunares intermediárias.
+
+No calendário Vaisnava, um mês começa no dia seguinte à lua cheia e 
+continua até a próxima lua cheia. Isso leva cerca de 29,5 dias.
+
+Assim como 12 meses solares produzem um ano solar, 12 meses lunares 
+produzem um ano lunar. Como um mês lunar leva 29,5 dias, 12 meses 
+levarão cerca de 12 vezes esse tempo - ou seja, 354 dias.
+
+Este ano lunar é 11 dias mais curto que o ano solar de 365 dias. 
+Portanto, embora o mês seja sincronizado com as fases lunares, o ano 
+não se sincroniza com as estações. Contando pelo calendário solar, 
+em cada ano solar o ano lunar começará 11 dias mais cedo. Portanto, 
+para sincronizar o ano lunar com as estações, o calendário védico 
+acrescenta um mês extra aproximadamente a cada três anos, de acordo 
+com certas regras. Dessa maneira, os anos lunar e solar permanecem 
+sincronizados.
+
+8. Pancanga, ou Calendário Védico
+
+O calendário védico é chamado Pancanga. A palavra Pancanga indica 
+que o calendário consiste em cinco partes, ou conta sobre cinco 
+elementos. Esses elementos são vara (o dia da semana), tithi (o dia 
+lunar ou fase da lua), karana (meio tithi), naksatra (a posição da 
+lua no zodíaco) e yoga (uma medida derivada das posições do sol e 
+da lua). Para o uso normal do calendário, não é necessário entender 
+todos esses elementos. Mas alguns deles são descritos a seguir.
+
+a. Tithi
+
+Como discutimos, o mês lunar marca o tempo de uma lua cheia para a 
+próxima. O mês lunar é dividido em 30 partes, chamadas dias lunares, 
+ou tithis. Os tithis são simplesmente as diferentes fases da lua. 
+Assim, o primeiro tithi começa no momento em que a lua está cheia - 
+ou seja, quando o ângulo entre a lua e o sol é de 180 graus - e 
+continua até que o ângulo tenha aumentado 12 graus. Então, um tanto 
+da lua nos parece menos brilhante: a lua não está mais completamente 
+cheia.
+
+Agora, o segundo tithi começa, e continua até que o ângulo entre o 
+sol e a lua tenha aumentado em mais 12 graus. Um pouco mais do lado 
+brilhante da lua tem agora voltado suas costas para nós, e assim a 
+lua é ainda menos cheia.
+
+Quando se passam 15 desses tithis, o ângulo entre o sol e a lua tem 
+aumentado em 180 graus. Neste momento, nada do lado brilhante da lua 
+pode mais ser visto, e assim temos uma lua nova. Então mais 15 tithis 
+gradualmente se passam, e a lua novamente torna-se cheia. Quando 30 
+tithis assim se sucedem, o mês acaba.
+
+O período em que a lua míngua, ou diminui de tamanho, é chamado 
+krsna paksa ("a quinzena escura"), e o período em que cresce, ou 
+aumenta, é chamado sukla paksa ou gaura paksa ("a quinzena brilhante"). 
+As palavras Krishna e Gaura usadas aqui são específicas da tradição 
+Gaudiya Vaisnava.
+
+Alguns calendários lunares começam o mês a partir da posição 0 grau - 
+ou seja, logo após a lua nova. Tais calendários são chamados 
+mukhya candra. Outros calendários, tais como o usado pelos Gaudiya 
+Vaisnavas, começam logo após a lua cheia, com o Krsna paksa. Tais 
+calendários são chamados gauna candra.
+
+Exceto para a lua nova e lua cheia, os nomes dos tithis são simplesmente 
+números ordinais: pratipat, dvitiya, trtiya (primeiro, segundo, terceiro), 
+etc. Estes nomes são os mesmos tanto para os tithis que ocorrem durante 
+Krishna paksa (quinzena escura da lua) e o Gaura paksa (quinzena clara). 
+A lua nova é chamada amavasya, e a lua cheia é chamada purnima.
+
+Except for the new moon and the full moon, the names of the tithis are 
+simply counting words: pratipat, dvitiya, trtiya (first, second, third), 
+etc. These names are the same for the tithis occurring during Krsna paksa 
+(the dark period of the moon) and the gaura paksa (the bright period). 
+The new moon is called amavasya, and the full moon purnima.
+
+Krsna paksa 
+Tithi Name
+1 Pratipat 
+2 Dvitiya 
+3 Trtiya 
+4 Caturthi 
+5 Pancami 
+6 Sasti 
+7 Saptami 
+8 Astami 
+9 Navami 
+10 Dasami 
+11 Ekadasi 
+12 Dvadasi 
+13 Trayodasi 
+14 Caturdasi 
+15 Amavasya (new moon)
+
+Gaura paksa
+Tithi Name
+1 Pratipat
+2 Dvitiya
+3 Trtiya
+4 Caturthi
+5 Pancami
+6 Sasti
+7 Saptami
+8 Astami
+9 Navami
+10 Dasami
+11 Ekadasi
+12 Dvadasi
+13 Trayodasi
+14 Caturdasi
+15 Purnima (full moon)
+
+Porque a velocidade da Lua em relação à do Sol não é constante, 
+mas varia, um tithi não tem uma duração fixa de tempo. A duração 
+de um tithi pode variar de 19 a 26 horas. Portanto, uma vez que 
+um tithi lunar não corresponde ao dia solar de 24 horas, um 
+tithi pode começar em qualquer momento do dia.
+
+Há certos tithis em que os seguidores da cultura védica observam 
+certos costumes ou celebrações. Em que dia este ou aquele tithi 
+deve ser observado? A regra geral é que se vai celebrar um certo 
+tithi no dia cujo nascer do sol cai dentro daquele tithi - embora, 
+algumas vezes, outras regras entrem em vigor.
+
+O Ekadasi tithi é especialmente importante, e regras especiais 
+determinam quando observar Ekadasi. Às vezes, regras especiais 
+também se aplicam a festivais tais como Sri Krsna Janmastami.
+
+b. Naksatra 
+
+Como mencionado anteriormente, no céu o cinturão de estrelas 
+chamado zodíaco é dividido em 12 signos, que cobrem 30 graus 
+cada. Há também uma maneira de dividir o zodíaco em 27 partes, 
+que cobrem 13 graus e 1/3 cada. Essas partes são chamadas naksatras.
+
+Enquanto se move ao longo do zodíaco, a lua passa continuamente 
+por esses naksatras, um por um. No calendário védico, naksatra 
+simplesmente se refere ao naksatra dentro do qual a lua está 
+presente ao nascer do sol de qualquer dia em particular.
+
+Os 27 Nakṣatras - mansões lunares ou constelações estelares
+
+The 27 Nakṣatras - lunar mansions or star constellations
+Name	Sanskrit Name	Lord
+1	Ashvinī	अश्विनी	Ketu
+2	Bharanī	भरणी	Venus
+3	Kṛttikā	कृत्तिका	Sun
+4	Rohiṇī	रोहिणी	Moon
+5	Mrigashīrsha	म्रृगशीर्षा	Mars
+6	Ārdrā	आर्द्रा	Rahu
+7	Punarvasu	पुनर्वसु	Jupiter
+8	Puṣyā	पुष्य	Saturn
+9	Āshleshā	आश्ळेषा/आश्लेषा	Mercury
+10	Maghā	मघा	Ketu
+11	Pūrva-Phalgunī	पूर्व फाल्गुनी	Venus
+12	Uttara-Phalgunī	उत्तर फाल्गुनी	Sun
+13	Hasta	हस्त	Moon
+14	Chitrā	चित्रा	Mars
+15	Svātī	स्वाति	Rahu
+16	Viśākhā	विशाखा	Jupiter
+17	Anurādhā	अनुराधा	Saturn
+18	Jyeshtha	ज्येष्ठा	Mercury
+19	Mūla	मूल	Ketu
+20	Pūrvāṣāḍhā	पूर्वाषाढा	Venus
+21	Uttarāṣāḍhā	उत्तराषाढा	Sun
+22	Śravaṇa	श्रवण	Moon
+23	Shravishthā/Dhanishthā	श्रविष्ठा/ धनिष्ठा	Mars
+24	Shatabhishā	शतभिषा	Rahu
+25	Pūrva-Bhādrapadā	पूर्व भाद्रपदा	Jupiter
+26	Uttara-Bhādrapadā	उत्तर भाद्रपदा	Saturn
+27	Revatī	रेवती	Mercury
+
+Os 27 Nakshatras (estrelas) são casas ou mansões da Lua. Elas são 
+usadas para rastrear o curso da lua contra o fundo de estrelas no 
+decorrer do ano. A eclíptica é dividida em 27 nakshatras, chamadas 
+de casas lunares ou asterismos, que refletem o ciclo da lua em 
+relação às estrelas fixas.
+
+De acordo com a astrologia védica, o zodíaco de 360 graus é 
+dividido em 27 Nakshatras ou constelações. Portanto, cada 
+constelação compreende 13 graus e 20 minutos quando medida a 
+partir do ponto inicial fixo. Essas 27 Nakshatras (estrelas) 
+representam o círculo inteiro de 360 graus do zodíaco. Um 
+prognóstico baseado no trânsito/correlação/inter-relação de 
+planetas em relação aos Nakshatras é mais preciso do que os 
+baseados em qualquer sistema ocidental de astrologia.
+
+c. Yoga 
+
+Tithis e naksatras podem ser facilmente entendidos em relação a 
+fenômenos no céu. Tithi é a fase da lua, e naksatra marca a 
+posição da lua. Mas yoga não é facilmente entendido de maneira 
+similar. O yoga é determinado pela adição do ângulo ou longitude 
+do sol e da lua, reduzindo a soma para caber no círculo de 360 
+graus (subtraindo 360 graus, se necessário) e dividindo o número 
+resultante por 13 graus e 1/3. Como os naksatras, os yogas também 
+são em número de 27.
+
+9. Razões para seguir um calendário lunar
+
+No calendário Vaisnava, os tempos para várias celebrações são 
+determinados pelos tithi, às vezes com naksatra e outros 
+elementos do calendário levados em consideração.
+
+A maioria dos estudiosos que analisaram os antigos sistemas de 
+calendário indianos, lunares e solares, concluíram que o sistema 
+lunar é o mais antigo.
+
+Sabe-se que as fases lunares influenciam a agricultura e, de 
+acordo com escrituras como Manu-samhita (A Lei de Manu), elas 
+também influenciam aspectos mais sutis da vida humana.
+
+10. Métodos de cálculo tradicionais e modernos 
+
+Tradicionalmente, os cálculos astronômicos necessários para 
+fazer um Pancanga eram feitos de acordo com um dos textos 
+astronômicos, como por exemplo o Surya Siddhanta. Os métodos 
+descritos no Surya Siddhanta são bastante semelhantes aos 
+métodos astronômicos modernos para determinar as posições 
+dos planetas. A principal diferença é que Surya Siddhanta 
+tem um modelo mais simples. Tal modelo é necessário para que 
+os cálculos sejam feitos à mão de maneira prática.
+
+Os métodos de Surya Siddhanta podem ser usados por uma pessoa 
+habilidosa a qualquer momento, sem a necessidade de equipamentos 
+modernos. Tudo o que era necessário eram alguns instrumentos de 
+observação que podiam ser construídos sem alta tecnologia. Esses 
+instrumentos eram utilizados regularmente para verificar se os 
+cálculos eram compatíveis com a realidade observável. Quando uma 
+diferença aparecia após algum tempo, eram feitas correções nas 
+constantes astronômicas das fórmulas. Com esse sistema foram 
+obtidos resultados razoavelmente bons, embora o modelo 
+astronômico fosse simples. Sua precisão não pode ser comparada 
+à obtida pelos métodos modernos mas, para os propósitos da 
+astrologia e criação de calendários, era suficiente.
+
+Este programa de computador usa fórmulas que fornecem uma precisão 
+de 1 minuto de arco para a longitude do sol e 2 minutos de arco 
+para a longitude da lua. Ao determinar os horários de término de 
+tithis, esses erros podem resultar em um erro máximo de 5 minutos. 
+O erro médio é de cerca de 3 minutos. Tal erro relatará um Ekadasi 
+(o décimo primeiro tithi) na data errada aproximadamente uma vez a 
+cada 20 anos.
+
+11. Alguns comentários sobre a interpretação do Calendário Vaisnava
+
+Seguindo a tradição Gaudiya Vaisnava, os anos são contados a partir 
+do aparecimento da encarnação do Senhor Sri Krsna como Senhor 
+Sri Caitanya Mahaprabhu. O Senhor Caitanya também é conhecido como 
+Gaura, então o ano é chamado "Gaurabda", "o ano do Senhor Caitanya".
+
+Cada mês lunar, ou "masa", é conhecido pelo nome de Visnu. Os meses, 
+os nomes sânscritos pelos quais são comumente conhecidos na Índia, e 
+seus equivalentes aproximados de acordo com o calendário gregoriano, 
+vão listados a seguir:
+
+a. Nomes dos anos e meses
+
+1	Viṣṇu	Chaitra (चैत्र, March–April)
+2	Madhusudana	Vaiśākha (वैशाख, April–May)
+3	Trivikrama	Jyeṣṭa (ज्येष्ठ, May–June)
+4	Vāmana	Āṣāḍha (आषाढ, June–July)
+5	Śrīdhara	Śrāvaṇa (श्रावण, July-August)
+6	Hṛṣīkeśa	Bhādrapada (भाद्रपद, August–September)
+7	Padmanābha	Āśvina (अश्विन्, September–October)
+8	Dāmodara	Kārtika (कार्तिक, October–November)
+9	Keśava	Mārgaśīrṣa (Agrahāyaṇa) (मार्गशीर्ष, November–December)
+10	Nārāyaṇa	Pauṣa (पौष, December–January)
+11	Mādhāva	Māgha (माघ, January–February)
+12	Govinda	Phālguna (फाल्गुन, February–March)
+ 	Puruṣottama month	Adhika month (अधिक) or Dvitiya Jyestha, intercalary month (leap year)
+
+O que é o mês Adhika (mês Purusottama)?
+
+O calendário védico é uma combinação de calendário lunar e solar
+
+Krishna é muito gentil porque sempre apresenta diferentes 
+maneiras de nos rendermos a ele.
+
+Para ajudar os meses lunares a coincidirem com o ano solar, 
+um mês extra (ano bissexto) chamado Purushottama Adhika Masa, 
+é inserido a cada 30 meses (a cada 2 anos e meio). Adhika 
+significa extra, e masa significa mês. Durante Purushottama 
+Adhika Masa certas atividades devem ser evitadas, tais como 
+casamentos, assinatura de contratos, início de novas construções, 
+griha pravesham (mudança de residência e celebração 
+correspondente), etc.
+
+A origem do Purushottam Adhika Masa é explicada no Padma 
+Purana. Todo mês tem uma divindade que o preside, mas 
+Adhika Masa foi rejeitada por todas as divindades: pensava-se 
+que era inauspiciosa porque não há sankranti durante este mês, 
+o que significa que o Sol não entra em nenhum novo signo. Então, 
+originalmente, era conhecido como Mala Masa (significando mês 
+desperdiçado). Sentindo-se abatida por isso, a Adhika Masa 
+personificada viajou para encontrar-se com o Senhor Vishnu em 
+Vaikuntha para pedir conselhos. Com orações sinceras, ela pediu 
+para ser libertada deste estado inauspicioso. O Senhor Vishnu a 
+abençoou e a enviou a Goloka para encontrar-se com o 
+Senhor Krishna, que a abençoou dizendo: “Eu a abençoo como meu 
+próprio mês. Quaisquer que sejam as boas ações feitas durante o 
+seu reinado, serão superiores às obras realizadas durante todos 
+os outros meses. Trabalhos realizados com devoção durante 
+Adhika Masa acumularão frutos tão grandes que até as portas de 
+Goloka se abrirão para o devoto. Entre todos os meses, você 
+reinará como suprema e será conhecida por Meu próprio nome, 
+Purushottama Masa". O Senhor acrescentou: "Perdoarei todos os 
+pecados daqueles que praticam penitência em 
+Purushottama Adhika Masa".
+
+Purushottama Adhika Masa é conhecida como o mês do Senhor Krishna, 
+assim como Kartika é o mês de Srimati Radharani. Os devotos 
+procuram passar este mês em devoção ao Senhor, porque bhakti é o 
+meio mais seguro para a salvação nesta terrível era de Kali-yuga. 
+Os dias devem ser dedicados a ouvir Krishna Katha (assuntos e 
+histórias sobre Krishna). Aqueles que observam devoção extra, 
+bhakti, durante este mês, recebem bênçãos extras do Senhor Krishna, 
+e seus pecados são puricados. Exemplos de serviço devocional a 
+serem realizado: 
+
+* Adorar o Senhor Krishna cantando Seus santos nomes: Japa. 
+* Banhar-se em um rio sagrado. 
+* Oferecer caridade ao templo.
+
+b. Quando observar Ekadasi
+
+Ekadasi, o décimo primeiro tithi, tem importância especial. Na 
+escritura Caitanya-caritamrta (Madhya-lila, capítulo 24), o 
+Senhor Caitanya Mahaprabhu instrui Sanatana Gosvami a respeito 
+dos princípios regulativos Vaisnavas. No texto 342, o 
+Senhor Caitanya diz:
+
+"Você deve recomendar que evite-se jejuar no Ekadasi misto [viddha] 
+e, ao invés, que se jejue no Ekadasi puro. Você deve também descrever 
+a falha em não observar isso. Deve-se ter muito cuidado no que diz 
+respeito a esses itens. Se alguém não for cuidadoso, será negligente 
+na execução do serviço devocional".
+
+Conforme descrito no livro Hari Bhakti Vilasa, Ekadasi viddha (misto) 
+ocorre quando o décimo primeiro tithi começa antes do nascer do sol, 
+mas o décimo tithi ainda preside o início do brahma muhurta (o período 
+auspicioso que começa uma hora e meia antes do nascer do sol).
+
+É tradicional jejuar no Ekadasi. Mas sob certas condições, chamadas 
+mahadvadasi, não se jejua no Ekadasi, mas no dia seguinte, no dvadasi, 
+mesmo que o Ekadasi seja suddha, ou puro, e não viddha, ou misto. 
+Existem oito mahadvadasis.
+
+Os calendários produzidos por este programa facilitam ver quando 
+observar Ekadasi. O jejum de Ekadasi deve ser observado no dia 
+chamado suddha (puro) Ekadasi, ou alternativamente em Mahadvadasi, 
+mesmo que o dia anterior seja chamado Ekadasi. Tudo isso é 
+esclarecido pelo asterisco (*), que indica um jejum, na margem 
+direita do calendário.
+
+c. "Quebra de Jejum 05:18 - 09:34" e "Horário de verão não considerado"
+
+Para completar a devida observância de Ekadasi, na manhã seguinte 
+deve-se terminar o jejum após o primeiro horário indicado no calendário 
+e antes do segundo horário. O calendário indica esses horários de acordo 
+com o horário padrão da localidade para a qual o calendário foi feito.
+
+Durante o verão, muitos locais não seguem o horário padrão, ao invés 
+adiantam seus relógios uma hora (ou às vezes mais) para aproveitar melhor 
+as horas de luz do dia. Por exemplo, 5 horas da manhã tornan-se 6 horas. 
+O programa do Calendário Védico não leva em consideração esse horário de 
+verão. Portanto, nos dias em que seu local usa horário de verão, você 
+deve ajustar os horários indicados pelo calendário. Geralmente, isso 
+significa que, quando o horário de verão estiver em vigor, você deverá 
+adicionar uma hora aos horários indicados.
+
+
+d. Tithi duplicado ou ausente
+
+Ao estudar o calendário, você pode achar que algumas vezes um tithi é 
+pulado e, outras vezes, um tithi ocorre em dois dias consecutivos. Não 
+há nada de errado com isso. Para cada dia, o calendário mostra apenas 
+qual tithi (fase da lua) prevalece na hora do nascer do sol. Às vezes, 
+uma determinada fase lunar (tithi) pode começar após um nascer do sol 
+e terminar antes do próximo, e, portanto, no calendário este tithi 
+parece faltando. Ou, às vezes, uma fase lunar (tithi) se estende por 
+dois nasceres do sol seguidos e, portanto, esse tithi aparece duas vezes.
+
+O aniversário de uma pessoa é determinado pelo tithi prevalecente no 
+momento em que ela nasceu. Nos anos subsequentes, o dia para comemorar 
+como aniversário deve ser o dia em que o nascer do sol ocorre durante o 
+mesmo tithi. Se o tithi prevalecer em dois nasceres do sol consecutivos, 
+o nascer do sol que tem o mesmo naksatra que no nascimento será o dia 
+apropriado para a celebração. Se nenhum nascer do sol ocorrer com esse 
+naksatra, o último dos dois dias deve ser escolhido. Se não houver dia 
+em que o nascer do sol ocorra durante esse tithi em particular, então 
+o dia dentro do qual o tithi ocorre deve ser escolhido como o dia da 
+celebração.
+
+Suponha, por exemplo, que o dia do aparecimento de uma pessoa seja 
+comemorado em dvitiya tithi no mês de Kesava e que, para o mês de 
+Kesava, o calendário lista dois dvitiya tithis, um após o outro. E 
+suponha que o naksatra que prevaleceu no nascimento não esteja presente. 
+Então o segundo dvitiya deve ser escolhido como o dia da celebração. 
+Se o calendário não mostrar dvitiya, o dia do aparecimento deve ser 
+comemorado no dia listado como pratipat, porque a fase (tithi) dvitiya 
+da lua ocorrerá durante esse dia.
+
+e. Sankranti 
+
+Sankranti significa o momento em que o sol entra em um signo do zodíaco. 
+Se você conhece a astrologia, pode se perguntar por que o calendário 
+mostra o sol entrando nos vários signos do zodíaco em dia e hora 
+diferentes daqueles dados na astrologia ocidental. Essa é uma das 
+diferenças entre os dois tipos de astrologia, Ocidental e Védica. 
+A diferença refere-se a um certo ângulo chamado ayanamsa, que atualmente 
+está em torno de 23 graus. A explicação do ayanamsa pode ser encontrada 
+em livros sobre Astrologia Védica.
+
+f. Nomes ds signos do zodíaco 
+
+Aqui estão os nomes sânscritos para os signos do zodíaco,
+juntamente com os seus homólogos em português.
+
+No.	Devanagari	Sânscrito	Português
+1	मेष	Meṣa	Aries
+2	वृषभ	Vṛṣabha	Taurus
+3	मिथुन	Mithuna	Gemini
+4	कर्कट	Karkaṭa	Cancer
+5	सिंह	Siṃha	Leo
+6	कन्या	Kanyā	Virgo
+7	तुला	Tulā	Libra
+8	वृश्चिक	Vṛścika	Scorpio
+9	धनुष	Dhanus	Sagittarius
+10	मकर	Makara	Capricorn
+11	कुम्भ	Kumbha	Aquarius
+12	मीन	Mīna	Pisces
+
+12. Palavras Finais
+
+Desejamos-lhe uma vida repleta de bons anos Vaisnavas. Hare Krsna.
+
+
+Documentação (c) 1999 The Bhaktivedanta Book Trust International, Inc. Todos os direitos reservados.
+
+
+
+ALGUNS DIAS DE FESTIVAL DO CALENDÁRIO VAISNAVA
+
+Explicações compiladas por Krsna-priya Devi Dasi
+(Academia Vaisnava para meninas, Alachua, Flórida, EUA)
+
+NOTA: Este calendário Vaisnava usa os termos "aparecimento" e 
+"desaparecimento" para denotar o nascimento ("aparecimento") e a 
+partida ("desaparecimento") de grandes almas e encarnações do Senhor.
+
+(Descrições mais completas serão encontradas nos livros de 
+Sua Divina Graça A. C. Bhaktivedanta Swami Prabhupada, 
+especialmente o Sri Caitanya-caritamrta.)
+
+
+Bahulastami -- dia de aparecimento do Radha-kunda e Syama-kunda, 
+lagos sagrados que são lugares de banho de Srimati Radharani e 
+do Senhor Krishna em Vrndavana.
+
+
+Balarama Rasayatra -- dança da rasa da primavera do 
+Senhor Balarama com Suas namoradas vaqueirinhas.
+
+
+Bali Daityaraja Puja -- festival que comemora a rendição de 
+Bali Maharaja ao Senhor Vamanadeva, a encarnação de anão do 
+Senhor Krsna. Uma Deidade de Vamana é adorada.
+
+
+Bhismastami -- aniversário de aparecimento de Bhismadeva, 
+o "avô" dos Pandavas.
+
+
+Bhisma Pancaka -- é um período de cinco días para se realizar 
+austeridades. Começa no último Ekadasi do mês de Kartika 
+(Haribodhini ou Utthana Ekadasi) e termina no Purnima. 
+O Senhor Krsna em pessoa deu estes cinco días a Bhismadeva 
+dizendo: ?O serviço devocional puro a Mim, é facilmente obtido 
+por se seguir este voto em Mathura-Vrndavana durante Kartika?. 
+Deve-se começar o jejum em Haribodhini Ekadasi, lembrando-se de 
+Sri Bhismadeva, jejuar de todos os grãos e feijões, comer somente 
+uma vez por dia frutas e vegetais (depois do pôr-do-Sol). 
+Se possível, jejuar por completo durante os cinco dias é uma 
+grande austeridade.  Durante todo o período do jejum, o devoto 
+deve cantar constantemente os santos nomes de Krishna, adorar 
+Radha e Krishna e os vaihsnavas e dar caridade aos templos e 
+vaishnavas dignos.
+
+
+Candana Yatra -- é um festival durante a estação quente da 
+Índia, no qual as Deidades são cobertas com pasta de sândalo 
+(candana) para refrescá-Las. (Geralmente, isso não é prático 
+no Ocidente, onde é frio durante essa época do ano.)
+
+
+Caturmasya -- é um período de quatro (catur) meses (masya) 
+durante o qual chove muito na Índia e os sábios param de viajar 
+e se recolhem para fazer austeridades. Na ISKCON ele é observado 
+principalmente fazendo-se os jejuns específicos. Consultar o 
+Sri Caitanya-Caritamrta, Madhya-lila, volume I, pág. 334. 
+Caturmasya não é opcional para vaisnavas.
+Primeiro mês de Caturmasya - jejum de vegetais de folhas 
+verdes frondosas, por um mês.
+Segundo mês de Caturmasya - jejum de yogurte por um mês.
+Terceiro mes de Caturmasya - Jejum de leite por um mês.
+Quarto mês Caturmasya - jejum de urad dahl, lentilha, por 
+um mês.
+
+
+Damodara Masa -- o mês de Damodara. Ao longo deste mês, os 
+devotos comemoram o passatempo do travesso Senhor Krsna sendo 
+amarrado com cordas por mãe Yasoda. Os devotos oferecem 
+pequenas lâmpadas de ghi todos os dias ao Senhor Damodara (Krsna).
+
+
+Dipa-dan, Dipavali, ou Diwali (Festival das luzes) (e Kalipuja) 
+-- comemoração do retorno do Senhor Rama do exílio para Ayodhya, 
+Sua capital, após a derrota do demônio Ravana. (Vaishnavas não 
+observam regularmente Kalipuja, a adoração a Durga Devi.)
+
+
+Ekadasi -- é o décimo primeiro dia lunar (tithi) das quinzenas 
+brilhante (shukla paksha) ou escura (krishna paksha) de cada 
+mês lunar (masa) do Calendário Védico (também chamado Panchang). 
+Nestes dias se observa jejum completo de grãos, feijões, cereais 
+e derivados.
+
+
+Ganga Puja -- aniversário de aparecimento de Ganga Devi, a 
+semideusa do rio Ganges.
+
+
+Ganga Sagara Mela -- festival observado especialmente na confluência 
+do Ganges com a baía da Bengala. Kapilasrama, o asrama da encarnação 
+do Senhor Krsna como Kapiladeva, o filho de Devahuti, está situado 
+neste lugar. O festival comemora a trazida do rio Ganges pelo rei 
+Bhagirathi dos planetas celestiais para o oceano e os planetas inferiores.
+
+
+Gaura Purnima -- aniversário de aparecimento do Senhor Sri 
+Caitanya Mahaprabhu, que é o mesmo Krishna no papel de Seu próprio 
+devoto. Ele aparece neste mundo para difundir o amor a Krishna 
+através do canto congregacional de Seus santos nomes. Ele apareceu 
+em Sridhama Mayapur, Bengala Ocidental, em 1486. Suas atividades e 
+ensinamentos estão descritos em detalhes no livro "Ensinamentos do 
+Senhor Caitanya" e no "Sri Caitanya-Caritamrta". (Veja também o 
+Srimad-Bhagavatam 11.5.32)
+
+
+Gopastami, ou Gosthastami -- após haver previamente pastoreado os 
+bezerros, neste dia Krishna saiu para pastorear as vacas pela 
+primeira vez. Assim Ele se tornou um gopa, um vaqueiro. Neste dia as 
+gosalas (currais para vacas) são limpas, as vacas são adoradas e 
+prasada (comida santificada) é oferecida a elas pelos devotos.
+
+
+Govardhana Puja (adoração à Colina de Govardhana) -- festival que 
+comemora a adoração da colina de Govardhana pelos residentes de 
+Vrndavana e o levantamento da colina pelo Senhor Krsna.
+
+
+Go Puja (ou Go-krda) -- neste dia, de acordo com o Hari-Bhakti-Vilasa, 
+deve-se decorar as vacas e os touros, fazê-los correr, e fazer com 
+que os touros arem o campo.
+
+
+Gundica Marjana -- limpeza do templo de Gundica em 
+Jagannatha Puri, Índia.
+
+
+Guru (Vyasa) Purnima -- aniversário de aparecimento de 
+Srila Vyasadeva, o compilador da literatura Védica.
+
+
+Hera Pancami -- é um festival realizado três dias após o 
+Ratha Yatra para celebrar a visita de Srimati Rukmini Devi a 
+Vrndavana para levar o Senhor Krsna de volta a Dvaraka. 
+(Veja o Sri Caitanya-Caritamrta, Antya-lila, volume I, 
+páginas 770 e 771)
+
+
+Jagaddhatri Puja -- dia do festival de uma forma de Mahamaya ou 
+Durga chamada Jagaddhatri, "a mantenedora do mundo material". 
+Esse festival é predominantemente comemorado na Bengala. 
+(os vaishnavas geralmente não observam este festival)
+
+
+Jagannatha Misra Festival -- dia em que o pai do Senhor 
+Caitanya Mahaprabhu (Jagannatha Misra) fez as celebrações 
+do aparecimento dEle.
+
+
+Jahnu Saptami -- dia em que o sábio Jahnu liberou o rio Ganges 
+depois de tê-lo engolido. Neste dia, se possível, deve-se 
+adorar o Ganges e tomar banho em suas águas.
+
+
+Katyayani vrata -- um voto de um mês (vaisnava) para observar 
+austeridades para agradar Katyayani Devi, ou Yogamaya Devi, 
+a energia espiritual do Senhor Krishna.
+
+
+Krishna Janmastami -- o aniversário de aparecimento do 
+Senhor Sri Krishna, a Suprema Personalidade de Deus.
+
+
+Krishna Phula Dola, Salila Vihara -- festival de barco de 
+verão para as Deidades de Sri Sri Radha-Krsna.
+
+
+Krishna Pusya abhiseka -- durante o puja (adoração) matinal 
+a Deidade ou uma salagrama é banhada em puro ghi. Srila Prabhupada 
+uma vez explicou o festival dessa maneira: "Krishna era só um 
+brinquedo nas mãos das gopis, então um dia as gopis decidiram que 
+'Nós vamos decorá-lO'. Pusyabhisheka quer dizer uma cerimônia para 
+decorar com abundância a Deidade com flores, ornamentos, tecidos, 
+etc. Depois disso deve haver uma procissão pelas ruas, de forma 
+que todos os cidadãos vejam quão belo Krishna se apresenta."
+
+
+Krsna Rasayatra -- dança da rasa do Senhor Krishna com as gopis.
+
+
+Krishna Saradiya Rasayatra -- dança da rasa de outono do 
+Senhor Krishna com Suas namoradas.
+
+
+Krishna Vasanta Rasa -- dança da rasa da primavera do Senhor Krsna.
+
+
+Laksmi Puja -- adoração a Laksmi Devi, a consorte do Senhor Visnu 
+(não observado por Gaudiya Vaisnavas).
+
+
+Lalita sasti -- dia de aparecimento de Lalita-sakhi, a 
+confidente íntima de Srimati Radharani.
+
+
+Nandotsava -- festival observado por Nanda Maharaja, o pai do 
+Senhor Krishna, para celebrar Seu aparecimento.
+
+
+Nrsimha Caturdasi -- aniversário de aparecimento do 
+Senhor Nrsimhadeva, a encarnação do Senhor Krsna metade homem, metade leão.
+
+
+Odana sasthi -- começo do inverno na Índia. A partir deste dia 
+deve-se oferecer ao Senhor Jagannatha um agasalho de inverno. 
+Segundo o livro de adoração Arcana Marga, deve-se primeiro lavar 
+o tecido para remover toda goma e então se pode utilizá-lo para 
+agasalhar o Senhor. No Brasil esta cerimônia pode ser observada 
+no primeiro dia do inverno, 21 de junho. 
+(Veja o Sri Caitanya-Caritamrta, Madhya-lila, volume II, pág. 805, verso 78)
+
+
+Panihati Cida Dahi Utsava -- festival de arroz inflado (tipo pipoca) 
+com iogurte de Srila Raghunatha Dasa Gosvami para o Senhor Caitanya 
+e Seus associados. Celebrado especialmente em Panihati, na 
+Bengala Ocidental.
+
+
+Radhastami -- aniversário de aparecimento de Srimati Radharani, a 
+eterna consorte do Senhor Krishna.
+
+
+Radha Govinda Jhulana Yatra -- é o festival do balanço de 
+Radha-Krshna. As Deidades Se divertem em um balanço decorado 
+com bastante esmero.
+
+
+Radha Kunda prakat, Snana Dana -- aniversário de aparecimento de 
+Radha-kunda, o lago onde Srimati Radharani Se banha em Vrndavana. 
+Os devotos tomam banho lá especialmente na meia-noite deste dia.
+
+
+Radha Ramana Devji - aparecimento -- aparecimento da deidade do 
+Senhor Krishna adorada por Srila Gopala Bhatta Gosvami.
+
+
+Ramacandra Vijayotsava -- celebração da vitória do Senhor Ramacandra 
+sobre o demônio Ravana. Uma grande imagem de Ravana é ceremoniosamente queimada.
+
+
+Ratha Yatra -- festival de carros em Jagannatha Puri, Índia, no 
+qual o Senhor Krsna, na forma do Senhor Jagannatha, passeia com o 
+Senhor Balarama e Subhadra Devi. (Hera Pancami depois de 4 dias) 
+(Retorno do Ratha depois de 8 dias)
+
+
+Salagrama e Tulasi Jala Dana -- durante a estação quente na Índia, 
+uma vasilha de água gotejante é colocada em cima de Tulasi e Salagrama 
+para mantê-los refrescados. (Geralmente, isso não é prático no 
+Ocidente, onde é frio durante essa época do ano.)
+
+
+Sarasvati Puja -- adoração a deusa Sarasvati. (geralmente não 
+observado por vaishnavas)
+
+
+Siva Ratri -- adoração ao Senhor Siva. Os devotos podem banhar uma 
+Siva-linga em água e panca-gavya (cinco substâncias da vaca) e 
+oferecer Krsna-prasada ao Senhor Siva. Jejuar é opcional para vaisnavas.
+
+
+Snana Dana -- aniversário de aparecimento de Radha-kunda, o lago 
+onde Srimati Radharani Se banha em Vrndavana. Os devotos tomam 
+banho lá especialmente na meia-noite deste dia.
+
+
+Snana Yatra -- neste dia de lua cheia, dezesseis dias lunares antes 
+do Ratha Yatra, o Senhor Jagannatha é banhado. Ele fica doente e Se 
+retira para descansar por quatorze dias. Então um cuidado especial 
+é oferecido a Ele até que Ele saia para o Ratha Yatra.
+
+
+Srila Prabhupada - Aceitação de sannyasa -- Srila Prabhupada 
+aceitou sannyasa, a ordem renunciada da vida, de Sri Srimad Bhakti 
+Vijnana Kesava Goswami Maharaja em Mathura, Índia, em 1959.
+
+
+Srila Prabhupada - Partida para os EUA -- neste dia, em 1965, 
+Srila Prabhupada deixou Calcutá a bordo do navio cargueiro a 
+vapor Jaladuta.
+
+
+Srila Prabhupada - Chegada aos EUA -- Srila Prabhupada chegou 
+em Boston em 17 de setembro de 1965.
+
+
+Srila Prabhupada - Fundação da ISKCON em Nova York -- 
+Srila Prabhupada fundou a ISKCON, a Sociedade Internacional 
+para a Consciência de Krishna, em 1966.
+
+
+Srila Prabhupada - Desaparecimento -- Srila Prabhupada deixou 
+este mundo no dia 14 de novembro de 1977, em Vrndavana, Índia. 
+Os devotos observam este aniversário com recordações pessoais 
+de Prabhupada, leituras de sua biografia e assim por diante.
+
+
+Tulasi-Saligrama Vivaha (casamento) -- casamento de Salagrama 
+e Tulasi Devi.
+
+
+Vamana Dvadasi -- aniversário de aparecimento do Senhor 
+Vamanadava, a encarnação como brahmana anão do Senhor Krishna.
+
+
+Vasanta Pancami -- o primeiro dia da primavera. Neste dia, 
+são oferecidas para as Deidades muitas flores, folhas e ramos 
+novos de grama. (Este também é um dos dias mais auspiciosos do 
+ano para cerimônias de casamento.)
+
+
+[end]
+
+copyright (c) 1999 The Bhaktivedanta Book Trust International, Inc. Todos os direitos reservados.
