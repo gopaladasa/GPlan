@@ -52,7 +52,7 @@ Com a GPlan é possível criar planners personalizados com as seguintes caracter
 
 ## Melhorias da GPlan 2021 R1
 
-1. Acréscimo de tradução dos feriados móveis
+1. Acréscimo de tradução dos feriados móveis cristãos.
 
 ![Planner GPlan 2020 - roda da vida](https://raw.githubusercontent.com/gopaladasa/GPlan/master/GPlan2020R2C/pic/gplan-add.png)
 
