@@ -1,6 +1,8 @@
 # GCAL - TRADUÇÃO
 
+<p align="center"> 
 ![GCal](https://github.com/gopaladasa/GPlan/blob/master/GCal/GCal-Brazilian_Portuguese_Translation/Images/100.jpg?raw=true)
+</p>
 
 GCal (abreviatura de "Gaurabda Calendar") é um completo programa de cálculo de calendário para Gaudiya Vaisnavas. Ele pode calcular calendários para qualquer local e para qualquer intervalo de datas entre os anos de 1500 e 3999, com uma saída altamente personalizável. Vem com um conveniente banco de dados de milhares de locais, que pode ser expandido conforme a necessidade. Além de calendários, o GCal calcula tithis e naksatras, horários do nascer e pôr do sol, etc.
 
