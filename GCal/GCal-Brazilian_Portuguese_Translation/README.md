@@ -20,8 +20,8 @@ Arquivos de Tradução
 
 Exemplo da saída gerada em português:
  
-
-'                        Madhava (Magha) Masa, Gaurabda 524               GCal 10
+```
+                        Madhava (Magha) Masa, Gaurabda 524               GCal 10
 
                        Recife [Brazil] (8S03 34W53, -3:00)
 
@@ -89,4 +89,5 @@ Exemplo da saída gerada em português:
                        Recife [Brazil] (8S03 34W53, -3:00)
 
   DATE            TITHI                         PAKSA YOGA      NAKSATRA       FAST
-------------------------------------------------------------------------------------------'
+------------------------------------------------------------------------------------------
+```
