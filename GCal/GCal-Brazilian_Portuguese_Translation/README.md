@@ -10,10 +10,10 @@ Para as mais recentes atualizações do programa, um sistema de cálculo on-line
 Arquivos de Tradução
  
 
-![config-gcal-pt-br-v10-2011-02-11.zip (8kB)](https://github.com/gopaladasa/GPlan/raw/master/GCal/GCal-Brazilian_Portuguese_Translation/config-gcal-pt-br-v10-2011-02-11.zip) - Tradução dos arquivos de configuração de eventos (cev3.rl), strings (strings.rl) e dicas (tips.txt) para o português do Brasil por Gopala Dasa (HDG), em 11 de fevereiro de 2011. Estes arquivos devem substituir os originais na pasta config do GCal. Os arquvos cev3.rl e strings.rl permitem que os calendários do GCal  sejam gerados em português :-) .
+[config-gcal-pt-br-v10-2011-02-11.zip (8kB)](https://github.com/gopaladasa/GPlan/raw/master/GCal/GCal-Brazilian_Portuguese_Translation/config-gcal-pt-br-v10-2011-02-11.zip) - Tradução dos arquivos de configuração de eventos (cev3.rl), strings (strings.rl) e dicas (tips.txt) para o português do Brasil por Gopala Dasa (HDG), em 11 de fevereiro de 2011. Estes arquivos devem substituir os originais na pasta config do GCal. Os arquvos cev3.rl e strings.rl permitem que os calendários do GCal  sejam gerados em português :-) .
 
 
-![ajuda-gcal-pt-br-2011-02-11.zip (887kB)](https://github.com/gopaladasa/GPlan/raw/master/GCal/GCal-Brazilian_Portuguese_Translation/ajuda-gcal-pt-br-2011-02-11.zip) - Tradução do arquivo de ajuda (help.chm) para o português do Brasil por Gopala Dasa (HDG), em 11 de fevereiro de 2011.
+[ajuda-gcal-pt-br-2011-02-11.zip (887kB)](https://github.com/gopaladasa/GPlan/raw/master/GCal/GCal-Brazilian_Portuguese_Translation/ajuda-gcal-pt-br-2011-02-11.zip) - Tradução do arquivo de ajuda (help.chm) para o português do Brasil por Gopala Dasa (HDG), em 11 de fevereiro de 2011.
 
 
 
@@ -21,7 +21,7 @@ Arquivos de Tradução
 Exemplo da saída gerada em português:
  
 
-                        Madhava (Magha) Masa, Gaurabda 524               GCal 10
+'                        Madhava (Magha) Masa, Gaurabda 524               GCal 10
 
                        Recife [Brazil] (8S03 34W53, -3:00)
 
@@ -89,4 +89,4 @@ Exemplo da saída gerada em português:
                        Recife [Brazil] (8S03 34W53, -3:00)
 
   DATE            TITHI                         PAKSA YOGA      NAKSATRA       FAST
-------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------'
