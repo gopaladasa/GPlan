@@ -1,18 +1,21 @@
-GCAL - TRADUÇÃO
+# GCAL - TRADUÇÃO
+
+![GCal](https://github.com/gopaladasa/GPlan/blob/master/GCal/GCal-Brazilian_Portuguese_Translation/Images/100.jpg?raw=true)
 
 GCal (abreviatura de "Gaurabda Calendar") é um completo programa de cálculo de calendário para Gaudiya Vaisnavas. Ele pode calcular calendários para qualquer local e para qualquer intervalo de datas entre os anos de 1500 e 3999, com uma saída altamente personalizável. Vem com um conveniente banco de dados de milhares de locais, que pode ser expandido conforme a necessidade. Além de calendários, o GCal calcula tithis e naksatras, horários do nascer e pôr do sol, etc.
 
 Para as mais recentes atualizações do programa, um sistema de cálculo on-line, fórum de discussão, etc., visite http://www.krishnadays.com
 
- 
 
 Arquivos de Tradução
  
 
-ajuda-gcal-pt-br-2011-02-11.zip (887kB) - Tradução do arquivo de ajuda (help.chm) para o português do Brasil por Gopala Dasa (HDG), em 11 de fevereiro de 2011.
+![config-gcal-pt-br-v10-2011-02-11.zip (8kB)](https://github.com/gopaladasa/GPlan/raw/master/GCal/GCal-Brazilian_Portuguese_Translation/config-gcal-pt-br-v10-2011-02-11.zip) - Tradução dos arquivos de configuração de eventos (cev3.rl), strings (strings.rl) e dicas (tips.txt) para o português do Brasil por Gopala Dasa (HDG), em 11 de fevereiro de 2011. Estes arquivos devem substituir os originais na pasta config do GCal. Os arquvos cev3.rl e strings.rl permitem que os calendários do GCal  sejam gerados em português :-) .
 
 
-config-gcal-pt-br-v10-2011-02-11.zip (8kB) - Tradução dos arquivos de configuração de eventos (cev3.rl), strings (strings.rl) e dicas (tips.txt) para o português do Brasil por Gopala Dasa (HDG), em 11 de fevereiro de 2011. Estes arquivos devem substituir os originais na pasta config do GCal. Os arquvos cev3.rl e strings.rl permitem que os calendários do GCal  sejam gerados em português :-) .
+![ajuda-gcal-pt-br-2011-02-11.zip (887kB)](https://github.com/gopaladasa/GPlan/raw/master/GCal/GCal-Brazilian_Portuguese_Translation/ajuda-gcal-pt-br-2011-02-11.zip) - Tradução do arquivo de ajuda (help.chm) para o português do Brasil por Gopala Dasa (HDG), em 11 de fevereiro de 2011.
+
+
 
 
 Exemplo da saída gerada em português:
